@@ -1,7 +1,8 @@
 NUI\_FUSION\_RECONSTRUCTION\_PARAMETERS Structure  
 =================================================  
 
-Contains the parameters for a Kinect Fusion reconstruction. <span id="syntaxSection"></span>
+Kinect Fusionの3次元形状の再構成パラメーター。
+このパラメーターにより、3次元形状を再構成できる最大範囲が決まります。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,16 +32,16 @@ Syntax
 #### Members  
 
 **voxelsPerMeter**    
-The number of voxels per meter.  
+メートルあたりのボクセルの数。  
 
 **voxelCountX**    
-The size of the reconstruction volume in voxels in the X axis.  
+X軸方向の再構成に使うボクセル数。  
 
 **voxelCountY**    
-The size of the reconstruction volume in voxels in the Y axis.  
+Y軸方向の再構成に使うボクセル数。  
 
 **voxelCountZ**    
-The size of the reconstruction volume in voxels in the Z axis.  
+Z軸方向の再構成に使うボクセル数。  
 
 <span id="requirements"></span>
 

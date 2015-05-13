@@ -1,7 +1,7 @@
 RectI Structure  
 ===============  
 
-Represents a rectangle with integer coordinates. <span id="syntaxSection"></span>
+矩形(整数)。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,16 +31,16 @@ Syntax
 #### Members  
 
 **Left**    
-The left side.  
+矩形の左端。  
 
 **Top**    
-The top.  
+矩形の上端。  
 
 **Right**    
-The right side.  
+矩形の右端。  
 
 **Bottom**    
-The bottom.  
+矩形の下端。  
 
 <span id="requirements"></span>
 

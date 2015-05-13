@@ -1,7 +1,7 @@
 NUI\_FUSION\_CAMERA\_PARAMETERS Structure  
 =========================================  
 
-Stores the intrinsic camera parameters. These parameters describe the optical system of the camera lens and sensor. <span id="syntaxSection"></span>
+カメラの内部パラメータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,16 +31,16 @@ Syntax
 #### Members  
 
 **focalLengthX**    
-The focal length for X normalized by the camera width.  
+カメラの幅で正規化された焦点距離(X軸)。  
 
 **focalLengthY**    
-The focal length for Y normalized by the camera height.  
+カメラの幅で正規化された焦点距離(Y軸)。  
 
 **principalPointX**    
-The principal point for X normalized by the camera width.  
+カメラの幅で正規化された主点(X軸)。  
 
 **principalPointY**    
-The principal point for Y normalized by the camera height.  
+カメラの幅で正規化された主点(Y軸)。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 Vector3 Structure  
 =================  
 
-Represents a 3D vector. <span id="syntaxSection"></span>
+3次元ベクトル。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ Syntax
 #### Members  
 
 **x**    
-The X component.  
+ベクトルのX成分。  
 
 **y**    
-The Y component.  
+ベクトルのY成分。  
 
 **z**    
-The Z component.  
+ベクトルのZ成分。  
 
 <span id="requirements"></span>
 

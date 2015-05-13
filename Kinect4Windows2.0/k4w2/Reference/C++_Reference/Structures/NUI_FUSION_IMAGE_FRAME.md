@@ -1,7 +1,7 @@
 NUI\_FUSION\_IMAGE\_FRAME Structure  
 ===================================  
 
-A frame used specifically for 32bit RGBA-based images. It provides access to the dimensions, format and pixel data for a frame. <span id="syntaxSection"></span>
+Kinect Fusionの入出力に用いる画像フレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -32,19 +32,19 @@ Syntax
 #### Members  
 
 **width**    
-The width of the frame, in pixels.  
+画像の幅(pixel)。  
 
 **height**    
-The height of the frame, in pixels.  
+画像の高さ(pixel)。  
 
 **imageType**    
-The image type of the frame.  
+画像の種類。  
 
 **pCameraParameters**    
-The camera parameters associated with the frame.  
+カメラパラメーター。  
 
 **pFrameBuffer**    
-The buffer where the image data for the frame is stored.  
+画像データのバッファ。  
 
 <span id="requirements"></span>
 

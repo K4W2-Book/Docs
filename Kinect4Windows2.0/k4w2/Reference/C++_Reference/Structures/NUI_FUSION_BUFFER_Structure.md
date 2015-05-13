@@ -1,7 +1,7 @@
 NUI\_FUSION\_BUFFER Structure  
 =============================  
 
-Represents a buffer for Kinect Fusion data. <span id="syntaxSection"></span>
+Kinect Fusionの画像データのバッファ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,10 +29,10 @@ Syntax
 #### Members  
 
 **Pitch**    
-The pitch of the buffer.  
+バッファのピッチ。  
 
 **pBits**    
-The pointer to the buffer data.  
+バッファデータへのポインタ。  
 
 <span id="requirements"></span>
 

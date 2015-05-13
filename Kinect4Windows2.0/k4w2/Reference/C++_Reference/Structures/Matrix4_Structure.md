@@ -1,7 +1,7 @@
 Matrix4 Structure  
 =================  
 
-Defines a 4 x 4 matrix. <span id="syntaxSection"></span>
+行列(4×4)。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -42,53 +42,80 @@ Syntax
 <span id="ID4EG"></span>
 #### Members  
 
+<table>
+  <tr>
+    <td>M11</td>
+    <td>M12</td>
+    <td>M13</td>
+    <td>M14</td>
+  </tr>
+  <tr>
+    <td>M21</td>
+    <td>M22</td>
+    <td>M23</td>
+    <td>M24</td>
+  </tr>
+  <tr>
+    <td>M31</td>
+    <td>M32</td>
+    <td>M33</td>
+    <td>M34</td>
+  </tr>
+  <tr>
+    <td>M41</td>
+    <td>M42</td>
+    <td>M43</td>
+    <td>M44</td>
+  </tr>
+</table>
+
 **M11**    
-The value in the first row and first column of the matrix.  
+1行1列の値。  
 
 **M12**    
-The value in the first row and second column of the matrix.  
+1行2列の値。  
 
 **M13**    
-The value in the first row and third column of the matrix.  
+1行3列の値。  
 
 **M14**    
-The value in the first row and fourth column of the matrix.  
+1行4列の値。  
 
 **M21**    
-The value in the second row and first column of the matrix.  
+2行1列の値。  
 
 **M22**    
-The value in the second row and second column of the matrix.  
+2行2列の値。  
 
 **M23**    
-The value in the second row and third column of the matrix.  
+2行3列の値。  
 
 **M24**    
-The value in the second row and fourth column of the matrix.  
+2行4列の値。  
 
 **M31**    
-The value in the third row and first column of the matrix.  
+3行1列の値。  
 
 **M32**    
-The value in the third row and second column of the matrix.  
+3行2列の値。  
 
 **M33**    
-The value in the third row and third column of the matrix.  
+3行3列の値。  
 
 **M34**    
-The value in the third row and fourth column of the matrix.  
+3行4列の値。  
 
 **M41**    
-The value in the fourth row and first column of the matrix.  
+4行1列の値。  
 
 **M42**    
-The value in the fourth row and second column of the matrix.  
+4行2列の値。  
 
 **M43**    
-The value in the fourth row and third column of the matrix.  
+4行3列の値。  
 
 **M44**    
-The value in the fourth row and fourth column of the matrix.  
+4行4列の値。  
 
 <span id="requirements"></span>
 

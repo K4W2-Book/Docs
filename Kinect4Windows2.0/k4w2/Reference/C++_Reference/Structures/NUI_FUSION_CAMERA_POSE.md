@@ -1,7 +1,7 @@
 NUI\_FUSION\_CAMERA\_POSE\_FINDER\_PARAMETERS Structure  
 =======================================================  
 
-Defines the number of poses and feature sample locations used by the [INuiFusionCameraPoseFinder](../Interfaces/INuiFusionCameraPoseFinder.md) class. <span id="syntaxSection"></span>
+CameraPoseFinderのパラメーター。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ Syntax
 #### Members  
 
 **featureSampleLocationsPerFrameCount**    
-The number of features to extract per frame.  
+フレームごとに取得する特徴サンプルの位置の数。  
 
 **maxPoseHistoryCount**    
-The maximum size of the camera pose finder pose history database.  
+CameraPoseFinderのカメラ姿勢データベースの最大サイズ。  
 
 **maxDepthThreshold**    
-The maximum depth to use when choosing a threshold value for each of the sample features in a key frame.  
+キーフレーム内にある特徴サンプルを選択するときに使用する閾値の最大値。  
 
 <span id="requirements"></span>
 
