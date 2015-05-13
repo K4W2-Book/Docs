@@ -45,7 +45,7 @@ Face Structures
 ===============  
 
 [RectI Structure](Structures/RectI_Structure.md)    
-Represents a rectangle with integer coordinates.  
+矩形(整数)。  
 
 <span id="ID4E1B"></span>
 
@@ -53,25 +53,25 @@ Fusion Structures
 =================  
 
 [Matrix4 Structure](Structures/Matrix4_Structure.md)    
-Defines a 4 x 4 matrix.  
+行列(4×4)。  
 
 [NUI\_FUSION\_BUFFER Structure](Structures/NUI_FUSION_BUFFER_Structure.md)    
-Represents a buffer for Kinect Fusion data.  
+Kinect Fusionの画像データのバッファ。  
 
 [NUI\_FUSION\_CAMERA\_PARAMETERS Structure](Structures/NUI_FUSION_CAMERA_PARAMETERS.md)    
-Stores the intrinsic camera parameters. These parameters describe the optical system of the camera lens and sensor.  
+カメラの内部パラメータ。  
 
 [NUI\_FUSION\_CAMERA\_POSE\_FINDER\_PARAMETERS Structure](Structures/NUI_FUSION_CAMERA_POSE.md)    
-Defines the number of poses and feature sample locations used by the [INuiFusionCameraPoseFinder](Interfaces/INuiFusionCameraPoseFinder.md) class.  
+CameraPoseFinderのパラメーター。  
 
 [NUI\_FUSION\_IMAGE\_FRAME Structure](Structures/NUI_FUSION_IMAGE_FRAME.md)    
-A frame used specifically for 32bit RGBA-based images. It provides access to the dimensions, format and pixel data for a frame.  
+Kinect Fusionの入出力に用いる画像フレーム。  
 
 [NUI\_FUSION\_RECONSTRUCTION\_PARAMETERS Structure](Structures/NUI_FUSION_RECONSTRUCTION.md)    
-Contains the parameters for a Kinect Fusion reconstruction.  
+Kinect Fusionの3次元形状の再構成パラメーター。  
 
 [Vector3 Structure](Structures/Vector3_Structure.md)    
-Represents a 3D vector.  
+3次元ベクトル。  
 
 
 
