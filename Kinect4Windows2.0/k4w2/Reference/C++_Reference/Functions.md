@@ -51,25 +51,25 @@ Face Functions
 ==============  
 
 [CreateFaceAlignment](Functions/CreateFaceAlignment.md)    
-Creates a face alignment.  
+IFaceAlignmentを作成する。  
 
 [CreateFaceFrameSource](Functions/CreateFaceFrameSource.md)    
-Creates a face frame source.  
+IFaceFrameSourceを作成します。  
 
 [CreateFaceModel](Functions/CreateFaceModel.md)    
-Creates a face model.  
+IFaceModelを作成する。  
 
 [CreateHighDefinitionFaceFrameSource](Functions/CreateHighDefinitionFaceFr.md)    
-Creates a high definition face frame source.  
+IHighDefinitionFaceFrameSourceを作成する。  
 
 [GetFaceModelTriangleCount](Functions/GetFaceModelTriangleCount.md)    
-Gets the face model triangle count.  
+顔モデルの三角形の数を取得する。  
 
 [GetFaceModelTriangles](Functions/GetFaceModelTriangles.md)    
-Gets the face model triangle vertices.  
+顔モデルの三角形を取得する。  
 
 [GetFaceModelVertexCount](Functions/GetFaceModelVertexCount.md)    
-Gets the face model vertex count.  
+顔モデルの頂点の数を取得する。  
 
 <span id="ID4EUC"></span>
 
@@ -77,48 +77,48 @@ Fusion Functions
 ================  
 
 [NuiFusionAlignPointClouds](Functions/NuiFusionAlignPointClouds.md)    
-Aligns two sets of overlapping oriented point clouds and calculates the camera's relative pose.  
+Point Cloudデータを位置合わせして相対的なカメラ姿勢を計算する。  
 
 [NuiFusionCreateCameraPoseFinder](Functions/NuiFusionCreateCameraPoseF.md)    
-Creates a new [INuiFusionCameraPoseFinder](Interfaces/INuiFusionCameraPoseFinder.md).  
+[INuiFusionCameraPoseFinder](Interfaces/INuiFusionCameraPoseFinder.md)を作成する。  
 
 [NuiFusionCreateColorReconstruction](Functions/NuiFusionCreateColorRecons.md)    
-Initializes a new instnce of the [INuiFusionColorReconstruction](Interfaces/INuiFusionColorReconstruct.md) class.  
+[INuiFusionColorReconstruction](Interfaces/INuiFusionColorReconstruct.md)を作成する。  
 
 [NuiFusionCreateImageFrame](Functions/NuiFusionCreateImageFrame.md)    
-Creates a new NUI\_FUSION\_IMAGE\_FRAME object.  
+NUI_FUSION_IMAGE_FRAMEを作成する。  
 
 [NuiFusionCreateReconstruction](Functions/NuiFusionCreateReconstruct.md)    
-Initializes a new instance of the [INuiFusionReconstruction](Interfaces/INuiFusionReconstruction.md) class.  
+[INuiFusionReconstruction](Interfaces/INuiFusionReconstruction.md)を作成する。  
 
 [NuiFusionDepthFloatFrameToPointCloud](Functions/NuiFusionDepthFloatFrameTo.md)    
-Converts a depth float frame to a point cloud frame.  
+DepthデータをPoint Cloudデータに変換する。  
 
 [NuiFusionDepthToDepthFloatFrame](Functions/NuiFusionDepthToDepthFloat.md)    
-Converts the specified array of Kinect depth pixels to a NUI\_FUSION\_IMAGE\_FRAME object representing a depth float frame.  
+DepthデータをNUI_FUSION_IMAGE_FRAMEに変換する。  
 
 [NuiFusionGetDeviceInfo](Functions/NuiFusionGetDeviceInfo.md)    
-Provides information about a Kinect Fusion reconstruction processing device.  
+Kinect Fusionの3次元形状の再構成処理に使用するプロセッサーの情報を取得する。  
 
 [NuiFusionShadePointCloud](Functions/NuiFusionShadePointCloud.md)    
-Produces two shaded images from the point cloud frame, based on point position and surface normal.  
+Point Cloudデータにシェーディングしてレンダリングされた画像を取得する。  
 
 [NuiFusionReleaseImageFrame](Functions/NuiFusionReleaseImageFrame.md)    
-Releases the memory allocated for the image frame.  
+NUI_FUSION_IMAGE_FRAMEに確保したメモリを解放する。  
 
 <span id="ID4EXD"></span>
 
 Visual Gesture Builder Functions  
 ================================  
 
-[CreateVisualGestureBuilderDatabaseInstanceFromMemory](Functions/CreateVisualGestureBuilder.md)    
-Initializes a new [IVisualGestureBuilderDatabase](Interfaces/IVisualGestureBuilderDatab.md) from the specified buffer in memory.  
+[CreateVisualGestureBuilderDatabaseInstanceFromMemory](Functions/CreateVisualGestureBuilderDatabaseInstanceFromMemory.md)    
+メモリから[IVisualGestureBuilderDatabase](Interfaces/IVisualGestureBuilderDatab.md)を作成する。  
 
-[CreateVisualGestureBuilderDatabaseInstanceFromFile](Functions/CreateVisualGestureBuilder.md)    
-Initializes a new [IVisualGestureBuilderDatabase](Interfaces/IVisualGestureBuilderDatab.md) from the specified file.  
+[CreateVisualGestureBuilderDatabaseInstanceFromFile](Functions/CreateVisualGestureBuilderDatabaseInstanceFromFile.md)    
+ファイルから[IVisualGestureBuilderDatabase](Interfaces/IVisualGestureBuilderDatab.md)を作成する。  
 
 [CreateVisualGestureBuilderFrameSource](Functions/CreateVisualGestureBuilder.md)    
-Initializes a new [IVisualGestureBuilderFrameSource](Interfaces/IVisualGestureBuilderFrame.md).  
+[IVisualGestureBuilderFrameSource](Interfaces/IVisualGestureBuilderFrame.md)を作成する。  
 
 
 
