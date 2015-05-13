@@ -27,7 +27,7 @@ The available color image formats.
 Enumerates the modes in which engaged users can be tracked.  
 
 [Expression](Enumerations/Expression_Enumeration.md)    
-User expressions. Expression functionality is not supported for Kinect for Windows apps. This enumeration is included to support cross-compilation with the Xbox SDK.  
+Expressionsの種類。  
 
 [FrameCapturedStatus](Enumerations/FrameCapturedStatus.md)    
 Captured frame status options.  
