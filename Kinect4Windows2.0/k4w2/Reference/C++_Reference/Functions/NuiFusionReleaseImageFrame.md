@@ -1,7 +1,7 @@
 NuiFusionReleaseImageFrame  
 ==========================  
 
-Releases the memory allocated for the image frame. <span id="syntaxSection"></span>
+NUI\_FUSION\_IMAGE\_FRAMEに確保したメモリを解放する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *pImageFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-[in] The image frame to release.  
+[in] メモリを解放するNUI\_FUSION\_IMAGE\_FRAME。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT FUSIONAPI  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

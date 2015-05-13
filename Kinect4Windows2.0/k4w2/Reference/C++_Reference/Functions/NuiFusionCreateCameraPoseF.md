@@ -1,7 +1,7 @@
 NuiFusionCreateCameraPoseFinder  
 ===============================  
 
-Creates a new [INuiFusionCameraPoseFinder](../Interfaces/INuiFusionCameraPoseFinder.md). <span id="syntaxSection"></span>
+INuiFusionCameraPoseFinderを作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,21 +31,22 @@ Syntax
 
 *pCameraPoseFinderParameters*    
 Type: NUI\_FUSION\_CAMERA\_POSE\_FINDER\_PARAMETERS  
-[in] The parameters to use to initialize the object.  
+[in] CameraPoseFinderのパラメーター。  
 
 *pRandomFeatureLocationAndThresholdSeed*    
 Type: UINT  
-[in, optional] The number used to seed the random number generator used internally by the pose finder. If you wish to have reproduceable results between runs against the same camera pose finder data, set this to the same value for each run.  
+[in, optional] CameraPoseFinderが内部で使用する擬似乱数のシード。  
+同じカメラで再実行時に再現可能な結果を得たい場合は同じ値を指定してください。
 
 *ppNuiFusionCameraPoseFinder*    
 Type: INuiFusionCameraPoseFinder  
-[out] Upon success, the new [INuiFusionCameraPoseFinder](../Interfaces/INuiFusionCameraPoseFinder.md).  
+[out] INuiFusionCameraPoseFinderのポインタのアドレス。  
 
 <span id="ID4ES"></span>
 #### Return value  
 
 Type: HRESULT FUSIONAPI  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

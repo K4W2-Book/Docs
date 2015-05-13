@@ -1,7 +1,7 @@
 NuiFusionCreateColorReconstruction  
 ==================================  
 
-Initializes a new instnce of the [INuiFusionColorReconstruction](../Interfaces/INuiFusionColorReconstruct.md) class. <span id="syntaxSection"></span>
+[INuiFusionColorReconstruction](../Interfaces/INuiFusionColorReconstruct.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,29 +33,30 @@ Syntax
 
 *pReconstructionParameters*    
 Type: NUI\_FUSION\_RECONSTRUCTION\_PARAMETERS  
-[in] The reconstruction parameters to use.  
+[in] 3次元形状の再構成パラメーター。  
 
 *reconstructionProcessorType*    
 Type: NUI\_FUSION\_RECONSTRUCTION\_PROCESSOR\_TYPE  
-[in] The reconstruction processing mode to use.  
+[in] 3次元形状の再構成処理に使用するプロセッサー。  
 
 *deviceIndex*    
 Type: INT  
-[in] The index of the reconstruction device to use.  
+[in] 3次元形状の再構成処理に使用するプロセッサーのID。  
+-1を指定するとデフォルトのプロセッサーが使用されます。  
 
 *pInitialWorldToCameraTransform*    
 Type: Matrix4  
-[in, optional] The initial world-to-camera transform.  
+[in, optional] ワールド座標系からカメラ座標系への初期変換行列。  
 
 *ppNuiFusionColorReconstruction*    
 Type: INuiFusionColorReconstruction  
-[out] The new reconstruction object.  
+[out] INuiFusionColorReconstructionのポインタのアドレス。  
 
 <span id="ID4ES"></span>
 #### Return value  
 
 Type: HRESULT FUSIONAPI  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

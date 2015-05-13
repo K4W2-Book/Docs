@@ -1,7 +1,7 @@
 NuiFusionShadePointCloud  
 ========================  
 
-Produces two shaded images from the point cloud frame, based on point position and surface normal. <span id="syntaxSection"></span>
+Point Cloudデータにシェーディングしてレンダリングされた画像を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,29 +33,31 @@ Syntax
 
 *pPointCloudFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-[in] The point cloud frame to shade.  
+[in] Point Cloudデータ。  
 
 *pWorldToCameraTransform*    
 Type: Matrix4  
-[in] The transform used to determine the perspective of the shaded point cloud relative to the world. This affects the application of the worldToRGBTramsform to the point cloud. To achieve consistent results, this should match the world-to-camera transform that was used to create the point cloud frame.  
+[in] ワールド座標系からカメラ座標系への変換行列。  
+Point Cloudデータを作成するときに使用した変換行列を指定する。  
 
 *pWorldToBGRTransform*    
 Type: Matrix4  
-[in, optional] The transform that defines a mapping from position to RGB color space. The X, Y, Z components of the point positions transformed by this matrix are used as the R, G, B values in the rendered frame.  
+[in, optional] ワールド座標系からRGB色空間へのマッピング行列。  
+Point Cloudデータの座標をもとにレンダリングされたフレームに色付けします。
 
 *pShadedSurfaceFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-[in, optional] A color image frame that receives the shaded frame which includes lighting based on the surface normal.  
+[in, optional] レンダリングされたSurface画像(Color)。  
 
 *pShadedSurfaceNormalsFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-[in, optional] A color image frame that receives the shaded frame.  
+[in, optional] レンダリングされたNormal画像(Color)  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT FUSIONAPI  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

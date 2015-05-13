@@ -1,7 +1,7 @@
 NuiFusionGetDeviceInfo  
 ======================  
 
-Provides information about a Kinect Fusion reconstruction processing device. <span id="syntaxSection"></span>
+Kinect Fusionの3次元形状の再構成処理に使用するプロセッサーの情報を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -35,37 +35,39 @@ Syntax
 
 *type*    
 Type: \_NUI\_FUSION\_RECONSTRUCTION\_PROCESSOR\_TYPE  
-[in] The reconstruction processing mode of the device.  
+[in] 3次元形状の再構成処理に使用するプロセッサー。  
 
 *index*    
 Type: INT  
-[in] The index of the device.  
+[in] 3次元形状の再構成処理に使用するプロセッサーのID。  
+-1を指定するとデフォルトのプロセッサーが使用されます。  
 
 *pDescription*    
 Type: PWSTR  
- The description of the device.  
+プロセッサーの名前。  
+不要な場合はnullptrを指定する。
 
 *descriptionSizeInChars*    
 Type: UINT  
-[in] The size of the description, in bytes.  
+[in] プロセッサーの名前のサイズ(Byte)。  
 
 *pInstancePath*    
 Type: PWSTR  
-The DirectX instance path of the GPU being used for reconstruction.  
+プロセッサーのインスタントパス。  
 
 *instancePathSizeInChars*    
 Type: UINT  
-[in] The size of the instance path, in bytes.  
+[in] プロセッサーのインスタントパスのサイズ(Byte)。  
 
 *pMemoryKB*    
 Type: UINT  
-[out, optional] Gets the amount of dedicated video memory on the GPU being used for reconstruction.  
+[out, optional] プロセッサーの利用できるメモリサイズ(KByte)。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT FUSIONAPI  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

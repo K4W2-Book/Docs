@@ -1,7 +1,7 @@
 NuiFusionDepthFloatFrameToPointCloud  
 ====================================  
 
-Converts a depth float frame to a point cloud frame. <span id="syntaxSection"></span>
+DepthデータをPoint Cloudデータに変換する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,17 +30,17 @@ Syntax
 
 *pDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-[in] The depth float cloud to convert.  
+[in] 変換するDepthデータ。  
 
 *pPointCloudFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-[in] The converted point cloud frame.  
+[in, out] 変換されたPoint Cloudデータ。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT FUSIONAPI  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 NuiFusionAlignPointClouds  
 =========================  
 
-Aligns two sets of overlapping oriented point clouds and calculates the camera's relative pose. <span id="syntaxSection"></span>
+Point Cloudデータを位置合わせして相対的なカメラ姿勢を計算する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,37 +33,42 @@ Syntax
 
 *pReferencePointCloudFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-[in] A reference point cloud frame. This image must be the same size and have the same camera parameters as the pObservedPointCloudFrame parameter.  
+[in] 位置合わせの基準になるPoint Cloudデータ。  
 
 *pObservedPointCloudFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-[in] An observed point cloud frame. This image must be the same size and have the same camera parameters as the pReferencePointCloudFrame parameter.  
+[in] 位置合わせするPoint　Cloudデータ。  
 
 *maxAlignIterationCount*    
 Type: USHORT  
-[in] The number of iterations to run.  
+[in] 位置合わせのための反復アルゴリズムの最大反復回数。  
 
 *pDeltaFromReferenceFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-[in, optional] A matrix that receives the initial guess at the transform. This is updated when tracking succeeds. Tracking failure is indicated by a value of identity.  
+[out, optional] オプションのカメラトラッキング結果を色分けした画像データを受け取る画像バッファ(Color)。  
+この画像データはオブジェクトセグメンテーションなどのコンピュータビジョンのアルゴリズムへの入力データとして利用できます。  
+このデータを必要としない場合、nullptrを指定します。  
 
-*pReferenceToObservedTransform*    
-Type: Matrix4  
-[in, out] Optional pre-allocated color image frame that receives color-coded data from the camera tracking. This image can be used as input to additional vision algorithms, such as object segmentation. If specified, this image must be the same size and have the same camera parameters as the referencePointCloudFrame and observedPointCloudFrame parameters. If you do not need this output image, specify null.  
-
-The values in the received image vary depending on whether the pixel was a valid pixel used in tracking (inlier) or failed in different tests (outlier). Inliers are color shaded depending on the residual energy at that point. Higher discrepancy between vertices is indicated by more saturated colors. Less discrepancy between vertices (less information at that pixel) is indicated by less saturated colors (that is, more white). If the pixel is an outlier, it will receive one of the values listed in the following table.  
+画像データの値はカメラトラッキングに使用された有効な画素(インライア)か無効な画素(アウトトライア)かによって異なります。  
+インライアの場合、値は位置合わせアルゴリズムの残留エネルギーによって色分けされます。  
+頂点があまり一致しない画素は濃い色、頂点が一致している画素は薄い色で示されます。  
+アウトライアの場合、値は以下の表のいずれかです。  
 
 | Value      | Description                                                                                                                                                |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0xFF000000 | The input vertex was invalid (for example, a vertex with an input depth of zero), or the vertex had no correspondences between the two point cloud images. |
-| 0xFF008000 | The outlier vertices were rejected due to too large a distance between vertices.                                                                           |
-| 0xFF800000 | The outlier vertices were rejected due to too large a difference in normal angle between the point clouds.                                                 |
+| 0xFF000000 | 入力された頂点が無効(値が0など)だった。または、2つのPoint Cloudデータの間に対応する頂点がなかった。 |
+| 0xFF008000 | 頂点間の距離が離れすぎているため、この画素のデータは利用しませんでした。                                                                           |
+| 0xFF800000 | 頂点間の角度が離れすぎているため、この画素のデータは利用しませんでした。                                                 |
+
+*pReferenceToObservedTransform*    
+Type: Matrix4  
+[in, out] 位置合わせの初期推定に利用する変換行列。位置合わせが成功した場合、変換行列は更新されます。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT FUSIONAPI  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

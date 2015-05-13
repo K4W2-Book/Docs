@@ -1,7 +1,7 @@
 NuiFusionCreateImageFrame  
 =========================  
 
-Creates a new NUI\_FUSION\_IMAGE\_FRAME object. <span id="syntaxSection"></span>
+NUI\_FUSION\_IMAGE\_FRAMEを作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,29 +33,29 @@ Syntax
 
 *frameType*    
 Type: NUI\_FUSION\_IMAGE\_TYPE  
-[in] The type of image frame to create.  
+[in] 画像の種類。  
 
 *width*    
 Type: UINT  
-[in] The width of the frame, in pixels.  
+[in] 画像の幅(pixel)。  
 
 *height*    
 Type: UINT  
-[in] The height of the frame, in pixels.  
+[in] 画像の高さ(pixel)。  
 
 *pCameraParameters*    
 Type: NUI\_FUSION\_CAMERA\_PARAMETERS  
-[in, optional] The camera parameters associated with the frame.  
+[in, optional] カメラの内部パラメーター。  
 
 *ppImageFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-[out] The new NUI\_FUSION\_IMAGE\_FRAME object.  
+[out] NUI\_FUSION\_IMAGE\_FRAMEのポインタのアドレス。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT FUSIONAPI  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
