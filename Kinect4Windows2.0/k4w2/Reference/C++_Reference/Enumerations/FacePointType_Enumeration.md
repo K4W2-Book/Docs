@@ -1,7 +1,7 @@
 FacePointType Enumeration  
 =========================  
 
-Face point types. <span id="syntaxSection"></span>
+顔パーツの種類。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -38,13 +38,13 @@ Constants
 
 | Constant                        | Description                                      |
 |---------------------------------|--------------------------------------------------|
-| FacePointType\_None             | None                                             |
-| FacePointType\_EyeLeft          | Left eye.                                        |
-| FacePointType\_EyeRight         | Right eye.                                       |
-| FacePointType\_Nose             | Nose                                             |
-| FacePointType\_MouthCornerLeft  | Left corner of the mouth.                        |
-| FacePointType\_MouthCornerRight | Right corner of the mouth.                       |
-| FacePointType\_Count            | Max value; (FacePointType\_MouthCornerRight+1) . |
+| FacePointType\_None             | なし。                                             |
+| FacePointType\_EyeLeft          | 左目。                                        |
+| FacePointType\_EyeRight         | 右目。                                       |
+| FacePointType\_Nose             | 鼻。                                             |
+| FacePointType\_MouthCornerLeft  | 左口角。                        |
+| FacePointType\_MouthCornerRight | 右口角。                       |
+| FacePointType\_Count            | FacePointTypeの数。(5) |
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 FaceModelBuilderCaptureStatus Enumeration  
 =========================================  
 
-Status of the face model builder capture. <span id="syntaxSection"></span>
+FaceModelBuilderのキャプチャステータス。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -38,13 +38,13 @@ Constants
 
 | Constant                                        | Description                          |
 |-------------------------------------------------|--------------------------------------|
-| FaceModelBuilderCaptureStatus\_GoodFrameCapture | The frame capture worked.            |
-| FaceModelBuilderCaptureStatus\_OtherViewsNeeded | Other views are needed.              |
-| FaceModelBuilderCaptureStatus\_LostFaceTrack    | The face is no longer tracked.       |
-| FaceModelBuilderCaptureStatus\_FaceTooFar       | The face is too far from the camera. |
-| FaceModelBuilderCaptureStatus\_FaceTooNear      | The face is too near to the camera.  |
-| FaceModelBuilderCaptureStatus\_MovingTooFast    | The face is moving too fast.         |
-| FaceModelBuilderCaptureStatus\_SystemError      | A system error occured.              |
+| FaceModelBuilderCaptureStatus\_GoodFrameCapture | 良い状態でキャプチャできている。               |
+| FaceModelBuilderCaptureStatus\_OtherViewsNeeded | 他の視点を必要としている。                  |
+| FaceModelBuilderCaptureStatus\_LostFaceTrack    | 顔を見失っている。       |
+| FaceModelBuilderCaptureStatus\_FaceTooFar       | 顔がセンサーから遠い。 |
+| FaceModelBuilderCaptureStatus\_FaceTooNear      | 顔がセンサーから近い。  |
+| FaceModelBuilderCaptureStatus\_MovingTooFast    | 顔の動きが速い。         |
+| FaceModelBuilderCaptureStatus\_SystemError      | システムエラーが発生した。              |
 
 <span id="requirements"></span>
 

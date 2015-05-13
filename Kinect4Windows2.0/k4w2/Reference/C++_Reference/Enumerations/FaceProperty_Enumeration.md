@@ -1,7 +1,7 @@
 FaceProperty Enumeration  
 ========================  
 
-Values that describe the state of a face. <span id="syntaxSection"></span>
+顔の付随情報の種類。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -52,39 +52,39 @@ Constants
 <tbody>
 <tr class="odd">
 <td align="left">FaceProperty_Happy</td>
-<td align="left">The user appears happy.</td>
+<td align="left">笑顔の状態。</td>
 </tr>
 <tr class="even">
 <td align="left">FaceProperty_Engaged</td>
-<td align="left">The user appears engaged with the Kinect Sensor.</td>
+<td align="left">付随情報が取得できている状態。</td>
 </tr>
 <tr class="odd">
 <td align="left">FaceProperty_WearingGlasses</td>
-<td align="left">The user is wearing glasses.</td>
+<td align="left">眼鏡を掛けている状態。</td>
 </tr>
 <tr class="even">
 <td align="left">FaceProperty_LeftEyeClosed</td>
-<td align="left">The user's left eye is closed.</td>
+<td align="left">左目を閉じている状態。</td>
 </tr>
 <tr class="odd">
 <td align="left">FaceProperty_RightEyeClosed</td>
-<td align="left">The user's right eye is closed.</td>
+<td align="left">右目を閉じている状態。</td>
 </tr>
 <tr class="even">
 <td align="left">FaceProperty_MouthOpen</td>
-<td align="left">The user's mouth is open.</td>
+<td align="left">口が開いている状態。</td>
 </tr>
 <tr class="odd">
 <td align="left">FaceProperty_MouthMoved</td>
-<td align="left">The user's mouth moved.</td>
+<td align="left">口が動いている状態。</td>
 </tr>
 <tr class="even">
 <td align="left">FaceProperty_LookingAway</td>
-<td align="left">The user is looking away.</td>
+<td align="left">顔がセンサーの方向を向いていない状態。</td>
 </tr>
 <tr class="odd">
 <td align="left">FaceProperty_Count</td>
-<td align="left"></td>
+<td align="left">FacePropertyの数。(8)</td>
 </tr>
 </tbody>
 </table>

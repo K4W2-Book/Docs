@@ -1,7 +1,7 @@
 FaceModelBuilderAttributes Enumeration  
 ======================================  
 
-Flags that indicate the attributes of a face model builder. <span id="syntaxSection"></span>
+FaceModelBuilderの属性を示す。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,9 +34,9 @@ Constants
 
 | Constant                              | Description |
 |---------------------------------------|-------------|
-| FaceModelBuilderAttributes\_None      | None        |
-| FaceModelBuilderAttributes\_SkinColor | Skin color  |
-| FaceModelBuilderAttributes\_HairColor | Hair color  |
+| FaceModelBuilderAttributes\_None      | なし。        |
+| FaceModelBuilderAttributes\_SkinColor | 肌色。       |
+| FaceModelBuilderAttributes\_HairColor | 髪色。       |
 
 <span id="requirements"></span>
 

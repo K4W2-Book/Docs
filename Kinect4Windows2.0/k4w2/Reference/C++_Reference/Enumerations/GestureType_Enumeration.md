@@ -1,7 +1,7 @@
 GestureType Enumeration  
 =======================  
 
-Specifies the type of a gesture. <span id="syntaxSection"></span>
+ジェスチャーの種類。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,9 +34,9 @@ Constants
 
 | Constant                | Description                |
 |-------------------------|----------------------------|
-| GestureType\_None       | None.                      |
-| GestureType\_Discrete   | The gesture is discrete.   |
-| GestureType\_Continuous | The gesture is continuous. |
+| GestureType\_None       | なし。                      |
+| GestureType\_Discrete   | Discreteジェスチャー。<br>(true/false)   |
+| GestureType\_Continuous | Continuousジェスチャー。<br>(progress) |
 
 <span id="requirements"></span>
 

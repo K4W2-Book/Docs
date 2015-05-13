@@ -1,7 +1,8 @@
 HighDetailFacePoints Enumeration  
 ================================  
 
-High detail face points. <span id="syntaxSection"></span>
+HDFaceの頂点リスト。
+(名前がついている一部の頂点のみのリストです。) <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -67,42 +68,42 @@ Constants
 
 | Constant                                     | Description                            |
 |----------------------------------------------|----------------------------------------|
-| HighDetailFacePoints\_EyeLeft                | Left eye.                              |
-| HighDetailFacePoints\_LefteyeInnercorner     | Inner corner of the left eye.          |
-| HighDetailFacePoints\_LefteyeOutercorner     | Outer corner of the left eye.          |
-| HighDetailFacePoints\_LefteyeMidtop          | Middle of the top of the left eye.     |
-| HighDetailFacePoints\_LefteyeMidbottom       | Middle of the bottom of the left eye.  |
-| HighDetailFacePoints\_RighteyeInnercorner    | Inner corner of the right eye.         |
-| HighDetailFacePoints\_RighteyeOutercorner    | Outer corner of the right eye.         |
-| HighDetailFacePoints\_RighteyeMidtop         | Middle of the top of the right eye.    |
-| HighDetailFacePoints\_RighteyeMidbottom      | Middle of the bottom of the right eye. |
-| HighDetailFacePoints\_LefteyebrowInner       | Inner left eyebrow.                    |
-| HighDetailFacePoints\_LefteyebrowOuter       | Outer left eyebrow.                    |
-| HighDetailFacePoints\_LefteyebrowCenter      | Center of the left eyebrow.            |
-| HighDetailFacePoints\_RighteyebrowInner      | Inner right eyebrow.                   |
-| HighDetailFacePoints\_RighteyebrowOuter      | Outer right eyebrow.                   |
-| HighDetailFacePoints\_RighteyebrowCenter     | Center of the right eyebrow.           |
-| HighDetailFacePoints\_MouthLeftcorner        | Left corner of the mouth.              |
-| HighDetailFacePoints\_MouthRightcorner       | Right corner of the mouth.             |
-| HighDetailFacePoints\_MouthUpperlipMidtop    | Middle of the top of the upper lip.    |
-| HighDetailFacePoints\_MouthUpperlipMidbottom | Middle of the bottom of the lower lip. |
-| HighDetailFacePoints\_MouthLowerlipMidtop    | Middle of the top of the lower lip.    |
-| HighDetailFacePoints\_MouthLowerlipMidbottom | Middle of the bottom of the upper lip. |
-| HighDetailFacePoints\_NoseTip                | Tip of the nose.                       |
-| HighDetailFacePoints\_NoseBottom             | Bottom of the nose.                    |
-| HighDetailFacePoints\_NoseBottomleft         | Bottom left of the nose.               |
-| HighDetailFacePoints\_NoseBottomright        | Bottom right of the nose.              |
-| HighDetailFacePoints\_NoseTop                | Top of the nose.                       |
-| HighDetailFacePoints\_NoseTopleft            | Top left of the nose.                  |
-| HighDetailFacePoints\_NoseTopright           | Top right of the nose.D                |
-| HighDetailFacePoints\_ForeheadCenter         | \>Center of the forehead.              |
-| HighDetailFacePoints\_LeftcheekCenter        | Center of the left cheek.              |
-| HighDetailFacePoints\_RightcheekCenter       | Center of the right cheek.             |
-| HighDetailFacePoints\_Leftcheekbone          | Left cheek bone.                       |
-| HighDetailFacePoints\_Rightcheekbone         | Right cheek bone.                      |
-| HighDetailFacePoints\_ChinCenter             | Center of the chin.                    |
-| HighDetailFacePoints\_LowerjawLeftend        | Left end of the lower jaw.             |
-| HighDetailFacePoints\_LowerjawRightend       | Right end of the lower jaw.            |
+| HighDetailFacePoints\_EyeLeft                | 左目。                              |
+| HighDetailFacePoints\_LefteyeInnercorner     | 左目の目頭。          |
+| HighDetailFacePoints\_LefteyeOutercorner     | 左目の目尻。          |
+| HighDetailFacePoints\_LefteyeMidtop          | 左目の中央上部。     |
+| HighDetailFacePoints\_LefteyeMidbottom       | 左目の中央下部。  |
+| HighDetailFacePoints\_RighteyeInnercorner    | 右目の目頭。         |
+| HighDetailFacePoints\_RighteyeOutercorner    | 右目の目尻。         |
+| HighDetailFacePoints\_RighteyeMidtop         | 右目の中央上部。    |
+| HighDetailFacePoints\_RighteyeMidbottom      | 右目の中央下部。 |
+| HighDetailFacePoints\_LefteyebrowInner       | 左眉の眉頭。                    |
+| HighDetailFacePoints\_LefteyebrowOuter       | 左眉の眉尻。                    |
+| HighDetailFacePoints\_LefteyebrowCenter      | 左眉の中央。            |
+| HighDetailFacePoints\_RighteyebrowInner      | 右眉の眉頭。                   |
+| HighDetailFacePoints\_RighteyebrowOuter      | 右眉の眉尻。                   |
+| HighDetailFacePoints\_RighteyebrowCenter     | 右眉の中央。           |
+| HighDetailFacePoints\_MouthLeftcorner        | 左口角。              |
+| HighDetailFacePoints\_MouthRightcorner       | 右口角。             |
+| HighDetailFacePoints\_MouthUpperlipMidtop    | 上唇の中央上部。    |
+| HighDetailFacePoints\_MouthUpperlipMidbottom | 上唇の中央下部。 |
+| HighDetailFacePoints\_MouthLowerlipMidtop    | 下唇の中央上部。    |
+| HighDetailFacePoints\_MouthLowerlipMidbottom | 下唇の中央下部。 |
+| HighDetailFacePoints\_NoseTip                | 鼻先。                       |
+| HighDetailFacePoints\_NoseBottom             | 鼻の下部。                    |
+| HighDetailFacePoints\_NoseBottomleft         | 鼻の下部左。               |
+| HighDetailFacePoints\_NoseBottomright        | 鼻の下部右。              |
+| HighDetailFacePoints\_NoseTop                | 鼻の上部。                       |
+| HighDetailFacePoints\_NoseTopleft            | 鼻の上部左。                  |
+| HighDetailFacePoints\_NoseTopright           | 鼻の上部右。                |
+| HighDetailFacePoints\_ForeheadCenter         | 額の中央。              |
+| HighDetailFacePoints\_LeftcheekCenter        | 左頬の中心。              |
+| HighDetailFacePoints\_RightcheekCenter       | 右頬の中心。             |
+| HighDetailFacePoints\_Leftcheekbone          | 左頬骨。                       |
+| HighDetailFacePoints\_Rightcheekbone         | 右頬骨。                      |
+| HighDetailFacePoints\_ChinCenter             | 顎の中心。                    |
+| HighDetailFacePoints\_LowerjawLeftend        | 下顎の左端。             |
+| HighDetailFacePoints\_LowerjawRightend       | 下顎の右端。            |
 
 <span id="requirements"></span>
 

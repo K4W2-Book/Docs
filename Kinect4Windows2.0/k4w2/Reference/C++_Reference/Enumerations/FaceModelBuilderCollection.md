@@ -1,7 +1,7 @@
 FaceModelBuilderCollectionStatus Enumeration  
 ============================================  
 
-Status of the face model builder collection. <span id="syntaxSection"></span>
+FaceModelBuilderのデータ収集ステータス。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -37,12 +37,12 @@ Constants
 
 | Constant                                                | Description                                |
 |---------------------------------------------------------|--------------------------------------------|
-| FaceModelBuilderCollectionStatus\_Complete              | The collection is complete.                |
-| FaceModelBuilderCollectionStatus\_MoreFramesNeeded      | More frames are needed.                    |
-| FaceModelBuilderCollectionStatus\_FrontViewFramesNeeded | Frames from the front view are needed.     |
-| FaceModelBuilderCollectionStatus\_LeftViewsNeeded       | Frames from the left view are needed.      |
-| FaceModelBuilderCollectionStatus\_RightViewsNeeded      | Frames from the right view are needed.     |
-| FaceModelBuilderCollectionStatus\_TiltedUpViewsNeeded   | Frames from the tilted up view are needed. |
+| FaceModelBuilderCollectionStatus\_Complete              | 顔形状データの収集が完了した。                |
+| FaceModelBuilderCollectionStatus\_MoreFramesNeeded      | より多くのフレームを必要としている。                    |
+| FaceModelBuilderCollectionStatus\_FrontViewFramesNeeded | 正面からの視点のフレームを必要としている。     |
+| FaceModelBuilderCollectionStatus\_LeftViewsNeeded       | 左側からの視点のフレームを必要としている。      |
+| FaceModelBuilderCollectionStatus\_RightViewsNeeded      | 右側からの視点のフレームを必要としている。     |
+| FaceModelBuilderCollectionStatus\_TiltedUpViewsNeeded   | 下側から仰ぐ視点のフレームを必要としている。 |
 
 <span id="requirements"></span>
 

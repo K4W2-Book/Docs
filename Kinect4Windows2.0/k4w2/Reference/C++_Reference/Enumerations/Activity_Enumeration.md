@@ -1,7 +1,9 @@
 Activity Enumeration  
 ====================  
 
-The available activity types. <span id="syntaxSection"></span>
+Activityの種類。
+この機能はKinect for Windowsアプリケーションではサポートされません。
+この列挙体はXbox One SDKとのクロスコンパイルをサポートするために含まれています。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -37,12 +39,12 @@ Constants
 
 | Constant                 | Description                                 |
 |--------------------------|---------------------------------------------|
-| Activity\_EyeLeftClosed  | The left eye is closed.                     |
-| Activity\_EyeRightClosed | The right eye is closed.                    |
-| Activity\_MouthOpen      | The mouth is open.                          |
-| Activity\_MouthMoved     | The mouth is closed.                        |
-| Activity\_LookingAway    | The person is looking away from the sensor. |
-| Activity\_Count          | Max value; (Activity\_LookingAway+1) .      |
+| Activity\_EyeLeftClosed  | 左目が閉じている。                               |
+| Activity\_EyeRightClosed | 右目が閉じている。                               |
+| Activity\_MouthOpen      | 口が開いている。                                 |
+| Activity\_MouthMoved     | 口が動いている。                                 |
+| Activity\_LookingAway    | 顔がセンサーの方向を向いていない。                    |
+| Activity\_Count          | Activityの数。(5)                             |
 
 <span id="requirements"></span>
 

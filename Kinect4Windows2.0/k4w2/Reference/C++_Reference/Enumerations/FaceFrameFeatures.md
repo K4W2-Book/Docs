@@ -1,7 +1,7 @@
 FaceFrameFeatures Enumeration  
 =============================  
 
-Flags that indicate the face frame features that are present. <span id="syntaxSection"></span>
+Faceの機能を示すフラグ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -45,20 +45,20 @@ Constants
 
 | Constant                                      | Description                                  |
 |-----------------------------------------------|----------------------------------------------|
-| FaceFrameFeatures\_None                       | No data is present.                          |
-| FaceFrameFeatures\_BoundingBoxInInfraredSpace | Infrared space bounding box data is present. |
-| FaceFrameFeatures\_PointsInInfraredSpace      | Infrared space data is present.              |
-| FaceFrameFeatures\_BoundingBoxInColorSpace    | Color space bounding box data is present.    |
-| FaceFrameFeatures\_PointsInColorSpace         | Color space point data is present.           |
-| FaceFrameFeatures\_RotationOrientation        | Rotation orientation data is present.        |
-| FaceFrameFeatures\_Happy                      | Happiness data is present.                   |
-| FaceFrameFeatures\_RightEyeClosed             | Right eye data is present.                   |
-| FaceFrameFeatures\_LeftEyeClosed              | Left eye data is present.                    |
-| FaceFrameFeatures\_MouthOpen                  | Mouth open data is present.                  |
-| FaceFrameFeatures\_MouthMoved                 | Mouth movement data is present.              |
-| FaceFrameFeatures\_LookingAway                | Looking away data is present.                |
-| FaceFrameFeatures\_Glasses                    | Glasses data is present.                     |
-| FaceFrameFeatures\_FaceEngagement             | Face engagement data is present.             |
+| FaceFrameFeatures\_None                       | 無効。                                        |
+| FaceFrameFeatures\_BoundingBoxInInfraredSpace | 顔を囲むバウンディングボックス(Depth座標系)。            |
+| FaceFrameFeatures\_PointsInInfraredSpace      | 顔パーツ(左右目、鼻、左右口角)の位置(Depth座標系)。   |
+| FaceFrameFeatures\_BoundingBoxInColorSpace    | 顔を囲むバウンディングボックス(Color座標系)。            |
+| FaceFrameFeatures\_PointsInColorSpace         | 顔パーツ(左右目、鼻、左右口角)の位置(Color座標系)。   |
+| FaceFrameFeatures\_RotationOrientation        | 顔の回転方向(クォータニオン)。                       |
+| FaceFrameFeatures\_Happy                      | 笑顔の状態。                                    |
+| FaceFrameFeatures\_RightEyeClosed             | 右目が閉じている状態。                             |
+| FaceFrameFeatures\_LeftEyeClosed              | 左目が閉じている状態。                             |
+| FaceFrameFeatures\_MouthOpen                  | 口が開いている状態。                               |
+| FaceFrameFeatures\_MouthMoved                 | 口が動いている状態。                              |
+| FaceFrameFeatures\_LookingAway                | 顔がセンサーの方向を向いていない状態。                 |
+| FaceFrameFeatures\_Glasses                    | 眼鏡を掛けている状態。                            |
+| FaceFrameFeatures\_FaceEngagement             | 顔の付随情報を取得できている状態。                  |
 
 <span id="requirements"></span>
 

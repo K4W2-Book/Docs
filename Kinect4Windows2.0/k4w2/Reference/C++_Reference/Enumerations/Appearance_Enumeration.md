@@ -1,7 +1,9 @@
 Appearance Enumeration  
 ======================  
 
-The available appearance types. <span id="syntaxSection"></span>
+Appearanceの種類。
+この機能はKinect for Windowsアプリケーションではサポートされません。
+この列挙体はXbox One SDKとのクロスコンパイルをサポートするために含まれています。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,8 +35,8 @@ Constants
 
 | Constant                   | Description                               |
 |----------------------------|-------------------------------------------|
-| Appearance\_WearingGlasses | Wearing glasses                           |
-| Appearance\_Count          | Max value; (Appearance\_WearingGlasses+1) |
+| Appearance\_WearingGlasses | 眼鏡を掛けている。                             |
+| Appearance\_Count          | Appearanceの数。(1)                         |
 
 <span id="requirements"></span>
 

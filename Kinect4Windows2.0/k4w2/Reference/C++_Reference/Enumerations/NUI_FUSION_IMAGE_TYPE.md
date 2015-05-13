@@ -1,7 +1,7 @@
 NUI\_FUSION\_IMAGE\_TYPE Enumeration  
 ====================================  
 
-Specifies the image type of a fusion image. <span id="syntaxSection"></span>
+Kinect Fusionの入出力に利用する画像の種類を指定します。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -35,10 +35,10 @@ Constants
 
 | Constant                               | Description        |
 |----------------------------------------|--------------------|
-| NUI\_FUSION\_IMAGE\_TYPE\_INVALID      | Invalid image.     |
-| NUI\_FUSION\_IMAGE\_TYPE\_COLOR        | Color image.       |
-| NUI\_FUSION\_IMAGE\_TYPE\_FLOAT        | Float image.       |
-| NUI\_FUSION\_IMAGE\_TYPE\_POINT\_CLOUD | Point cloud image. |
+| NUI\_FUSION\_IMAGE\_TYPE\_INVALID      | 無効               |
+| NUI\_FUSION\_IMAGE\_TYPE\_COLOR        | Color画像          |
+| NUI\_FUSION\_IMAGE\_TYPE\_FLOAT        | Depth画像 　　　      |
+| NUI\_FUSION\_IMAGE\_TYPE\_POINT\_CLOUD | Point Cloud画像    |
 
 <span id="requirements"></span>
 

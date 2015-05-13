@@ -1,7 +1,9 @@
 Expression Enumeration  
 ======================  
 
-User expressions. Expression functionality is not supported for Kinect for Windows apps. This enumeration is included to support cross-compilation with the Xbox SDK. <span id="syntaxSection"></span>
+Expressionsの種類。
+この機能はKinect for Windowsアプリケーションではサポートされません。
+この列挙体はXbox One SDKとのクロスコンパイルをサポートするために含まれています。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,9 +36,9 @@ Constants
 
 | Constant            | Description                                             |
 |---------------------|---------------------------------------------------------|
-| Expression\_Neutral | No expression is present, or the expression is neutral. |
-| Expression\_Happy   | The expression is happy.                                |
-| Expression\_Count   | Max value; (Expression\_Happy+1)                        |
+| Expression\_Neutral | 無効、または普通の状態。                                      |
+| Expression\_Happy   | 笑顔の状態。                                               |
+| Expression\_Count   | Expressionの数。(2)                                       |
 
 <span id="requirements"></span>
 

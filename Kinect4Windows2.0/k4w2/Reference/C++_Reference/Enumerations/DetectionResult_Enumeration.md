@@ -1,7 +1,7 @@
 DetectionResult Enumeration  
 ===========================  
 
-Gesture detection result options. <span id="syntaxSection"></span>
+顔の付随情報の検出結果。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -35,10 +35,10 @@ Constants
 
 | Constant                 | Description                                                    |
 |--------------------------|----------------------------------------------------------------|
-| DetectionResult\_Unknown | It is unknown whether the appearance or activity is a gesture. |
-| DetectionResult\_No      | The appearance or activity is not a gesture.                   |
-| DetectionResult\_Maybe   | The appearance or activity might be a gesture.                 |
-| DetectionResult\_Yes     | The appearance or activity is a gesture.                       |
+| DetectionResult\_Unknown | 不明。                                                           |
+| DetectionResult\_No      | 検出していない。                                                    |
+| DetectionResult\_Maybe   | 検出しているかもしれない。                                             |
+| DetectionResult\_Yes     | 検出している。                                                     |
 
 <span id="requirements"></span>
 

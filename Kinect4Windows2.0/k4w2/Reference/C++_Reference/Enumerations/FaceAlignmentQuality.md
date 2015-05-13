@@ -1,7 +1,7 @@
 FaceAlignmentQuality Enumeration  
 ================================  
 
-Face alignment quality levels. <span id="syntaxSection"></span>
+顔の位置合わせの品質レベル。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,8 +33,8 @@ Constants
 
 | Constant                   | Description                          |
 |----------------------------|--------------------------------------|
-| FaceAlignmentQuality\_High | Higher quality and higher CPU usage. |
-| FaceAlignmentQuality\_Low  | Lower quality and lower CPU usage.   |
+| FaceAlignmentQuality\_High | 高い品質、CPU負荷が高い。                 |
+| FaceAlignmentQuality\_Low  | 低い品質、CPU負荷が低い。                 |
 
 <span id="requirements"></span>
 

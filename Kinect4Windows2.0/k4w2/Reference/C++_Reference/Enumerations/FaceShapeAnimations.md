@@ -1,7 +1,7 @@
 FaceShapeAnimations Enumeration  
 ===============================  
 
-<span id="syntaxSection"></span>
+アニメーションユニット <span id="syntaxSection"></span>
 
 Syntax  
 ======  

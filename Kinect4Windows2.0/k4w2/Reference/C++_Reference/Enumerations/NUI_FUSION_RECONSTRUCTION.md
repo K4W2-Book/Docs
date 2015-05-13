@@ -1,7 +1,7 @@
 NUI\_FUSION\_RECONSTRUCTION\_PROCESSOR\_TYPE Enumeration  
 ========================================================  
 
-Specifies reconstruction processing modes. <span id="syntaxSection"></span>
+Kinect Fusionの3次元形状の再構成処理を行うプロセッサを指定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,8 +33,8 @@ Constants
 
 | Constant                                          | Description                             |
 |---------------------------------------------------|-----------------------------------------|
-| NUI\_FUSION\_RECONSTRUCTION\_PROCESSOR\_TYPE\_CPU | Reconstruction is performed on the GPU. |
-| NUI\_FUSION\_RECONSTRUCTION\_PROCESSOR\_TYPE\_AMP | Reconstruction is performed on the CPU. |
+| NUI\_FUSION\_RECONSTRUCTION\_PROCESSOR\_TYPE\_CPU | 再構成処理はCPUで実行されます。               |
+| NUI\_FUSION\_RECONSTRUCTION\_PROCESSOR\_TYPE\_AMP | 再構成処理はGPU(C++ AMP)で実行されます。      |
 
 <span id="requirements"></span>
 
