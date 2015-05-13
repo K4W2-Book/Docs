@@ -1,7 +1,7 @@
 NUI\_FUSION\_RECONSTRUCTION\_PROCESSOR\_TYPE Enumeration  
 ========================================================  
 
-Kinect Fusionの3次元形状の再構成処理を行うプロセッサを指定する。 <span id="syntaxSection"></span>
+Kinect Fusionの3次元形状の再構成処理を行うプロセッサ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

@@ -1,7 +1,7 @@
 FaceShapeDeformations Enumeration  
 =================================  
 
-シェイプユニット <span id="syntaxSection"></span>
+シェイプユニット。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

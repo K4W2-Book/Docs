@@ -1,7 +1,7 @@
 NUI\_FUSION\_IMAGE\_TYPE Enumeration  
 ====================================  
 
-Kinect Fusionの入出力に利用する画像の種類を指定します。 <span id="syntaxSection"></span>
+Kinect Fusionの入出力に利用する画像バッファの種類。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

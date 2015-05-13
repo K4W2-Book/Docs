@@ -1,7 +1,7 @@
 FaceModelBuilderAttributes Enumeration  
 ======================================  
 
-FaceModelBuilderの属性を示す。 <span id="syntaxSection"></span>
+FaceModelBuilderの属性を示すフラグ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
