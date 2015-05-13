@@ -1,7 +1,7 @@
 NuiFusionDepthToDepthFloatFrame  
 ===============================  
 
-DepthデータをNUI\_FUSION\_IMAGE\_FRAMEに変換する。 <span id="syntaxSection"></span>
+Depthデータを[NUI_FUSION_IMAGE_FRAME](Structures/NUI_FUSION_IMAGE_FRAME.md)に変換する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

@@ -51,16 +51,16 @@ Face Functions
 ==============  
 
 [CreateFaceAlignment](Functions/CreateFaceAlignment.md)    
-IFaceAlignmentを作成する。  
+[IFaceAlignment](Interfaces/IFaceAlignment_Interface.md)を作成する。  
 
 [CreateFaceFrameSource](Functions/CreateFaceFrameSource.md)    
-IFaceFrameSourceを作成します。  
+[IFaceFrameSource](Interfaces/IFaceFrameSource_Interface.md)を作成します。  
 
 [CreateFaceModel](Functions/CreateFaceModel.md)    
-IFaceModelを作成する。  
+[IFaceModel](Interfaces/IFaceModel_Interface.md)を作成する。  
 
 [CreateHighDefinitionFaceFrameSource](Functions/CreateHighDefinitionFaceFr.md)    
-IHighDefinitionFaceFrameSourceを作成する。  
+[IHighDefinitionFaceFrameSource](Interfaces/IHighDefinitionFaceFrameSo.md)を作成する。  
 
 [GetFaceModelTriangleCount](Functions/GetFaceModelTriangleCount.md)    
 顔モデルの三角形の数を取得する。  
@@ -95,7 +95,7 @@ NUI_FUSION_IMAGE_FRAMEを作成する。
 DepthデータをPoint Cloudデータに変換する。  
 
 [NuiFusionDepthToDepthFloatFrame](Functions/NuiFusionDepthToDepthFloat.md)    
-DepthデータをNUI_FUSION_IMAGE_FRAMEに変換する。  
+Depthデータを[NUI_FUSION_IMAGE_FRAME](Structures/NUI_FUSION_IMAGE_FRAME.md)に変換する。  
 
 [NuiFusionGetDeviceInfo](Functions/NuiFusionGetDeviceInfo.md)    
 Kinect Fusionの3次元形状の再構成処理に使用するプロセッサーの情報を取得する。  
@@ -104,7 +104,7 @@ Kinect Fusionの3次元形状の再構成処理に使用するプロセッサー
 Point Cloudデータにシェーディングしてレンダリングされた画像を取得する。  
 
 [NuiFusionReleaseImageFrame](Functions/NuiFusionReleaseImageFrame.md)    
-NUI_FUSION_IMAGE_FRAMEに確保したメモリを解放する。  
+[NUI_FUSION_IMAGE_FRAME](Structures/NUI_FUSION_IMAGE_FRAME.md)に確保したメモリを解放する。  
 
 <span id="ID4EXD"></span>
 

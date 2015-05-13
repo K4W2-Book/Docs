@@ -1,7 +1,7 @@
 CreateFaceModel  
 ===============  
 
-IFaceModelを作成する。 <span id="syntaxSection"></span>
+[IFaceModel](Interfaces/IFaceModel_Interface.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
