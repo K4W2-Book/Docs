@@ -1,7 +1,7 @@
 CreateHighDefinitionFaceFrameSource  
 ===================================  
 
-[IHighDefinitionFaceFrameSource](Interfaces/IHighDefinitionFaceFrameSo.md)を作成する。 <span id="syntaxSection"></span>
+[IHighDefinitionFaceFrameSource](../Interfaces/IHighDefinitionFaceFrameSo.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

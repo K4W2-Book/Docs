@@ -1,7 +1,7 @@
 CreateFaceFrameSource  
 =====================  
 
-[IFaceFrameSource](Interfaces/IFaceFrameSource_Interface.md)を作成します。 <span id="syntaxSection"></span>
+[IFaceFrameSource](../Interfaces/IFaceFrameSource_Interface.md)を作成します。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

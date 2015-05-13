@@ -1,7 +1,7 @@
 CreateFaceAlignment  
 ===================  
 
-[IFaceAlignment](Interfaces/IFaceAlignment_Interface.md)を作成する。 <span id="syntaxSection"></span>
+[IFaceAlignment](../Interfaces/IFaceAlignment_Interface.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

@@ -1,7 +1,7 @@
 NuiFusionReleaseImageFrame  
 ==========================  
 
-[NUI_FUSION_IMAGE_FRAME](Structures/NUI_FUSION_IMAGE_FRAME.md)に確保したメモリを解放する。 <span id="syntaxSection"></span>
+[NUI_FUSION_IMAGE_FRAME](../Structures/NUI_FUSION_IMAGE_FRAME.md)に確保したメモリを解放する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

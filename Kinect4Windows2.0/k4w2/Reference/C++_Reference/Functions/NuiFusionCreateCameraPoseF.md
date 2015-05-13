@@ -1,7 +1,7 @@
 NuiFusionCreateCameraPoseFinder  
 ===============================  
 
-[INuiFusionCameraPoseFinder](Interfaces/INuiFusionCameraPoseFinder.md)を作成する。 <span id="syntaxSection"></span>
+[INuiFusionCameraPoseFinder](../Interfaces/INuiFusionCameraPoseFinder.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

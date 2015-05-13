@@ -1,7 +1,7 @@
 NuiFusionCreateImageFrame  
 =========================  
 
-[NUI_FUSION_IMAGE_FRAME](Structures/NUI_FUSION_IMAGE_FRAME.md)を作成する。 <span id="syntaxSection"></span>
+[NUI_FUSION_IMAGE_FRAME](../Structures/NUI_FUSION_IMAGE_FRAME.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
