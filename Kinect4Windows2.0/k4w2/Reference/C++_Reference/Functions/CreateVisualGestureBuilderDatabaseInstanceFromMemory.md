@@ -1,7 +1,7 @@
-CreateVisualGestureBuilderFrameSource  
-=====================================  
+CreateVisualGestureBuilderDatabaseInstanceFromMemory  
+====================================================  
 
-[IVisualGestureBuilderFrameSource](../Interfaces/IVisualGestureBuilderFrame.md)を作成する。 <span id="syntaxSection"></span>
+メモリから[IVisualGestureBuilderDatabase](../Interfaces/IVisualGestureBuilderDatab.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -18,9 +18,9 @@ Syntax
 <tbody>
 <tr class="odd">
 <td align="left"><pre><code>HRESULT CreateVisualGestureBuilderFrameSource(  
-         IKinectSensor *sensor,  
-         UINT64 initialTrackingId,  
-         IVisualGestureBuilderFrameSource **source  
+         UINT capacity,  
+         BYTE* buffer,  
+         IVisualGestureBuilderDatabase** instance  
 )</code></pre></td>
 </tr>
 </tbody>
@@ -29,17 +29,17 @@ Syntax
 <span id="ID4EL"></span>
 #### Parameters  
 
-*sensor*    
-Type: IKinectSensor  
-[in] IVisualGestureBuilderFrameSourceを作成するセンサー。  
+*capacity*    
+Type: UINT  
+[in] ジェスチャーデータベースのサイズ。  
 
-*initialTrackingId*    
-Type: UINT64  
-[in] トラッキングID。  
+*buffer*    
+Type: BYTE  
+[in] ジェスチャーデータベースのアドレス。  
 
-*source*    
-Type: IVisualGestureBuilderFrameSource  
-[out] IVisualGestureBuilderFrameSourceのポインタのアドレス。  
+*instance*    
+Type: IVisualGestureBuilderDatabase  
+[out] IVisualGestureBuilderDatabaseのポインタのアドレス。  
 
 <span id="ID4ES"></span>
 #### Return value  

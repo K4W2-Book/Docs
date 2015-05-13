@@ -36,7 +36,7 @@ Type: IKinectSensor
 
 *initialTrackingId*    
 Type: UINT64  
-[in] トラッキングID。(0)  
+[in] トラッキングID。  
 
 *initialFaceFrameFeatures*    
 Type: DWORD  
