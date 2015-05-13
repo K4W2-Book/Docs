@@ -1,8 +1,8 @@
 Appearance Enumeration  
 ======================  
 
-Appearanceの種類。
-この機能はKinect for Windowsアプリケーションではサポートされません。
+Appearanceの種類。  
+この機能はKinect for Windowsアプリケーションではサポートされません。  
 この列挙体はXbox One SDKとのクロスコンパイルをサポートするために含まれています。 <span id="syntaxSection"></span>
 
 Syntax  
