@@ -45,7 +45,7 @@ Type: DWORD
 
 *ppSource*    
 Type: IFaceFrameSource  
-[out] IFaceFrameSourceへのポインタのポインタ。  
+[out] IFaceFrameSourceのポインタのアドレス。  
 
 <span id="ID4EN"></span>
 #### Return value  

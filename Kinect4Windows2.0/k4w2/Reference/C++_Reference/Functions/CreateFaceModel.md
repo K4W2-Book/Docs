@@ -44,7 +44,7 @@ Type: float
 
 *ppFaceModel*    
 Type: IFaceModel  
-[out] IFaceModelへのポインタのポインタ。  
+[out] IFaceModelのポインタのアドレス。  
 
 <span id="ID4EN"></span>
 #### Return value  

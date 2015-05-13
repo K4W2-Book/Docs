@@ -34,7 +34,7 @@ Type: UINT32
 
 *triangeVertices*    
 Type: UINT32  
-[out] 三角形の配列。  
+[out] 三角形の配列のアドレス。  
 
 <span id="ID4EN"></span>
 #### Return value  

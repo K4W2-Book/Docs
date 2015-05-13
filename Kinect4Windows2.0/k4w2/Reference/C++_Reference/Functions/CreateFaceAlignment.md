@@ -29,7 +29,7 @@ Syntax
 
 *ppFaceAlignment*    
 Type: IFaceAlignment  
-[out] IFaceAlignmentへのポインタのポインタ。  
+[out] IFaceAlignmentのポインタのアドレス。  
 
 <span id="ID4EN"></span>
 #### Return value  

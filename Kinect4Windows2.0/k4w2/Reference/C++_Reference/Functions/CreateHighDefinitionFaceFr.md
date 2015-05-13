@@ -34,7 +34,7 @@ Type: IKinectSensor
 
 *hdFaceFrameSource*    
 Type: IHighDefinitionFaceFrameSource  
-[out] HighDefinitionFaceFrameSourceへのポインタのポインタ。  
+[out] HighDefinitionFaceFrameSourceのポインタのアドレス。  
 
 <span id="ID4EN"></span>
 #### Return value  
