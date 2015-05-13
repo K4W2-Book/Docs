@@ -1,7 +1,7 @@
 CreateFaceFrameSource  
 =====================  
 
-Creates a face frame source. <span id="syntaxSection"></span>
+IFaceFrameSourceを作成します。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -32,25 +32,26 @@ Syntax
 
 *sensor*    
 Type: IKinectSensor  
-[in] The kinect sensor from which the source should be created.  
+[in] IFaceFrameSourceを作成するセンサー。  
 
 *initialTrackingId*    
 Type: UINT64  
-[in] The initial tracking ID.  
+[in] トラッキングID。(0)  
 
 *initialFaceFrameFeatures*    
 Type: DWORD  
-[in] The initial face frame features.  
+[in] 有効にするFaceの機能。  
+複数の機能を有効にするには論理和(|)で繋げて指定する。
 
 *ppSource*    
 Type: IFaceFrameSource  
-[out] The face frame source.  
+[out] IFaceFrameSourceへのポインタのポインタ。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

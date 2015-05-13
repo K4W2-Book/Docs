@@ -1,7 +1,7 @@
 GetFaceModelTriangles  
 =====================  
 
-Gets the face model triangle vertices. <span id="syntaxSection"></span>
+顔モデルの三角形を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,17 +30,17 @@ Syntax
 
 *capacity*    
 Type: UINT32  
-The size of the triangleVertices array.  
+三角形の配列のサイズ。（2630）  
 
 *triangeVertices*    
 Type: UINT32  
-[out] An array in which the face model triangle vertices will be stored.  
+[out] 三角形の配列。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

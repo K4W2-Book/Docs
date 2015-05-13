@@ -1,7 +1,7 @@
 CreateFaceModel  
 ===============  
 
-Creates a face model. <span id="syntaxSection"></span>
+IFaceModelを作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -32,25 +32,25 @@ Syntax
 
 *scale*    
 Type: float  
-The scale of the model.  
+顔モデルの大きさ。  
 
 *capacity*    
 Type: UINT32  
-The size of the pDeformations array.  
+シェイプユニットの配列のサイズ。(FaceShapeDeformations_Count)  
 
 *pDeformations*    
 Type: float  
-[in] An array of face deformations.  
+[in] シェイプユニットの配列。  
 
 *ppFaceModel*    
 Type: IFaceModel  
-[out] The generated face model.  
+[out] IFaceModelへのポインタのポインタ。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 

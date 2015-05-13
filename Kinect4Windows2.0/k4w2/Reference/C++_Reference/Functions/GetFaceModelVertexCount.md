@@ -1,7 +1,7 @@
 GetFaceModelVertexCount  
 =======================  
 
-Gets the face model vertex count. <span id="syntaxSection"></span>
+顔モデルの頂点の数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *pVertexCount*    
 Type: UINT32  
-[out] The face model vertex count.  
+[out] 頂点の数。(1347)  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

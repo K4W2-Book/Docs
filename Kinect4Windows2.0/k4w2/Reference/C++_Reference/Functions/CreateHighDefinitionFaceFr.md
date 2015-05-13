@@ -1,7 +1,7 @@
 CreateHighDefinitionFaceFrameSource  
 ===================================  
 
-Creates a high definition face frame source. <span id="syntaxSection"></span>
+IHighDefinitionFaceFrameSourceを作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,17 +30,17 @@ Syntax
 
 *sensor*    
 Type: IKinectSensor  
-[in] The kinect sensor from which the source should be created.  
+[in] IHighDefinitionFaceFrameSourceを作成するセンサー。  
 
 *hdFaceFrameSource*    
 Type: IHighDefinitionFaceFrameSource  
-[out] The high definition face frame source.  
+[out] HighDefinitionFaceFrameSourceへのポインタのポインタ。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

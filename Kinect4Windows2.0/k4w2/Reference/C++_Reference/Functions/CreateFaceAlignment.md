@@ -1,7 +1,7 @@
 CreateFaceAlignment  
 ===================  
 
-Creates a face alignment. <span id="syntaxSection"></span>
+IFaceAlignmentを作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *ppFaceAlignment*    
 Type: IFaceAlignment  
-[out] The face alignment.  
+[out] IFaceAlignmentへのポインタのポインタ。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

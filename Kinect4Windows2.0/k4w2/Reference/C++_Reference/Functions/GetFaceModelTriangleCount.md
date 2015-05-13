@@ -1,7 +1,7 @@
 GetFaceModelTriangleCount  
 =========================  
 
-Gets the face model triangle count. <span id="syntaxSection"></span>
+顔モデルの三角形の数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *pTriangleCount*    
 Type: UINT32  
-[out] The face model triangle count.  
+[out] 三角形の数。（2630）  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
