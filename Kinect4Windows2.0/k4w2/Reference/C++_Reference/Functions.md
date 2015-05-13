@@ -86,7 +86,7 @@ Point Cloudデータを位置合わせして相対的なカメラ姿勢を計算
 [INuiFusionColorReconstruction](Interfaces/INuiFusionColorReconstruct.md)を作成する。  
 
 [NuiFusionCreateImageFrame](Functions/NuiFusionCreateImageFrame.md)    
-NUI_FUSION_IMAGE_FRAMEを作成する。  
+[NUI_FUSION_IMAGE_FRAME](Structures/NUI_FUSION_IMAGE_FRAME.md)を作成する。  
 
 [NuiFusionCreateReconstruction](Functions/NuiFusionCreateReconstruct.md)    
 [INuiFusionReconstruction](Interfaces/INuiFusionReconstruction.md)を作成する。  
