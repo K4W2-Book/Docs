@@ -9,10 +9,10 @@ Kinect Enumerations
 ===================  
 
 [Activity](Enumerations/Activity_Enumeration.md)    
-The available activity types.  
+Activityの種類。  
 
 [Appearance](Enumerations/Appearance_Enumeration.md)    
-The available appearance types.  
+Appearanceの種類。  
 
 [AudioBeamMode](Enumerations/AudioBeamMode_Enumeration.md)    
 Types of audio beam angle determination.  
@@ -21,7 +21,7 @@ Types of audio beam angle determination.
 The available color image formats.  
 
 [DetectionResult](Enumerations/DetectionResult_Enumeration.md)    
-Gesture detection result options.  
+顔の付随情報の検出結果。  
 
 [KinectEngagementMode](Enumerations/KinectEngagementMode.md)    
 Enumerates the modes in which engaged users can be tracked.  
@@ -77,32 +77,34 @@ Face Enumerations
 =================  
 
 [FaceAlignmentQuality Enumeration](Enumerations/FaceAlignmentQuality.md)    
-Face alignment quality levels.  
+顔の位置合わせの品質レベル。  
 
 [FaceFrameFeatures Enumeration](Enumerations/FaceFrameFeatures.md)    
-Flags that indicate the face frame features that are present.  
+Faceの機能を示すフラグ。  
 
 [FaceModelBuilderAttributes Enumeration](Enumerations/FaceModelBuilderAttributes.md)    
-Flags that indicate the attributes of a face model builder.  
+FaceModelBuilderの属性を示すフラグ。  
 
 [FaceModelBuilderCaptureStatus Enumeration](Enumerations/FaceModelBuilderCaptureSta.md)    
-Status of the face model builder capture.  
+FaceModelBuilderのキャプチャステータス。  
 
 [FaceModelBuilderCollectionStatus Enumeration](Enumerations/FaceModelBuilderCollection.md)    
-Status of the face model builder collection.  
+FaceModelBuilderのデータ収集ステータス。  
 
 [FacePointType Enumeration](Enumerations/FacePointType_Enumeration.md)    
-Face point types.  
+顔パーツの種類。  
 
 [FaceProperty Enumeration](Enumerations/FaceProperty_Enumeration.md)    
-Values that describe the state of a face.  
+顔の付随情報の種類。  
 
 [FaceShapeAnimations Enumeration](Enumerations/FaceShapeAnimations.md)    
+アニメーションユニット。  
 
 [FaceShapeDeformations Enumeration](Enumerations/FaceShapeDeformations.md)    
+シェイプユニット。  
 
 [HighDetailFacePoints Enumeration](Enumerations/HighDetailFacePoints.md)    
-High detail face points.  
+HDFaceの頂点リスト。  
 
 <span id="ID4EVD"></span>
 
@@ -110,10 +112,10 @@ Fusion Enumerations
 ===================  
 
 [NUI\_FUSION\_RECONSTRUCTION\_PROCESSOR\_TYPE Enumeration](Enumerations/NUI_FUSION_RECONSTRUCTION.md)    
-Specifies reconstruction processing modes.  
+Kinect Fusionの3次元形状の再構成処理を行うプロセッサ。  
 
 [NUI\_FUSION\_IMAGE\_TYPE Enumeration](Enumerations/NUI_FUSION_IMAGE_TYPE.md)    
-Specifies the image type of a fusion image.  
+Kinect Fusionの入出力に利用する画像バッファの種類。  
 
 <span id="ID4EAE"></span>
 
@@ -121,7 +123,7 @@ Visual Gesture Builder Enumerations
 ===================================  
 
 [GestureType Enumeration](Enumerations/GestureType_Enumeration.md)    
-Specifies the type of a gesture.  
+ジェスチャーの種類。  
 
 
 
