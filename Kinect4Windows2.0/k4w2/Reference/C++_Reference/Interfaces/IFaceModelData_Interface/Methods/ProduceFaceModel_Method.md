@@ -1,7 +1,7 @@
 IFaceModelData::ProduceFaceModel Method  
 =======================================  
 
-Produces a face model. <span id="syntaxSection"></span>
+顔形状データから顔モデルを生成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT ProduceFaceModel(
 
 *faceModel*    
 Type: IFaceModel  
-[out] A face model.  
+[out] IFaceModelのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

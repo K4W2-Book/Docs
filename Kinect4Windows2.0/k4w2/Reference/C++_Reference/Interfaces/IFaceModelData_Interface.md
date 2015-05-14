@@ -1,7 +1,7 @@
 IFaceModelData Interface  
 ========================  
 
-Represents face model data. <span id="syntaxSection"></span>
+顔形状データ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IFaceModelData_Interface/Methods/ProduceFaceModel_Method.md">ProduceFaceModel</a></td>
-<td align="left">Produces a face model.</td>
+<td align="left">顔形状データから顔モデルを生成する。</td>
 </tr>
 </tbody>
 </table>
