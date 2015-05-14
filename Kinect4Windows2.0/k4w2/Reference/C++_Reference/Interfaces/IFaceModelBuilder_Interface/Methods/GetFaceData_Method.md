@@ -30,7 +30,7 @@ HRESULT GetFaceData(
 
 *faceModelData*    
 Type: IFaceModelData  
-[out] 収集した顔形状データ。  
+[out] IFaceModelDataのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
