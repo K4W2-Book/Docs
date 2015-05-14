@@ -1,7 +1,7 @@
 IFaceFrameResult::get\_FaceBoundingBoxInInfraredSpace Method  
 ============================================================  
 
-Gets the face bounding box in infrared space. <span id="syntaxSection"></span>
+顔を囲むバウンディングボックス(Depth座標系)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FaceBoundingBoxInInfraredSpace(
 
 *boundingBox*    
 Type: RectI  
-[out] The face bounding box in color space.  
+[out] 顔を囲むバウンディングボックス(Depth座標系)  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

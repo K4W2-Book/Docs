@@ -1,7 +1,7 @@
 IFaceFrameResult Interface  
 ==========================  
 
-Represents a face frame result. <span id="syntaxSection"></span>
+Faceフレームの結果。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IFaceFrameResult** has the following members.  
+**IFaceFrameResult**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -47,40 +47,40 @@ Methods
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="IFaceFrameResult_Interface/Methods/get.md">get_FaceBoundingBoxInColorSpace</a></td>
-<td align="left">Gets the face bounding box in color space.</td>
+<td align="left"><a href="IFaceFrameResult_Interface/Methods/get_FaceBoundingBoxInColorSpace.md">get_FaceBoundingBoxInColorSpace</a></td>
+<td align="left">顔を囲むバウンディングボックス(Color座標系)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrameResult_Interface/Methods/get.md">get_FaceBoundingBoxInInfraredSpace</a></td>
-<td align="left">Gets the face bounding box in infrared space.</td>
+<td align="left">顔を囲むバウンディングボックス(Depth座標系)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameResult_Interface/Methods/get_FaceFrameFeatures_Method.md">get_FaceFrameFeatures</a></td>
-<td align="left">Gets the face frame features.</td>
+<td align="left">Faceフレームの有効な機能を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrameResult_Interface/Methods/get_FaceRotationQuaternion.md">get_FaceRotationQuaternion</a></td>
-<td align="left">Gets the quaternion representing the face rotation.</td>
+<td align="left">顔の回転方向(クォータニオン)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameResult_Interface/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the timestamp of the face frame result.</td>
+<td align="left">Faceフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrameResult_Interface/Methods/get_TrackingId_Method.md">get_TrackingId</a></td>
-<td align="left">Gets the tracking ID of the face frame result.</td>
+<td align="left">トラッキングIDを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameResult_Interface/Methods/GetFacePointsInColorSpace.md">GetFacePointsInColorSpace</a></td>
-<td align="left">Gets the face points in color space.</td>
+<td align="left">顔パーツ(左右目、鼻、左右口角)の位置(Color座標系)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrameResult_Interface/Methods/GetFacePointsInInfraredSpace.md">GetFacePointsInInfraredSpace</a></td>
-<td align="left">Gets the face points in infrared space.</td>
+<td align="left">顔パーツ(左右目、鼻、左右口角)の位置(Depth座標系)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameResult_Interface/Methods/GetFaceProperties_Method.md">GetFaceProperties</a></td>
-<td align="left">Gets the face properties.</td>
+<td align="left">顔の付随情報を取得する。</td>
 </tr>
 </tbody>
 </table>

@@ -1,7 +1,7 @@
 IFaceFrameResult::get\_FaceFrameFeatures Method  
 ===============================================  
 
-Gets the face frame features. <span id="syntaxSection"></span>
+Faceフレームの有効な機能を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FaceFrameFeatures(
 
 *faceFrameFeatures*    
 Type: DWORD  
-[out] The face frame features.  
+[out] Faceフレームの有効な機能。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

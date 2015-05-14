@@ -1,7 +1,7 @@
 IFaceFrameResult::GetFaceProperties Method  
 ==========================================  
 
-Gets the face properties. <span id="syntaxSection"></span>
+顔の付随情報を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetFaceProperties(
 
 *capacity*    
 Type: UINT  
-[in] The size of the detectionResults array.  
+[in] 顔の付随情報の配列のサイズ。(8)  
 
 *detectionResults*    
 Type: DetectionResult  
-[out] The array in which the detection results will be stored.  
+[out] 顔の付随情報の配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

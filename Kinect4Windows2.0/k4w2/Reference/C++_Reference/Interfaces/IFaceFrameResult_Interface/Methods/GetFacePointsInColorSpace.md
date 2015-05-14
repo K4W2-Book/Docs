@@ -1,7 +1,7 @@
 IFaceFrameResult::GetFacePointsInColorSpace Method  
 ==================================================  
 
-Gets the face points in color space. <span id="syntaxSection"></span>
+顔パーツ(左右目、鼻、左右口角)の位置(Color座標系)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetFacePointsInColorSpace(
 
 *capacity*    
 Type: UINT  
-[in] The size of the facePoints array.  
+[in] 顔パーツの位置の配列のサイズ。(5)  
 
 *facePoints*    
 Type: PointF  
-[out] The array in which the face points will be stored.  
+[out] 顔パーツ(左右目、鼻、左右口角)の位置(Color座標系)の配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
