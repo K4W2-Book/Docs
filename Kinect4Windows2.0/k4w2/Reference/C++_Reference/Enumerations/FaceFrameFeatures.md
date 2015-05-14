@@ -1,7 +1,7 @@
 FaceFrameFeatures Enumeration  
 =============================  
 
-Faceの機能を示すフラグ。 <span id="syntaxSection"></span>
+Faceフレームの機能を示すフラグ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

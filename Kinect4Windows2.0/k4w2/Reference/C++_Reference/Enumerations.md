@@ -80,7 +80,7 @@ Face Enumerations
 顔の位置合わせの品質レベル。  
 
 [FaceFrameFeatures Enumeration](Enumerations/FaceFrameFeatures.md)    
-Faceの機能を示すフラグ。  
+Faceフレームの機能を示すフラグ。  
 
 [FaceModelBuilderAttributes Enumeration](Enumerations/FaceModelBuilderAttributes.md)    
 FaceModelBuilderの属性を示すフラグ。  
