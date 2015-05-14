@@ -1,7 +1,7 @@
 ICollectionStatusChangedEventArgs Interface  
 ===========================================  
 
-[IFaceModelBuilder Interface](IFaceModelBuilder_Interface.md)のデータ収集ステータスの変更イベント。 <span id="syntaxSection"></span>
+[IFaceModelBuilder Interface](IFaceModelBuilder_Interface.md)のデータ収集ステータスの変更イベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

@@ -1,7 +1,7 @@
 IFaceFrameArrivedEventArgs Interface  
 ====================================  
 
-Faceフレームの取得イベント。 <span id="syntaxSection"></span>
+Faceフレームのイベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
