@@ -1,7 +1,7 @@
 IFaceFrameSource::get\_IsTrackingIdValid Method  
 ===============================================  
 
-Gets a value that indicates if the tracking ID of the face frame source is valid. <span id="syntaxSection"></span>
+トラッキングIDが有効であるかを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_IsTrackingIdValid(
 
 *isTrackingIdValid*    
 Type: BOOLEAN  
-[out] A value that indicates if the tracking ID of the face frame source is valid.  
+[out] トラッキングIDが有効の場合は**true**、無効の場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

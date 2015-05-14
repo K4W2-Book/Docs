@@ -1,7 +1,7 @@
 IFaceFrameSource::put\_FaceFrameFeatures Method  
 ===============================================  
 
-Sets the flags that indicate which face frame features data are present in this face frame. <span id="syntaxSection"></span>
+Faceフレームの機能を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT put_FaceFrameFeatures(
 
 *faceFrameFeatures*    
 Type: DWORD  
-[in] The flags that indicate which face frame features data are present in this face frame.  
+[in] 有効にするFaceフレームの機能。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

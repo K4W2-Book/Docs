@@ -1,7 +1,7 @@
 IFaceFrameSource Interface  
 ==========================  
 
-Represents a FaceFrameSource. <span id="syntaxSection"></span>
+FaceフレームのSource。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IFaceFrameSource** has the following members.  
+**IFaceFrameSource**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,47 +48,47 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/get_FaceFrameFeatures_Method.md">get_FaceFrameFeatures</a></td>
-<td align="left">Gets the flags that indicate which face frame features data are present in this face frame.</td>
+<td align="left">Faceフレームの有効な機能を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/get_IsActive_Method.md">get_IsActive</a></td>
-<td align="left">Gets the current activity status of this face frame source.</td>
+<td align="left">FaceフレームのSourceの動作状況を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/get_IsTrackingIdValid_Method.md">get_IsTrackingIdValid</a></td>
-<td align="left">Gets a value that indicates if the tracking ID of the face frame source is valid.</td>
+<td align="left">トラッキングIDが有効であるかを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/get_KinectSensor_Method.md">get_KinectSensor</a></td>
-<td align="left">Gets the Kinect sensor associated with the face frame source.</td>
+<td align="left">FaceフレームのSourceを取得したセンサーを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/get_TrackingId_Method.md">get_TrackingId</a></td>
-<td align="left">Gets the tracking ID for the face frame source.</td>
+<td align="left">トラッキングIDを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/GetTrackingIdLostEventData.md">GetTrackingIdLostEventData</a></td>
-<td align="left">Gets the event data from a tracking ID lost frame event.</td>
+<td align="left">トラッキングIDがロストしたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the face frame source.</td>
+<td align="left">FaceフレームのReaderを開く。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/put_FaceFrameFeatures_Method.md">put_FaceFrameFeatures</a></td>
-<td align="left">Sets the flags that indicate which face frame features data are present in this face frame.</td>
+<td align="left">Faceフレームの機能を設定する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/put_TrackingId_Method.md">put_TrackingId</a></td>
-<td align="left">Sets the tracking ID of the face frame source.</td>
+<td align="left">トラッキングIDを設定する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/SubscribeTrackingIdLost.md">SubscribeTrackingIdLost</a></td>
-<td align="left">Subscribes to the specified event handler to the tracking ID lost event.</td>
+<td align="left">トラッキングIDがロストしたとき発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameSource_Interface/Methods/UnsubscribeTrackingIdLost.md">UnsubscribeTrackingIdLost</a></td>
-<td align="left">Unsubscribes the specified event handler that processes new frames.</td>
+<td align="left">トラッキングIDがロストしたとき発効するイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

@@ -1,7 +1,7 @@
 IFaceFrameSource::GetTrackingIdLostEventData Method  
 ===================================================  
 
-Gets the event data from a tracking ID lost frame event. <span id="syntaxSection"></span>
+トラッキングIDがロストしたとき、イベントデータを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetTrackingIdLostEventData(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] The handle to the event handler.  
+[in] トラッキングIDがロストしたとき発効するイベントハンドル。  
 
 *eventData*    
 Type: ITrackingIdLostEventArgs  
-[out] The event data.  
+[out] トラッキングIDがロストしたときのイベントデータ。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
