@@ -1,7 +1,7 @@
 IFaceModelBuilder::get\_CollectionStatus Method  
 ===============================================  
 
-Gets the status of the face model builder collection. <span id="syntaxSection"></span>
+データ収集ステータスを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_CollectionStatus(
 
 *currrentCollectionStatus*    
 Type: FaceModelBuilderCollectionStatus  
-[out] The status of the face model builder collection.  
+[out] データ収集ステータス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

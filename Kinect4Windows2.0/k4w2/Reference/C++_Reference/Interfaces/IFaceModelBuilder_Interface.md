@@ -1,7 +1,7 @@
 IFaceModelBuilder Interface  
 ===========================  
 
-Represents a face model builder. <span id="syntaxSection"></span>
+FaceModelBuilder。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IFaceModelBuilder** has the following members.  
+**IFaceModelBuilder**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,47 +48,47 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/BeginFaceDataCollection.md">BeginFaceDataCollection</a></td>
-<td align="left">Begins the collection of face data.</td>
+<td align="left">顔モデルのフィッティングに必要な顔形状データの収集を開始する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/CollectFaceDataAsync_Method.md">CollectFaceDataAsync</a></td>
-<td align="left">Collects face data asynchronously.</td>
+<td align="left">非同期で顔形状データを収集する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/get_CaptureStatus_Method.md">get_CaptureStatus</a></td>
-<td align="left">Gets the capture status of the face model builder.</td>
+<td align="left">キャプチャステータスを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/get_CollectionStatus_Method.md">get_CollectionStatus</a></td>
-<td align="left">Gets the status of the face model builder collection.</td>
+<td align="left">データ収集ステータスを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/GetCaptureStatusChangedEve.md">GetCaptureStatusChangedEventData</a></td>
-<td align="left">Gets data for the CaptureStatusChanged event.</td>
+<td align="left">キャプチャステータスが変更されたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/GetCollectionStatusChanged.md">GetCollectionStatusChangedEventData</a></td>
-<td align="left">Gets data for the CollectionStatusChanged event.</td>
+<td align="left">データ収集ステータスが変更されたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/GetFaceData_Method.md">GetFaceData</a></td>
-<td align="left">Gets the face model data.</td>
+<td align="left">収集した顔形状データを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/SubscribeCaptureStatusChan.md">SubscribeCaptureStatusChanged</a></td>
-<td align="left">Event handler to subscribe when the capture status changes.</td>
+<td align="left">キャプチャステータスが変更されたとき発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/SubscribeCollectionStatusC.md">SubscribeCollectionStatusChanged</a></td>
-<td align="left">Event handler to subscribe when the collection status changes.</td>
+<td align="left">データ収集ステータスが変更されたとき発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/UnsubscribeCaptureStatusCh.md">UnsubscribeCaptureStatusChanged</a></td>
-<td align="left">Unsubscribes an event handler from the CaptureStatusChanged event.</td>
+<td align="left">キャプチャステータスが変更されたとき発効するイベントハンドルを解除する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceModelBuilder_Interface/Methods/UnsubscribeCollectionStatu.md">UnsubscribeCollectionStatusChanged</a></td>
-<td align="left">Unsubscribes an event handler from the CollectionStatusChanged event.</td>
+<td align="left">データ収集ステータスが変更されたとき発効するイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

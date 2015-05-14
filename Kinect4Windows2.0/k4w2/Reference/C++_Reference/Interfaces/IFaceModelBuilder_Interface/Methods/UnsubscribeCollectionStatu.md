@@ -1,7 +1,7 @@
 IFaceModelBuilder::UnsubscribeCollectionStatusChanged Method  
 ============================================================  
 
-Unsubscribes an event handler from the CollectionStatusChanged event. <span id="syntaxSection"></span>
+データ収集ステータスが変更されたとき発効するイベントハンドルを解除する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT UnsubscribeCollectionStatusChanged(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] Handle of the event handler.  
+[in] データ収集ステータスが変更されたとき発効するイベントハンドル。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

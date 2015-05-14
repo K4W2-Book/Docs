@@ -1,7 +1,7 @@
 IFaceModelBuilder::get\_CaptureStatus Method  
 ============================================  
 
-Gets the capture status of the face model builder. <span id="syntaxSection"></span>
+キャプチャステータスを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_CaptureStatus(
 
 *currentCaptureStatus*    
 Type: FaceModelBuilderCaptureStatus  
-[out] The capture status of the face model builder.  
+[out] キャプチャステータス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

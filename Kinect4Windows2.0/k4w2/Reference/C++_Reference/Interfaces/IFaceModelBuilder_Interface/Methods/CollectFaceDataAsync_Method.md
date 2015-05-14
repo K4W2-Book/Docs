@@ -1,7 +1,7 @@
 IFaceModelBuilder::CollectFaceDataAsync Method  
 ==============================================  
 
-Collects face data asynchronously. <span id="syntaxSection"></span>
+非同期で顔形状データを収集する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT CollectFaceDataAsync(
 
 **    
 Type: void  
-Void.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

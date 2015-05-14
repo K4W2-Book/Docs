@@ -1,7 +1,7 @@
 IFaceModelBuilder::GetFaceData Method  
 =====================================  
 
-Gets the face model data. <span id="syntaxSection"></span>
+収集した顔形状データを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT GetFaceData(
 
 *faceModelData*    
 Type: IFaceModelData  
-[out] The face model data.  
+[out] 収集した顔形状データ。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

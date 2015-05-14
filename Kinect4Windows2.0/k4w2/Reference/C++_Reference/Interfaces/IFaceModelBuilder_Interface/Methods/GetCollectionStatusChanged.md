@@ -1,7 +1,7 @@
 IFaceModelBuilder::GetCollectionStatusChangedEventData Method  
 =============================================================  
 
-Gets data for the CollectionStatusChanged event. <span id="syntaxSection"></span>
+データ収集ステータスが変更されたとき、イベントデータを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetCollectionStatusChangedEventData(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] The handle to the event.  
+[in] データ収集ステータスが変更されたとき発行するイベントハンドル。  
 
 *eventData*    
 Type: ICollectionStatusChangedEventArgs  
-[out] The event data.  
+[out] データ収集ステータスが変更されたときのイベントデータ。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

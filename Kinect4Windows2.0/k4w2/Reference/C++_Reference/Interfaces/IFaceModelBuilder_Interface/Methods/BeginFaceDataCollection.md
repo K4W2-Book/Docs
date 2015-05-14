@@ -1,7 +1,7 @@
 IFaceModelBuilder::BeginFaceDataCollection Method  
 =================================================  
 
-Begins the collection of face data. <span id="syntaxSection"></span>
+顔モデルのフィッティングに必要な顔形状データの収集を開始する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT BeginFaceDataCollection(
 
 **    
 Type: void  
-Does not return a value.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
