@@ -266,7 +266,7 @@ Represents a high definition face frame.
 [IHighDefinitionFaceFrameArrivedEventArgs Interface](Interfaces/IHighDefinitionFaceFrameAr.md)    
 Arguments for high definition face frame events.  
 
-[IHighDefinitionFaceFrameReader Interface](Interfaces/IHighDefinitionFaceFrameRe.md)    
+[IHighDefinitionFaceFrameReader Interface](Interfaces/IHighDefinitionFaceFrameReader_Interface.md)    
 Represents a high definition face frame reader.  
 
 [IHighDefinitionFaceFrameReference Interface](Interfaces/IHighDefinitionFaceFrameRe.md)    
