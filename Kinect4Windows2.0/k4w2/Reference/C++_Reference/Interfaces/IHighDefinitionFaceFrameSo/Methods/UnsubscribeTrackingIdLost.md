@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrameSource::UnsubscribeTrackingIdLost Method  
 ================================================================  
 
-Unsubscribes the specified event handler that processes new frames. <span id="syntaxSection"></span>
+トラッキングIDがロストしたとき発効するイベントハンドルを解除する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT UnsubscribeTrackingIdLost(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] The handle to the subscribed event handler.  
+[in] トラッキングIDがロストしたとき発効するイベントハンドル。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

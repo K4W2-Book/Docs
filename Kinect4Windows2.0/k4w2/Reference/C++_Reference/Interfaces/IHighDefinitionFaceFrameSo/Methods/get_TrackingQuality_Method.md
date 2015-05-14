@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrameSource::get\_TrackingQuality Method  
 ===========================================================  
 
-Gets the tracking quality. <span id="syntaxSection"></span>
+顔のトラッキング品質を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_TrackingQuality(
 
 *trackingQuality*    
 Type: FaceAlignmentQuality  
-[out] The tracking quality.  
+[out] 顔のトラッキング品質。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

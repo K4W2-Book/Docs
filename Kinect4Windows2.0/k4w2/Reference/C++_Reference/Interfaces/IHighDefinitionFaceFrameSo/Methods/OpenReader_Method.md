@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrameSource::OpenReader Method  
 =================================================  
 
-Creates a frame reader for the high definition face frame source. <span id="syntaxSection"></span>
+HDFaceフレームのReaderを開く。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -19,7 +19,7 @@ Syntax
 <tr class="odd">
 <td align="left"><pre><code>public:  
 HRESULT OpenReader(  
-         IHighDefinitionFaceFrameReader **reader  
+         IHighDefinitionFaceFrameReader **highDefinitionFaceFrameReader  
 )</code></pre></td>
 </tr>
 </tbody>
@@ -28,15 +28,15 @@ HRESULT OpenReader(
 <span id="ID4EG"></span>
 #### Parameters  
 
-*reader*    
+*highDefinitionFaceFrameReader*    
 Type: IHighDefinitionFaceFrameReader  
-[out] A new frame reader for the high definition face frame source.  
+[out] IHighDefinitionFaceFrameReaderのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

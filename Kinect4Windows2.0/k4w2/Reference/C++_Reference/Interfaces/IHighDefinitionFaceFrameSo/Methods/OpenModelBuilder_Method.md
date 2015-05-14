@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrameSource::OpenModelBuilder Method  
 =======================================================  
 
-Opens a new model builder. <span id="syntaxSection"></span>
+FaceModelBuilderを開く。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT OpenModelBuilder(
 
 *modelbuilder*    
 Type: IFaceModelBuilder  
-[out] A new face model builder.  
+[out] IFaceModelBuilderのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

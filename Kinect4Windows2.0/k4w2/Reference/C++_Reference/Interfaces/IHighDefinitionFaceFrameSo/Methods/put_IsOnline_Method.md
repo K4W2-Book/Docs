@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrameSource::put\_IsOnline Method  
 ====================================================  
 
-Sets the current activity status of this source. <span id="syntaxSection"></span>
+HDFaceフレームのSourceのオンラインステータスを設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT put_IsOnline(
 
 *isOnline*    
 Type: BOOLEAN  
-True if the source is active; otherwise false.  
+HDFaceフレームのSourceをオンラインに設定する場合は**true**、オフラインに設定する場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

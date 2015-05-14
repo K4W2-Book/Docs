@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrameSource::FeedAndCalculateFrameData Method  
 ================================================================  
 
-Calculates frame data for the high definition face frame source. <span id="syntaxSection"></span>
+HDFaceフレームを計算する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -36,37 +36,37 @@ HRESULT FeedAndCalculateFrameData(
 
 *body*    
 Type: IBody  
-[in] The body to use for the calculation.  
+[in] 計算に使用するBodyデータ。  
 
 *infraredCapacity*    
 Type: UINT  
-The size of the infrared frame buffer.  
+Infrared画像バッファのサイズ。  
 
 *infraredFrameBuffer*    
 Type: UINT16  
-[in] The infrared frame buffer to use for the calculation.  
+[in] 計算に使用するInfrared画像バッファ。  
 
 *colorCapacity*    
 Type: UINT  
-The size of the color frame buffer.  
+Color画像バッファのサイズ。  
 
 *colorFrameBuffer*    
 Type: BYTE  
-[in] The color frame buffer to use for the calculation.  
+[in] 計算に使用するColor画像バッファ。  
 
 *depthCapacity*    
 Type: UINT  
-The size of the depth frame buffer.  
+Depth画像バッファのサイズ。  
 
 *depthFrameBuffer*    
 Type: UINT16  
-[in] The depth frame buffer to use for the calculation.  
+[in] 計算に使用するDepth画像バッファ。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

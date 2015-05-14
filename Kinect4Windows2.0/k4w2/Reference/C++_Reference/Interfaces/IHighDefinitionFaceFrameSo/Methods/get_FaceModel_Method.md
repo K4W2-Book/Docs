@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrameSource::get\_FaceModel Method  
 =====================================================  
 
-Gets the face model for the frame source. <span id="syntaxSection"></span>
+顔モデルを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FaceModel(
 
 *faceModel*    
 Type: IFaceModel  
-[out] The face model for the frame source.  
+[out] IFaceModelのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

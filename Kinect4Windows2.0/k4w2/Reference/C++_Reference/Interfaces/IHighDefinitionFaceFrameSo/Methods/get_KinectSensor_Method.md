@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrameSource::get\_KinectSensor Method  
 ========================================================  
 
-Gets the Kinect sensor associated with the high definition frame source. <span id="syntaxSection"></span>
+HDFaceフレームのSourceを取得したセンサーを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_KinectSensor(
 
 *sensor*    
 Type: IKinectSensor  
-[out] The Kinect sensor associated with the high definition face frame source.  
+[out] IKinectSensorのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
