@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrameReader::AcquireLatestFrame Method  
 =========================================================  
 
-Gets the most recent high definition face frame. <span id="syntaxSection"></span>
+HDFaceフレームを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -19,7 +19,7 @@ Syntax
 <tr class="odd">
 <td align="left"><pre><code>public:  
 HRESULT AcquireLatestFrame(  
-         IHighDefinitionFaceFrame **faceFrame  
+         IHighDefinitionFaceFrame **hdFaceFrame  
 )</code></pre></td>
 </tr>
 </tbody>
@@ -28,15 +28,15 @@ HRESULT AcquireLatestFrame(
 <span id="ID4EG"></span>
 #### Parameters  
 
-*faceFrame*    
+*hdFaceFrame*    
 Type: IHighDefinitionFaceFrame  
-[out] The most recent high definition face frame.  
+[out] IHighDefinitionFaceFrameのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
