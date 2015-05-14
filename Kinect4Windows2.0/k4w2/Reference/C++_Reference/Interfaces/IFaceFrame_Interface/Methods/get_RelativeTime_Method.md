@@ -1,7 +1,7 @@
 IFaceFrame::get\_RelativeTime Method  
 ====================================  
 
-フレームを取得した時間(相対時間)を取得する。 <span id="syntaxSection"></span>
+Faceフレームを取得した時間(相対時間)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,7 +30,7 @@ HRESULT get_RelativeTime(
 
 *relativeTime*    
 Type: TIMESPAN  
-[out] フレームを取得した時間(相対時間)。  
+[out] Faceフレームを取得した時間(相対時間)。  
 
 <span id="ID4EP"></span>
 #### Return value  

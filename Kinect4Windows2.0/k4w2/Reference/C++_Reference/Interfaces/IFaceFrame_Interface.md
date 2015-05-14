@@ -76,7 +76,7 @@ Methods
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">フレームを取得した時間(相対時間)を取得する。</td>
+<td align="left">Faceフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_TrackingId_Method.md">get_TrackingId</a></td>
