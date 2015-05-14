@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IFaceModelData** has the following members.  
+**IFaceModelData**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
