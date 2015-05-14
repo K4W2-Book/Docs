@@ -19,7 +19,7 @@ Syntax
 <tr class="odd">
 <td align="left"><pre><code>public:  
 HRESULT AcquireLatestFrame(  
-         IHighDefinitionFaceFrame **hdFaceFrame  
+         IHighDefinitionFaceFrame **highDefinitonFaceFrame  
 )</code></pre></td>
 </tr>
 </tbody>
@@ -28,7 +28,7 @@ HRESULT AcquireLatestFrame(
 <span id="ID4EG"></span>
 #### Parameters  
 
-*hdFaceFrame*    
+*highDefinitonFaceFrame*    
 Type: IHighDefinitionFaceFrame  
 [out] IHighDefinitionFaceFrameのポインタのアドレス。  
 

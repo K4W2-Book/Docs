@@ -19,7 +19,7 @@ Syntax
 <tr class="odd">
 <td align="left"><pre><code>public:  
 HRESULT get_HighDefinitionFaceFrameSource(  
-         IHighDefinitionFaceFrameSource **hdFaceFrameSource  
+         IHighDefinitionFaceFrameSource **highDefinitonFaceFrameSource  
 )</code></pre></td>
 </tr>
 </tbody>
@@ -28,7 +28,7 @@ HRESULT get_HighDefinitionFaceFrameSource(
 <span id="ID4EG"></span>
 #### Parameters  
 
-*hdFaceFrameSource*    
+*highDefinitonFaceFrameSource*    
 Type: IHighDefinitionFaceFrameSource  
 [out] IHighDefinitionFaceFrameSourceのポインタのアドレス。  
 
