@@ -1,7 +1,7 @@
 IFaceFrameArrivedEventArgs Interface  
 ====================================  
 
-Arguments for FaceFrameReader events. <span id="syntaxSection"></span>
+Faceフレームの取得イベント。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IFaceFrameArrivedEventArgs** has the following members.  
+**IFaceFrameArrivedEventArgs**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IFaceFrameArrivedEventArgs/Methods/get_FrameReference_Method.md">get_FrameReference</a></td>
-<td align="left">Gets the frame reference.</td>
+<td align="left">FaceフレームのReferenceを取得する。</td>
 </tr>
 </tbody>
 </table>
