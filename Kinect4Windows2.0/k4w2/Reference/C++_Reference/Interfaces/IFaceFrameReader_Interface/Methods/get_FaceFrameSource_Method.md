@@ -1,7 +1,7 @@
 IFaceFrameReader::get\_FaceFrameSource Method  
 =============================================  
 
-Gets the source of the face frames. <span id="syntaxSection"></span>
+FaceフレームのSourceを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FaceFrameSource(
 
 *faceFrameSource*    
 Type: IFaceFrameSource  
-[out] The source of the face frames.  
+[out] IFaceFrameSourceのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
