@@ -1,7 +1,7 @@
 ITrackingIdLostEventArgs Interface  
 ==================================  
 
-Provides data for the TrackingIdLost event. <span id="syntaxSection"></span>
+トラッキングIDがロストしたときのイベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**ITrackingIdLostEventArgs** has the following members.  
+**ITrackingIdLostEventArgs**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ITrackingIdLostEventArgs/Methods/get_TrackingId_Method.md">get_TrackingId</a></td>
-<td align="left">Gets the tracking ID that was lost.</td>
+<td align="left">ロストしたトラッキングIDを取得する。</td>
 </tr>
 </tbody>
 </table>
