@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrameReference::AcquireFrame Method  
 ======================================================  
 
-Gets the actual high definition face frame from the reference. <span id="syntaxSection"></span>
+HDFaceフレームを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT AcquireFrame(
 
 *highDefinitonFaceFrame*    
 Type: IHighDefinitionFaceFrame  
-[out] The actual high definition face frame from the reference.  
+[out] IHighDefinitionFaceFrameのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。Returns S\_OK if successful; otherwise, returns a failure code.  
 
 <span id="requirements"></span>
 
