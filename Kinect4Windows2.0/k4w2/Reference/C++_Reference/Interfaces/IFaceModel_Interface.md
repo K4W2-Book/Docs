@@ -1,7 +1,7 @@
 IFaceModel Interface  
 ====================  
 
-Represents a face model. <span id="syntaxSection"></span>
+顔モデル。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IFaceModel** has the following members.  
+**IFaceModel**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,23 +48,23 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IFaceModel_Interface/Methods/CalculateVerticesForAlignm.md">CalculateVerticesForAlignment</a></td>
-<td align="left">Calculates vertices for alignment.</td>
+<td align="left">位置合わせされた顔モデルから頂点の座標(Camera座標系)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceModel_Interface/Methods/get_HairColor_Method.md">get_HairColor</a></td>
-<td align="left">Gets the hair color.</td>
+<td align="left">髪の色を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceModel_Interface/Methods/get_Scale_Method.md">get_Scale</a></td>
-<td align="left">Gets the scaling factor.</td>
+<td align="left">顔モデルの相対的なスケールを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceModel_Interface/Methods/get_SkinColor_Method.md">get_SkinColor</a></td>
-<td align="left">Gets the skin color.</td>
+<td align="left">肌の色を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceModel_Interface/Methods/GetFaceShapeDeformations.md">GetFaceShapeDeformations</a></td>
-<td align="left">Gets a collection of face shape deformations.</td>
+<td align="left">シェイプユニットを取得する。</td>
 </tr>
 </tbody>
 </table>

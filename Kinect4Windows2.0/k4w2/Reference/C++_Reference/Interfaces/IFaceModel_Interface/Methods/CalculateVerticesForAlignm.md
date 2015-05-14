@@ -1,7 +1,7 @@
 IFaceModel::CalculateVerticesForAlignment Method  
 ================================================  
 
-Calculates vertices for alignment. <span id="syntaxSection"></span>
+位置合わせされた顔モデルから頂点の座標(Camera座標系)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -32,28 +32,28 @@ HRESULT CalculateVerticesForAlignment(
 
 *faceAlignment*    
 Type: IFaceAlignment  
-The face alignment.  
+IFaceAlignmentのアドレス。  
 
 *capacity*    
 Type: UINT  
-The size of the vertices array.  
+顔モデルの頂点の配列のサイズ。(1347)  
 
 *vertices*    
 Type: CameraSpacePoint  
-[out] The array in which the vertices will be stored.  
+[out] 顔モデルの頂点(Camera座標系)の配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-There are 1347 vertices for the HD Face model. The array should be initialized with that amount of elements.  
+HDFaceの顔モデルは1347点の頂点で構成されています。<br/>受け取る配列は頂点数のサイズを確保する必要があります。  
 
 <span id="requirements"></span>
 

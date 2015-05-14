@@ -1,7 +1,9 @@
 IFaceModel::get\_SkinColor Method  
 =================================  
 
-Gets the skin color. <span id="syntaxSection"></span>
+肌の色を取得する。  
+無効(X)、青(B)、緑(G)、赤(R)の順に上から各8bitずつ色が格納される。  
+有効な値はFaceModelBuilderでフィッティングされたあとに取得できる。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +32,31 @@ HRESULT get_SkinColor(
 
 *skinColor*    
 Type: UINT32  
-[out] The skin color.  
+[out] 肌の色。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
+
+<span id="remarks"></span>
+
+Remarks  
+=======  
+
+以下のように色の値(0~255)を取り出すことができる。
+
+<table>
+<td align="left"><pre><code>UINT32 skinColor;  
+HRESULT hr = faceModel->get_SkinColor( &skinColor ) );  
+if( SUCCEEDED( hr ) ){  
+    UCHAR blue  = ( skinColor & 0x00ff0000 ) >> 16;  
+    UCHAR green = ( skinColor & 0x0000ff00 ) >>  8;  
+    UCHAR red   = ( skinColor & 0x000000ff ) >>  0;  
+}  
+</code></pre>
+</table>
 
 <span id="requirements"></span>
 

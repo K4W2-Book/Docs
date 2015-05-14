@@ -1,7 +1,7 @@
 IFaceModel::GetFaceShapeDeformations Method  
 ===========================================  
 
-Gets a collection of face shape deformations. <span id="syntaxSection"></span>
+シェイプユニットを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetFaceShapeDeformations(
 
 *capacity*    
 Type: UINT32  
-The size of the faceShapeDeformations array.  
+シェイプユニットの配列のサイズ。(94)  
 
 *faceShapeDeformations*    
 Type: float  
-[out] The array in which the face shape deformations will be stored.  
+[out] シェイプユニットの配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

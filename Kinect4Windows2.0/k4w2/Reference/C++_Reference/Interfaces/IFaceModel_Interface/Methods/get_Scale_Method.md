@@ -1,7 +1,7 @@
 IFaceModel::get\_Scale Method  
 =============================  
 
-Gets the scaling factor. <span id="syntaxSection"></span>
+顔モデルの相対的なスケールを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_Scale(
 
 *scale*    
 Type: float  
-[out] The scaling factor.  
+[out] 顔モデルの相対的なスケール。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

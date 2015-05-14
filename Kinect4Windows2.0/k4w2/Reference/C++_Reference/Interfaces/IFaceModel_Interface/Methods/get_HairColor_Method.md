@@ -1,7 +1,9 @@
 IFaceModel::get\_HairColor Method  
 =================================  
 
-Gets the hair color. <span id="syntaxSection"></span>
+髪の色を取得する。  
+無効(X)、青(B)、緑(G)、赤(R)の順に上から各8bitずつ色が格納される。  
+有効な値はFaceModelBuilderでフィッティングされたあとに取得できる。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +32,31 @@ HRESULT get_HairColor(
 
 *hairColor*    
 Type: UINT32  
-[out] The hair color.  
+[out] 髪の色。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
+
+<span id="remarks"></span>
+
+Remarks  
+=======  
+
+以下のように色の値(0~255)を取り出すことができる。
+
+<table>
+<td align="left"><pre><code>UINT32 hairColor;  
+HRESULT hr = faceModel->get_HairColor( &hairColor ) );  
+if( SUCCEEDED( hr ) ){  
+    UCHAR blue  = ( hairColor & 0x00ff0000 ) >> 16;  
+    UCHAR green = ( hairColor & 0x0000ff00 ) >>  8;  
+    UCHAR red   = ( hairColor & 0x000000ff ) >>  0;  
+}  
+</code></pre>
+</table>
 
 <span id="requirements"></span>
 
