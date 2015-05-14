@@ -1,7 +1,7 @@
 IFaceFrame Interface  
 ====================  
 
-Represents face frame points. <span id="syntaxSection"></span>
+Faceフレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IFaceFrame** has the following members.  
+**IFaceFrame**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,39 +48,39 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_BodyFrameReference.md">get_BodyFrameReference</a></td>
-<td align="left">Gets the body frame reference.</td>
+<td align="left">BodyフレームのReferenceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_ColorFrameReference.md">get_ColorFrameReference</a></td>
-<td align="left">Gets the color frame reference.</td>
+<td align="left">ColorフレームのReferenceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_DepthFrameReference.md">get_DepthFrameReference</a></td>
-<td align="left">Gets the depth frame reference.</td>
+<td align="left">DepthフレームのReferenceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_FaceFrameResult_Method.md">get_FaceFrameResult</a></td>
-<td align="left">Gets the face frame result.</td>
+<td align="left">Faceフレームの結果を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_FaceFrameSource_Method.md">get_FaceFrameSource</a></td>
-<td align="left">Gets the face frame source.</td>
+<td align="left">FaceフレームのSourceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_InfraredFrameReference.md">get_InfraredFrameReference</a></td>
-<td align="left">Gets the infrared frame reference.</td>
+<td align="left">InfraredフレームのReferenceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_IsTrackingIdValid_Method.md">get_IsTrackingIdValid</a></td>
-<td align="left">Gets a boolean value indicating if the tracking ID is valid.</td>
+<td align="left">トラッキングIDが有効であるかを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the relative time of this frame.</td>
+<td align="left">フレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFaceFrame_Interface/Methods/get_TrackingId_Method.md">get_TrackingId</a></td>
-<td align="left">Gets the tracking ID.</td>
+<td align="left">トラッキングIDを取得する。</td>
 </tr>
 </tbody>
 </table>

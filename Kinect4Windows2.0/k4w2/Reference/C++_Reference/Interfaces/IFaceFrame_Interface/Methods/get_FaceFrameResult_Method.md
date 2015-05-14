@@ -1,7 +1,7 @@
 IFaceFrame::get\_FaceFrameResult Method  
 =======================================  
 
-Gets the face frame result. <span id="syntaxSection"></span>
+Faceフレームの結果を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,20 +30,20 @@ HRESULT get_FaceFrameResult(
 
 *faceFrameResult*    
 Type: IFaceFrameResult  
-[out] The face frame result.  
+[out] IFaceFrameResultのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-The return result can be null (even if S\_OK) and should be checked against nullptr.  
+取得したFaceフレームの結果は、戻り値がS\_OKの場合でもNULLの可能性があります。<br/>nullptrのチェックをする必要があります。  
 
 <span id="requirements"></span>
 
