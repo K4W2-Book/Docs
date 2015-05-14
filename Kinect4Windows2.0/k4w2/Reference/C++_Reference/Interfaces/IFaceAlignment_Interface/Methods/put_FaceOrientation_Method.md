@@ -1,7 +1,7 @@
 IFaceAlignment::put\_FaceOrientation Method  
 ===========================================  
 
-Sets a vector indicating the orientation of the face. <span id="syntaxSection"></span>
+顔の回転方向(クォータニオン)を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT put_FaceOrientation(
 
 *faceOrientation*    
 Type: Vector4  
-A vector indicating the orientation of the face.  
+顔の回転方向(クォータニオン)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

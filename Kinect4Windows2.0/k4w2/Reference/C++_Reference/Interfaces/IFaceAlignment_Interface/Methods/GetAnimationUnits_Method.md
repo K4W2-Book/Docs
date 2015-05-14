@@ -1,7 +1,7 @@
 IFaceAlignment::GetAnimationUnits Method  
 ========================================  
 
-Gets the animation units. <span id="syntaxSection"></span>
+顔のアニメーションユニットを取得する。<br/>アニメーションユニットは顔アバターのための各顔パーツの動きを表す。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetAnimationUnits(
 
 *capacity*    
 Type: UINT  
-The capacity of the array specified with the animationUnits parameter.  
+アニメーションユニットの配列のサイズ。(17)  
 
 *animationUnits*    
 Type: float  
-[out] The array that will be populated with animation units.  
+[out] アニメーションユニットの配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

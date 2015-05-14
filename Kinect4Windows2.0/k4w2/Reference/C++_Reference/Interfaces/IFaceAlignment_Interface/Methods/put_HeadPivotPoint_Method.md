@@ -1,7 +1,7 @@
 IFaceAlignment::put\_HeadPivotPoint Method  
 ==========================================  
 
-Sets the pivot point of the head. <span id="syntaxSection"></span>
+顔の回転軸の中心座標(Camera座標系)を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT put_HeadPivotPoint(
 
 *headPivotPoint*    
 Type: CameraSpacePoint  
-The pivot point of the head.  
+顔の回転軸の中心座標(Camera座標系)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

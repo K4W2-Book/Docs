@@ -1,7 +1,7 @@
 ICaptureStatusChangedEventArgs::get\_PreviousCaptureStatus Method  
 =================================================================  
 
-Gets the capture status from before the [IFaceModelBuilder Interface](../../IFaceModelBuilder_Interface.md) CaptureStatusChanged event. <span id="syntaxSection"></span>
+[IFaceModelBuilder Interface](../../IFaceModelBuilder_Interface.md)のキャプチャステータスが更新されたとき、ステータスを取得します。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_PreviousCaptureStatus(
 
 *pCaptureStatus*    
 Type: FaceModelBuilderCaptureStatus  
-[out] The previous capture status.  
+[out] FaceModelBuilderのキャプチャステータス。  
 
 <span id="ID4ET"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

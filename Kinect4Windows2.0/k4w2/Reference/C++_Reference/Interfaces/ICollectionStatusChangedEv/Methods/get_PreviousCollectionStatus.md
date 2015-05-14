@@ -1,7 +1,7 @@
 ICollectionStatusChangedEventArgs::get\_PreviousCollectionStatus Method  
 =======================================================================  
 
-Gets the capture status from before the [IFaceModelBuilder Interface](../../IFaceModelBuilder_Interface.md) CollectionStatusChanged event. <span id="syntaxSection"></span>
+[IFaceModelBuilder Interface](../../IFaceModelBuilder_Interface.md)のデータ収集ステータスが更新されたとき、ステータスを取得します。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_PreviousCollectionStatus(
 
 *pCollectionStatus*    
 Type: FaceModelBuilderCollectionStatus  
-[out] The previous capture status.  
+[out] FaceModelBuilderのデータ収集ステータス。  
 
 <span id="ID4ET"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

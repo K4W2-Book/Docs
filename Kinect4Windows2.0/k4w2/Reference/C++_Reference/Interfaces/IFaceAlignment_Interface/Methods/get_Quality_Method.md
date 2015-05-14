@@ -1,7 +1,7 @@
 IFaceAlignment::get\_Quality Method  
 ===================================  
 
-Gets the quality of the face alignment. <span id="syntaxSection"></span>
+顔の位置合わせの品質を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_Quality(
 
 *quality*    
 Type: FaceAlignmentQuality  
-[out] The quality of the face alignment.  
+[out] 顔の位置合わせの品質。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

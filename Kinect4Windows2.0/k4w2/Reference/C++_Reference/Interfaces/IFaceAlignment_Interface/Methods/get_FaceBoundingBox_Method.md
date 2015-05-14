@@ -1,7 +1,7 @@
 IFaceAlignment::get\_FaceBoundingBox Method  
 ===========================================  
 
-Gets the bounding box of the face. <span id="syntaxSection"></span>
+顔を囲むバウンディングボックス(Color座標系)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FaceBoundingBox(
 
 *boundingBox*    
 Type: RectI  
-[out] The bounding box of the face.  
+[out] 顔を囲むバウンディングボックス(Color座標系)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

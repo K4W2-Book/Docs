@@ -1,7 +1,7 @@
 ICollectionStatusChangedEventArgs Interface  
 ===========================================  
 
-Provides data for the [IFaceModelBuilder Interface](IFaceModelBuilder_Interface.md) CollectionStatusChanged event. <span id="syntaxSection"></span>
+[IFaceModelBuilder Interface](IFaceModelBuilder_Interface.md)のデータ収集ステータスの変更イベント。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**ICollectionStatusChangedEventArgs** has the following members.  
+**ICollectionStatusChangedEventArgs**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ICollectionStatusChangedEv/Methods/get_PreviousCollectionStatus.md">get_PreviousCollectionStatus</a></td>
-<td align="left">Gets the capture status from before the <a href="IFaceModelBuilder_Interface.md">IFaceModelBuilder Interface</a> CollectionStatusChanged event.</td>
+<td align="left"><a href="IFaceModelBuilder_Interface.md">IFaceModelBuilder Interface</a>のデータ収集ステータスが更新されたとき、ステータスを取得します。</td>
 </tr>
 </tbody>
 </table>
