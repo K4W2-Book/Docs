@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrame Interface  
 ==================================  
 
-Represents a high definition face frame. <span id="syntaxSection"></span>
+HDFaceフレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IHighDefinitionFaceFrame** has the following members.  
+**IHighDefinitionFaceFrame**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,51 +48,51 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get_BodyFrameReference.md">get_BodyFrameReference</a></td>
-<td align="left">Gets the body frame reference.</td>
+<td align="left">BodyフレームのReferenceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get_ColorFrameReference.md">get_ColorFrameReference</a></td>
-<td align="left">Gets the color frame reference.</td>
+<td align="left">ColorフレームのReferenceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get_DepthFrameReference.md">get_DepthFrameReference</a></td>
-<td align="left">Gets the depth frame reference.</td>
+<td align="left">DepthフレームのReferenceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get_FaceAlignmentQuality.md">get_FaceAlignmentQuality</a></td>
-<td align="left">Gets the face alignment quality.</td>
+<td align="left">顔の位置合わせの品質を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get_FaceModel_Method.md">get_FaceModel</a></td>
-<td align="left">Gets the face model.</td>
+<td align="left">顔モデルを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get.md">get_HighDefinitionFaceFrameSource</a></td>
-<td align="left">Gets the high definition face frame source.</td>
+<td align="left">HDFaceフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get_InfraredFrameReference.md">get_InfraredFrameReference</a></td>
-<td align="left">Gets the infrared frame reference.</td>
+<td align="left">InfraredフレームのReferenceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get_IsFaceTracked_Method.md">get_IsFaceTracked</a></td>
-<td align="left">Gets a boolean value indicating if the face is tracked.</td>
+<td align="left">顔のトラッキング状態を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get_IsTrackingIdValid_Method.md">get_IsTrackingIdValid</a></td>
-<td align="left">Gets a boolean value indicating if the tracking ID is valid.</td>
+<td align="left">トラッキングIDが有効であるかを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the relative time of this frame.</td>
+<td align="left">HDFaceフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/get_TrackingId_Method.md">get_TrackingId</a></td>
-<td align="left">Gets the tracking ID.</td>
+<td align="left">トラッキングIDを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IHighDefinitionFaceFrame/Methods/GetAndRefreshFaceAlignment.md">GetAndRefreshFaceAlignmentResult</a></td>
-<td align="left">Refreshes and gets the face alignment results.</td>
+<td align="left">位置合わせされた顔データを取得する。</td>
 </tr>
 </tbody>
 </table>

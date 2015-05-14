@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrame::get\_IsTrackingIdValid Method  
 =======================================================  
 
-Gets a boolean value indicating if the tracking ID is valid. <span id="syntaxSection"></span>
+トラッキングIDが有効であるかを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_IsTrackingIdValid(
 
 *isTrackingIdValid*    
 Type: BOOLEAN  
-[out] True if the tracking ID is valid; otherwise, false.  
+[out] トラッキングIDが有効の場合はtrue、無効の場合はfalse。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

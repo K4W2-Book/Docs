@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrame::get\_IsFaceTracked Method  
 ===================================================  
 
-Gets a boolean value indicating if the face is tracked. <span id="syntaxSection"></span>
+顔のトラッキング状態を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_IsFaceTracked(
 
 *isFaceTracked*    
 Type: BOOLEAN  
-[out] True if the face is tracked; otherwise, false.  
+[out] 顔がトラッキングされている場合はtrue、トラッキングされていない場合はfalse。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

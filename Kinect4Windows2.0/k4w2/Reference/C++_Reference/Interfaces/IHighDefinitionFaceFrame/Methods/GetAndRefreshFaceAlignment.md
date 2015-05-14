@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrame::GetAndRefreshFaceAlignmentResult Method  
 =================================================================  
 
-Refreshes and gets the face alignment results. <span id="syntaxSection"></span>
+位置合わせされた顔データを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT GetAndRefreshFaceAlignmentResult(
 
 *faceAlignmentResults*    
 Type: IFaceAlignment  
-[in] The face alignment results.  
+[in] IFaceAlignmentのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

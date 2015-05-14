@@ -1,7 +1,7 @@
 IHighDefinitionFaceFrame::get\_ColorFrameReference Method  
 =========================================================  
 
-Gets the color frame reference. <span id="syntaxSection"></span>
+ColorフレームのReferenceを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_ColorFrameReference(
 
 *colorFrameReference*    
 Type: IColorFrameReference  
-[out] The color frame reference.  
+[out] IColorFrameReferenceのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
