@@ -225,58 +225,58 @@ Face Interfaces
 ===============  
 
 [ICaptureStatusChangedEventArgs Interface](Interfaces/ICaptureStatusChangedEvent.md)    
-Provides data for the [IFaceModelBuilder Interface](Interfaces/IFaceModelBuilder_Interface.md) CaptureStatusChanged event.  
+[IFaceModelBuilder Interface](Interfaces/IFaceModelBuilder_Interface.md)のキャプチャステータスの変更イベントデータ。  
 
 [ICollectionStatusChangedEventArgs Interface](Interfaces/ICollectionStatusChangedEv.md)    
-Provides data for the [IFaceModelBuilder Interface](Interfaces/IFaceModelBuilder_Interface.md) CollectionStatusChanged event.  
+[IFaceModelBuilder Interface](Interfaces/IFaceModelBuilder_Interface.md)のデータ収集ステータスの変更イベントデータ。  
 
 [IFaceAlignment Interface](Interfaces/IFaceAlignment_Interface.md)    
-Stores face alignment data.  
+位置合わせされた顔データ。  
 
 [IFaceFrame Interface](Interfaces/IFaceFrame_Interface.md)    
-Represents face frame points.  
+Faceフレーム。  
 
 [IFaceFrameArrivedEventArgs Interface](Interfaces/IFaceFrameArrivedEventArgs.md)    
-Arguments for FaceFrameReader events.  
+Faceフレームのイベントデータ。  
 
 [IFaceFrameReader Interface](Interfaces/IFaceFrameReader_Interface.md)    
-Represents a reader for face frames.  
+FaceフレームのReader。  
 
 [IFaceFrameReference Interface](Interfaces/IFaceFrameReference.md)    
-Represents a reference to an actual face frame.  
+FaceフレームのReference。  
 
 [IFaceFrameResult Interface](Interfaces/IFaceFrameResult_Interface.md)    
-Represents a face frame result.  
+Faceフレームの結果。  
 
 [IFaceFrameSource Interface](Interfaces/IFaceFrameSource_Interface.md)    
-Represents a FaceFrameSource.  
+FaceフレームのSource。  
 
 [IFaceModel Interface](Interfaces/IFaceModel_Interface.md)    
-Represents a face model.  
+顔モデル。  
 
 [IFaceModelBuilder Interface](Interfaces/IFaceModelBuilder_Interface.md)    
-Represents a face model builder.  
+顔形状データを収集して顔モデルをフィッティングするFaceModelBuilder。  
 
 [IFaceModelData Interface](Interfaces/IFaceModelData_Interface.md)    
-Represents face model data.  
+顔形状データ。  
 
 [IHighDefinitionFaceFrame Interface](Interfaces/IHighDefinitionFaceFrame.md)    
-Represents a high definition face frame.  
+HDFaceフレーム。  
 
 [IHighDefinitionFaceFrameArrivedEventArgs Interface](Interfaces/IHighDefinitionFaceFrameAr.md)    
-Arguments for high definition face frame events.  
+HDFaceフレームのイベントデータ。  
 
 [IHighDefinitionFaceFrameReader Interface](Interfaces/IHighDefinitionFaceFrameReader_Interface.md)    
-Represents a high definition face frame reader.  
+HDFaceフレームのReader。  
 
 [IHighDefinitionFaceFrameReference Interface](Interfaces/IHighDefinitionFaceFrameRe.md)    
-Represents a reference to an actual high definition face frame.  
+HDFaceフレームのReference。  
 
 [IHighDefinitionFaceFrameSource Interface](Interfaces/IHighDefinitionFaceFrameSo.md)    
-Represents a high definition face frame source.  
+HDFaceフレームのSource。  
 
 [ITrackingIdLostEventArgs Interface](Interfaces/ITrackingIdLostEventArgs.md)    
-Provides data for the TrackingIdLost event.  
+トラッキングIDがロストしたときのイベントデータ。  
 
 <span id="ID4EEBAC"></span>
 

@@ -1,7 +1,7 @@
 IFaceModelBuilder Interface  
 ===========================  
 
-FaceModelBuilder。 <span id="syntaxSection"></span>
+顔形状データを収集して顔モデルをフィッティングするFaceModelBuilder。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
