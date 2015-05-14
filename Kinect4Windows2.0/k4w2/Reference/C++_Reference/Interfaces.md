@@ -225,10 +225,10 @@ Face Interfaces
 ===============  
 
 [ICaptureStatusChangedEventArgs Interface](Interfaces/ICaptureStatusChangedEvent.md)    
-[IFaceModelBuilder Interface](Interfaces/IFaceModelBuilder_Interface.md)のキャプチャステータスの変更イベントデータ。  
+[IFaceModelBuilder](Interfaces/IFaceModelBuilder_Interface.md)のキャプチャステータスの変更イベントデータ。  
 
 [ICollectionStatusChangedEventArgs Interface](Interfaces/ICollectionStatusChangedEv.md)    
-[IFaceModelBuilder Interface](Interfaces/IFaceModelBuilder_Interface.md)のデータ収集ステータスの変更イベントデータ。  
+[IFaceModelBuilder](Interfaces/IFaceModelBuilder_Interface.md)のデータ収集ステータスの変更イベントデータ。  
 
 [IFaceAlignment Interface](Interfaces/IFaceAlignment_Interface.md)    
 位置合わせされた顔データ。  
