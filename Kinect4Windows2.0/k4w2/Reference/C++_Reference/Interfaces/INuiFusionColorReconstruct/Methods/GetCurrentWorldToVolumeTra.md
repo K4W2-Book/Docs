@@ -43,9 +43,9 @@ Type: HRESULT
 Remarks  
 =======  
 
-A right handed coordinate system is used, with the origin of the volume (that is, voxel 0,0,0) at the top left of the front plane of the cube. Similar to bitmap images with top left origin, +X is to the right, +Y down, and +Z is forward from the origin into the reconstruction volume.  
+右手座標系で立方体の前面左上(0, 0, 0)が原点です。X軸は原点より右側にいくにつれ増加、Y軸は原点より下側にいくにつれ増加、Z軸は原点から手前にいくにつれ増加します。  
 
-The default transformation is a combination of translation in x-axis and y-axis to locate the world origin at the center of the front face of the reconstruction volume cube, and scaling by the [VoxelsPerMeter](../../../Structures/NUI_FUSION_RECONSTRUCTION.md) field to convert from the world coordinate system to volume voxel indices.  
+デフォルトの変換行列は、再構成された3次元形状データの前面中心をワールド座標系の原点とするX軸とY軸の平行移動と再構成パラメーターの[VoxelsPerMeter](../../../Structures/NUI_FUSION_RECONSTRUCTION.md)によるスケーリングの組み合わせです。  
 
 <span id="requirements"></span>
 
