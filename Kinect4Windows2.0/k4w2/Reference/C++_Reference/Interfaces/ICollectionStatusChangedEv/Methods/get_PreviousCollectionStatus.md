@@ -1,7 +1,7 @@
 ICollectionStatusChangedEventArgs::get\_PreviousCollectionStatus Method  
 =======================================================================  
 
-[IFaceModelBuilder Interface](../../IFaceModelBuilder_Interface.md)のデータ収集ステータスが更新されたとき、ステータスを取得します。 <span id="syntaxSection"></span>
+[IFaceModelBuilder](../../IFaceModelBuilder_Interface.md)のデータ収集ステータスが更新されたとき、ステータスを取得します。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

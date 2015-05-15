@@ -53,7 +53,7 @@ Type: FLOAT
 *pWorldToCameraTransform*    
 Type: Matrix4  
 現在の推測されたカメラ姿勢。  
-通常、[INuiFusionReconstruction::AlignPointClouds Method](AlignPointClouds_Method.md)または[INuiFusionReconstruction::AlignDepthFloatToReconstruction Method](AlignDepthFloatToReconstru.md)で計算された最新のカメラ姿勢を指定する。  
+通常、[INuiFusionReconstruction::AlignPointClouds](AlignPointClouds_Method.md)または[INuiFusionReconstruction::AlignDepthFloatToReconstruction](AlignDepthFloatToReconstru.md)で計算された最新のカメラ姿勢を指定する。  
 
 <span id="ID4EP"></span>
 #### Return value  

@@ -47,7 +47,7 @@ Color画像フレーム。
 *pWorldToCameraTransform*    
 Type: Matrix4  
 入力フレームのカメラ姿勢。  
-通常、AlignPointClouds()またはAlignDepthFloatToReconstruction()の出力結果を指定する。
+通常、AlignPointCloudsまたはAlignDepthFloatToReconstructionの出力結果を指定する。
 
 *minimumDistanceThreshold*    
 Type: FLOAT  

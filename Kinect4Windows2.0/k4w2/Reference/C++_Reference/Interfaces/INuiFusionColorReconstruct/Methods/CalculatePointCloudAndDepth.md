@@ -39,7 +39,7 @@ Type: NUI\_FUSION\_IMAGE\_FRAME
 *pDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
 計算されたDepth。  
-このDepthを[INuiFusionColorReconstruction::SetAlignDepthFloatToReconstructionReferenceFrame Method](SetAlignDepthFloatToRecons.md)で設定し[INuiFusionColorReconstruction::AlignDepthFloatToReconstruction Method](AlignDepthFloatToReconstru.md)の補助データとして使用することで、より広い範囲をトラッキングすることができる。  
+このDepthを[INuiFusionColorReconstruction::SetAlignDepthFloatToReconstructionReferenceFrame](SetAlignDepthFloatToRecons.md)で設定し[INuiFusionColorReconstruction::AlignDepthFloatToReconstruction](AlignDepthFloatToReconstru.md)の補助データとして使用することで、より広い範囲をトラッキングすることができる。  
 
 *pColorFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  

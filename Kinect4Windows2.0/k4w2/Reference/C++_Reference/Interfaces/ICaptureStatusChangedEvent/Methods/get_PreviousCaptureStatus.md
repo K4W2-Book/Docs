@@ -1,7 +1,7 @@
 ICaptureStatusChangedEventArgs::get\_PreviousCaptureStatus Method  
 =================================================================  
 
-[IFaceModelBuilder Interface](../../IFaceModelBuilder_Interface.md)のキャプチャステータスが更新されたとき、ステータスを取得します。 <span id="syntaxSection"></span>
+[IFaceModelBuilder](../../IFaceModelBuilder_Interface.md)のキャプチャステータスが更新されたとき、ステータスを取得します。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

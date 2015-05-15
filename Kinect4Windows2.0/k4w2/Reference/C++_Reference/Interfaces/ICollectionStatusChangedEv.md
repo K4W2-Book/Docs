@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ICollectionStatusChangedEv/Methods/get_PreviousCollectionStatus.md">get_PreviousCollectionStatus</a></td>
-<td align="left"><a href="IFaceModelBuilder_Interface.md">IFaceModelBuilder Interface</a>のデータ収集ステータスが更新されたとき、ステータスを取得します。</td>
+<td align="left"><a href="IFaceModelBuilder_Interface.md">IFaceModelBuilder</a>のデータ収集ステータスが更新されたとき、ステータスを取得します。</td>
 </tr>
 </tbody>
 </table>

@@ -58,7 +58,7 @@ Colorを再構成した3次元形状データに統合する法線角度の閾�
 
 *pWorldToCameraTransform*    
 Type: Matrix4  
-カメラ姿勢。
+カメラ姿勢。  
 通常、[AlignPointClouds](AlignPointClouds_Method.md)または[AlignDepthFloatToReconstruction](AlignDepthFloatToReconstru.md)で計算されたカメラ姿勢を使います。  
 
 | ![](../../../../../../resources/note.gif)Note                |

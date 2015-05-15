@@ -1,7 +1,7 @@
 ICaptureStatusChangedEventArgs Interface  
 ========================================  
 
-[IFaceModelBuilder Interface](IFaceModelBuilder_Interface.md)のキャプチャステータスの変更イベントデータ。 <span id="syntaxSection"></span>
+[IFaceModelBuilder](IFaceModelBuilder_Interface.md)のキャプチャステータスの変更イベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
