@@ -1,7 +1,7 @@
 INuiFusionMatchCandidates::MatchSimilarityCount Method  
 ======================================================  
 
-Gets the number of match similarity measurements. <span id="syntaxSection"></span>
+カメラ姿勢の候補の類似度の数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ UINT MatchSimilarityCount(
 
 **    
 Type: void  
-Void.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: UINT  
-The number of match similarity measurements.  
+現在のフレームと類似するフレームの類似度の数。  
 
 <span id="requirements"></span>
 

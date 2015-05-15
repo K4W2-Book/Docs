@@ -1,7 +1,7 @@
 INuiFusionMatchCandidates::MatchPoseCount Method  
 ================================================  
 
-Gets the number of camera poses in the database that were match candidates to the input depth frame. <span id="syntaxSection"></span>
+カメラ姿勢の候補の数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ UINT MatchPoseCount(
 
 **    
 Type: void  
-Void.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: UINT  
-The number of camera poses in the database that were match candidates to the input depth frame.  
+現在のフレームと類似するフレームのカメラ姿勢の数。  
 
 <span id="requirements"></span>
 

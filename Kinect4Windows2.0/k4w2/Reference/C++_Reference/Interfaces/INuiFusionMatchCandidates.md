@@ -1,7 +1,7 @@
 INuiFusionMatchCandidates Interface  
 ===================================  
 
-Used by the CameraPoseFinder::FindCameraPose method to provide access to the matched camera poses and their similarity measurements. <span id="syntaxSection"></span>
+[INuiFusionCameraPoseFinder::FindCameraPose](INuiFusionCameraPoseFinder/Methods/FindCameraPose_Method.md)で取得した現在のフレームと類似するフレームのカメラ姿勢の候補。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**INuiFusionMatchCandidates** has the following members.  
+**INuiFusionMatchCandidates**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,23 +48,23 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="INuiFusionMatchCandidates/Methods/CalculateMinimumDistance.md">CalculateMinimumDistance</a></td>
-<td align="left">Calculates the distance between the input depth frame and the most similar pose candidate in the pose database.</td>
+<td align="left">最も類似するカメラ姿勢の類似度を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionMatchCandidates/Methods/GetMatchPoses_Method.md">GetMatchPoses</a></td>
-<td align="left">Gets a collection of the camera poses in the database that were match candidates to the input depth frame.</td>
+<td align="left">カメラ姿勢の候補を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionMatchCandidates/Methods/GetMatchSimilarities_Method.md">GetMatchSimilarities</a></td>
-<td align="left">Gets a collection of the match similarity measurements for the match candidates returned by the MatchPoses property.</td>
+<td align="left">カメラ姿勢の候補の類似度を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionMatchCandidates/Methods/MatchPoseCount_Method.md">MatchPoseCount</a></td>
-<td align="left">Gets the number of camera poses in the database that were match candidates to the input depth frame.</td>
+<td align="left">カメラ姿勢の候補の数を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionMatchCandidates/Methods/MatchSimilarityCount_Method.md">MatchSimilarityCount</a></td>
-<td align="left">Gets the number of match similarity measurements.</td>
+<td align="left">カメラ姿勢の候補の類似度の数を取得する。</td>
 </tr>
 </tbody>
 </table>

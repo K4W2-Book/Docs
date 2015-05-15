@@ -1,7 +1,7 @@
 INuiFusionMatchCandidates::GetMatchSimilarities Method  
 ======================================================  
 
-Gets a collection of the match similarity measurements for the match candidates returned by the MatchPoses property. <span id="syntaxSection"></span>
+カメラ姿勢の候補の類似度を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT GetMatchSimilarities(
 
 *pSimilarityMeasurements*    
 Type: FLOAT  
-A collection of the match similarity measurements.  
+現在のフレームと類似するフレームの類似度の配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

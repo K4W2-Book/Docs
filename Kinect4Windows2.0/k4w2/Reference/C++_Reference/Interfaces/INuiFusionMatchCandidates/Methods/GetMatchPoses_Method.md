@@ -1,7 +1,7 @@
 INuiFusionMatchCandidates::GetMatchPoses Method  
 ===============================================  
 
-Gets a collection of the camera poses in the database that were match candidates to the input depth frame. <span id="syntaxSection"></span>
+カメラ姿勢の候補を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT GetMatchPoses(
 
 *pPoses*    
 Type: Matrix4  
-A collection of the camera poses in the database that were match candidates to the input depth frame.  
+現在のフレームと類似するフレームのカメラ姿勢の配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
