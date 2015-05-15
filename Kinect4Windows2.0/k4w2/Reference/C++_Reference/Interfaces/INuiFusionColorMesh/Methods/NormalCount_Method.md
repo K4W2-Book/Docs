@@ -1,7 +1,7 @@
 INuiFusionColorMesh::NormalCount Method  
 =======================================  
 
-Gets the number of normals in the mesh. <span id="syntaxSection"></span>
+メッシュデータに含まれる法線の数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ UINT NormalCount(
 
 **    
 Type: void  
-Void.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: UINT  
-The number of normals in the mesh.  
+法線の数。  
 
 <span id="requirements"></span>
 

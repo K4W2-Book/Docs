@@ -1,7 +1,7 @@
 INuiFusionColorMesh Interface  
 =============================  
 
-The INuiFusionColorMesh object is created when meshing a reconstruction volume. This provides access to the vertices, vertex colors, and triangle indexes of the mesh. <span id="syntaxSection"></span>
+メッシュデータ(Color)。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**INuiFusionColorMesh** has the following members.  
+**INuiFusionColorMesh**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,35 +48,35 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="INuiFusionColorMesh/Methods/ColorCount_Method.md">ColorCount</a></td>
-<td align="left">Gets the number of colors in the mesh.</td>
+<td align="left">メッシュデータに含まれる頂点カラーの数を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionColorMesh/Methods/GetColors_Method.md">GetColors</a></td>
-<td align="left">Gets the collection of vertex colors.</td>
+<td align="left">メッシュデータに含まれる頂点カラーを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionColorMesh/Methods/GetNormals_Method.md">GetNormals</a></td>
-<td align="left">Gets the list of normals for the mesh.</td>
+<td align="left">メッシュデータに含まれる法線を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionColorMesh/Methods/GetTriangleIndices_Method.md">GetTriangleIndices</a></td>
-<td align="left">Gets the list of triangle indices for the mesh.</td>
+<td align="left">メッシュデータに含まれる三角形を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionColorMesh/Methods/GetVertices_Method.md">GetVertices</a></td>
-<td align="left">Gets the list of vertices for the mesh.</td>
+<td align="left">メッシュデータに含まれる頂点を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionColorMesh/Methods/NormalCount_Method.md">NormalCount</a></td>
-<td align="left">Gets the number of normals in the mesh.</td>
+<td align="left">メッシュデータに含まれる法線の数を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionColorMesh/Methods/TriangleVertexIndexCount.md">TriangleVertexIndexCount</a></td>
-<td align="left">Gets the number of triangle vertex indices in the mesh.</td>
+<td align="left">メッシュデータに含まれる三角形の数を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionColorMesh/Methods/VertexCount_Method.md">VertexCount</a></td>
-<td align="left">Gets the number of vertices in the mesh.</td>
+<td align="left">メッシュデータに含まれる頂点の数を取得する。</td>
 </tr>
 </tbody>
 </table>

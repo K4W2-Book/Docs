@@ -1,7 +1,7 @@
 INuiFusionColorMesh::VertexCount Method  
 =======================================  
 
-Gets the number of vertices in the mesh. <span id="syntaxSection"></span>
+メッシュデータに含まれる頂点の数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ UINT VertexCount(
 
 **    
 Type: void  
-Void.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: UINT  
-The number of vertices in the mesh.  
+頂点の数。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 INuiFusionColorMesh::GetColors Method  
 =====================================  
 
-Gets the collection of vertex colors. <span id="syntaxSection"></span>
+メッシュデータに含まれる頂点カラーを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT GetColors(
 
 *pColors*    
 Type: int  
-The collection of vertex colors  
+頂点カラーの配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

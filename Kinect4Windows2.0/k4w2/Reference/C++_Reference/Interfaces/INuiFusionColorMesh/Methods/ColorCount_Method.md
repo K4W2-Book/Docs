@@ -1,7 +1,7 @@
 INuiFusionColorMesh::ColorCount Method  
 ======================================  
 
-Gets the number of colors in the mesh. <span id="syntaxSection"></span>
+メッシュデータに含まれる頂点カラーの数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ UINT ColorCount(
 
 **    
 Type: void  
-Void.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: UINT  
-The number of colors in the mesh.  
+頂点カラーの数。  
 
 <span id="requirements"></span>
 
