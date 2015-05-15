@@ -293,7 +293,7 @@ Fusion Interfaces
 DephtデータとColorデータから3次元形状を再構成する。  
 
 [INuiFusionMatchCandidates Interface](Interfaces/INuiFusionMatchCandidates.md)    
-[INuiFusionCameraPoseFinder::FindCameraPose](INuiFusionCameraPoseFinder/Methods/FindCameraPose_Method.md)で取得した現在のフレームと類似するフレームのカメラ姿勢の候補。  
+[INuiFusionCameraPoseFinder::FindCameraPose](Interfaces/INuiFusionCameraPoseFinder/Methods/FindCameraPose_Method.md)で取得した現在のフレームと類似するフレームのカメラ姿勢の候補。  
 
 [INuiFusionMesh Interface](Interfaces/INuiFusionMesh_Interface.md)    
 メッシュデータ(Depth)。  
