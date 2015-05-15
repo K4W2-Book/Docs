@@ -1,7 +1,7 @@
 INuiFusionMesh Interface  
 ========================  
 
-メッシュデータ。 <span id="syntaxSection"></span>
+メッシュデータ(Depth)。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

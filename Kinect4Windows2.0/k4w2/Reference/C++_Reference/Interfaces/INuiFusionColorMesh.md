@@ -1,7 +1,7 @@
 INuiFusionColorMesh Interface  
 =============================  
 
-メッシュデータ(Color)。 <span id="syntaxSection"></span>
+メッシュデータ(Depth + Color)。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
