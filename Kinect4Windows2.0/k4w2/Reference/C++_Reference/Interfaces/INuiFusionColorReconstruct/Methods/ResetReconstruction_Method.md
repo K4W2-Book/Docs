@@ -49,9 +49,9 @@ Type: HRESULT
 Remarks  
 =======  
 
-To create your own world-to-volume transformation, call the [GetCurrentWorldToVolumeTransform](GetCurrentWorldToVolumeTra.md) method, and then either modify the returned matrix directly or multiply with your own similarity matrix to alter the volume translation or rotation with respect to the world coordinate system. Other transforms, such as skew, are not supported.  
+独自のワールド座標系から3次元形状データのローカル座標系への変換行列を作成するには、[GetCurrentWorldToVolumeTransform](GetCurrentWorldToVolumeTra.md)で取得した変換行列に対し回転・平行移動などの行列を掛けることで作成します。<br/>ただし、スキューのような変換はサポートされていません。  
 
-To reset the volume while keeping the same world-to-volume transform, call the [GetCurrentWorldToVolumeTransform](GetCurrentWorldToVolumeTra.md) method, and then pass the returned matrix to the pWorldToVolumeTransform parameter of the ResetReconstruction method.  
+ワールド座標系から3次元形状データのローカル座標系への変換行列を保ちながらリセットするには[GetCurrentWorldToVolumeTransform](GetCurrentWorldToVolumeTra.md)で取得した変換行列をResetReconstructionに指定します。  
 
 <span id="requirements"></span>
 
