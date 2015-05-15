@@ -1,7 +1,7 @@
 INuiFusionColorReconstruction::ImportVolumeBlock Method  
 =======================================================  
 
-Imports a reconstruction volume as a buffer of shorts, with color as an integer buffer. <span id="syntaxSection"></span>
+配列から3次元形状データと色データをインポートする。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,31 +33,25 @@ HRESULT ImportVolumeBlock(
 
 *cbVolumeBlock*    
 Type: UINT  
-The size of the pVolumeBlock buffer.  
+インポートする3次元形状データの配列のサイズ。(Byte)    
 
 *cbColorVolumeBlock*    
 Type: UINT  
-The size of the pColorVolumeBlock buffer.  
+インポートする色データの配列のサイズ。(Byte)  
 
 *pVolumeBlock*    
 Type: SHORT  
- A pre-allocated short buffer filled with volume data. This buffer must equal the size of the current initialized reconstruction volume. The number of elements in this buffer should be allocated as (destinationResolutionX\*destinationResolutionY\*destinationResolutionZ). To access the voxel located at x,y,z use pVolume[z][y][x], or index as a one-dimensional array for a particular voxel (x,y,z) as follows (with pitch = x resolution, slice = (y resolution \* pitch)).  
-
-    unsigned int index = (z * slice)  + (y * pitch) + x;  
-
-| ![](../../../../../../resources/note.gif)Note                                                                                                                                                                                                                                                |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A right handed coordinate system is used, with the origin of the volume (that is, voxel 0,0,0) at the top left of the front plane of the cube. Similar to bitmap images with top left origin, +X is to the right, +Y down, and +Z is forward from the origin into the reconstruction volume. |
+インポートする3次元形状データの配列のアドレス。  
 
 *pColorVolumeBlock*    
 Type: INT  
-A pre-allocated integer buffer filled with color volume data. The number of elements in this buffer must be the same as the number of elements in the pVolumeBlock buffer.  
+インポートする色データの配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

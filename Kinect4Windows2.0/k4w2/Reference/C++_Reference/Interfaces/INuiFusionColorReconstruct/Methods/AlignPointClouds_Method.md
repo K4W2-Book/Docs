@@ -1,7 +1,7 @@
 INuiFusionColorReconstruction::AlignPointClouds Method  
 ======================================================  
 
-Aligns two sets of overlapping oriented point clouds and calculates the camera's relative pose. <span id="syntaxSection"></span>
+重複する部分のある2つのPoint Cloudを位置合わせして相対的なカメラ姿勢を計算する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -35,41 +35,37 @@ HRESULT AlignPointClouds(
 
 *pReferencePointCloudFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-A reference point cloud frame. This image must be the same size and have the same camera parameters as the pObservedPointCloudFrame parameter.  
+位置合わせの基準となるPoint Cloud。  
+位置合わせするPoint Cloudと同じサイズとカメラパラメーターである必要がある。  
 
 *pObservedPointCloudFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-An observed point cloud frame. This image must be the same size and have the same camera parameters as the pReferencePointCloudFrame parameter.  
+位置合わせするPoint Cloud。  
+位置合わせの基準となるPoint Cloudと同じサイズとカメラパラメーターである必要がある。
 
 *maxAlignIterationCount*    
 Type: USHORT  
-The number of iterations to run.  
+位置合わせのための反復アルゴリズムの最大反復回数。[1-]  
+反復回数が少ない場合、高速に動作するが正しい位置に収束しない可能性があります。  
 
 *pDeltaFromReferenceFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
- Optional pre-allocated color image frame that receives color-coded data from the camera tracking. This image can be used as input to additional vision algorithms, such as object segmentation. If specified, this image must be the same size and have the same camera parameters as the pReferencePointCloudFrame and pObservedPointCloudFrame parameters. If you do not need this output image, specify null.  
-
-The values in the received image vary depending on whether the pixel was a valid pixel used in tracking (inlier) or failed in different tests (outlier). Inliers are color shaded depending on the residual energy at that point. Higher discrepancy between vertices is indicated by more saturated colors. Less discrepancy between vertices (less information at that pixel) is indicated by less saturated colors (that is, more white). If the pixel is an outlier, it will receive one of the values listed in the following table.  
-
-| Value      | Description                                                                                                                                                |
-|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0xFF000000 | The input vertex was invalid (for example, a vertex with an input depth of zero), or the vertex had no correspondences between the two point cloud images. |
-| 0xFF008000 | The outlier vertices were rejected due to too large a distance between vertices.                                                                           |
-| 0xFF800000 | The outlier vertices were rejected due to too large a difference in normal angle between the point clouds.                                                 |
+位置合わせのためのアルゴリズムで用いられる補助データ。  
+このデータを必要としない場合、nullptrを指定します。  
 
 *pAlignmentEnergy*    
 Type: FLOAT  
-The threshold in the range [0.0f, 1.0f] that describes how well the observed frame aligns to the model with the calculated pose (mean distance between matching points in the point clouds).  
+位置合わせのためのアルゴリズムで用いられる閾値。[0.0f-1.0f]  
 
 *pReferenceToObservedTransform*    
 Type: Matrix4  
-Gets the world-to-camera transform (camera view pose) associated with the alignment result.  
+相対的なカメラ姿勢。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

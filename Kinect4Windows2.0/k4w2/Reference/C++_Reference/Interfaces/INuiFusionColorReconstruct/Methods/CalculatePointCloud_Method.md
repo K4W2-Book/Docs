@@ -1,7 +1,7 @@
 INuiFusionColorReconstruction::CalculatePointCloud Method  
 =========================================================  
 
-Calculates a point cloud by raycasting into the reconstruction volume, returning the point cloud containing 3D points and normals of the zero-crossing dense surface at every visible pixel in the image from the specified camera pose and color visualization image. <span id="syntaxSection"></span>
+再構成した3次元形状データをレイキャストすることでPoint Cloudを計算する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -32,21 +32,22 @@ HRESULT CalculatePointCloud(
 
 *pPointCloudFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
- The pre-allocated point cloud frame, to be filled by raycasting into the reconstruction volume. This point cloud can be used as a reference frame in the next call to the [AlignPointClouds](AlignPointClouds_Method.md) method, or passed to the [NuiFusionShadePointCloud](../../../Functions/NuiFusionShadePointCloud.md) function to produce a visible image output.  
+計算されたPoint Cloud。  
+このPoint Cloudは、シェーディングして画像をレンダリングする[NuiFusionShadePointCloud](../../../Functions/NuiFusionShadePointCloud.md)の入力データ、または次のフレームの[AlignPointClouds](AlignPointClouds_Method.md)の補助データとして利用できる。  
 
 *pColorFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-The color frame to fill.  
+レンダリングされたSurface画像。  
 
 *pWorldToCameraTransform*    
 Type: Matrix4  
-The world-to-camera transform (camera pose) to raycast from.  
+レイキャストするカメラ姿勢。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

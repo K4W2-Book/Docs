@@ -1,7 +1,7 @@
 INuiFusionColorReconstruction::ProcessFrame Method  
 ==================================================  
 
-Processes the specified depth frame and color frame through the Kinect Fusion pipeline. <span id="syntaxSection"></span>
+DpehtとColorをKinect Fusionの各処理をまとめたパイプラインに流し込んで計算する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -36,41 +36,49 @@ HRESULT ProcessFrame(
 
 *pDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-The depth float frame to be processed. The maximum resolution of this frame is 640×480.  
+入力するDepth画像フレーム。  
+この画像フレームの最大解像度は640×480です。  
 
 *pColorFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-The color frame to be processed. The maximum resolution of this frame is 640×480.  
+入力するColor画像フレーム。  
+この画像フレームの最大解像度は640×480です。  
 
 *maxAlignIterationCount*    
 Type: USHORT  
-The maximum number of iterations of the algorithm to run. The minimum value is one. Using only a small number of iterations will have a faster run time, but the algorithm may not converge to the correct transformation.  
+位置合わせのための反復アルゴリズムの最大反復回数。[1-]  
+反復回数が少ない場合、高速に動作するが正しい位置に収束しない可能性があります。  
 
 *maxIntegrationWeight*    
 Type: USHORT  
-A parameter to control the temporal smoothing of depth integration. The minimum value is one. Lower values have more noisy representations, but are suitable for more dynamic environments because moving objects integrate and disintegrate faster. Higher values integrate objects more slowly, but provide finer detail with less noise.  
+Depthを再構成した3次元形状データに統合する時間方向の平滑化ウェイト。[1-]  
+指定する値が小さいほどノイズが多くなるが、動いているオブジェクトが素早く取り除かれるため、動的な環境に適している。  
+指定する値が大きいほどオブジェクトがゆっくりと統合されるが、ノイズの少ない詳細な形状データを得ることができるため、静的な環境に適している。  
 
 *maxColorIntegrationAngle*    
 Type: FLOAT  
- Angle with respect to the surface normal over which color will be integrated, in degrees. The useful range of values for this parameter is [0.0f, 90.0f]. You can use this parameter to integrate color only when the Kinect sensor is nearly parallel with the surface (that is, the camera direction of view is perpendicular to the surface), or within a specified angle from the surface normal direction.  
-
-This angle relative to this normal direction vector describes the acceptance half angle; for example, a +/- 90 degree acceptance angle in all directions (that is, a 180 degree hemisphere) relative to the normal integrates color in any orientation of the sensor towards the front of the surface, even when parallel to the surface. An acceptance angle of zero integrates color only directly along a single ray exactly perpendicular to the surface.  
-
-Setting this value has a cost at run-time. However, not setting this value causes this method to integrate color from any angle over all voxels along camera rays around the zero crossing surface region in the volume, which can cause thin structures to have the same color on both sides.  
+Colorを再構成した3次元形状データに統合する法線角度の閾値。[0.0f-90.0f]  
+センサーとサーフェスがなす法線の角度が垂直または閾値以内の場合、色データを統合する。  
+この値は、色データを統合する法線角度の半分の値を指定する。  
+90.0f(180°)を指定すると、センサーとサーフェスがどのような角度でも常に色データを統合します。  
+0.0f(0°)を指定すると、センサーとサーフェスが垂直の場合のみ色データを統合します。  
+この値を指定すると統合処理に負荷がかかります。  
+しかし、この値を指定しないと任意の角度から色データを統合するため、薄いオブジェクトの場合に両面に同じ色を設定する可能性があります。  
 
 *pAlignmentEnergy*    
 Type: FLOAT  
-The threshold in the range [0.0f, 1.0f] that describes how well the observed frame aligns to the model with the calculated pose (mean distance between matching points in the point clouds).  
+位置合わせのためのアルゴリズムで用いられる閾値。[0.0f-1.0f]  
 
 *pWorldToCameraTransform*    
 Type: Matrix4  
-The best guess at the current camera pose. This is usually the camera pose result from the most recent call to the [AlignPointClouds](AlignPointClouds_Method.md) or [AlignDepthFloatToReconstruction](AlignDepthFloatToReconstru.md) method.  
+現在の推測されたカメラ姿勢。  
+通常、[GetCurrentWorldToCameraTransform](GetCurrentWorldToCameraTra.md)で取得した最新のカメラ姿勢を指定する。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

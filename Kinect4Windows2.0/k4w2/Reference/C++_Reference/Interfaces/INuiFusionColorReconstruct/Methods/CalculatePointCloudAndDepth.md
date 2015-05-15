@@ -1,7 +1,7 @@
 INuiFusionColorReconstruction::CalculatePointCloudAndDepth Method  
 =================================================================  
 
-Calculates a point cloud by raycasting into the reconstruction volume, returning the point cloud containing 3D points and normals of the zero-crossing dense surface at every visible pixel in the image from the specified camera pose, color visualization image, and the depth to the surface. <span id="syntaxSection"></span>
+再構成した3次元形状データをレイキャストすることでPoint CloudとDepthを計算する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,27 +33,27 @@ HRESULT CalculatePointCloudAndDepth(
 
 *pPointCloudFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
- The pre-allocated point cloud frame, to be filled by raycasting into the reconstruction volume. This point cloud can be used as a reference frame in the next call to the [AlignPointClouds](AlignPointClouds_Method.md) method, or passed to the [NuiFusionShadePointCloud](../../../Functions/NuiFusionShadePointCloud.md) function to produce a visible image output.  
-
-The cloud frame can be an arbitrary image size. This allows you to calculate point clouds at the size of your window and then create a visible image by calling the [NuiFusionShadePointCloud](../../../Functions/NuiFusionShadePointCloud.md) function method to render this image. Note that large images are expensive to calculate.  
+計算されたPoint Cloud。  
+このPoint Cloudは、シェーディングして画像をレンダリングする[NuiFusionShadePointCloud](../../../Functions/NuiFusionShadePointCloud.md)の入力データ、または次のフレームの[AlignPointClouds](AlignPointClouds_Method.md)の補助データとして利用できる。  
 
 *pDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
- A floating-point depth frame, to be filled with floating-point depths to the raycast surface, in meters. This image must be identical in size and camera parameters to the pPointCloudFrame parameter. You can use this depth image as a reference frame for the [INuiFusionColorReconstruction::AlignDepthFloatToReconstruction Method](AlignDepthFloatToReconstru.md) method by calling the [INuiFusionColorReconstruction::SetAlignDepthFloatToReconstructionReferenceFrame Method](SetAlignDepthFloatToRecons.md) method to enable a greater range of tracking.  
+計算されたDepth。  
+このDepthを[INuiFusionColorReconstruction::SetAlignDepthFloatToReconstructionReferenceFrame Method](SetAlignDepthFloatToRecons.md)で設定し[INuiFusionColorReconstruction::AlignDepthFloatToReconstruction Method](AlignDepthFloatToReconstru.md)の補助データとして使用することで、より広い範囲をトラッキングすることができる。  
 
 *pColorFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-The color frame to fill.  
+レンダリングされたSurface画像。  
 
 *pWorldToCameraTransform*    
 Type: Matrix4  
-The world-to-camera transform (camera pose) to raycast from.  
+レイキャストするカメラ姿勢。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

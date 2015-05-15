@@ -1,7 +1,7 @@
 INuiFusionColorReconstruction::GetCurrentWorldToVolumeTransform Method  
 ======================================================================  
 
-Gets the current internal world-to-volume transform. <span id="syntaxSection"></span>
+現在のワールド座標系から再構成した3次元形状データのローカル座標系への変換行列を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT GetCurrentWorldToVolumeTransform(
 
 *pWorldToVolumeTransform*    
 Type: Matrix4  
-The current world-to-volume transform. This is a similarity transformation that converts world coordinates to volume coordinates.  
+現在のワールド座標系から再構成した3次元形状データのローカル座標系への変換行列。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 

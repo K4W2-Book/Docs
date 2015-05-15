@@ -1,7 +1,7 @@
 INuiFusionColorReconstruction::ResetReconstruction Method  
 =========================================================  
 
-Clears the reconstruction volume and sets a new world-to-camera transform (camera view pose). <span id="syntaxSection"></span>
+再構成した3次元形状データを破棄、カメラ姿勢を初期化してKinect Fusionをリセットする。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,18 @@ HRESULT ResetReconstruction(
 
 *pInitialWorldToCameraTransform*    
 Type: Matrix4  
-The initial camera pose of the reconstruction volume, with respect to the world origin. To use the default camera pose, specify identity.  
+初期化するカメラ姿勢。  
+デフォルトのカメラ姿勢を使用するには単位行列を指定します。  
 
 *pWorldToVolumeTransform*    
 Type: Matrix4  
- The world-to-volume transform that expresses the location and orientation of the world coordinate system origin in volume coordinates, as well as the scaling of the world coordinates to volume indices. This controls where the reconstruction volume appears in the real world with respect to the world origin position, or with respect to the camera if identity is passed to the initialWorldToCameraTransform parameter (as this causes the camera and world origins to coincide).  
+初期化するワールド座標系から3次元形状データのローカル座標系への変換行列。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
