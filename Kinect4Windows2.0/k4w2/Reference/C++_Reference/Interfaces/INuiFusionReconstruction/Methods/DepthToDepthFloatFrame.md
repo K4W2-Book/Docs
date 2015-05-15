@@ -1,7 +1,7 @@
 INuiFusionReconstruction::DepthToDepthFloatFrame Method  
 =======================================================  
 
-Converts the specified array of Kinect depth pixels to a NUI\_FUSION\_IMAGE\_FRAME object representing a depth float frame. <span id="syntaxSection"></span>
+DepthデータをNUI\_FUSION\_IMAGE\_FRAMEに変換する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -35,33 +35,35 @@ HRESULT DepthToDepthFloatFrame(
 
 *pDepthImageData*    
 Type: UINT16  
-The array of Kinect depth pixels in unsigned short format to convert. This data must have the same pixel resolution as the depthFloatFrame parameter.  
+Depthデータ。  
 
 *countDepthImageDataBytes*    
 Type: UINT  
-The size of the depth image, in bytes.  
+Depthデータのサイズ。(Byte)  
 
 *pDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-A floating-point depth float frame that receives the converted depth data. This data must have the same pixel resolution as the depthImageData parameter.  
+NUI\_FUSION\_IMAGE\_FRAMEのアドレス。  
 
 *minDepthClip*    
 Type: FLOAT  
-The minimum depth threshold, meters. Values below this threshold will be set to zero.  
+Depthデータの最小値の閾値。  
+この値以下のDepthデータは変換時に0に設定される。  
 
 *maxDepthClip*    
 Type: FLOAT  
-The maximum depth threshold, in meters. Values above this threshold will be set to 1,000.  
+Depthデータの最大値の閾値。  
+この値以上のDepthデータは変換時に1000に設定される。  
 
 *mirrorDepth*    
 Type: BOOL  
-Specify true to mirror the depth values. Specify false so the image appears correct if viewing the Kinect sensor from behind.  
+Depthデータを反転する場合は**true**、反転しない場合は**false**をしてする。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 INuiFusionReconstruction Interface  
 ==================================  
 
-Reconstruction encapsulates reconstruction volume creation updating and meshing functions. <span id="syntaxSection"></span>
+Dephtデータから3次元形状を再構成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**INuiFusionReconstruction** has the following members.  
+**INuiFusionReconstruction**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,63 +48,63 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="INuiFusionReconstruction/Methods/AlignDepthFloatToReconstru.md">AlignDepthFloatToReconstruction</a></td>
-<td align="left">Aligns a depth float image to the reconstruction volume to calculate the new camera pose.</td>
+<td align="left">Depthを再構成している3次元形状データに位置合わせしてカメラ姿勢を計算する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionReconstruction/Methods/AlignPointClouds_Method.md">AlignPointClouds</a></td>
-<td align="left">Aligns two sets of overlapping oriented point clouds and calculates the camera's relative pose.</td>
+<td align="left">重複する部分のある2つのPoint Cloudを位置合わせして相対的なカメラ姿勢を計算する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionReconstruction/Methods/CalculateMesh_Method.md">CalculateMesh</a></td>
-<td align="left">Exports a polygon mesh of the zero-crossing dense surfaces from the reconstruction volume with per-vertex color.</td>
+<td align="left">再構成した3次元形状データからメッシュデータを計算してエクスポートする。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionReconstruction/Methods/CalculatePointCloud_Method.md">CalculatePointCloud</a></td>
-<td align="left">Calculates a point cloud by raycasting into the reconstruction volume, returning the point cloud containing 3D points and normals of the zero-crossing dense surface at every visible pixel in the image from the specified camera pose and color visualization image.</td>
+<td align="left">再構成した3次元形状データをレイキャストすることでPoint Cloudを計算する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionReconstruction/Methods/CalculatePointCloudAndDepth.md">CalculatePointCloudAndDepth</a></td>
-<td align="left">Calculates a point cloud by raycasting into the reconstruction volume, returning the point cloud containing 3D points and normals of the zero-crossing dense surface at every visible pixel in the image from the specified camera pose, color visualization image, and the depth to the surface.</td>
+<td align="left">再構成した3次元形状データをレイキャストすることでPoint CloudとDepthを計算する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionReconstruction/Methods/DepthToDepthFloatFrame.md">DepthToDepthFloatFrame</a></td>
-<td align="left">Converts the specified array of Kinect depth pixels to a NUI_FUSION_IMAGE_FRAME object representing a depth float frame.</td>
+<td align="left">DepthデータをNUI_FUSION_IMAGE_FRAMEに変換する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionReconstruction/Methods/ExportVolumeBlock_Method.md">ExportVolumeBlock</a></td>
-<td align="left">Exports a part or all of the reconstruction volume as a short array.</td>
+<td align="left">再構成した3次元形状データを配列にエクスポートする。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionReconstruction/Methods/GetCurrentWorldToCameraTra.md">GetCurrentWorldToCameraTransform</a></td>
-<td align="left">Retrieves the current internal world-to-camera transform (camera view pose).</td>
+<td align="left">現在のワールド座標系からカメラ座標系への変換行列(カメラ姿勢)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionReconstruction/Methods/GetCurrentWorldToVolumeTra.md">GetCurrentWorldToVolumeTransform</a></td>
-<td align="left"></td>
+<td align="left">現在のワールド座標系から再構成した3次元形状データのローカル座標系への変換行列を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionReconstruction/Methods/ImportVolumeBlock_Method.md">ImportVolumeBlock</a></td>
-<td align="left">Imports a reconstruction volume as a buffer of shorts, with color as an integer buffer.</td>
+<td align="left">配列から3次元形状データをインポートする。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionReconstruction/Methods/IntegrateFrame_Method.md">IntegrateFrame</a></td>
-<td align="left">Integrates depth float data and color data into the reconstruction volume from the specified camera pose.</td>
+<td align="left">指定したカメラ姿勢でDepthとColorを再構成した3次元形状データに統合する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionReconstruction/Methods/ProcessFrame_Method.md">ProcessFrame</a></td>
-<td align="left">Processes the specified depth frame and color frame through the Kinect Fusion pipeline.</td>
+<td align="left">DpehtをKinect Fusionの各処理をまとめたパイプラインに流し込んで計算する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionReconstruction/Methods/ResetReconstruction_Method.md">ResetReconstruction</a></td>
-<td align="left">Clears the reconstruction volume and sets a new world-to-camera transform (camera view pose).</td>
+<td align="left">再構成した3次元形状データを破棄、カメラ姿勢を初期化してKinect Fusionをリセットする。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionReconstruction/Methods/SetAlignDepthFloatToRecons.md">SetAlignDepthFloatToReconstructionReferenceFrame</a></td>
-<td align="left">Sets a reference depth frame that is used internally to help with tracking when calling the <a href="INuiFusionReconstruction/Methods/AlignDepthFloatToReconstru.md">AlignDepthFloatToReconstruction</a> method to calculate a new camera pose.</td>
+<td align="left"><a href="INuiFusionReconstruction/Methods/AlignDepthFloatToReconstru.md">AlignDepthFloatToReconstruction</a>でカメラ姿勢を計算するときに内部で用いられる基準となるDepthを設定する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionReconstruction/Methods/SmoothDepthFloatFrame_Method.md">SmoothDepthFloatFrame</a></td>
-<td align="left">Spatially smoothes a depth float image frame using edge-preserving filtering.</td>
+<td align="left">エッジ保存型のフィルタを用いてDepthを平滑化する。</td>
 </tr>
 </tbody>
 </table>

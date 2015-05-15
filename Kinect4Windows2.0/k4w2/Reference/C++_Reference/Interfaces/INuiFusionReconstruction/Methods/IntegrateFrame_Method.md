@@ -1,7 +1,7 @@
 INuiFusionReconstruction::IntegrateFrame Method  
 ===============================================  
 
-Integrates depth float data and color data into the reconstruction volume from the specified camera pose. <span id="syntaxSection"></span>
+指定したカメラ姿勢でDepthを再構成した3次元形状データに統合する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -32,21 +32,28 @@ HRESULT IntegrateFrame(
 
 *pDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-The depth float frame to be integrated.  
+再構成した3次元形状データに統合するDepth。  
 
 *maxIntegrationWeight*    
 Type: USHORT  
-A parameter to control the temporal smoothing of depth integration. The minimum value is one. Lower values have more noisy representations, but are suitable for more dynamic environments because moving objects integrate and disintegrate faster. Higher values integrate objects more slowly, but provide finer detail with less noise.  
+Depthを再構成した3次元形状データに統合する時間方向の平滑化ウェイト。[1-]  
+指定する値が小さいほどノイズが多くなるが、動いているオブジェクトが素早く取り除かれるため、動的な環境に適している。  
+指定する値が大きいほどオブジェクトがゆっくりと統合されるが、ノイズの少ない詳細な形状データを得ることができるため、静的な環境に適している。  
 
 *pWorldToCameraTransform*    
 Type: Matrix4  
-The camera pose. This is usually the camera pose result from the most recent call to the [AlignPointClouds](AlignPointClouds_Method.md) or [AlignDepthFloatToReconstruction](AlignDepthFloatToReconstru.md) method.  
+カメラ姿勢。  
+通常、[AlignPointClouds](AlignPointClouds_Method.md)または[AlignDepthFloatToReconstruction](AlignDepthFloatToReconstru.md)で計算されたカメラ姿勢を使います。  
+
+| ![](../../../../../../resources/note.gif)Note                |
+|--------------------------------------------------------------|
+| このAPIはこのカメラ姿勢を内部のカメラ姿勢に設定します。 |
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

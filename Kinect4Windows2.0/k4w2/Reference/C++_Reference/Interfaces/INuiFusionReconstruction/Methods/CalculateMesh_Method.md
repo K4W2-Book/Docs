@@ -1,7 +1,7 @@
 INuiFusionReconstruction::CalculateMesh Method  
 ==============================================  
 
-Exports a polygon mesh of the zero-crossing dense surfaces from the reconstruction volume with per-vertex color. <span id="syntaxSection"></span>
+再構成した3次元形状データからメッシュデータを計算してエクスポートする。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,21 +31,24 @@ HRESULT CalculateMesh(
 
 *voxelStep*    
 Type: UINT  
-The step value in voxels for sampling points to use in the volume when exporting a mesh, which determines the final resolution of the mesh. Use higher values for lower resolution meshes. This value must be greater than zero and smaller than the smallest volume axis voxel resolution. To mesh the volume at its full resolution, use a step value of one.  
+再構成された3次元形状データをサンプリングするステップ値。  
+大きな値を指定するとエクスポートされるメッシュデータの解像度が低くなります。  
+このステップ値は、0より大きく、各軸の再構成に使われるボクセル数以下である必要があります。  
+再構成された3次元形状データの解像度を落とさずにメッシュデータにエクスポートする場合は1を指定します。  
 
 | ![](../../../../../../resources/note.gif)Note                                                                                        |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| Any value higher than one for this parameter runs the risk of missing zero crossings, and hence missing surfaces or surface details. |
+| 1より大きい値を指定すると3次元形状データの詳細な情報が失われる危険があります。 |
 
 *ppMesh*    
 Type: INuiFusionMesh  
-The created mesh object.  
+INuiFusionMeshのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

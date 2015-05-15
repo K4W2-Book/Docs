@@ -1,7 +1,11 @@
 INuiFusionReconstruction::SetAlignDepthFloatToReconstructionReferenceFrame Method  
 =================================================================================  
 
-Sets a reference depth frame that is used internally to help with tracking when calling the [AlignDepthFloatToReconstruction](AlignDepthFloatToReconstru.md) method to calculate a new camera pose. <span id="syntaxSection"></span>
+[AlignDepthFloatToReconstruction](AlignDepthFloatToReconstru.md)でカメラ姿勢を計算するときに内部で用いられる基準となるDepthを設定する。 <span id="syntaxSection"></span>
+
+| ![](../../../../../../resources/note.gif)Note                                                         |
+|-------------------------------------------------------------------------------------------------------|
+| Kinect Fusionのデフォルトのトラッキング処理を利用していない場合のみ、このAPIを呼び出す必要がある。 |
 
 Syntax  
 ======  
@@ -30,13 +34,13 @@ HRESULT SetAlignDepthFloatToReconstructionReferenceFrame(
 
 *pReferenceDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-A previously-created depth float frame that was successfully aligned, or a raycasted model depth.  
+基準となるDepth画像フレーム、またはレイキャストされたDepth画像フレーム。  
 
 <span id="ID4EU"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 INuiFusionReconstruction::SmoothDepthFloatFrame Method  
 ======================================================  
 
-Spatially smoothes a depth float image frame using edge-preserving filtering. <span id="syntaxSection"></span>
+エッジ保存型のフィルタを用いてDepthを平滑化する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,15 +33,15 @@ HRESULT SmoothDepthFloatFrame(
 
 *pDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-A source depth float frame.  
+平滑化するDepth画像フレーム。  
 
 *pSmoothDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-A depth float frame that receives the smoothed depth frame.  
+平滑化されたDepth画像フレーム。  
 
 *kernelWidth*    
 Type: UINT  
- The smoothing kernel width. The valid values are listed in the following table.  
+平滑化カーネルの大きさ。  
 
 | *kernelWidth value* | Smoothing kernel block size |
 |---------------------|-----------------------------|
@@ -51,13 +51,13 @@ Type: UINT
 
 *distanceThreshold*    
 Type: FLOAT  
-The distance difference range that smoothing occurs in. Pixels with neighboring pixels outside this distance range will not be smoothed (larger values indicate discontinuity/edge). This value must be greater than zero.  
+平滑化の閾値。[0.01f-0.1f]  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

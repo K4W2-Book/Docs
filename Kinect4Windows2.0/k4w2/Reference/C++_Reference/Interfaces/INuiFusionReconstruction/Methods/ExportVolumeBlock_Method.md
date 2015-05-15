@@ -1,7 +1,7 @@
 INuiFusionReconstruction::ExportVolumeBlock Method  
 ==================================================  
 
-Exports a part or all of the reconstruction volume as a short array. <span id="syntaxSection"></span>
+再構成した3次元形状データを配列にエクスポートする。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -38,55 +38,83 @@ HRESULT ExportVolumeBlock(
 
 *sourceOriginX*    
 Type: UINT  
-The reconstruction volume voxel index in the x-axis from which the extraction should begin. This value must be greater than or equal to zero and less than the reconstruction volume x-axis voxel resolution.  
+出力を開始するX座標。  
+この値は、0以上、X軸の再構成に使われるボクセル数以下である必要があります。  
+再構成された3次元形状データをすべて出力するには0を指定する。  
 
 *sourceOriginY*    
 Type: UINT  
-The reconstruction volume voxel index in the y-axis from which the extraction should begin. This value must be greater than or equal to zero and less than the reconstruction volume y-axis voxel resolution.  
+出力を開始するY座標。  
+この値は、0以上、Y軸の再構成に使われるボクセル数以下である必要があります。  
+再構成された3次元形状データをすべて出力するには0を指定する。  
 
 *sourceOriginZ*    
 Type: UINT  
-The reconstruction volume voxel index in the z-axis from which the extraction should begin. This value must be greater than or equal to zero and less than the reconstruction volume z-axis voxel resolution.  
+出力を開始するZ座標。  
+この値は、0以上、Z軸の再構成に使われるボクセル数以下である必要があります。  
+再構成された3次元形状データをすべて出力するには0を指定する。  
 
 *destinationResolutionX*    
 Type: UINT  
-The x-axis resolution/width of the new voxel volume to return in the array. This value must be greater than zero and less than or equal to the current volume x-axis voxel resolution. The final count of (sourceOriginX+(destinationResolutionX\*voxelStep) must not be greater than the current reconstruction volume x-axis voxel resolution.  
+出力先のX軸方向の解像度。  
+この値は、0より大きく、X軸の再構成に使われるボクセル数以下である必要があります。  
+また、X軸の出力される大きさ(sourceOriginX + (destinationResolutionX × voxelStep))がX軸の再構成に使われるボクセル数を超えることはできません。  
 
 *destinationResolutionY*    
 Type: UINT  
-The y-axis resolution/height of the new voxel volume to return in the array. This value must be greater than zero and less than or equal to the current volume y-axis voxel resolution. The final count of (sourceOriginY+(destinationResolutionY\*voxelStep) must not be greater than the current reconstruction volume y-axis voxel resolution.  
+出力先のY軸方向の解像度。  
+この値は、0より大きく、Y軸の再構成に使われるボクセル数以下である必要があります。  
+また、Y軸の出力される大きさ(sourceOriginY + (destinationResolutionY × voxelStep))がY軸の再構成に使われるボクセル数を超えることはできません。  
 
 *destinationResolutionZ*    
 Type: UINT  
-The z-axis resolution/depth of the new voxel volume to return in the array. This value must be greater than zero and less than or equal to the current volume z-axis voxel resolution. The final count of (sourceOriginZ+(destinationResolutionZ\*voxelStep) must not be greater than the current reconstruction volume z-axis voxel resolution.  
+出力先のZ軸方向の解像度。  
+この値は、0より大きく、Z軸の再構成に使われるボクセル数以下である必要があります。  
+また、Z軸の出力される大きさ(sourceOriginZ + (destinationResolutionZ × voxelStep))がZ軸の再構成に使われるボクセル数を超えることはできません。  
 
 *voxelStep*    
 Type: UINT  
- The step value in integer voxels for sampling points to use in the volume when exporting. This value must be greater than zero and less than the smallest volume axis voxel resolution. To export the volume at its full resolution, use a step value of one. Use higher step values to skip voxels and return the new volume as if there were a lower effective resolution volume. For example, when exporting with a destination resolution of 320^3, setting voxelStep to two would actually cover a 640^3 voxel area (destinationResolution\*voxelStep) in the source reconstruction, but the data returned would skip every other voxel in the original volume.  
+再構成された3次元形状データをサンプリングするステップ値。  
+このステップ値は、0より大きく、各軸の再構成に使われるボクセル数以下である必要があります。  
+再構成された3次元形状データの解像度を落とさずに配列にエクスポートする場合は1を指定します。  
+大きな値を指定するとエクスポートされるデータの解像度が低くなります。  
+たとえば、再構成された3次元形状データが640×640×640の解像度であるときに320×320×320の解像度で配列にエクスポートしたい場合は、2を指定します。  
+ただし、スキップされたデータは失われます。  
 
 | ![](../../../../../../resources/note.gif)Note                                                                                    |
 |----------------------------------------------------------------------------------------------------------------------------------|
-| Any value higher than one for this value runs the risk of missing zero crossings, and hence missing surfaces or surface details. |
+| 1より大きい値を指定すると3次元形状データの詳細な情報が失われる危険があります。 |
 
 *cbVolumeBlock*    
 Type: UINT  
-The size of the pVolumeBlock array.  
+再構成された3次元形状データを出力する配列のサイズ。(Byte)  
 
 *pVolumeBlock*    
 Type: SHORT  
- A pre-allocated short array to be filled with volume data. The number of elements in this user array should be allocated as (destinationResolutionX\*destinationResolutionY\*destinationResolutionZ). To access the voxel located at x,y,z use pVolume[z][y][x], or index as a 1D array for a particular voxel(x,y,z) as follows: with pitch = x resolution, slice = (y resolution \* pitch)  
+再構成された3次元形状データを出力する配列のアドレス。  
+この配列は(destinationResolutionX × destinationResolutionY × destinationResolutionZ)の要素数で確保する必要があります。  
+座標(x, y, z)のデータには、  
 
-    unsigned int index = (z * slice) + (y * pitch) + x;  
+    SHORT voxel = pVolumeBlock[z][y][x];  
+
+または、  
+
+    UINT pitch = destinationResolutionX;  
+    UINT slice = (destinationResolutionY * pitch);  
+    UINT index = (z * slice) + (y * pitch) + x;  
+    SHORT voxel = pVolumeBlock[index];  
+
+としてアクセスします。  
 
 | ![](../../../../../../resources/note.gif)Note                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A right handed coordinate system is used, with the origin of the volume (that is, voxel 0,0,0) at the top left of the front plane of the cube. Similar to bitmap images with top left origin, +X is to the right, +Y down, and +Z is forward from the origin into the reconstruction volume. |
+| 右手座標系で立方体の前面左上(0, 0, 0)が原点です。X軸は原点より右側にいくにつれ増加、Y軸は原点より下側にいくにつれ増加、Z軸は原点から手前にいくにつれ増加します。 |
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

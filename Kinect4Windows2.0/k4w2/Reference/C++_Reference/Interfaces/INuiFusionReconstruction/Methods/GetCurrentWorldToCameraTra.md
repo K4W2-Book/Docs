@@ -1,7 +1,7 @@
 INuiFusionReconstruction::GetCurrentWorldToCameraTransform Method  
 =================================================================  
 
-Retrieves the current internal world-to-camera transform (camera view pose). <span id="syntaxSection"></span>
+現在のワールド座標系からカメラ座標系への変換行列(カメラ姿勢)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT GetCurrentWorldToCameraTransform(
 
 *pWorldToCameraTransform*    
 Type: Matrix4  
-The current world-to-camera pose.  
+現在のワールド座標系からカメラ座標系への変換行列(カメラ姿勢)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

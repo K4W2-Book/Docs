@@ -1,7 +1,7 @@
 INuiFusionReconstruction::AlignDepthFloatToReconstruction Method  
 ================================================================  
 
-Aligns a depth float image to the reconstruction volume to calculate the new camera pose. <span id="syntaxSection"></span>
+Depthを再構成している3次元形状データに位置合わせしてカメラ姿勢を計算する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,31 +34,32 @@ HRESULT AlignDepthFloatToReconstruction(
 
 *pDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-The depth float frame to be processed.  
+Dpeht画像フレーム  
 
 *maxAlignIterationCount*    
 Type: USHORT  
-The maximum number of iterations of the algorithm to run. The minimum value is one. Using only a small number of iterations will have a faster run time, but the algorithm may not converge to the correct transformation.  
+位置合わせのための反復アルゴリズムの最大反復回数。[1-]  
+反復回数が少ない場合、高速に動作するが正しい位置に収束しない可能性があります。  
 
 *pDeltaFromReferenceFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
- A pre-allocated float image frame, to be filled with information about how well each observed pixel aligns with the passed-in reference frame. This could be processed to create a color rendering, or could be used as input to additional vision algorithms such as object segmentation. These residual values are normalized −1 to 1 and represent the alignment cost/energy for each pixel. Larger magnitude values (either positive or negative) represent more discrepancy, and lower values represent less discrepancy or less information at that pixel.  
-
-Note that if valid depth exists, but no reconstruction model exists behind the depth pixels, a value of zero (which indicates perfect alignment) will be returned for that area. In contrast, where no valid depth occurs a value of one will always be returned. Pass null to this parameter if you do not want to use this functionality.  
+位置合わせのためのアルゴリズムで用いられる補助データ。  
+このデータを必要としない場合、nullptrを指定します。  
 
 *pAlignmentEnergy*    
 Type: FLOAT  
-The threshold in the range [0.0f, 1.0f] that describes how well the observed frame aligns to the model with the calculated pose (mean distance between matching points in the point clouds).  
+位置合わせのためのアルゴリズムで用いられる閾値。[0.0f-1.0f]  
 
 *pWorldToCameraTransform*    
 Type: Matrix4  
-The best guess at the current camera pose. This is usually the camera pose result from the most recent call to the [INuiFusionReconstruction::AlignPointClouds Method](AlignPointClouds_Method.md) or [INuiFusionReconstruction::AlignDepthFloatToReconstruction Method]() method.  
+現在の推測されたカメラ姿勢。  
+通常、[INuiFusionReconstruction::AlignPointClouds Method](AlignPointClouds_Method.md)または[INuiFusionReconstruction::AlignDepthFloatToReconstruction Method](AlignDepthFloatToReconstru.md)で計算された最新のカメラ姿勢を指定する。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
