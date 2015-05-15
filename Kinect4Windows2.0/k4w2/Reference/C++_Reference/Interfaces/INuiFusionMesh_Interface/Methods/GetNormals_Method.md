@@ -1,7 +1,7 @@
 INuiFusionMesh::GetNormals Method  
 =================================  
 
-Gets the mesh normals. <span id="syntaxSection"></span>
+メッシュデータの法線を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT GetNormals(
 
 *pNormals*    
 Type: Vector3  
-The mesh normals.  
+メッシュデータの法線の配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 INuiFusionMesh Interface  
 ========================  
 
-The Mesh object is created when meshing a reconstruction volume. This provides access to the vertices, normals, and triangle indexes of the mesh. <span id="syntaxSection"></span>
+メッシュデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**INuiFusionMesh** has the following members.  
+**INuiFusionMesh**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,27 +48,27 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="INuiFusionMesh_Interface/Methods/GetNormals_Method.md">GetNormals</a></td>
-<td align="left">Gets the mesh normals.</td>
+<td align="left">メッシュデータの法線を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionMesh_Interface/Methods/GetTriangleIndices_Method.md">GetTriangleIndices</a></td>
-<td align="left">Gets the mesh triangle indices.</td>
+<td align="left">メッシュデータの三角形を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionMesh_Interface/Methods/GetVertices_Method.md">GetVertices</a></td>
-<td align="left">Gets the mesh vertices.</td>
+<td align="left">メッシュデータの頂点を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionMesh_Interface/Methods/NormalCount_Method.md">NormalCount</a></td>
-<td align="left">Gets the number of normals in the mesh.</td>
+<td align="left">メッシュデータの法線の数を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="INuiFusionMesh_Interface/Methods/TriangleVertexIndexCount.md">TriangleVertexIndexCount</a></td>
-<td align="left">Gets the number of triangle vertex indices for the mesh.</td>
+<td align="left">メッシュデータの三角形の数を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="INuiFusionMesh_Interface/Methods/VertexCount_Method.md">VertexCount</a></td>
-<td align="left">Gets the number of vertices in the mesh.</td>
+<td align="left">メッシュデータの頂点の数を取得する。</td>
 </tr>
 </tbody>
 </table>

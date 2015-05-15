@@ -1,7 +1,7 @@
 INuiFusionMesh::TriangleVertexIndexCount Method  
 ===============================================  
 
-Gets the number of triangle vertex indices for the mesh. <span id="syntaxSection"></span>
+メッシュデータの三角形の数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ UINT TriangleVertexIndexCount(
 
 **    
 Type: void  
-Void.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: UINT  
-The number of triangle vertex indices for the mesh.  
+メッシュデータの三角形の数。  
 
 <span id="requirements"></span>
 
