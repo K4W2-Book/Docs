@@ -1,7 +1,7 @@
 INuiFusionCameraPoseFinder::SaveCameraPoseFinderDatabase Method  
 ===============================================================  
 
-Saves the camera pose finder database to disk. <span id="syntaxSection"></span>
+データベースをファイルに保存する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,20 +30,20 @@ HRESULT SaveCameraPoseFinderDatabase(
 
 *filename*    
 Type: LPCWSTR  
-The filename of the database file to save to.  
+データベースのファイル名。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-If the database is saved to disk alongside the reconstruction volume, you can restart and update reconstruction and tracking by reloading both files and then running the camera pose finder.  
+再構成された3次元形状データとフレーム・カメラ姿勢のデータベースを一緒に保存している場合、再度読み込むことで再構成とトラッキングを再開することができます。 
 
 <span id="requirements"></span>
 

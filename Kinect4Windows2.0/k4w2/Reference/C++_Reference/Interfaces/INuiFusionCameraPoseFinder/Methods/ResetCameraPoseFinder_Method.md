@@ -1,7 +1,7 @@
 INuiFusionCameraPoseFinder::ResetCameraPoseFinder Method  
 ========================================================  
 
-Clears the CameraPoseFinder. <span id="syntaxSection"></span>
+データベースをリセットする。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT ResetCameraPoseFinder(
 
 **    
 Type: void  
-Void.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

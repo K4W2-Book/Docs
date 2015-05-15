@@ -1,7 +1,7 @@
 INuiFusionCameraPoseFinder::ProcessFrame Method  
 ===============================================  
 
-Adds the specified camera frame to the camera pose finder database if the frame differs enough from poses that already exist in the database. <span id="syntaxSection"></span>
+データベースに含まれるフレーム・カメラ姿勢と十分に異なる場合、新たにデータベースに登録する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -35,33 +35,40 @@ HRESULT ProcessFrame(
 
 *pDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
- The depth float frame to be processed. This frame must have valid camera parameters and have a minimum size of 80×60. Also, this frame must be the same size and have been captured at the same time as the colorFrame parameter.  
+Depth画像フレーム。  
+このフレームは有効なカメラパラメーターを持っており、80×60以上のサイズである必要がある。  
 
 *pColorFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
- The color frame to be processed. This frame must have valid camera parameters and have a minimum size of 80×60. Also, this frame must be the same size and have been captured at the same time as the depthFloatFrame parameter.  
+Color画像フレーム。  
+このフレームは有効なカメラパラメーターを持っており、80×60以上のサイズである必要がある。  
+  
 
 *pWorldToCameraTransform*    
 Type: Matrix4  
-The current camera pose. This is usually the camera pose result from the most recent call to the AlignPointClouds or AlignDepthFloatToReconstruction method.  
+入力フレームのカメラ姿勢。  
+通常、AlignPointClouds()またはAlignDepthFloatToReconstruction()の出力結果を指定する。
 
 *minimumDistanceThreshold*    
 Type: FLOAT  
-Threshold in the range [0.0f, 1.0f] that specifies how different the worldToCameraTransform pose must be from the poses that are already stored in the database. Input frames that have a minimum distance equal to or above this threshold when compared to existing poses will be added to the database. Set this value to 0.0f to always add the pose to the database when this function is called. Note that setting this value to 0.0f can lead to many duplicated poses unless your application implements its own test.  
+データベースに含まれるカメラ姿勢と十分に異なると判定される閾値。[0.0f-1.0f]  
+この閾値を超えるフレーム・カメラ姿勢は新たにデータベースに登録される。  
+常に入力されたフレーム・カメラ姿勢をデータベースに登録したい場合は、0.0fを指定する。  
+ただし、多くの重複したカメラ姿勢がデータベースに登録されるため、データベースが肥大化しパフォーマンスが低下する恐れがある。
 
 *pAddedPose*    
 Type: BOOL  
-A value indicating whether a new frame was added to the camera pose data.  
+フレーム・カメラ姿勢が新たにデータベースに登録された場合は**true**、破棄された場合は**false**。  
 
 *pHistoryTrimmed*    
 Type: BOOL  
-A value indicating wether the camera pose finder removed frames from the frame history for performance reasons.  
+パフォーマンスを確保するためにデータベースから古いフレーム・カメラ姿勢を削除した場合は**true**、削除していない場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

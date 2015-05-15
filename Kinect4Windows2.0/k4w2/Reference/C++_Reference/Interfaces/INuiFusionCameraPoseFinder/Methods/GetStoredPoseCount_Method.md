@@ -1,7 +1,7 @@
 INuiFusionCameraPoseFinder::GetStoredPoseCount Method  
 =====================================================  
 
-Gets the number of poses stored by the CameraPoseFinder. <span id="syntaxSection"></span>
+データベースに含まれるカメラポーズの数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ UINT GetStoredPoseCount(
 
 **    
 Type: void  
-Void.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: UINT  
-The number of poses stored by the CameraPoseFinder.  
+データベースに含まれるカメラポーズの数。  
 
 <span id="requirements"></span>
 

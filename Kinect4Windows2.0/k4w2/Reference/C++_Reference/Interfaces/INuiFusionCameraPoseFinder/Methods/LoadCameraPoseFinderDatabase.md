@@ -1,7 +1,7 @@
 INuiFusionCameraPoseFinder::LoadCameraPoseFinderDatabase Method  
 ===============================================================  
 
-Loads a previously-saved camera pose finder database from disk. <span id="syntaxSection"></span>
+ファイルからデータベースを読み込む。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT LoadCameraPoseFinderDatabase(
 
 *filename*    
 Type: LPCWSTR  
-The name of the camera pose finder database file to load.  
+データベースのファイル名。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

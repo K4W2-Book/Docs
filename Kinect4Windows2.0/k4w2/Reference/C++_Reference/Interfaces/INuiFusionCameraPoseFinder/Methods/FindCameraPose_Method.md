@@ -1,7 +1,7 @@
 INuiFusionCameraPoseFinder::FindCameraPose Method  
 =================================================  
 
-Retrieves the poses in the camera pose finder database that are most similar to the current camera input. <span id="syntaxSection"></span>
+現在のフレームと最も類似するフレームのカメラポーズをデータベースから取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -32,21 +32,24 @@ HRESULT FindCameraPose(
 
 *pDepthFloatFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-The depth float frame to be processed. This frame must have valid camera parameters. Also, this frame must be the same size and have been captured at the same time as the colorFrame parameter.  
+Depth画像フレーム。  
+このフレームは有効なカメラパラメーターを持っている必要がある。  
 
 *pColorFrame*    
 Type: NUI\_FUSION\_IMAGE\_FRAME  
-The color frame to be processed. This frame must have valid camera parameters. Also, this frame must be the same size and have been captured at the same time as the depthFloatFrame parameter.  
+Color画像フレーム。  
+このフレームは有効なカメラパラメーターを持っている必要がある。  
 
 *ppMatchCandidates*    
 Type: INuiFusionMatchCandidates  
-A MatchCandidates object that contains a set of matched frames and poses. These poses and similarity measurements are ordered in terms of decreasing similarity.  
+INuiFusionMatchCandidatesのポインタのアドレス。  
+このカメラ姿勢・類似度は似ている順にソートされている。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

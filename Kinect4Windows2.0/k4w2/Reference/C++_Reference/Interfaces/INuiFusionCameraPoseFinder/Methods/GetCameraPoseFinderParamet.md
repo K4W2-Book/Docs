@@ -1,7 +1,7 @@
 INuiFusionCameraPoseFinder::GetCameraPoseFinderParameters Method  
 ================================================================  
 
-Gets the parameters associated with the CameraPoseFinder. <span id="syntaxSection"></span>
+データベースのパラメーターを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT GetCameraPoseFinderParameters(
 
 *pCameraPoseFinderParameters*    
 Type: NUI\_FUSION\_CAMERA\_POSE\_FINDER\_PARAMETERS  
-The parameters associated with the CameraPoseFinder.  
+データベースのパラメーター。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
