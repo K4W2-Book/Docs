@@ -284,22 +284,22 @@ Fusion Interfaces
 =================  
 
 [INuiFusionCameraPoseFinder Interface](Interfaces/INuiFusionCameraPoseFinder.md)    
-Encapsulates camera pose finder creation, updating, and pose-finding functions.  
+フレームとカメラ姿勢を蓄積するデータベースCameraPoseFinder。  
 
 [INuiFusionColorMesh Interface](Interfaces/INuiFusionColorMesh.md)    
-The INuiFusionColorMesh object is created when meshing a reconstruction volume. This provides access to the vertices, vertex colors, and triangle indexes of the mesh.  
+メッシュデータ(Depth + Color)。  
 
 [INuiFusionColorReconstruction Interface](Interfaces/INuiFusionColorReconstruct.md)    
-Encapsulates reconstruction volume creation, updating, and meshing functions with color.  
+DephtデータとColorデータから3次元形状を再構成する。  
 
 [INuiFusionMatchCandidates Interface](Interfaces/INuiFusionMatchCandidates.md)    
-Used by the CameraPoseFinder::FindCameraPose method to provide access to the matched camera poses and their similarity measurements.  
+[INuiFusionCameraPoseFinder::FindCameraPose](INuiFusionCameraPoseFinder/Methods/FindCameraPose_Method.md)で取得した現在のフレームと類似するフレームのカメラ姿勢の候補。  
 
 [INuiFusionMesh Interface](Interfaces/INuiFusionMesh_Interface.md)    
-The Mesh object is created when meshing a reconstruction volume. This provides access to the vertices, normals, and triangle indexes of the mesh.  
+メッシュデータ(Depth)。  
 
 [INuiFusionReconstruction Interface](Interfaces/INuiFusionReconstruction.md)    
-Reconstruction encapsulates reconstruction volume creation updating and meshing functions.  
+Dephtデータから3次元形状を再構成する。  
 
 <span id="ID4E2BAC"></span>
 
