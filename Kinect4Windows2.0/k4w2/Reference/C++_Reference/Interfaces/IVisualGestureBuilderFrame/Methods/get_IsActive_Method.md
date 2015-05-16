@@ -1,7 +1,7 @@
 IVisualGestureBuilderFrameSource::get\_IsActive Method  
 ======================================================  
 
-Gets a value indicating if the Visual Gesture Builder frame source is active. <span id="syntaxSection"></span>
+VGBフレームのSourceの動作状況を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_IsActive(
 
 *isActive*    
 Type: BOOLEAN  
-[out] True if the frame source is active; otherwise false.  
+[out] VGBフレームのSourceが動作している場合は**true**、動作していない場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

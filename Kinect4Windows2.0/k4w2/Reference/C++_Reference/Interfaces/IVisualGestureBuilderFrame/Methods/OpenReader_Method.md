@@ -1,7 +1,7 @@
 IVisualGestureBuilderFrameSource::OpenReader Method  
 ===================================================  
 
-Opens a new frame reader. <span id="syntaxSection"></span>
+VGBフレームのReaderを開く。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT OpenReader(
 
 *reader*    
 Type: IVisualGestureBuilderFrameReader  
-[out] The new frame reader.  
+[out] IVisualGestureBuilderFrameReaderのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

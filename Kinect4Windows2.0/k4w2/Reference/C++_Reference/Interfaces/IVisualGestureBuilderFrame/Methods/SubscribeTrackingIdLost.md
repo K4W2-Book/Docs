@@ -1,7 +1,7 @@
 IVisualGestureBuilderFrameSource::SubscribeTrackingIdLost Method  
 ================================================================  
 
-Subscribes to the specified event handler to the tracking ID lost event. <span id="syntaxSection"></span>
+トラッキングIDがロストしたとき発効するイベントハンドルを登録する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT SubscribeTrackingIdLost(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[out] The handle to the subscribed event handler.  
+[out] トラッキングIDがロストしたとき発効するイベントハンドル。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

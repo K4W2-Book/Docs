@@ -1,7 +1,7 @@
 IVisualGestureBuilderFrameSource::AddGesture Method  
 ===================================================  
 
-Adds the specified gesture to the Visual Gesture Builder frame source. <span id="syntaxSection"></span>
+識別器を追加する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT AddGesture(
 
 *gesture*    
 Type: IGesture  
-[in] The gesture to add.  
+[in] 識別器。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 IVisualGestureBuilderFrameSource::AddGestures Method  
 ====================================================  
 
-Adds the specified list of gestures to the Visual Gesture Builder frame source. <span id="syntaxSection"></span>
+複数の識別器を追加する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT AddGestures(
 
 *capacity*    
 Type: UINT  
-[in] The size of the array of gestures to be added.  
+[in] 識別器の配列のサイズ。  
 
 *gestures*    
 Type: IGesture  
-[in] The array of gestures to be added.  
+[in] 識別器の配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

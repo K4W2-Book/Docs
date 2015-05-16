@@ -1,7 +1,7 @@
 IVisualGestureBuilderFrameSource::SetIsEnabled Method  
 =====================================================  
 
-Sets whether the specified gesture is enabled for the Visual Gesture Builder frame source. <span id="syntaxSection"></span>
+指定した識別器の有効・無効を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT SetIsEnabled(
 
 *gesture*    
 Type: IGesture  
-[in] The gesture.  
+[in] 識別器。  
 
 *isEnabled*    
 Type: BOOLEAN  
-True if the gesture is enabled; otherwise false.  
+識別器を有効に設定する場合は**true**、無効に設定する場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

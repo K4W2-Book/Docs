@@ -1,7 +1,7 @@
 IVisualGestureBuilderFrameSource::get\_HorizontalMirror Method  
 ==============================================================  
 
-Gets a value indicating whether horizontal mirroring should be used. <span id="syntaxSection"></span>
+水平方向ミラーリングの設定状況を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_HorizontalMirror(
 
 *horizontalMirror*    
 Type: BOOLEAN  
-[out] True if horizontal mirroring should be used; otherwise, false.  
+[out] ミラーリングが有効な場合は**true**、無効な場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

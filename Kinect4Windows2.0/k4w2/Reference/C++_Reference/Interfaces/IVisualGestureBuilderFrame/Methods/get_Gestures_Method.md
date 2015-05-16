@@ -1,7 +1,7 @@
 IVisualGestureBuilderFrameSource::get\_Gestures Method  
 ======================================================  
 
-Gets a collection of gestures associated with the Visual Gesture Builder frame source. <span id="syntaxSection"></span>
+含まれている識別器を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT get_Gestures(
 
 *capacity*    
 Type: UINT  
-[in] The size of the array into which the gestures will be copied.  
+[in] 識別器の配列のサイズ。  
 
 *gestures*    
 Type: IGesture  
-[in, out] The array into which the gestures will be copied.  
+[in, out] 識別器の配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 IVisualGestureBuilderFrameSource::put\_HorizontalMirror Method  
 ==============================================================  
 
-Sets a value indicating whether horizontal mirroring should be used. <span id="syntaxSection"></span>
+水平方向ミラーリングの有効・無効を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT put_HorizontalMirror(
 
 *horizontalMirror*    
 Type: BOOLEAN  
-True if horizontal mirroring should be used; otherwise, false.  
+ミラーリングを有効に設定する場合は**true**、無効に設定する場合は**false**を指定する。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

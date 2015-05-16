@@ -1,7 +1,7 @@
 IVisualGestureBuilderFrameSource::put\_TrackingId Method  
 ========================================================  
 
-Sets the tracking ID of the Visual Gesture Builder frame source. <span id="syntaxSection"></span>
+トラッキングIDを設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT put_TrackingId(
 
 *trackingId*    
 Type: UINT64  
-The tracking ID of the Visual Gesture Builder frame source.  
+トラッキングID。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
