@@ -1,20 +1,20 @@
-Reference  
+リファレンス  
 =========  
 
-The Kinect for Windows SDK 2.0 provides the following reference documentation.  
+Kinect for Windows SDK 2.0 のAPIリファレンスです。  
 
 <span id="ID4ER"></span>
 
-In this section  
+目次
 ===============  
 
-[C++ Reference](Reference/C++_Reference.md)    
-Describes the Kinect for Windows native code APIs, which are implemented in C++.  
+[C++ リファレンス](Reference/C++_Reference.md)    
+C++のネイティブAPIです。
 
-[Windows Store App WinRT Reference](Reference/Kinect_for_Windows_v2.md)    
-Reference documentation for the Windows Runtime APIs for the Kinect for Windows SDK v2.  
+[Windowsストアアプリ WinRT リファレンス](Reference/Kinect_for_Windows_v2.md)    
+Windows ランタイム API 用のドキュメントです。  
 
-The .NET API reference documentation for the Kinect for Windows SDK 2.0 can be downloaded from the [Kinect for Windows developer center](http://go.microsoft.com/fwlink/?LinkId=510408).  
+Kinect for Windows SDK 2.0の.NET API リファレンスのドキュメントは[Kinect for Windows developer center](http://go.microsoft.com/fwlink/?LinkId=510408)からダウンロードできます(訳注：Windowsストアアプリ WinRT リファレンスでも基本的には同じです)。
 
 
 
