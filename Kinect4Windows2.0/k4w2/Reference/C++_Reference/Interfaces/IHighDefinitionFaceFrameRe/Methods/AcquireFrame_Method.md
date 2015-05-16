@@ -36,7 +36,7 @@ Type: IHighDefinitionFaceFrame
 #### Return value  
 
 Type: HRESULT  
-成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
