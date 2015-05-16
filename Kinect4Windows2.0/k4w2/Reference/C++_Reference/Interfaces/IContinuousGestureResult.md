@@ -1,7 +1,7 @@
 IContinuousGestureResult Interface  
 ==================================  
 
-Provides information about the progress of a continuous gesture result. <span id="syntaxSection"></span>
+Continuous(連続的)ジェスチャーの結果。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IContinuousGestureResult** has the following members.  
+**IContinuousGestureResult**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IContinuousGestureResult/Methods/get_Progress_Method.md">get_Progress</a></td>
-<td align="left">Gets a value indicating the progress of a continuous gesture result.</td>
+<td align="left">ジェスチャーの進行状況を取得する。</td>
 </tr>
 </tbody>
 </table>

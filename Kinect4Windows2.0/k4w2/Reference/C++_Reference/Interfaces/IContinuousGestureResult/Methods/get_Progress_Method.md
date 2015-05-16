@@ -1,7 +1,7 @@
 IContinuousGestureResult::get\_Progress Method  
 ==============================================  
 
-Gets a value indicating the progress of a continuous gesture result. <span id="syntaxSection"></span>
+ジェスチャーの進行状況を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_Progress(
 
 *progress*    
 Type: float  
-[out] A value indicating the progress of a continuous gesture result.  
+[out] ジェスチャーの進行状況。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
