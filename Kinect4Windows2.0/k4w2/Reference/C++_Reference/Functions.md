@@ -118,7 +118,7 @@ Visual Gesture Builder Functions
 ファイルから[IVisualGestureBuilderDatabase](Interfaces/IVisualGestureBuilderDatab.md)を作成する。  
 
 [CreateVisualGestureBuilderFrameSource](Functions/CreateVisualGestureBuilder.md)    
-[IVisualGestureBuilderFrameSource](Interfaces/IVisualGestureBuilderFrame.md)を作成する。  
+[IVisualGestureBuilderFrameSource](Interfaces/IVisualGestureBuilderFrameSource.md)を作成する。  
 
 
 
