@@ -57,7 +57,7 @@ Depthデータの最大値の閾値。
 
 *mirrorDepth*    
 Type: BOOL  
-Depthデータを反転する場合は**true**、反転しない場合は**false**をしてする。  
+Depthデータを反転する場合は**true**、反転しない場合は**false**を指定する。  
 
 <span id="ID4EP"></span>
 #### Return value  
