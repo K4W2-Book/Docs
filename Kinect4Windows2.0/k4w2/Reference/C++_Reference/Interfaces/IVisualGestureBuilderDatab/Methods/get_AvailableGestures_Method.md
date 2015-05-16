@@ -1,7 +1,7 @@
 IVisualGestureBuilderDatabase::get\_AvailableGestures Method  
 ============================================================  
 
-Gets a list of the available gestures in the database. <span id="syntaxSection"></span>
+データベースに含まれる識別器を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT get_AvailableGestures(
 
 *capacity*    
 Type: UINT32  
-[in] The size of the array into which the list gestures will be copied.  
+[in] 識別器の配列のサイズ。  
 
 *availableGestures*    
 Type: IGesture  
-[out] The array into which list of gestures will be copied.  
+[out] 識別器の配列のアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

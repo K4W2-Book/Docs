@@ -1,7 +1,7 @@
 IVisualGestureBuilderDatabase::get\_AvailableGesturesCount Method  
 =================================================================  
 
-Gets the number of available gestures in the database. <span id="syntaxSection"></span>
+データベースに含まれる識別器の数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_AvailableGesturesCount(
 
 *numGestures*    
 Type: UINT  
-[out] The number of available gestures in the database.  
+[out] 識別器の数。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-TBD  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

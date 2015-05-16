@@ -1,7 +1,7 @@
 IVisualGestureBuilderDatabase Interface  
 =======================================  
 
-Represents a gesture data store. <span id="syntaxSection"></span>
+ジェスチャーデータベース。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IVisualGestureBuilderDatabase** has the following members.  
+**IVisualGestureBuilderDatabase**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,11 +48,11 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IVisualGestureBuilderDatab/Methods/get_AvailableGestures_Method.md">get_AvailableGestures</a></td>
-<td align="left">Gets a list of the available gestures in the database.</td>
+<td align="left">データベースに含まれる識別器を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IVisualGestureBuilderDatab/Methods/get_AvailableGesturesCount.md">get_AvailableGesturesCount</a></td>
-<td align="left">Gets the number of available gestures in the database.</td>
+<td align="left">データベースに含まれる識別器の数を取得する。</td>
 </tr>
 </tbody>
 </table>
