@@ -1,7 +1,7 @@
 IDiscreteGestureResult::get\_Confidence Method  
 ==============================================  
 
-Gets a value indicating the confidence level of the gesture detection. <span id="syntaxSection"></span>
+ジェスチャー検出の信頼値を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_Confidence(
 
 *confidence*    
 Type: float  
-[out] A value indicating the confidence level of the gesture detection.  
+[out] 検出の信頼値。[0.0f-1.0f]  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

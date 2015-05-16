@@ -1,7 +1,7 @@
 IDiscreteGestureResult::get\_Detected Method  
 ============================================  
 
-Gets a value indicating whether a gesture has been detected. <span id="syntaxSection"></span>
+ジェスチャーが検出されたかを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,12 @@ HRESULT get_Detected(
 
 *detected*    
 Type: BOOLEAN  
-[out] A value indicating whether a gesture has been detected.  
+[out] 検出された場合は**true**、検出されていない場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
 
 <span id="requirements"></span>
 

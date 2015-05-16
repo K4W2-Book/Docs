@@ -1,7 +1,7 @@
 IDiscreteGestureResult Interface  
 ================================  
 
-Provides methods for determining the status of a discrete gesture detection. <span id="syntaxSection"></span>
+Discrete(離散的)ジェスチャーの結果。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IDiscreteGestureResult** has the following members.  
+**IDiscreteGestureResult**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,15 +48,15 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IDiscreteGestureResult/Methods/get_Confidence_Method.md">get_Confidence</a></td>
-<td align="left">Gets a value indicating the confidence level of the gesture detection.</td>
+<td align="left">ジェスチャー検出の信頼値を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDiscreteGestureResult/Methods/get_Detected_Method.md">get_Detected</a></td>
-<td align="left">Gets a value indicating whether a gesture has been detected.</td>
+<td align="left">ジェスチャーが検出されたかを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDiscreteGestureResult/Methods/get_FirstFrameDetected.md">get_FirstFrameDetected</a></td>
-<td align="left">Gets a value indicating whether the first frame of a gesture has been detected.</td>
+<td align="left">ジェスチャーが検出された最初のフレームかを取得する。</td>
 </tr>
 </tbody>
 </table>

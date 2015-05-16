@@ -1,7 +1,7 @@
 IDiscreteGestureResult::get\_FirstFrameDetected Method  
 ======================================================  
 
-Gets a value indicating whether the first frame of a gesture has been detected. <span id="syntaxSection"></span>
+ジェスチャーが検出された最初のフレームかを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FirstFrameDetected(
 
 *firstFrameDetected*    
 Type: BOOLEAN  
-[out] A value indicating whether the first frame of a gesture has been detected.  
+[out] 検出された最初のフレームの場合は**true**、それ以外の場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
