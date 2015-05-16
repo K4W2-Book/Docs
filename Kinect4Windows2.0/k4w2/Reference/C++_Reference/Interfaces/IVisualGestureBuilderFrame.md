@@ -51,7 +51,7 @@ Methods
 <td align="left">Continuous(連続的)ジェスチャーの結果を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="IVisualGestureBuilderFrame/Methods/get_DiscreteGestureResult_Method.md">get_DiscreteGestureResult</a></td>
+<td align="left"><a href="IVisualGestureBuilderFrame/Methods/get_DiscreteGestureResult.md">get_DiscreteGestureResult</a></td>
 <td align="left">Discrete(離散的)ジェスチャーの結果を取得する。</td>
 </tr>
 <tr class="odd">
