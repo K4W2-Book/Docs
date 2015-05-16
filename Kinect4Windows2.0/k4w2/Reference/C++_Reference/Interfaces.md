@@ -307,31 +307,31 @@ Visual Gesture Builder Interfaces
 =================================  
 
 [IContinuousGestureResult Interface](Interfaces/IContinuousGestureResult.md)    
-Provides information about the progress of a continuous gesture result.  
+Continuous(連続的)ジェスチャーの結果。  
 
 [IDiscreteGestureResult Interface](Interfaces/IDiscreteGestureResult.md)    
-Provides methods for determining the status of a discrete gesture detection.  
+Discrete(離散的)ジェスチャーの結果。  
 
 [ITrackingIdLostEventArgs Interface](Interfaces/ITrackingIdLostEventArgs.md)    
-Provides data for the TrackingIdLost event.  
+トラッキングIDがロストしたときのイベントデータ。  
 
 [IVisualGestureBuilderDatabase Interface](Interfaces/IVisualGestureBuilderDatab.md)    
-Represents a gesture data store.  
+ジェスチャーデータベース。  
 
 [IVisualGestureBuilderFrame Interface](Interfaces/IVisualGestureBuilderFrame.md)    
-Represents a Visual Gesture Builder frame.  
+Visaul Gesture Builder(VGB)フレーム。  
 
 [IVisualGestureBuilderFrameArrivedEventArgs Interface](Interfaces/IVisualGestureBuilderFrameArrivedEventArgs.md)    
-Provides data for the FrameArrived event.  
+Visaul Gesture Builder(VGB)フレームのイベントデータ。  
 
 [IVisualGestureBuilderFrameReader Interface](Interfaces/IVisualGestureBuilderFrameReader.md)    
-Represents a Visual Gesture Builder frame reader.  
+Visaul Gesture Builder(VGB)フレームのReader。  
 
 [IVisualGestureBuilderFrameReference Interface](Interfaces/IVisualGestureBuilderFrameReference.md)    
-Represents a reference to an actual Visual Gesture Builder frame.  
+Visaul Gesture Builder(VGB)フレームのReference。  
 
 [IVisualGestureBuilderFrameSource Interface](Interfaces/IVisualGestureBuilderFrameSource.md)    
-Represents a Visual Gesture Builder frame source.  
+Visual Gesture Builder(VGB)フレームのSource。  
 
 
 
