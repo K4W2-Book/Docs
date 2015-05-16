@@ -321,16 +321,16 @@ Represents a gesture data store.
 [IVisualGestureBuilderFrame Interface](Interfaces/IVisualGestureBuilderFrame.md)    
 Represents a Visual Gesture Builder frame.  
 
-[IVisualGestureBuilderFrameArrivedEventArgs Interface](Interfaces/IVisualGestureBuilderFrame.md)    
+[IVisualGestureBuilderFrameArrivedEventArgs Interface](Interfaces/IVisualGestureBuilderFrameArrivedEventArgs.md)    
 Provides data for the FrameArrived event.  
 
-[IVisualGestureBuilderFrameReader Interface](Interfaces/IVisualGestureBuilderFrame.md)    
+[IVisualGestureBuilderFrameReader Interface](Interfaces/IVisualGestureBuilderFrameReader.md)    
 Represents a Visual Gesture Builder frame reader.  
 
-[IVisualGestureBuilderFrameReference Interface](Interfaces/IVisualGestureBuilderFrame.md)    
+[IVisualGestureBuilderFrameReference Interface](Interfaces/IVisualGestureBuilderFrameReference.md)    
 Represents a reference to an actual Visual Gesture Builder frame.  
 
-[IVisualGestureBuilderFrameSource Interface](Interfaces/IVisualGestureBuilderFrame.md)    
+[IVisualGestureBuilderFrameSource Interface](Interfaces/IVisualGestureBuilderFrameSource.md)    
 Represents a Visual Gesture Builder frame source.  
 
 
