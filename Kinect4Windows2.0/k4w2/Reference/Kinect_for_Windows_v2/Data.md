@@ -1,9 +1,11 @@
-WindowsPreview.Data Namespace  
+WindowsPreview.Data 名前空間  
 =============================  
 
-Provides APIs to support data binding. <span id="classesSection"></span>
+データバインディングをサポートするためのAPIを提供します。
 
-Classes  
+<span id="classesSection"></span>
+
+クラス
 =======  
 
 <table>
@@ -13,14 +15,14 @@ Classes
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">クラス名</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="Data/PropertyChangedEventArgs.md">PropertyChangedEventArgs</a></td>
-<td align="left">Provides data for the PropertyChanged event.</td>
+<td align="left">PropertyChangedイベントのデータ</td>
 </tr>
 </tbody>
 </table>
@@ -37,21 +39,21 @@ Interfaces
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">クラス名</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="Data/INotifyPropertyChanged.md">INotifyPropertyChanged</a></td>
-<td align="left">Notifies clients that a property value has changed.</td>
+<td align="left">プロパティの値が変更されたことをクライアントに通知します</td>
 </tr>
 </tbody>
 </table>
 
 <span id="delegatesSection"></span>
 
-Delegates  
+デリゲート
 =========  
 
 <table>
@@ -61,14 +63,14 @@ Delegates
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">クラス名</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="Data/PropertyChangedEventHandler.md">PropertyChangedEventHandler</a></td>
-<td align="left">Represents the method that will handle the PropertyChanged event raised when a property is changed on a component.</td>
+<td align="left">プロパティが変更されたときに発生するPropertyChangedイベントを処理するメソッド</td>
 </tr>
 </tbody>
 </table>
