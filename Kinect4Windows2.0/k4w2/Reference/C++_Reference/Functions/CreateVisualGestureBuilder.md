@@ -1,7 +1,7 @@
 CreateVisualGestureBuilderFrameSource  
 =====================================  
 
-[IVisualGestureBuilderFrameSource](../Interfaces/IVisualGestureBuilderFrame.md)を作成する。 <span id="syntaxSection"></span>
+[IVisualGestureBuilderFrameSource](../Interfaces/IVisualGestureBuilderFrameSource.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
