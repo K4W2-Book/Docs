@@ -1,9 +1,9 @@
-ColorFrameReader Methods  
+ColorFrameReader メソッド  
 ========================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,18 +13,18 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent color frame.</td>
+<td align="left"><a href="ColorFrameReader_Class/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
+<td align="left">最新のカラーフレームを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes and releases system resources associated with the color frame reader.</td>
+<td align="left"><a href="ColorFrameReader_Class/Methods/Close_Method.md">Close</a></td>
+<td align="left">カラーフレームリーダーのリソースを解放し、動作を停止する。</td>
 </tr>
 </tbody>
 </table>

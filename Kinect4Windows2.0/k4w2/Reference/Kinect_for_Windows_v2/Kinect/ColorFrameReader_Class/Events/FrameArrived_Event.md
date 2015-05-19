@@ -1,9 +1,10 @@
-ColorFrameReader.FrameArrived Event  
+ColorFrameReader.FrameArrived イベント  
 ===================================  
 
-Event that fires whenever a frame is captured.<span id="syntaxSection"></span>
+フレームの更新を通知するイベント。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

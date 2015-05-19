@@ -1,9 +1,10 @@
 ColorFrameReader.PropertyChanged Event  
 ======================================  
 
-Occurs when a property of the [ColorFrameReader](../../ColorFrameReader_Class.md) class changes. <span id="syntaxSection"></span>
+[ColorFrameReader](../../ColorFrameReader_Class.md) クラスのプロパティが変更されたことを通知するイベント。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

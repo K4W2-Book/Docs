@@ -1,9 +1,10 @@
-ColorFrameReader.IsPaused Property  
+ColorFrameReader.IsPaused プロパティ  
 ==================================  
 
-Gets or sets whether the color frame reader is paused. <span id="syntaxSection"></span>
+カラーフレームリーダーの動作状態を取得/設定する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,17 +61,17 @@ colorFrameReader.isPaused = isPaused;</code></pre></td>
 </table>
 
 <span id="ID4EV"></span>
-#### Property value  
+#### プロパティ値  
 
 [C++]   
  [C\#]   
  [JavaScript]   
 
-Type: [bool](http://msdn.microsoft.com/en-us/library/hh755815.aspx)  
-Type: [bool](http://msdn.microsoft.com/en-us/library/system.boolean.aspx)  
-Type: Boolean  
+型: [bool](http://msdn.microsoft.com/en-us/library/hh755815.aspx)  
+型: [bool](http://msdn.microsoft.com/en-us/library/system.boolean.aspx)  
+型: Boolean  
 
-The pause state of the color frame reader.  
+カラーフレームリーダーの動作状態。
 
 <span id="requirements"></span>
 

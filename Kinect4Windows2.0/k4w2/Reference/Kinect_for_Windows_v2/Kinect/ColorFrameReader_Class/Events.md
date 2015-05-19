@@ -1,9 +1,9 @@
-ColorFrameReader Events  
+ColorFrameReader イベント  
 =======================  
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -19,15 +19,16 @@ Events
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Events/FrameArrived_Event.md">FrameArrived</a></td>
-<td align="left">Event that fires whenever a frame is captured.</td>
+<td align="left"><a href="ColorFrameReader_Class/Events/FrameArrived_Event.md">FrameArrived</a></td>
+<td align="left">フレームの更新を通知するイベント。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="../ColorFrameReader_Class.md">ColorFrameReader</a> class changes.</td>
+<td align="left"><a href="ColorFrameReader_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
+<td align="left"><a href="../ColorFrameReader_Class.md">ColorFrameReader</a> のプロパティ値が変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>
+
 
 <span id="ID4EI"></span>
 

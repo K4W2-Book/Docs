@@ -1,9 +1,11 @@
-ColorFrameReader.ColorFrameSource Property  
+ColorFrameReader.ColorFrameSource プロパティ  
 ==========================================  
 
-Represents a source of color frames from a KinectSensor. <span id="syntaxSection"></span>
 
-Syntax  
+このカラーフレームリーダーを作成したカラーフレームソースを取得する。
+<span id="syntaxSection"></span>
+
+構文
 ======  
 
 <table>
@@ -58,10 +60,10 @@ property <a href="../../ColorFrameSource_Class.md">ColorFrameSource</a>^ ColorFr
 </table>
 
 <span id="ID4ER"></span>
-#### Property value  
+#### プロパティ値  
 
-Type: [ColorFrameSource](../../ColorFrameSource_Class.md)  
- The color frame source.  
+型: [ColorFrameSource](../../ColorFrameSource_Class.md)  
+ カラーソース。  
 
 <span id="requirements"></span>
 

@@ -1,9 +1,10 @@
-ColorFrameReader Class  
+ColorFrameReader クラス  
 ======================  
 
-Represents a reader for color frames. <span id="syntaxSection"></span>
+カラーフレームのリーダーを表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **ColorFrameReader** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,25 +74,25 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ColorFrameReader_Class/Properties/ColorFrameSource_Property.md">ColorFrameSource</a></td>
-<td align="left">Represents a source of color frames from a KinectSensor.</td>
+<td align="left">このリーダーを作成したカラーフレームソース</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets whether the color frame reader is paused.</td>
+<td align="left">カラーフレームリーダーの動作状態を取得/設定する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -101,25 +102,25 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ColorFrameReader_Class/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent color frame.</td>
+<td align="left">最新のカラーフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrameReader_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes and releases system resources associated with the color frame reader.</td>
+<td align="left">カラーフレームリーダーのリソースを解放し、動作を停止する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -136,11 +137,11 @@ Events
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ColorFrameReader_Class/Events/FrameArrived_Event.md">FrameArrived</a></td>
-<td align="left">Event that fires whenever a frame is captured.</td>
+<td align="left">フレームの更新を通知するイベント。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrameReader_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="">ColorFrameReader</a> class changes.</td>
+<td align="left"><a href="">ColorFrameReader</a> のプロパティ値が変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>

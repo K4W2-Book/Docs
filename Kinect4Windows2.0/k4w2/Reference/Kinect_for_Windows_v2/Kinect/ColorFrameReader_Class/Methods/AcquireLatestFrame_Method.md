@@ -1,9 +1,10 @@
-ColorFrameReader.AcquireLatestFrame Method  
+ColorFrameReader.AcquireLatestFrame メソッド  
 ==========================================  
 
-Gets the most recent color frame. <span id="syntaxSection"></span>
+最新のカラーフレームを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,10 +57,10 @@ Syntax
 </table>
 
 <span id="ID4ES"></span>
-#### Return value  
+#### 戻り値  
 
-Type: [ColorFrame](../../ColorFrame_Class.md)  
- The most recent color frame.  
+型: [ColorFrame](../../ColorFrame_Class.md)  
+ 最新のカラーフレーム  
 
 <span id="requirements"></span>
 

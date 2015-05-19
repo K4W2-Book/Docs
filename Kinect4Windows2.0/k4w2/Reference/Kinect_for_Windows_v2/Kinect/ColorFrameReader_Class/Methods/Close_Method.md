@@ -1,9 +1,10 @@
-ColorFrameReader.Close Method  
+ColorFrameReader.Close メソッド  
 =============================  
 
-Closes and releases system resources associated with the color frame reader. <span id="syntaxSection"></span>
+カラーフレームリーダーのリソースを解放し、動作を停止する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
