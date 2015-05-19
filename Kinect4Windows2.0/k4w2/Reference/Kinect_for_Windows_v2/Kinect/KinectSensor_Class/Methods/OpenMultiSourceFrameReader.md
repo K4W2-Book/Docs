@@ -1,9 +1,10 @@
 KinectSensor.OpenMultiSourceFrameReader Method  
 ==============================================  
 
-Creates a frame reader for the multiple frame sources. <span id="syntaxSection"></span>
+マルチフレームリーダーを開く。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,24 +61,24 @@ Syntax
 </table>
 
 <span id="ID4EJ"></span>
-#### Parameters  
+#### 引数  
 
 *enabledFrameSourceTypes*    
-Type: [FrameSourceTypes](../../FrameSourceTypes_Enumeration.md)  
- The frame source types.  
+型: [FrameSourceTypes](../../FrameSourceTypes_Enumeration.md)  
+ 取得するフレームの種別
 
 <span id="ID4ES"></span>
-#### Return value  
+#### 戻り値  
 
-Type: [MultiSourceFrameReader](../../MultiSourceFrameReader_Class.md)  
- A new reader for the multiple frame source.  
+型: [MultiSourceFrameReader](../../MultiSourceFrameReader_Class.md)  
+新しいマルチフレームリーダー
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-The *enabledFrameSourceTypes* can be one or more of the following values:  
+*enabledFrameSourceTypes*で取り込むフレームを選択できます。  
 
 <table>
 <colgroup>
@@ -93,7 +94,7 @@ The *enabledFrameSourceTypes* can be one or more of the following values:
 <tbody>
 <tr class="odd">
 <td align="left">FrameSourceTypes::Color</td>
-<td align="left">Include Color Frames in this MultiSourceFrameReader.  
+<td align="left">MultiSourceFrameReaderでカラーフレームを取り込む。 
 <div class="alert">
 <table>
 <thead>
@@ -111,27 +112,27 @@ The *enabledFrameSourceTypes* can be one or more of the following values:
 </tr>
 <tr class="even">
 <td align="left">FrameSourceTypes::Infrared</td>
-<td align="left">Include infrared frames in this MultiSourceFrameReader.</td>
+<td align="left">MultiSourceFrameReaderで赤外線フレームを取り込む。</td>
 </tr>
 <tr class="odd">
 <td align="left">FrameSourceTypes::Audio</td>
-<td align="left">Audio is not supported for MultiSourceFrameReader. Including this source will cause this method to fail.</td>
+<td align="left">MultiSourceFrameReaderは音声フレームをサポートしません。この値を設定するとメソッドは失敗します。</td>
 </tr>
 <tr class="even">
 <td align="left">FrameSourceTypes::LongExposureInfrared</td>
-<td align="left">Include long exposure infrared frames in this MultiSourceFrameReader.</td>
+<td align="left">MultiSourceFrameReaderで長時間露光赤外線フレームを取り込む。</td>
 </tr>
 <tr class="odd">
 <td align="left">FrameSourceTypes::Depth</td>
-<td align="left">Include depth frames in this MultiSourceFrameReader.</td>
+<td align="left">MultiSourceFrameReaderでDepthフレームを取り込む。</td>
 </tr>
 <tr class="even">
 <td align="left">FrameSourceTypes::BodyIndex</td>
-<td align="left">Include body index frames in this MultiSourceFrameReader.</td>
+<td align="left">MultiSourceFrameReaderでボディインデックスフレームを取り込む。</td>
 </tr>
 <tr class="odd">
 <td align="left">FrameSourceTypes::Body</td>
-<td align="left">Include body frames in this MultiSourceFrameReader.</td>
+<td align="left">MultiSourceFrameReaderでボディフレームを取り込む。</td>
 </tr>
 </tbody>
 </table>

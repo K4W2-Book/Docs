@@ -13,40 +13,39 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes and releases system resources associated with the Kinect Sensor.</td>
+<td align="left"><a href="KinectSensor_Class/Methods/Close_Method.md">Close</a></td>
+<td align="left">Kinectセンサーの動作を停止する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/GetDefault_Method.md">GetDefault</a></td>
-<td align="left">Gets the default sensor.</td>
+<td align="left"><a href="KinectSensor_Class/Methods/GetDefault_Method.md">GetDefault</a></td>
+<td align="left">既定のKinectSensorクラスのインスタンスを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Methods/Open_Method.md">Open</a></td>
-<td align="left">Opens the KinectSensor for use.</td>
+<td align="left"><a href="KinectSensor_Class/Methods/Open_Method.md">Open</a></td>
+<td align="left">Kinectの動作を開始する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/OpenMultiSourceFrameReader.md">OpenMultiSourceFrameReader</a></td>
-<td align="left">Creates a frame reader for the multiple frame sources.</td>
+<td align="left"><a href="KinectSensor_Class/Methods/OpenMultiSourceFrameReader.md">OpenMultiSourceFrameReader</a></td>
+<td align="left">MultiSourceFrameReaderを開く。</td>
 </tr>
 </tbody>
 </table>
-
 <span id="ID4EI"></span>
 
 See also  
 ========  
 
 <span id="ID4EK"></span>
-#### Reference  
+#### 参照
 
-[KinectSensor Class](../KinectSensor_Class.md)  
- [WindowsPreview.Kinect Namespace](../../Kinect.md)  
+[KinectSensor クラス](../KinectSensor_Class.md)  
+ [WindowsPreview.Kinect 名前空間](../../Kinect.md)  
 
 
 

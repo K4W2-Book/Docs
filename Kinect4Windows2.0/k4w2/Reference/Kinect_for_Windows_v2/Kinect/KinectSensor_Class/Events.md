@@ -13,18 +13,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Events/IsAvailableChanged_Event.md">IsAvailableChanged</a></td>
-<td align="left">This event fires when the IsAvailable property changes.</td>
+<td align="left"><a href="KinectSensor_Class/Events/IsAvailableChanged_Event.md">IsAvailableChanged</a></td>
+<td align="left">Kinectが物理的にコンピュータに接続された/抜かれた時に発生するイベント。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="../KinectSensor_Class.md">KinectSensor</a> class changes.</td>
+<td align="left"><a href="KinectSensor_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
+<td align="left"><a href="">KinectSensor</a>クラスのプロパティが変更されたときに発生するイベント</td>
 </tr>
 </tbody>
 </table>
@@ -35,10 +35,10 @@ See also
 ========  
 
 <span id="ID4EK"></span>
-#### Reference  
+#### 参照  
 
-[KinectSensor Class](../KinectSensor_Class.md)  
- [WindowsPreview.Kinect Namespace](../../Kinect.md)  
+[KinectSensor クラス](../KinectSensor_Class.md)  
+ [WindowsPreview.Kinect 名前空間](../../Kinect.md)  
 
 
 

@@ -1,7 +1,8 @@
-INotifyPropertyChanged.PropertyChanged Event  
+INotifyPropertyChanged.PropertyChanged イベント  
 ============================================  
 
-Occurs when a property value changes.<span id="syntaxSection"></span>
+プロパティが変わったことを通知するイベント
+<span id="syntaxSection"></span>
 
 Syntax  
 ======  

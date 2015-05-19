@@ -1,9 +1,10 @@
-KinectSensor.Open Method  
+KinectSensor.Open メソッド  
 ========================  
 
-Opens the KinectSensor for use. <span id="syntaxSection"></span>
+Kinectを開き動作を開始する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

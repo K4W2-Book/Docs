@@ -1,9 +1,11 @@
-KinectSensor.Close Method  
+KinectSensor.Close メソッド  
 =========================  
 
-Closes and releases system resources associated with the Kinect Sensor. <span id="syntaxSection"></span>
+Kinectセンサーのリソースを解放し、動作を停止する。
 
-Syntax  
+<span id="syntaxSection"></span>
+
+構文
 ======  
 
 <table>

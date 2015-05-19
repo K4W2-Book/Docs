@@ -13,62 +13,66 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/AudioSource_Property.md">AudioSource</a></td>
-<td align="left">Gets the source for audio frames.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/AudioSource_Property.md">AudioSource</a></td>
+<td align="left">オーディオフレームのソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/BodyFrameSource_Property.md">BodyFrameSource</a></td>
-<td align="left">Gets the source for body frames.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/BodyFrameSource_Property.md">BodyFrameSource</a></td>
+<td align="left">ボディフレームのソースを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/BodyIndexFrameSource.md">BodyIndexFrameSource</a></td>
-<td align="left">Gets the source for body index frames.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/BodyIndexFrameSource.md">BodyIndexFrameSource</a></td>
+<td align="left">ボディインデックスフレームのソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/ColorFrameSource_Property.md">ColorFrameSource</a></td>
-<td align="left">Gets the source for color frames.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/ColorFrameSource_Property.md">ColorFrameSource</a></td>
+<td align="left">カラーフレームのソースを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/CoordinateMapper_Property.md">CoordinateMapper</a></td>
-<td align="left">Gets the coordinate mapper.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/CoordinateMapper_Property.md">CoordinateMapper</a></td>
+<td align="left">座標変換オブジェクトを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/DepthFrameSource_Property.md">DepthFrameSource</a></td>
-<td align="left">Gets the source for depth frames.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/DepthFrameSource_Property.md">DepthFrameSource</a></td>
+<td align="left">Depthフレームのソースを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/InfraredFrameSource_Property.md">InfraredFrameSource</a></td>
-<td align="left">Gets the source for infrared frames.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/InfraredFrameSource_Property.md">InfraredFrameSource</a></td>
+<td align="left">赤外線フレームのソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsAvailable_Property.md">IsAvailable</a></td>
-<td align="left">Gets whether the Kinect sensor is available and able to retrieve frames.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/IsAvailable_Property.md">IsAvailable</a></td>
+<td align="left">Kinectの接続状態を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/IsOpen_Property.md">IsOpen</a></td>
-<td align="left">Gets whether or not the KinectSensor is open.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/IsOpen_Property.md">IsOpen</a></td>
+<td align="left">Kinectセンサーが開かれているかどうか(実行状態)を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/KinectCapabilities_Property.md">KinectCapabilities</a></td>
-<td align="left">Gets the capabilities of the KinectSensor.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/KinectCapabilities_Property.md">KinectCapabilities</a></td>
+<td align="left">Kinectセンサーが提供できる機能を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/LongExposureInfraredFrameS.md">LongExposureInfraredFrameSource</a></td>
-<td align="left">Gets the source for long exposure infrared frames.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/LongExposureInfraredFrameS.md">LongExposureInfraredFrameSource</a></td>
+<td align="left">長時間露光赤外線フレームのソースを取得する。</td>
 </tr>
+
+<!-- いまはない
 <tr class="even">
-<td align="left"><a href="Properties/Sensors_Property.md">Sensors</a></td>
-<td align="left">Gets the list of available sensors.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/Sensors_Property.md">Sensors</a></td>
+<td align="left">利用可能なKinectセンサーのリストを取得する。</td>
 </tr>
+-->
+
 <tr class="odd">
-<td align="left"><a href="Properties/UniqueKinectId_Property.md">UniqueKinectId</a></td>
-<td align="left">Gets the unique ID for the KinectSensor.</td>
+<td align="left"><a href="KinectSensor_Class/Properties/UniqueKinectId_Property.md">UniqueKinectId</a></td>
+<td align="left">Kinectセンサーの一意のIDを取得する。</td>
 </tr>
 </tbody>
 </table>
@@ -79,10 +83,10 @@ See also
 ========  
 
 <span id="ID4EK"></span>
-#### Reference  
+#### 参照
 
-[KinectSensor Class](../KinectSensor_Class.md)  
- [WindowsPreview.Kinect Namespace](../../Kinect.md)  
+[KinectSensor クラス](../KinectSensor_Class.md)  
+ [WindowsPreview.Kinect 名前空間](../../Kinect.md)  
 
 
 

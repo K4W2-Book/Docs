@@ -1,9 +1,10 @@
-KinectSensor.GetDefault Method  
+KinectSensor.GetDefault メソッド  
 ==============================  
 
-Gets the default sensor. <span id="syntaxSection"></span>
+既定のKinectセンサーを取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,10 +57,10 @@ static <a href="../../KinectSensor_Class.md">KinectSensor</a>^ GetDefault()</cod
 </table>
 
 <span id="ID4EQ"></span>
-#### Return value  
+#### 戻り値  
 
-Type: [KinectSensor](../../KinectSensor_Class.md)  
-The default sensor.  
+型: [KinectSensor](../../KinectSensor_Class.md)  
+既定のKinectセンサー
 
 <span id="requirements"></span>
 

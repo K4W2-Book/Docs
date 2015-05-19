@@ -1,9 +1,11 @@
 INotifyPropertyChanged Interface  
 ================================  
 
-Notifies clients that a property value has changed. <span id="syntaxSection"></span>
+クライアントのプロパティの値が変わったことを通知するためのイベント
 
-Syntax  
+<span id="syntaxSection"></span>
+
+構文
 ======  
 
 <table>
@@ -40,14 +42,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **INotifyPropertyChanged** has the following members.  
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -57,14 +59,14 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="INotifyPropertyChanged/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property value changes.</td>
+<td align="left">プロパティの値が変わったことを通知するイベント</td>
 </tr>
 </tbody>
 </table>
