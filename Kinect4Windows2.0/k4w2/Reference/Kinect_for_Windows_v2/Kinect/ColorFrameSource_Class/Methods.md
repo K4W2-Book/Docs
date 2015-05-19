@@ -1,9 +1,9 @@
-ColorFrameSource Methods  
+ColorFrameSource メソッド  
 ========================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,18 +13,18 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/CreateFrameDescription.md">CreateFrameDescription</a></td>
-<td align="left">Creates a FrameDescription object for the ColorFrame of the requested format.</td>
+<td align="left"><a href="ColorFrameSource_Class/Methods/CreateFrameDescription.md">CreateFrameDescription</a></td>
+<td align="left">指定したフォーマットのカラーフレーム情報を作成する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the color frame source.</td>
+<td align="left"><a href="ColorFrameSource_Class/Methods/OpenReader_Method.md">OpenReader</a></td>
+<td align="left">カラーフレームリーダーを開く。</td>
 </tr>
 </tbody>
 </table>

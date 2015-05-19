@@ -1,9 +1,10 @@
-ColorFrameSource.KinectSensor Property  
+ColorFrameSource.KinectSensor プロパティ 
 ======================================  
 
-Gets the Kinect sensor of the color frame source. <span id="syntaxSection"></span>
+このカラーフレームのKinectセンサー。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,8 +61,8 @@ property <a href="../../KinectSensor_Class.md">KinectSensor</a>^ KinectSensor {
 <span id="ID4EU"></span>
 #### Property value  
 
-Type: [KinectSensor](../../KinectSensor_Class.md)  
- The parent sensor.  
+型: [KinectSensor](../../KinectSensor_Class.md)  
+ カラーフレームの元になっているKinecセンサー。  
 
 <span id="requirements"></span>
 

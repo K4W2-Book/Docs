@@ -1,9 +1,10 @@
-ColorFrameSource.IsActive Property  
+ColorFrameSource.IsActive プロパティ  
 ==================================  
 
-Gets whether the color frame source is active. <span id="syntaxSection"></span>
+カラーフレームソースの動作状態を取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -58,17 +59,17 @@ property bool IsActive {
 </table>
 
 <span id="ID4EU"></span>
-#### Property value  
+#### プロパティ値  
 
 [C++]   
  [C\#]   
  [JavaScript]   
 
-Type: [bool](http://msdn.microsoft.com/en-us/library/hh755815.aspx)  
-Type: [bool](http://msdn.microsoft.com/en-us/library/system.boolean.aspx)  
-Type: Boolean  
+型: [bool](http://msdn.microsoft.com/en-us/library/hh755815.aspx)  
+型: [bool](http://msdn.microsoft.com/en-us/library/system.boolean.aspx)  
+型: Boolean  
 
-Whether the color frame source is active.  
+カラーフレームソースの動作状態。
 
 <span id="requirements"></span>
 

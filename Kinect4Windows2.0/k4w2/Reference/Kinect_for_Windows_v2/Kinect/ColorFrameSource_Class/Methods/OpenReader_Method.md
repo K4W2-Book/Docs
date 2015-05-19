@@ -1,9 +1,11 @@
-ColorFrameSource.OpenReader Method  
+ColorFrameSource.OpenReader メソッド  
 ==================================  
 
-Creates a frame reader for the color frame source. <span id="syntaxSection"></span>
+カラーフレームリーダを開く。
 
-Syntax  
+ <span id="syntaxSection"></span>
+
+構文
 ======  
 
 <table>
@@ -56,10 +58,10 @@ Syntax
 </table>
 
 <span id="ID4ES"></span>
-#### Return value  
+#### 戻り値  
 
-Type: [ColorFrameReader](../../ColorFrameReader_Class.md)  
- A new reader for the color frame source.  
+型: [ColorFrameReader](../../ColorFrameReader_Class.md)  
+ 新しいカラーフレームリーダー  
 
 <span id="requirements"></span>
 

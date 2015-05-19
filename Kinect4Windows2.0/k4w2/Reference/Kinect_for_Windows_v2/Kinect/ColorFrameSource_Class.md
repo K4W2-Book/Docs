@@ -1,9 +1,10 @@
-ColorFrameSource Class  
+ColorFrameSource クラス  
 ======================  
 
-Represents a source of color frames from a KinectSensor. <span id="syntaxSection"></span>
+KinectSensorからのカラーフレームを表します。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **ColorFrameSource** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,29 +74,29 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ColorFrameSource_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the description of the color frames.</td>
+<td align="left">カラーフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrameSource_Class/Properties/IsActive_Property.md">IsActive</a></td>
-<td align="left">Gets whether the color frame source is active.</td>
+<td align="left">カラーフレームの動作状態を取得する</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="ColorFrameSource_Class/Properties/KinectSensor_Property.md">KinectSensor</a></td>
-<td align="left">Gets the Kinect sensor of the color frame source.</td>
+<td align="left">このカラーフレームのKinectセンサーを取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -105,25 +106,25 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ColorFrameSource_Class/Methods/CreateFrameDescription.md">CreateFrameDescription</a></td>
-<td align="left">Creates a FrameDescription object for the ColorFrame of the requested format.</td>
+<td align="left">指定したフォーマットのカラーフレーム情報を作成する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrameSource_Class/Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the color frame source.</td>
+<td align="left">カラーフレームリーダーを開く。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -133,18 +134,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ColorFrameSource_Class/Events/FrameCaptured_Event.md">FrameCaptured</a></td>
-<td align="left">Event that is raised when the next color frame is ready to be delivered to subscribed readers.</td>
+<td align="left">カラーフレームが更新されたことを通知するイベント。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrameSource_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="">ColorFrameSource</a> class changes.</td>
+<td align="left"><a href="">ColorFrameSource</a>クラスのプロパティが変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>

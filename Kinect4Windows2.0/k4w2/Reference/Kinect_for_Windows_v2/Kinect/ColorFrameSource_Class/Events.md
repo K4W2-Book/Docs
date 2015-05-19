@@ -1,9 +1,9 @@
-ColorFrameSource Events  
+ColorFrameSource イベント  
 =======================  
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -13,18 +13,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Events/FrameCaptured_Event.md">FrameCaptured</a></td>
-<td align="left">Event that is raised when the next color frame is ready to be delivered to subscribed readers.</td>
+<td align="left"><a href="ColorFrameSource_Class/Events/FrameCaptured_Event.md">FrameCaptured</a></td>
+<td align="left">カラーフレームが更新されたことを通知するイベント。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="../ColorFrameSource_Class.md">ColorFrameSource</a> class changes.</td>
+<td align="left"><a href="ColorFrameSource_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
+<td align="left"><a href="../ColorFrameSource_Class.md">ColorFrameSource</a>クラスのプロパティが変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>

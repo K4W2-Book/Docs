@@ -1,9 +1,10 @@
-ColorFrameSource.PropertyChanged Event  
+ColorFrameSource.PropertyChanged イベント  
 ======================================  
 
-Occurs when a property of the [ColorFrameSource](../../ColorFrameSource_Class.md) class changes. <span id="syntaxSection"></span>
+[ColorFrameSource](../../ColorFrameSource_Class.md) クラスのプロパティが変更されたことを通知する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
