@@ -1,9 +1,10 @@
-ColorFrame.CreateFrameDescription Method  
+ColorFrame.CreateFrameDescription メソッド  
 ========================================  
 
-Creates a FrameDescription object for the ColorFrame of the requested format. <span id="syntaxSection"></span>
+指定したフォーマットでフレーム情報を作成する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,17 +61,17 @@ Syntax
 </table>
 
 <span id="ID4EJ"></span>
-#### Parameters  
+#### 引数  
 
 *format*    
-Type: [ColorImageFormat](../../ColorImageFormat_Enumeration.md)  
- The image format for which to create the FrameDescription object.  
+型: [ColorImageFormat](../../ColorImageFormat_Enumeration.md)  
+ 作成するフォーマット。  
 
 <span id="ID4ES"></span>
-#### Return value  
+#### 戻り値  
 
-Type: [FrameDescription](../../FrameDescription_Class.md)  
- A new FrameDescription object for the ColorFrame of the requested format.  
+型: [FrameDescription](../../FrameDescription_Class.md)  
+ 新しいフレーム情報。  
 
 <span id="requirements"></span>
 

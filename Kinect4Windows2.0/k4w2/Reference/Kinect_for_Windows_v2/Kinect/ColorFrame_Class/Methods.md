@@ -1,9 +1,9 @@
-ColorFrame Methods  
+ColorFrame メソッド  
 ==================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,38 +13,38 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Releases system resources associated with the color frame.</td>
+<td align="left"><a href="ColorFrame_Class/Methods/Close_Method.md">Close</a></td>
+<td align="left">カラーフレームのリソースを解放する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/CopyConvertedFrameDataToAr.md">CopyConvertedFrameDataToArray</a></td>
-<td align="left">Converts the raw format into the requested format and copies the data into the array provided.</td>
+<td align="left"><a href="ColorFrame_Class/Methods/CopyConvertedFrameDataToAr.md">CopyConvertedFrameDataToArray</a></td>
+<td align="left">生データを指定したフォーマットに変換して、配列にコピーする。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Methods/CopyConvertedFrameDataToBu.md">CopyConvertedFrameDataToBuffer</a></td>
-<td align="left">Converts the raw format into the requested format and copies the data into the memory location provided.</td>
+<td align="left"><a href="ColorFrame_Class/Methods/CopyConvertedFrameDataToBu.md">CopyConvertedFrameDataToBuffer</a></td>
+<td align="left">生データを指定したフォーマットに変換して、そのポインタをコピーする。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/CopyRawFrameDataToArray.md">CopyRawFrameDataToArray</a></td>
-<td align="left">Copies the raw frame data into the array provided.</td>
+<td align="left"><a href="ColorFrame_Class/Methods/CopyRawFrameDataToArray.md">CopyRawFrameDataToArray</a></td>
+<td align="left">生データを配列にコピーする。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Methods/CopyRawFrameDataToBuffer.md">CopyRawFrameDataToBuffer</a></td>
-<td align="left">Copies raw frame data into the memory location provided.</td>
+<td align="left"><a href="ColorFrame_Class/Methods/CopyRawFrameDataToBuffer.md">CopyRawFrameDataToBuffer</a></td>
+<td align="left">生データのポインタをコピーする。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/CreateFrameDescription.md">CreateFrameDescription</a></td>
-<td align="left">Creates a FrameDescription object for the ColorFrame of the requested format.</td>
+<td align="left"><a href="ColorFrame_Class/Methods/CreateFrameDescription.md">CreateFrameDescription</a></td>
+<td align="left">指定したフォーマットでのフレーム情報を作成する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Methods/LockRawImageBuffer_Method.md">LockRawImageBuffer</a></td>
-<td align="left">Gives an app access to the underlying buffer used by the system to store this frame's data.</td>
+<td align="left"><a href="ColorFrame_Class/Methods/LockRawImageBuffer_Method.md">LockRawImageBuffer</a></td>
+<td align="left">システムで使っているフレームバッファをロックする。</td>
 </tr>
 </tbody>
 </table>

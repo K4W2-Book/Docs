@@ -1,7 +1,8 @@
-ColorFrame.CopyRawFrameDataToArray Method  
+ColorFrame.CopyRawFrameDataToArray メソッド  
 =========================================  
 
-Copies the raw frame data into the array provided. <span id="syntaxSection"></span>
+生データを配列にコピーする
+<span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -60,15 +61,15 @@ void CopyRawFrameDataToArray(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *frameData*    
-[C++] Type: unsigned char  
-  [C\#] Type: [byte](http://msdn.microsoft.com/en-us/library/system.byte.aspx)  
-  [JavaScript] Type: Number  
+[C++] 型: unsigned char  
+  [C\#] 型: [byte](http://msdn.microsoft.com/en-us/library/system.byte.aspx)  
+  [JavaScript] 型: Number  
    
 
-The array to fill.  
+データを受け取る配列。
 
 <span id="requirements"></span>
 

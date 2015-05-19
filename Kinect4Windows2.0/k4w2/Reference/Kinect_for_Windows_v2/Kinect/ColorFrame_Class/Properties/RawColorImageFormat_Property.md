@@ -1,9 +1,10 @@
-ColorFrame.RawColorImageFormat Property  
+ColorFrame.RawColorImageFormat プロパティ  
 =======================================  
 
-Gets the format of the color frame data. <span id="syntaxSection"></span>
+生のカラーデータのフォーマットを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -58,10 +59,10 @@ property <a href="../../ColorImageFormat_Enumeration.md">ColorImageFormat</a> Ra
 </table>
 
 <span id="ID4EU"></span>
-#### Property value  
+#### プロパティ値
 
-Type: [ColorImageFormat](../../ColorImageFormat_Enumeration.md)  
- The format of the color frame data.  
+型: [ColorImageFormat](../../ColorImageFormat.md)  
+ カラーデータのフォーマット。  
 
 <span id="requirements"></span>
 

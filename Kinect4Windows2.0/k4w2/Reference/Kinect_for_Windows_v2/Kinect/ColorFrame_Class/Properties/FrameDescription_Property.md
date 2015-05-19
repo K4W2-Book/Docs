@@ -1,9 +1,10 @@
-ColorFrame.FrameDescription Property  
+ColorFrame.FrameDescription プロパティ  
 ====================================  
 
-Gets the description of the color frame. <span id="syntaxSection"></span>
+カラーフレームの情報を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -58,10 +59,10 @@ property <a href="../../FrameDescription_Class.md">FrameDescription</a>^ FrameDe
 </table>
 
 <span id="ID4EU"></span>
-#### Property value  
+#### プロパティ値  
 
-Type: [FrameDescription](../../FrameDescription_Class.md)  
- The description of the color frame.  
+型: [FrameDescription](../../FrameDescription_Class.md)  
+ カラーフレームの情報。  
 
 <span id="requirements"></span>
 

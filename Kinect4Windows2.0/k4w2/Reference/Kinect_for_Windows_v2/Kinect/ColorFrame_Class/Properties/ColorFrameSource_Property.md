@@ -1,9 +1,10 @@
-ColorFrame.ColorFrameSource Property  
+ColorFrame.ColorFrameSource プロパティ  
 ====================================  
 
-Gets the source of the color frame. <span id="syntaxSection"></span>
+このカラーフレームのソースを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -58,10 +59,10 @@ property <a href="../../ColorFrameSource_Class.md">ColorFrameSource</a>^ ColorFr
 </table>
 
 <span id="ID4EU"></span>
-#### Property value  
+#### プロパティ値  
 
-Type: [ColorFrameSource](../../ColorFrameSource_Class.md)  
- The source of the color frame.  
+型: [ColorFrameSource](../../ColorFrameSource_Class.md)  
+ カラーフレームソース。  
 
 <span id="requirements"></span>
 

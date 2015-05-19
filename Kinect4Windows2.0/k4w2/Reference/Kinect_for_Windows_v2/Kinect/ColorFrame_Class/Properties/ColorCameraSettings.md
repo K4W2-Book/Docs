@@ -1,9 +1,10 @@
-ColorFrame.ColorCameraSettings Property  
+ColorFrame.ColorCameraSettings プロパティ  
 =======================================  
 
-Gets the color camera settings of the color frame. <span id="syntaxSection"></span>
+カラーカメラの設定を取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -58,10 +59,10 @@ property <a href="../../ColorCameraSettings_Class.md">ColorCameraSettings</a>^ C
 </table>
 
 <span id="ID4EU"></span>
-#### Property value  
+#### プロパティ値  
 
-Type: [ColorCameraSettings](../../ColorCameraSettings_Class.md)  
- The color camera settings of the color frame.  
+型: [ColorCameraSettings](../../ColorCameraSettings_Class.md)  
+ カラーカメラの設定  
 
 <span id="requirements"></span>
 

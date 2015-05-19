@@ -1,9 +1,10 @@
-ColorFrame.RelativeTime Property  
+ColorFrame.RelativeTime プロパティ  
 ================================  
 
-Gets the timestamp of the color frame. <span id="syntaxSection"></span>
+カラーフレームのタイムスタンプ(相対時間)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -58,17 +59,17 @@ property TimeSpan RelativeTime {
 </table>
 
 <span id="ID4EU"></span>
-#### Property value  
+#### プロパティ値 
 
 [C++]   
  [C\#]   
  [JavaScript]   
 
-Type: [TimeSpan](http://msdn.microsoft.com/en-us/library/windows.foundation.timespan.aspx)  
-Type: [TimeSpan](http://msdn.microsoft.com/en-us/library/system.timespan.aspx)  
-Type: Number  
+型: [TimeSpan](http://msdn.microsoft.com/en-us/library/windows.foundation.timespan.aspx)  
+型: [TimeSpan](http://msdn.microsoft.com/en-us/library/system.timespan.aspx)  
+型: Number  
 
-The timestamp of the color frame.  
+カラーフレームのタイムスタンプ。
 
 <span id="requirements"></span>
 

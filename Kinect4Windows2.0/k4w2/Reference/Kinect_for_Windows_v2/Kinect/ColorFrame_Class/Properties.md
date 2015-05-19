@@ -1,9 +1,9 @@
-ColorFrame Properties  
+ColorFrame プロパティ  
 =====================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ 
 ==========  
 
 <table>
@@ -13,30 +13,30 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/ColorCameraSettings_Property.md">ColorCameraSettings</a></td>
-<td align="left">Gets the color camera settings of the color frame.</td>
+<td align="left"><a href="ColorFrame_Class/Properties/ColorCameraSettings_Property.md">ColorCameraSettings</a></td>
+<td align="left">カラーカメラの設定を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/ColorFrameSource_Property.md">ColorFrameSource</a></td>
-<td align="left">Gets the source of the color frame.</td>
+<td align="left"><a href="ColorFrame_Class/Properties/ColorFrameSource_Property.md">ColorFrameSource</a></td>
+<td align="left">このカラーフレームのソースを取得する</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the description of the color frame.</td>
+<td align="left"><a href="ColorFrame_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
+<td align="left">カラーフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/RawColorImageFormat_Property.md">RawColorImageFormat</a></td>
-<td align="left">Gets the format of the color frame data.</td>
+<td align="left"><a href="ColorFrame_Class/Properties/RawColorImageFormat_Property.md">RawColorImageFormat</a></td>
+<td align="left">カラーフレームデータのフォーマットを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the timestamp of the color frame.</td>
+<td align="left"><a href="ColorFrame_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
+<td align="left">カラーフレームのタイムスタンプを取得する。</td>
 </tr>
 </tbody>
 </table>

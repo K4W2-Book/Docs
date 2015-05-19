@@ -1,9 +1,10 @@
-ColorFrame.CopyConvertedFrameDataToArray Method  
+ColorFrame.CopyConvertedFrameDataToArray メソッド  
 ===============================================  
 
-Converts the raw format into the requested format and copies the data into the array provided. <span id="syntaxSection"></span>
+生データを指定したフォーマットに変換して配列にコピーする。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -62,19 +63,19 @@ void CopyConvertedFrameDataToArray(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *frameData*    
-[C++] Type: unsigned char  
-  [C\#] Type: [byte](http://msdn.microsoft.com/en-us/library/system.byte.aspx)  
-  [JavaScript] Type: Number  
+[C++] 型: unsigned char  
+  [C\#] 型: [byte](http://msdn.microsoft.com/en-us/library/system.byte.aspx)  
+  [JavaScript] 型: Number  
    
 
-The array to fill.  
+データを受け取る配列
 
 *colorFormat*    
-Type: [ColorImageFormat](../../ColorImageFormat_Enumeration.md)  
-The desired color image format.  
+型: [ColorImageFormat](../../ColorImageFormat_Enumeration.md)  
+変換するフォーマット
 
 <span id="requirements"></span>
 

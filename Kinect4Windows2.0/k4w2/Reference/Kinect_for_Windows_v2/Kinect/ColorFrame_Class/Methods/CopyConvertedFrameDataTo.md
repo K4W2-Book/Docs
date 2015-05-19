@@ -1,9 +1,10 @@
-ColorFrame.CopyConvertedFrameDataToBuffer Method  
+ColorFrame.CopyConvertedFrameDataToBuffer メソッド  
 ================================================  
 
-Converts the raw format into the requested format and copies the data into the memory location provided. <span id="syntaxSection"></span>
+生データを指定したフォーマットに変換して、そのポインタを返す。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -62,15 +63,15 @@ void CopyConvertedFrameDataToBuffer(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *buffer*    
-Type: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
-The buffer to fill.  
+型: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
+データを受け取るバッファ
 
 *colorFormat*    
-Type: [ColorImageFormat](../../ColorImageFormat.md)  
-The desired color image format.  
+型: [ColorImageFormat](../../ColorImageFormat.md)  
+変換するフォーマット
 
 <span id="requirements"></span>
 

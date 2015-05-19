@@ -1,9 +1,10 @@
-ColorFrame Class  
+ColorFrame クラス  
 ================  
 
-Represents a color frame from the ColorFrameSource of a KinectSensor. <span id="syntaxSection"></span>
+カラーフレームを表します。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **ColorFrame** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,37 +74,37 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ColorFrame_Class/Properties/ColorCameraSettings_Property.md">ColorCameraSettings</a></td>
-<td align="left">Gets the color camera settings of the color frame.</td>
+<td align="left">カラーカメラの設定を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrame_Class/Properties/ColorFrameSource_Property.md">ColorFrameSource</a></td>
-<td align="left">Gets the source of the color frame.</td>
+<td align="left">このカラーフレームのソースを取得する</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="ColorFrame_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the description of the color frame.</td>
+<td align="left">カラーフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrame_Class/Properties/RawColorImageFormat_Property.md">RawColorImageFormat</a></td>
-<td align="left">Gets the format of the color frame data.</td>
+<td align="left">カラーフレームデータのフォーマットを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="ColorFrame_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the timestamp of the color frame.</td>
+<td align="left">カラーフレームのタイムスタンプを取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -113,38 +114,38 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ColorFrame_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Releases system resources associated with the color frame.</td>
+<td align="left">カラーフレームのリソースを解放する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrame_Class/Methods/CopyConvertedFrameDataToAr.md">CopyConvertedFrameDataToArray</a></td>
-<td align="left">Converts the raw format into the requested format and copies the data into the array provided.</td>
+<td align="left">生データを指定したフォーマットに変換して、配列にコピーする。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="ColorFrame_Class/Methods/CopyConvertedFrameDataToBu.md">CopyConvertedFrameDataToBuffer</a></td>
-<td align="left">Converts the raw format into the requested format and copies the data into the memory location provided.</td>
+<td align="left">生データを指定したフォーマットに変換して、そのポインタをコピーする。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrame_Class/Methods/CopyRawFrameDataToArray.md">CopyRawFrameDataToArray</a></td>
-<td align="left">Copies the raw frame data into the array provided.</td>
+<td align="left">生データを配列にコピーする。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="ColorFrame_Class/Methods/CopyRawFrameDataToBuffer.md">CopyRawFrameDataToBuffer</a></td>
-<td align="left">Copies raw frame data into the memory location provided.</td>
+<td align="left">生データのポインタをコピーする。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorFrame_Class/Methods/CreateFrameDescription.md">CreateFrameDescription</a></td>
-<td align="left">Creates a FrameDescription object for the ColorFrame of the requested format.</td>
+<td align="left">指定したフォーマットでのフレーム情報を作成する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="ColorFrame_Class/Methods/LockRawImageBuffer_Method.md">LockRawImageBuffer</a></td>
-<td align="left">Gives an app access to the underlying buffer used by the system to store this frame's data.</td>
+<td align="left">システムで使っているフレームバッファをロックする。</td>
 </tr>
 </tbody>
 </table>

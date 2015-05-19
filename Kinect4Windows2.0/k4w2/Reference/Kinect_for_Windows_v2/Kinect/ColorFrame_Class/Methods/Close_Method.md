@@ -1,9 +1,10 @@
-ColorFrame.Close Method  
+ColorFrame.Close メソッド  
 =======================  
 
-Releases system resources associated with the color frame. <span id="syntaxSection"></span>
+カラーフレームのリソースを解放する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

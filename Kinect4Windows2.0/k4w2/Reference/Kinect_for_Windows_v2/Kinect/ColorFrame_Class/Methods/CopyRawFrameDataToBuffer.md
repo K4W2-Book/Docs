@@ -1,9 +1,10 @@
 ColorFrame.CopyRawFrameDataToBuffer Method  
 ==========================================  
 
-Copies raw frame data into the memory location provided. <span id="syntaxSection"></span>
+生データのアドレスを取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,11 +61,11 @@ void CopyRawFrameDataToBuffer(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *buffer*    
-Type: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
-The buffer to fill.  
+型: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
+データを受け取るバッファ
 
 <span id="requirements"></span>
 

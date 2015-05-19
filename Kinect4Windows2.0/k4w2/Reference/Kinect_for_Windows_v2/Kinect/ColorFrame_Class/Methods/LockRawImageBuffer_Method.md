@@ -1,9 +1,10 @@
-ColorFrame.LockRawImageBuffer Method  
+ColorFrame.LockRawImageBuffer メソッド  
 ====================================  
 
-Gives an app access to the underlying buffer used by the system to store this frame's data. <span id="syntaxSection"></span>
+内部バッファをロックする。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,10 +57,10 @@ IBuffer^ LockRawImageBuffer()</code></pre></td>
 </table>
 
 <span id="ID4EP"></span>
-#### Return value  
+#### 戻り値  
 
-Type: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
-The buffer containing the raw image.  
+型: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
+生データのバッファ
 
 <span id="remarks"></span>
 
