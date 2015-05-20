@@ -1,9 +1,10 @@
-InfraredFrameSource.FrameCaptured Event  
+InfraredFrameSource.FrameCaptured イベント  
 =======================================  
 
-Event that is raised when the next infrared frame is ready to be delivered to subscribed readers. <span id="syntaxSection"></span>
+新しいフレームが来たことを通知するイベント。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

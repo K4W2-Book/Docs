@@ -1,9 +1,10 @@
-InfraredFrameSource.IsActive Property  
+InfraredFrameSource.IsActive プロパティ  
 =====================================  
 
-Gets whether the infrared frame source is active. <span id="syntaxSection"></span>
+赤外線フレームの動作状況を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文  
 ======  
 
 <table>

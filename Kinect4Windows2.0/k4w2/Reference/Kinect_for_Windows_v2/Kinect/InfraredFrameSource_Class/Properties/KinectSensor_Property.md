@@ -1,9 +1,10 @@
-InfraredFrameSource.KinectSensor Property  
+InfraredFrameSource.KinectSensor プロパティ  
 =========================================  
 
-Gets the KinectSensor of the infrared frame source. <span id="syntaxSection"></span>
+この赤外線フレームのKinectセンサーを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

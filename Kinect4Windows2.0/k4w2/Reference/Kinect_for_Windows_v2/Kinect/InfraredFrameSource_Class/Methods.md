@@ -1,9 +1,9 @@
-InfraredFrameSource Methods  
+InfraredFrameSourceメソッド   
 ===========================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,17 +13,18 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the infrared frame source.</td>
+<td align="left"><a href="InfraredFrameSource_Class/Methods/OpenReader_Method.md">OpenReader</a></td>
+<td align="left">赤外線フレームリーダーを開く。</td>
 </tr>
 </tbody>
 </table>
+
 
 <span id="ID4EI"></span>
 

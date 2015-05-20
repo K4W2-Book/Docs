@@ -1,9 +1,9 @@
-InfraredFrameSource Properties  
+InfraredFrameSource プロパティ    
 ==============================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ  
 ==========  
 
 <table>
@@ -13,22 +13,22 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the frame description for the format.</td>
+<td align="left"><a href="InfraredFrameSource_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
+<td align="left">フレーム情報を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsActive_Property.md">IsActive</a></td>
-<td align="left">Gets whether the infrared frame source is active.</td>
+<td align="left"><a href="InfraredFrameSource_Class/Properties/IsActive_Property.md">IsActive</a></td>
+<td align="left">赤外線フレームの動作状況を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/KinectSensor_Property.md">KinectSensor</a></td>
-<td align="left">Gets the KinectSensor of the infrared frame source.</td>
+<td align="left"><a href="InfraredFrameSource_Class/Properties/KinectSensor_Property.md">KinectSensor</a></td>
+<td align="left">この赤外線フレームのKinectセンサーを取得する。</td>
 </tr>
 </tbody>
 </table>

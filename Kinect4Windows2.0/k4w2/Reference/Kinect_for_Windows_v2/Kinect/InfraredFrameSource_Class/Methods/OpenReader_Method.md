@@ -1,9 +1,10 @@
-InfraredFrameSource.OpenReader Method  
+InfraredFrameSource.OpenReader メソッド  
 =====================================  
 
-Creates a frame reader for the infrared frame source. <span id="syntaxSection"></span>
+赤外線フレームリーダーを開く。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
