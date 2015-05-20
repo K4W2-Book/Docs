@@ -1,9 +1,10 @@
-BodyIndexFrameSource.IsActive Property  
+BodyIndexFrameSource.IsActive プロパティ  
 ======================================  
 
-Gets whether the body index frame source is active. <span id="syntaxSection"></span>
+ボディインデックスソースの動作状態を取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

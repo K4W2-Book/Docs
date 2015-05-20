@@ -1,9 +1,10 @@
-BodyIndexFrameSource.KinectSensor Property  
+BodyIndexFrameSource.KinectSensor プロパティ  
 ==========================================  
 
-Gets the Kinect sensor of the body index frame source. <span id="syntaxSection"></span>
+このボディインデックスソースのKinetセンサーを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

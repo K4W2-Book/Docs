@@ -1,9 +1,10 @@
-BodyIndexFrameSource.FrameCaptured Event  
+BodyIndexFrameSource.FrameCaptured イベント  
 ========================================  
 
-Event that is raised when the next body index frame is ready to be delivered to subscribed readers.<span id="syntaxSection"></span>
+ボディインデックスのデータ更新を通知するイベント。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

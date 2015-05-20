@@ -1,9 +1,9 @@
-BodyIndexFrameSource Properties  
+BodyIndexFrameSource プロパティ  
 ===============================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,22 +13,22 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the description of the body index frames.</td>
+<td align="left"><a href="BodyIndexFrameSource_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
+<td align="left">ボディインデックスフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsActive_Property.md">IsActive</a></td>
-<td align="left">Gets whether the body index frame source is active.</td>
+<td align="left"><a href="BodyIndexFrameSource_Class/Properties/IsActive_Property.md">IsActive</a></td>
+<td align="left">ボディインデックスソースの動作状態を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/KinectSensor_Property.md">KinectSensor</a></td>
-<td align="left">Gets the Kinect sensor of the body index frame source.</td>
+<td align="left"><a href="BodyIndexFrameSource_Class/Properties/KinectSensor_Property.md">KinectSensor</a></td>
+<td align="left">このボディインデックスソースのKinetセンサー</td>
 </tr>
 </tbody>
 </table>

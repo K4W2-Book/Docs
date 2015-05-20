@@ -1,9 +1,10 @@
-BodyIndexFrameSource Class  
+BodyIndexFrameSource クラス  
 ==========================  
 
-Represents a source of body index frames from a KinectSensor. <span id="syntaxSection"></span>
+Kinectセンサーからのボディインデックスのソースを表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **BodyIndexFrameSource** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,29 +74,29 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrameSource_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the description of the body index frames.</td>
+<td align="left">ボディインデックスフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyIndexFrameSource_Class/Properties/IsActive_Property.md">IsActive</a></td>
-<td align="left">Gets whether the body index frame source is active.</td>
+<td align="left">ボディインデックスソースの動作状態を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrameSource_Class/Properties/KinectSensor_Property.md">KinectSensor</a></td>
-<td align="left">Gets the Kinect sensor of the body index frame source.</td>
+<td align="left">このボディインデックスソースのKinetセンサーを取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -105,21 +106,21 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrameSource_Class/Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the body index frame source.</td>
+<td align="left">ボディインデックスフレームリーダーを作成する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -129,18 +130,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrameSource_Class/Events/FrameCaptured_Event.md">FrameCaptured</a></td>
-<td align="left">Event that is raised when the next body index frame is ready to be delivered to subscribed readers.</td>
+<td align="left">ボディインデックスのデータ更新を通知するイベント。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyIndexFrameSource_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="">BodyIndexFrameSource</a> class changes.</td>
+<td align="left"><a href="">BodyIndexFrameSource</a>クラスのプロパティが変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>
