@@ -1,9 +1,10 @@
-BodyIndexFrame.FrameDescription Property  
+BodyIndexFrame.FrameDescription プロパティ  
 ========================================  
 
-Gets the description of the body index frame. <span id="syntaxSection"></span>
+ボディインデックスフレームの情報を取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

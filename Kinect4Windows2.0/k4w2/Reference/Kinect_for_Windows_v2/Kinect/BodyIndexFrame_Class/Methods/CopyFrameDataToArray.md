@@ -1,9 +1,10 @@
-BodyIndexFrame.CopyFrameDataToArray Method  
+BodyIndexFrame.CopyFrameDataToArray メソッド  
 ==========================================  
 
-Copies the body index frame data into the array provided. <span id="syntaxSection"></span>
+ボディインデックスデータを配列にコピーする。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -68,7 +69,7 @@ void CopyFrameDataToArray(
   [JavaScript] Type: Number  
    
 
-The array to fill.  
+ボディインデックスデータをコピーする配列。
 
 <span id="remarks"></span>
 

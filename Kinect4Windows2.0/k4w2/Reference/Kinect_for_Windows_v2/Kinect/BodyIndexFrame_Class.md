@@ -1,9 +1,10 @@
-BodyIndexFrame Class  
+BodyIndexFrame クラス  
 ====================  
 
-Represents a frame that indicates which depth or infrared pixels belong to tracked people and which do not. <span id="syntaxSection"></span>
+ピクセル単位での人の位置を示すボディインデックスのフレーム。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **BodyIndexFrame** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,29 +74,29 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrame_Class/Properties/BodyIndexFrameSource.md">BodyIndexFrameSource</a></td>
-<td align="left">Gets the source of the body index frame.</td>
+<td align="left">このボディインデックスフレームのソースを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyIndexFrame_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the description of the body index frame.</td>
+<td align="left">ボディインデックスフレームの情報を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrame_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the timestamp of the body index frame.</td>
+<td align="left">フレームの相対時間を取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -105,26 +106,26 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrame_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Releases system resources associated with the body index frame.</td>
+<td align="left">システムリソースを解放する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyIndexFrame_Class/Methods/CopyFrameDataToArray_Method.md">CopyFrameDataToArray</a></td>
-<td align="left">Copies the body index frame data into the array provided.</td>
+<td align="left">ボディインデックスデータを配列にコピーする。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrame_Class/Methods/CopyFrameDataToBuffer_Method.md">CopyFrameDataToBuffer</a></td>
-<td align="left">Copies the body index frame data into the memory location provided.</td>
+<td align="left">ボディインデックスデータをメモリ位置をコピーする。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyIndexFrame_Class/Methods/LockImageBuffer_Method.md">LockImageBuffer</a></td>
-<td align="left">Gives an app access to the underlying buffer used by the system to store this frame's data.</td>
+<td align="left">システムで管理しているボディインデックスデータを取得する。</td>
 </tr>
 </tbody>
 </table>

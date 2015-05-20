@@ -1,9 +1,10 @@
-BodyIndexFrame.RelativeTime Property  
+BodyIndexFrame.RelativeTime プロパティ  
 ====================================  
 
-Gets the timestamp of the body index frame. <span id="syntaxSection"></span>
+フレームの相対時間を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

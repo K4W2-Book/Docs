@@ -1,9 +1,9 @@
-BodyIndexFrame Properties  
+BodyIndexFrame プロパティ  
 =========================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,22 +13,22 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/BodyIndexFrameSource.md">BodyIndexFrameSource</a></td>
-<td align="left">Gets the source of the body index frame.</td>
+<td align="left"><a href="BodyIndexFrame_Class/Properties/BodyIndexFrameSource.md">BodyIndexFrameSource</a></td>
+<td align="left">このボディインデックスフレームのソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the description of the body index frame.</td>
+<td align="left"><a href="BodyIndexFrame_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
+<td align="left">ボディインデックスフレームの情報を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the timestamp of the body index frame.</td>
+<td align="left"><a href="BodyIndexFrame_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
+<td align="left">フレームの相対時間を取得する。</td>
 </tr>
 </tbody>
 </table>

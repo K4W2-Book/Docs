@@ -1,9 +1,10 @@
-BodyIndexFrame.CopyFrameDataToBuffer Method  
+BodyIndexFrame.CopyFrameDataToBuffer メソッド  
 ===========================================  
 
-Copies the body index frame data into the memory location provided. <span id="syntaxSection"></span>
+ボディインデックスデータをメモリ位置をコピーする。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,11 +61,11 @@ void CopyFrameDataToBuffer(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数
 
 *buffer*    
 Type: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
-The buffer to fill.  
+ボディインデックスデータのメモリ位置をコピーするバッファ。
 
 <span id="requirements"></span>
 
