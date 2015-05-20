@@ -1,9 +1,10 @@
-BodyFrame.GetAndRefreshBodyData Method  
+BodyFrame.GetAndRefreshBodyData メソッド  
 ======================================  
 
-Gets refreshed body data. <span id="syntaxSection"></span>
+ボディデータをコピーする。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,7 +61,7 @@ void GetAndRefreshBodyData(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *bodies*    
 [C++] Type: [IVector](http://msdn.microsoft.com/en-us/library/br206631.aspx)\<[Body](../../Body_Class.md)\>
@@ -68,7 +69,7 @@ void GetAndRefreshBodyData(
   [JavaScript] Type: [IVector](http://msdn.microsoft.com/en-us/library/br206631.aspx)\<[Body](../../Body_Class.md)\>
    
 
-The refreshed body data.  
+ボディデータをコピーする配列
 
 <span id="requirements"></span>
 

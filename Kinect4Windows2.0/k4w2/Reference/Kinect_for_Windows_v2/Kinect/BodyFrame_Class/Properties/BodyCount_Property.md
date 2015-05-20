@@ -1,9 +1,10 @@
-BodyFrame.BodyCount Property  
+BodyFrame.BodyCount プロパティ  
 ============================  
 
-Gets the body count, which is the number of bodies the system can track and thus the size of the collection that must be used to store these bodies. <span id="syntaxSection"></span>
+センサーが認識できるボディの数(6)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

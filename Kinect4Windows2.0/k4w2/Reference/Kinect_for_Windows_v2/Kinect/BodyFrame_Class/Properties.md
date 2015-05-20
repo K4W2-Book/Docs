@@ -1,9 +1,9 @@
-BodyFrame Properties  
+BodyFrame プロパティ  
 ====================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,26 +13,26 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/BodyCount_Property.md">BodyCount</a></td>
-<td align="left">Gets the body count, which is the number of bodies the system can track and thus the size of the collection that must be used to store these bodies.</td>
+<td align="left"><a href="BodyFrame_Class/Properties/BodyCount_Property.md">BodyCount</a></td>
+<td align="left">センサーが認識できるボディの数(6)を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/BodyFrameSource_Property.md">BodyFrameSource</a></td>
-<td align="left">Gets the source of the body frame.</td>
+<td align="left"><a href="BodyFrame_Class/Properties/BodyFrameSource_Property.md">BodyFrameSource</a></td>
+<td align="left">ボディフレームを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/FloorClipPlane_Property.md">FloorClipPlane</a></td>
+<td align="left"><a href="BodyFrame_Class/Properties/FloorClipPlane_Property.md">FloorClipPlane</a></td>
 <td align="left">Gets the floor clip plane of the body frame in hessian normal form. The (x,y,z) components are a unit vector indicating the normal of the plane, and w is the distance from the plane to the origin in meters.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the timestamp of the body frame.</td>
+<td align="left"><a href="BodyFrame_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
+<td align="left">フレームの相対時間を取得する。</td>
 </tr>
 </tbody>
 </table>

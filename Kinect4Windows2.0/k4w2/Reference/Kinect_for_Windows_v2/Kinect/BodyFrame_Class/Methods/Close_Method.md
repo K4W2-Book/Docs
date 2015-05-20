@@ -1,9 +1,10 @@
-BodyFrame.Close Method  
+BodyFrame.Close メソッド  
 ======================  
 
-Releases system resources associated with the body frame. <span id="syntaxSection"></span>
+システムリソースを解放する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

@@ -1,9 +1,9 @@
-BodyFrame Methods  
+BodyFrame メソッド  
 =================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド	
 =======  
 
 <table>
@@ -13,18 +13,18 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Releases system resources associated with the body frame.</td>
+<td align="left"><a href="BodyFrame_Class/Methods/Close_Method.md">Close</a></td>
+<td align="left">システムリソースを解放する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/GetAndRefreshBodyData_Method.md">GetAndRefreshBodyData</a></td>
-<td align="left">Gets refreshed body data.</td>
+<td align="left"><a href="BodyFrame_Class/Methods/GetAndRefreshBodyData_Method.md">GetAndRefreshBodyData</a></td>
+<td align="left">ボディデータをコピーする。</td>
 </tr>
 </tbody>
 </table>

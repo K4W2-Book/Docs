@@ -1,9 +1,13 @@
-BodyFrame Class  
+BodyFrame クラス  
 ===============  
 
-Represents a frame that contains all the computed real-time tracking information about people that are in view of the sensor. <span id="syntaxSection"></span>
+<!--Represents a frame that contains all the computed real-time tracking information about people that are in view of the sensor.--> 
 
-Syntax  
+センサーからの情報をもとに、リアルタイムに人を追跡している情報のフレームを表す。
+
+<span id="syntaxSection"></span>
+
+構文
 ======  
 
 <table>
@@ -56,14 +60,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **BodyFrame** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,18 +77,18 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyFrame_Class/Properties/BodyCount_Property.md">BodyCount</a></td>
-<td align="left">Gets the body count, which is the number of bodies the system can track and thus the size of the collection that must be used to store these bodies.</td>
+<td align="left">センサーが認識できるボディの数(6)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyFrame_Class/Properties/BodyFrameSource_Property.md">BodyFrameSource</a></td>
-<td align="left">Gets the source of the body frame.</td>
+<td align="left">ボディフレームを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="BodyFrame_Class/Properties/FloorClipPlane_Property.md">FloorClipPlane</a></td>
@@ -92,14 +96,14 @@ Properties
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyFrame_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the timestamp of the body frame.</td>
+<td align="left">フレームの相対時間を取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -109,18 +113,18 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyFrame_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Releases system resources associated with the body frame.</td>
+<td align="left">システムリソースを解放する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyFrame_Class/Methods/GetAndRefreshBodyData_Method.md">GetAndRefreshBodyData</a></td>
-<td align="left">Gets refreshed body data.</td>
+<td align="left">ボディデータをコピーする。</td>
 </tr>
 </tbody>
 </table>
