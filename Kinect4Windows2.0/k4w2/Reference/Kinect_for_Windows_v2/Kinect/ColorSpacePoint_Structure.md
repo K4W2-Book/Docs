@@ -1,9 +1,10 @@
-ColorSpacePoint Structure  
+ColorSpacePoint 構造体  
 =========================  
 
-Represents a 2D point in color space, expressed in pixels. <span id="syntaxSection"></span>
+ピクセル単位での2次元のカラー座標系を表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -59,14 +60,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **ColorSpacePoint** has the following members.  
 
 <span id="publicfieldsSection"></span>
 
-Fields  
+フィールド
 ======  
 
 <table>
@@ -76,18 +77,18 @@ Fields
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="ColorSpacePoint_Structure/ColorSpacePoint_Fields/X_Field.md">X</a></td>
-<td align="left">The X coordinate of the point, in pixels.</td>
+<td align="left">ピクセル単位のX座標。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="ColorSpacePoint_Structure/ColorSpacePoint_Fields/Y_Field.md">Y</a></td>
-<td align="left">The Y coordinate of the point, in pixels.</td>
+<td align="left">ピクセル単位のY座標。</td>
 </tr>
 </tbody>
 </table>

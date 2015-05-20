@@ -1,9 +1,10 @@
-ColorSpacePoint.X Field  
+ColorSpacePoint.X フィールド  
 =======================  
 
-The X coordinate of the point, in pixels. <span id="syntaxSection"></span>
+ピクセル単位のX座標
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
