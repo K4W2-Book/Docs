@@ -15,61 +15,61 @@ Activityの種類。
 Appearanceの種類。  
 
 [AudioBeamMode](Enumerations/AudioBeamMode_Enumeration.md)    
-Types of audio beam angle determination.  
+Beamformingの角度を測定する方法。  
 
 [ColorImageFormat](Enumerations/ColorImageFormat_Enumeration.md)    
-The available color image formats.  
+Color画像のフォーマットの種類。  
 
 [DetectionResult](Enumerations/DetectionResult_Enumeration.md)    
 顔の付随情報の検出結果。  
 
 [KinectEngagementMode](Enumerations/KinectEngagementMode.md)    
-Enumerates the modes in which engaged users can be tracked.  
+人物を関係付けてトラッキングするモード。  
 
 [Expression](Enumerations/Expression_Enumeration.md)    
 Expressionsの種類。  
 
 [FrameCapturedStatus](Enumerations/FrameCapturedStatus.md)    
-Captured frame status options.  
+フレームキャプチャーステータス。  
 
 [FrameEdges](Enumerations/FrameEdges_Enumeration.md)    
-Identifies if the user's body is visible by indicating any portion of the user that is not in the camera's field of view.  
+人物がカメラの視野に収まっていない端。  
 
 [FrameSourceTypes](Enumerations/FrameSourceTypes_Enumeration.md)    
-Identifies the frame source types.  
+フレームの種類。  
 
 [HandState](Enumerations/HandState_Enumeration.md)    
-Indentifies possible hand states.  
+ハンドステータス。  
 
 [HandType](Enumerations/HandType_Enumeration.md)    
-Enumerates the ways in which a hand can be identified.  
+手の種類。(左手・右手)  
 
 [JointType](Enumerations/JointType_Enumeration.md)    
-Joint types in a skeleton.  
+Joint(関節)の種類。  
 
 [KinectAudioCalibrationState](Enumerations/KinectAudioCalibrationState.md)    
-Enumerates the calibration states of the audio sensor.  
+Audioセンサーのキャリブレーションステータス。  
 
 [KinectCapabilities](Enumerations/KinectCapabilities.md)    
-Specifies the capabilities of the kinect sensor.  
+センサーがサポートする機能。  
 
 [KinectGestureSettings](Enumerations/KinectGestureSettings.md)    
-Specifies the interactions that are supported by an Kinect for Windows application.  
+ジェスチャーインタラクションの種類。  
 
 [KinectHoldingState](Enumerations/KinectHoldingState.md)    
-Specifies the state of the Holding event.  
+ホールディングイベントステータス。  
 
 [KinectInteractionMode](Enumerations/KinectInteractionMode.md)    
-Gesture interaction modes, which determine how gestures are handled.  
+ジェスチャーインタラクションモード。  
 
 [PointerDeviceType](Enumerations/PointerDeviceType.md)    
-Specifies the pointer device type.  
+ポインターの種類。  
 
 [TrackingConfidence](Enumerations/TrackingConfidence.md)    
-Specifies the confidence level of a body's tracked attribute.  
+Joint(関節)のトラッキングの信頼度。  
 
 [TrackingState](Enumerations/TrackingState_Enumeration.md)    
-Specifies the Kinect sensor joint tracking states.  
+Joint(関節)のトラッキングステータス。  
 
 <span id="ID4ESC"></span>
 
