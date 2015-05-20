@@ -1,9 +1,10 @@
-BodyFrameSource.OpenReader Method  
+BodyFrameSource.OpenReader メソッド  
 =================================  
 
-Creates a frame reader for the body frame source. <span id="syntaxSection"></span>
+ボディフレームリーダーを開く。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,10 +57,10 @@ Syntax
 </table>
 
 <span id="ID4ES"></span>
-#### Return value  
+#### 戻り値
 
 Type: [BodyFrameReader](../../BodyFrameReader_Class.md)  
- A new reader for the body frame source.  
+ 新しいボディフレームリーダー  
 
 <span id="requirements"></span>
 

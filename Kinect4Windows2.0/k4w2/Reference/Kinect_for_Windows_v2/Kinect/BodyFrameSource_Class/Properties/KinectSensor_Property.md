@@ -1,9 +1,10 @@
-BodyFrameSource.KinectSensor Property  
+BodyFrameSource.KinectSensor プロパティ  
 =====================================  
 
-Gets the KinectSensor with which the body frame source is associated. <span id="syntaxSection"></span>
+このボディフレームのKinecセンサーを取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -58,10 +59,10 @@ property <a href="../../KinectSensor_Class.md">KinectSensor</a>^ KinectSensor {
 </table>
 
 <span id="ID4ER"></span>
-#### Property value  
+#### 戻り値  
 
 Type: [KinectSensor](../../KinectSensor_Class.md)  
- The parent sensor.  
+ このボディフレームのKinecセンサー。  
 
 <span id="requirements"></span>
 

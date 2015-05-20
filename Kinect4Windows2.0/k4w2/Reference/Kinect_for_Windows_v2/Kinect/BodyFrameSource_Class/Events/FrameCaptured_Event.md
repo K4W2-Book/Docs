@@ -1,9 +1,10 @@
-BodyFrameSource.FrameCaptured Event  
+BodyFrameSource.FrameCaptured イベント  
 ===================================  
 
-Event that is raised when the next body frame is ready to be delivered to subscribed readers.<span id="syntaxSection"></span>
+ボディフレームが更新されたことを通知するイベント。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

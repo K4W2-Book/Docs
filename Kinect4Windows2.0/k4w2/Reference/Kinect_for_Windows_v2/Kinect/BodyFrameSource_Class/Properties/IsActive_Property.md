@@ -1,9 +1,10 @@
-BodyFrameSource.IsActive Property  
+BodyFrameSource.IsActive プロパティ  
 =================================  
 
-Gets whether the body frame source is active. <span id="syntaxSection"></span>
+ボディフレームソースの動作状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

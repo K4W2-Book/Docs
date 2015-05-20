@@ -13,22 +13,22 @@ BodyFrameSource プロパティ
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/BodyCount_Property.md">BodyCount</a></td>
-<td align="left">Gets the number of bodies.</td>
+<td align="left"><a href="BodyFrameSource_Class/Properties/BodyCount_Property.md">BodyCount</a></td>
+<td align="left">検出できるボディの最大数(6)を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsActive_Property.md">IsActive</a></td>
-<td align="left">Gets whether the body frame source is active.</td>
+<td align="left"><a href="BodyFrameSource_Class/Properties/IsActive_Property.md">IsActive</a></td>
+<td align="left">ボディフレームソースの動作状態を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/KinectSensor_Property.md">KinectSensor</a></td>
-<td align="left">Gets the KinectSensor with which the body frame source is associated.</td>
+<td align="left"><a href="BodyFrameSource_Class/Properties/KinectSensor_Property.md">KinectSensor</a></td>
+<td align="left">このボディフレームのKinecセンサーを取得する。</td>
 </tr>
 </tbody>
 </table>

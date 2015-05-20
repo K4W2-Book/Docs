@@ -1,9 +1,10 @@
-BodyFrameSource.BodyCount Property  
+BodyFrameSource.BodyCount プロパティ  
 ==================================  
 
-Gets the number of bodies. <span id="syntaxSection"></span>
+検出できるボディの最大数(6)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

@@ -1,9 +1,9 @@
-BodyFrameSource Methods  
+BodyFrameSource メソッド  
 =======================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,18 +13,18 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the body frame source.</td>
+<td align="left"><a href="BodyFrameSource_Class/Methods/OpenReader_Method.md">OpenReader</a></td>
+<td align="left">ボディフレームリーダーを開く。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/OverrideHandTracking_Method.md">OverrideHandTracking</a></td>
-<td align="left">Overloaded. Overloaded methods for OverrideHandTracking.</td>
+<td align="left"><a href="BodyFrameSource_Class/Methods/OverrideHandTracking_Method.md">OverrideHandTracking</a></td>
+<td align="left">手を追跡するボディのIDを設定する。</td>
 </tr>
 </tbody>
 </table>

@@ -1,4 +1,4 @@
-BodyFrameSource.OverrideHandTracking Method  
+BodyFrameSource.OverrideHandTracking メソッド  
 ===========================================  
 
 Overloaded methods for OverrideHandTracking.  
@@ -25,9 +25,11 @@ Overloaded methods for OverrideHandTracking.
 Overload list  
 =============  
 
-| Name                                                                                                  | Description                                                                                                          |
+| 名前                                                                                                  | 説明                                                                                                          |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+
 | [BodyFrameSource.OverrideHandTracking (UInt64)](OverrideHandTracking/OverrideHandTracking.md)         | Overrides the default behavior of tracking the hands of the nearest bodies to track the hands of the specified body. |
+
 | [BodyFrameSource.OverrideHandTracking (UInt64, UInt64)](OverrideHandTracking/OverrideHandTracking.md) | Override hand tracking using the old and new tracking ids.                                                           |
 
 <span id="ID4ES"></span>
