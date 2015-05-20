@@ -1,7 +1,7 @@
 Joint Structure  
 ===============  
 
-Connects two bones of a skeleton. <span id="syntaxSection"></span>
+Joint(関節)。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ Syntax
 #### Members  
 
 **JointType**    
-The joint type.  
+Jointの種類。  
 
 **Position**    
-The joint position.  
+Jointの位置。(Camera座標系)  
 
 **TrackingState**    
-The joint's tracking state.  
+Jointのトラッキングステータス。  
 
 <span id="requirements"></span>
 

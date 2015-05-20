@@ -1,7 +1,7 @@
 CameraSpacePoint Structure  
 ==========================  
 
-A 3D location in camera space. <span id="syntaxSection"></span>
+Camera座標系の3次元位置。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,26 +30,27 @@ Syntax
 #### Members  
 
 **X**    
-The X component in camera space.  
+X座標。  
 
 **Y**    
-The Y component in camera space.  
+Y座標。  
 
 **Z**    
-The Z component in camera space.  
+Z座標。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-Camera space refers to the 3D coordinate system used by Kinect. The coordinate system is defined as follows:  
+Camera座標系はKinectを中心とし3次元位置を表します。  
+Camera座標系は以下のように定義される。  
 
--   The origin (x=0, y=0, z=0) is located at the center of the IR sensor on Kinect  
--   X grows to the sensor’s left  
--   Y grows up (note that this direction is based on the sensor’s tilt)  
--   Z grows out in the direction the sensor is facing  
--   1 unit = 1 meter  
+-   Camera座標系の原点(0, 0, 0)は、KinectのIRカメラの中心にある。  
+-   X軸はKinectを後ろから見たときに原点を中心として左方向に増加、右方向に減少する。  
+-   Y軸は原点を中心として上方向に増加、下方向に減少する。 (この軸はセンサーの角度に依存する。)  
+-   Z軸は原点を中心として前方向に増加する。  
+-   単位はメートル。  
 
 <span id="requirements"></span>
 

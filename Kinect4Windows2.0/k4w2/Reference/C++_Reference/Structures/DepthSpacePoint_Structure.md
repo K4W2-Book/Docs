@@ -1,7 +1,7 @@
 DepthSpacePoint Structure  
 =========================  
 
-A 2D location in depth space. <span id="syntaxSection"></span>
+Depth座標系の2次元位置。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,17 +29,20 @@ Syntax
 #### Members  
 
 **X**    
-The X component in depth space.  
+X座標。  
 
 **Y**    
-The Y component in depth space.  
+Y座標。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-Depth space is the term used to describe a 2D location on the depth image. Think of this as a row/column location of a pixel where x is the column and y is the row. So x=0, y=0 corresponds to the top left corner of the image and x=511, y=423 (width-1, height-1) is the bottom right corner of the image. In some cases, a z value is needed in order to map out of depth space. For these cases, simply sample the depth image at the row/column in question, and use that value (which is depth in millimeters) directly as z.  
+Depth座標系はDepth画像上の2次元位置を表します。  
+Depth座標系の原点の(0, 0)はDepth画像の左上隅の画素、(511, 423)はDepth画像の右下隅の画素を示します。  
+いくつかのケースでは、Depth座標系からマッピングするためにZ値が必要になります。  
+その場合は、Depth画像の座標(X, Y)の画素値(ミリメートル)を使用します。
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 RectF Structure  
 ===============  
 
-Represents a rectangle <span id="syntaxSection"></span>
+矩形(浮動小数点数)。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,16 +31,16 @@ Syntax
 #### Members  
 
 **X**    
-The left coordinate of the rectangle.  
+矩形の左上隅のX座標。  
 
 **Y**    
-The top coordinate of the rectangle.  
+矩形の左上隅のY座標。  
 
 **Width**    
-The width of the rectangle.  
+矩形の幅。  
 
 **Height**    
-The height of the rectangle.  
+矩形の高さ。  
 
 <span id="requirements"></span>
 

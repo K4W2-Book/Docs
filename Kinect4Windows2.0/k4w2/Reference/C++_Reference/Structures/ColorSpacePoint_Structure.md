@@ -1,7 +1,7 @@
 ColorSpacePoint Structure  
 =========================  
 
-A 2D location in color space. <span id="syntaxSection"></span>
+Color座標系の2次元位置。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,17 +29,18 @@ Syntax
 #### Members  
 
 **X**    
-The X component in color space.  
+X座標。  
 
 **Y**    
-The Y component in color space.  
+Y座標。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-A color space point describes a 2D point on the color image. So a position in color space is a row/column location of a pixel on the image, where x=0, y=0 is the pixel at the top left of the color image, and x=1919, y=1079 (width-1, height-1) corresponds to the bottom right.  
+Color座標系はカラー画像上の2次元位置を表します。  
+Color座標系の原点の(0, 0)はカラー画像の左上隅の画素、(1919, 1079)はカラー画像の右下隅の画素を示します。  
 
 <span id="requirements"></span>
 
