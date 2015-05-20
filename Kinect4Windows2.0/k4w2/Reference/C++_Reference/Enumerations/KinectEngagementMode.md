@@ -1,7 +1,7 @@
 KinectEngagementMode Enumeration  
 ================================  
 
-Enumerates the modes in which engaged users can be tracked. <span id="syntaxSection"></span>
+人物を関係付けてトラッキングするモード。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -36,11 +36,11 @@ Constants
 
 | Constant                              | Description                                        |
 |---------------------------------------|----------------------------------------------------|
-| KinectEngagementMode\_None            | No engagement tracking.                            |
-| KinectEngagementMode\_SystemOnePerson | The system dynamically detects one engaged person. |
-| KinectEngagementMode\_SystemTwoPerson | The system dynamically detects two engaged people. |
-| KinectEngagementMode\_ManualOnePerson | The app specifies one engaged person.              |
-| KinectEngagementMode\_ManualTwoPerson | The app specifies two engaged people.              |
+| KinectEngagementMode\_None            | 無効。                            |
+| KinectEngagementMode\_SystemOnePerson | システムが動的に任意の1人を検出してトラッキングする。 |
+| KinectEngagementMode\_SystemTwoPerson | システムが動的に任意の2人を検出してトラッキングする。 |
+| KinectEngagementMode\_ManualOnePerson | アプリケーションが1人を指定してトラッキングする。              |
+| KinectEngagementMode\_ManualTwoPerson | アプリケーションが2人を指定してトラッキングする。              |
 
 <span id="requirements"></span>
 

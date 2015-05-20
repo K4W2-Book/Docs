@@ -1,7 +1,7 @@
 AudioBeamMode Enumeration  
 =========================  
 
-Types of audio beam angle determination. <span id="syntaxSection"></span>
+Beamformingの角度を測定する方法。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,8 +33,8 @@ Constants
 
 | Constant                 | Description                                               |
 |--------------------------|-----------------------------------------------------------|
-| AudioBeamMode\_Automatic | Automatic beam determination based on fixed coefficients. |
-| AudioBeamMode\_Manual    | Automatic beam determination based on fixed coefficients. |
+| AudioBeamMode\_Automatic | 自動。 |
+| AudioBeamMode\_Manual    | 手動。 |
 
 <span id="requirements"></span>
 

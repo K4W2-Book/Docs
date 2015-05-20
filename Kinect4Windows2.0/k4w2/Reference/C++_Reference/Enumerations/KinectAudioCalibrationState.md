@@ -1,7 +1,9 @@
 KinectAudioCalibrationState Enumeration  
 =======================================  
 
-Enumerates the calibration states of the audio sensor. <span id="syntaxSection"></span>
+Audioセンサーのキャリブレーションステータス。  
+この機能はKinect for Windowsアプリケーションではサポートされません。  
+この列挙体はXbox One SDKとのクロスコンパイルをサポートするために含まれています。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,16 +36,16 @@ Constants
 
 | Constant                                         | Description                            |
 |--------------------------------------------------|----------------------------------------|
-| KinectAudioCalibrationState\_Unknown             | The calibration state is unknown.      |
-| KinectAudioCalibrationState\_CalibrationRequired | The audio sensor requires calibration. |
-| KinectAudioCalibrationState\_Calibrated          | The audio sensor is calibrated.        |
+| KinectAudioCalibrationState\_Unknown             | 不明。      |
+| KinectAudioCalibrationState\_CalibrationRequired | キャリブレーションが必要。 |
+| KinectAudioCalibrationState\_Calibrated          | キャリブレーションされている。        |
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-Note that the audio calibration state is always Calibrated for Kinect for Windows apps. This enumeration is included to support cross-compilation with the Xbox SDK.  
+Kinect for Windowsアプリケーションでは常にKinectAudioCalibrationState\_Calibratedです。  
 
 <span id="requirements"></span>
 

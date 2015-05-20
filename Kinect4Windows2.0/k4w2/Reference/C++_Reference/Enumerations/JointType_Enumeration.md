@@ -1,7 +1,7 @@
 JointType Enumeration  
 =====================  
 
-Joint types in a skeleton. <span id="syntaxSection"></span>
+Joint(関節)の種類。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -57,32 +57,32 @@ Constants
 
 | Constant                 | Description                          |
 |--------------------------|--------------------------------------|
-| JointType\_SpineBase     | Base of the spine                    |
-| JointType\_SpineMid      | Middle of the spine                  |
-| JointType\_Neck          | Neck                                 |
-| JointType\_Head          | Head                                 |
-| JointType\_ShoulderLeft  | Left shoulder                        |
-| JointType\_ElbowLeft     | Left elbow                           |
-| JointType\_WristLeft     | Left wrist                           |
-| JointType\_HandLeft      | Left hand                            |
-| JointType\_ShoulderRight | Right shoulder                       |
-| JointType\_ElbowRight    | Right elbow                          |
-| JointType\_WristRight    | Right Wrist                          |
-| JointType\_HandRight     | Right hand                           |
-| JointType\_HipLeft       | Left hip                             |
-| JointType\_KneeLeft      | Left knee                            |
-| JointType\_AnkleLeft     | Left ankle                           |
-| JointType\_FootLeft      | Left foot                            |
-| JointType\_HipRight      | Right hip                            |
-| JointType\_KneeRight     | Right knee                           |
-| JointType\_AnkleRight    | Right ankle                          |
-| JointType\_FootRight     | Right foot                           |
-| JointType\_SpineShoulder | Spine at the shoulder                |
-| JointType\_HandTipLeft   | Tip of the left hand                 |
-| JointType\_ThumbLeft     | Left thumb                           |
-| JointType\_HandTipRight  | Tip of the right hand                |
-| JointType\_ThumbRight    | Right thumb                          |
-| JointType\_Count         | Max value; (JointType\_ThumbRight+1) |
+| JointType\_SpineBase     | 背骨(ベース)                    |
+| JointType\_SpineMid      | 背骨(中央)                  |
+| JointType\_Neck          | 首                                 |
+| JointType\_Head          | 頭                                 |
+| JointType\_ShoulderLeft  | 左肩                        |
+| JointType\_ElbowLeft     | 左肘                           |
+| JointType\_WristLeft     | 左手首                           |
+| JointType\_HandLeft      | 左手                            |
+| JointType\_ShoulderRight | 右肩                       |
+| JointType\_ElbowRight    | 右肘                          |
+| JointType\_WristRight    | 右手首                          |
+| JointType\_HandRight     | 右手                           |
+| JointType\_HipLeft       | 左股関節                             |
+| JointType\_KneeLeft      | 左膝                            |
+| JointType\_AnkleLeft     | 左足首                           |
+| JointType\_FootLeft      | 左足                            |
+| JointType\_HipRight      | 右股関節                            |
+| JointType\_KneeRight     | 右膝                           |
+| JointType\_AnkleRight    | 右足首                          |
+| JointType\_FootRight     | 右足                           |
+| JointType\_SpineShoulder | 背骨(肩)                |
+| JointType\_HandTipLeft   | 左手先                 |
+| JointType\_ThumbLeft     | 左手親指                           |
+| JointType\_HandTipRight  | 右手先                |
+| JointType\_ThumbRight    | 右手親指                          |
+| JointType\_Count         | JointTypeの数(25) |
 
 <span id="requirements"></span>
 

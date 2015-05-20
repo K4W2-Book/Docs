@@ -1,7 +1,7 @@
 ColorImageFormat Enumeration  
 ============================  
 
-The available color image formats. <span id="syntaxSection"></span>
+Color画像のフォーマットの種類。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -37,12 +37,12 @@ Constants
 
 | Constant                | Description           |
 |-------------------------|-----------------------|
-| ColorImageFormat\_None  | An unspecified format |
-| ColorImageFormat\_Rgba  | Rgba format           |
-| ColorImageFormat\_Yuv   | Yuv format            |
-| ColorImageFormat\_Bgra  | Bgra format           |
-| ColorImageFormat\_Bayer | Bayer format          |
-| ColorImageFormat\_Yuy2  | Yuy2 format           |
+| ColorImageFormat\_None  | 未指定。 |
+| ColorImageFormat\_Rgba  | RGBAフォーマット<br/>R(赤)、G(緑)、B(青)、A(透過)           |
+| ColorImageFormat\_Yuv   | YUVフォーマット<br/>U(B−Yの色差)、Y(輝度)、V(R−Yの色差)、Y(輝度)            |
+| ColorImageFormat\_Bgra  | BGRAフォーマット<br/>B(青)、G(緑)、R(赤)、A(透過)           |
+| ColorImageFormat\_Bayer | ベイヤーパターン<br/>2行目の2，3番目の成分はG(緑)、B(青)          |
+| ColorImageFormat\_Yuy2  | YUY2フォーマット<br/>Y(輝度)、U(B−Yの色差)、Y(輝度)、V(R−Yの色差)           |
 
 <span id="requirements"></span>
 

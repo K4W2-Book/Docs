@@ -1,7 +1,7 @@
 FrameEdges Enumeration  
 ======================  
 
-Identifies if the user's body is visible by indicating any portion of the user that is not in the camera's field of view. <span id="syntaxSection"></span>
+人物がカメラの視野に収まっていない端。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -36,11 +36,11 @@ Constants
 
 | Constant          | Description                                                                              |
 |-------------------|------------------------------------------------------------------------------------------|
-| FrameEdge\_None   | None of the user's body is out of the camera's field of view, the user is fully visible. |
-| FrameEdge\_Right  | The user's body extends to the right of the camera's field of view.                      |
-| FrameEdge\_Left   | The user's body extends to the left of the camera's field of view.                       |
-| FrameEdge\_Top    | The user's body extends below the camera's field of view.                                |
-| FrameEdge\_Bottom | The user's body extends below the camera's field of view.                                |
+| FrameEdge\_None   | 人物が完全にカメラの視野から外れている。 |
+| FrameEdge\_Right  | 人物がカメラの視野の右端で収まっていない。                      |
+| FrameEdge\_Left   | 人物がカメラの視野の左端で収まっていない。                       |
+| FrameEdge\_Top    | 人物がカメラの視野の上端で収まっていない。                                |
+| FrameEdge\_Bottom | 人物がカメラの視野の下端で収まっていない。                                |
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 FrameSourceTypes Enumeration  
 ============================  
 
-Identifies the frame source types. <span id="syntaxSection"></span>
+フレームの種類。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -39,14 +39,14 @@ Constants
 
 | Constant                               | Description                           |
 |----------------------------------------|---------------------------------------|
-| FrameSourceTypes\_None                 | There is no frame source.             |
-| FrameSourceTypes\_Color                | Color stream source.                  |
-| FrameSourceTypes\_Infrared             | Infrared stream source.               |
-| FrameSourceTypes\_LongExposureInfrared | Long exposure infrared stream source. |
-| FrameSourceTypes\_Depth                | Depth stream source                   |
-| FrameSourceTypes\_BodyIndex            | Body index stream source.             |
-| FrameSourceTypes\_Body                 | Body stream source.                   |
-| FrameSourceTypes\_Audio                | Audio stream source.                  |
+| FrameSourceTypes\_None                 | なし。             |
+| FrameSourceTypes\_Color                | Colorストリーム。                  |
+| FrameSourceTypes\_Infrared             | Infraredストリーム。               |
+| FrameSourceTypes\_LongExposureInfrared | Infrared(長時間露光)ストリーム。 |
+| FrameSourceTypes\_Depth                | Depthストリーム。                   |
+| FrameSourceTypes\_BodyIndex            | BodyIndexストリーム             |
+| FrameSourceTypes\_Body                 | Bodyストリーム。                   |
+| FrameSourceTypes\_Audio                | Audioストリーム。                  |
 
 <span id="requirements"></span>
 

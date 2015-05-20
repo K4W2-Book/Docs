@@ -1,7 +1,7 @@
 HandType Enumeration  
 ====================  
 
-Enumerates the ways in which a hand can be identified. <span id="syntaxSection"></span>
+手の種類。(左手・右手) <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,9 +34,9 @@ Constants
 
 | Constant        | Description                                         |
 |-----------------|-----------------------------------------------------|
-| HandType\_NONE  | The hand is not identified as a right or left hand. |
-| HandType\_LEFT  | The user's left hand.                               |
-| HandType\_RIGHT | The user's right hand.                              |
+| HandType\_NONE  | 識別されていない。 |
+| HandType\_LEFT  | 左手。                               |
+| HandType\_RIGHT | 右手。                              |
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 FrameCapturedStatus Enumeration  
 ===============================  
 
-Captured frame status options. <span id="syntaxSection"></span>
+フレームキャプチャーステータス。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,9 +34,9 @@ Constants
 
 | Constant                     | Description                      |
 |------------------------------|----------------------------------|
-| FrameCapturedStatus\_Unknown | The capture status is unknown.   |
-| FrameCapturedStatus\_Queued  | The frame is queued for capture. |
-| FrameCapturedStatus\_Dropped | The frame was dropped.           |
+| FrameCapturedStatus\_Unknown | 不明。   |
+| FrameCapturedStatus\_Queued  | フレームをキューイングした。 |
+| FrameCapturedStatus\_Dropped | フレームをドロップした。           |
 
 <span id="requirements"></span>
 

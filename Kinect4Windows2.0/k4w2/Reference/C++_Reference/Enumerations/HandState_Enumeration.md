@@ -1,7 +1,7 @@
 HandState Enumeration  
 =====================  
 
-Indentifies possible hand states. <span id="syntaxSection"></span>
+ハンドステータス。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -36,11 +36,11 @@ Constants
 
 | Constant              | Description                       |
 |-----------------------|-----------------------------------|
-| HandState\_Unknown    | The state of the hand in unknown. |
-| HandState\_NotTracked | Hand state is not tracked.        |
-| HandState\_Open       | The hand is open.                 |
-| HandState\_Closed     | The hand is closed.               |
-| HandState\_Lasso      | The hand is in the lasso state.   |
+| HandState\_Unknown    | 不明。 |
+| HandState\_NotTracked | 手がトラッキングされていない。        |
+| HandState\_Open       | 開いている。(パー)                 |
+| HandState\_Closed     | 閉じている。(グー)               |
+| HandState\_Lasso      | 投げ縄。(チョキ)   |
 
 <span id="requirements"></span>
 
