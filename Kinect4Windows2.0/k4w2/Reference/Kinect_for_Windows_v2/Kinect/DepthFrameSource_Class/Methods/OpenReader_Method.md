@@ -1,9 +1,10 @@
-DepthFrameSource.OpenReader Method  
+DepthFrameSource.OpenReader メソッド  
 ==================================  
 
-Creates a frame reader for the depth frame source. <span id="syntaxSection"></span>
+Depthフレームリーダーを作成する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,10 +57,10 @@ Syntax
 </table>
 
 <span id="ID4ES"></span>
-#### Return value  
+#### 戻り値  
 
-Type: [DepthFrameReader](../../DepthFrameReader_Class.md)  
- A new reader for the depth frame source.  
+型: [DepthFrameReader](../../DepthFrameReader_Class.md)  
+ 新しいDepthフレームリーダー。  
 
 <span id="requirements"></span>
 

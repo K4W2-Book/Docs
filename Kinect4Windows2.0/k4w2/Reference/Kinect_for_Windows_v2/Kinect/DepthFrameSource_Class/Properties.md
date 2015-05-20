@@ -1,9 +1,9 @@
-DepthFrameSource Properties  
+DepthFrameSource プロパティ  
 ===========================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,34 +13,33 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/DepthMaxReliableDistance.md">DepthMaxReliableDistance</a></td>
-<td align="left">Gets the maximum reliable depth of the depth frames, in millimeters.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/DepthMaxReliableDistance.md">DepthMaxReliableDistance</a></td>
+<td align="left">ミリメートル単位での最大Depth認識距離を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/DepthMinReliableDistance.md">DepthMinReliableDistance</a></td>
-<td align="left">Gets the minimum reliable depth of the depth frames, in millimeters.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/DepthMinReliableDistance.md">DepthMinReliableDistance</a></td>
+<td align="left">ミリメートル単位での最小Depth認識距離を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the frame description for the format.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
+<td align="left">フレーム情報を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsActive_Property.md">IsActive</a></td>
-<td align="left">Gets whether the depth frame source is active.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/IsActive_Property.md">IsActive</a></td>
+<td align="left">Depthフレームソースの動作状態を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/KinectSensor_Property.md">KinectSensor</a></td>
-<td align="left">Gets the KinectSensor of the depth frame source.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/KinectSensor_Property.md">KinectSensor</a></td>
+<td align="left">このDepthフレームソースのKinectセンサーを取得する。</td>
 </tr>
 </tbody>
 </table>
-
 <span id="ID4EI"></span>
 
 See also  

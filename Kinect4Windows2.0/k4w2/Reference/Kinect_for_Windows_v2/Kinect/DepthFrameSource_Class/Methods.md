@@ -1,9 +1,9 @@
-DepthFrameSource Methods  
+DepthFrameSource メソッド  
 ========================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,14 +13,14 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the depth frame source.</td>
+<td align="left"><a href="DepthFrameSource_Class/Methods/OpenReader_Method.md">OpenReader</a></td>
+<td align="left">Depthフレームリーダーを作成する。</td>
 </tr>
 </tbody>
 </table>

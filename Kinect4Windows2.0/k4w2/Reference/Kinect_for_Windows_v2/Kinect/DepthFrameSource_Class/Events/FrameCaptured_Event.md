@@ -1,9 +1,10 @@
-DepthFrameSource.FrameCaptured Event  
+DepthFrameSource.FrameCaptured イベント  
 ====================================  
 
-Event that is raised when the next depth frame is ready to be delivered to subscribed readers. <span id="syntaxSection"></span>
+Depthフレームの更新イベント。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

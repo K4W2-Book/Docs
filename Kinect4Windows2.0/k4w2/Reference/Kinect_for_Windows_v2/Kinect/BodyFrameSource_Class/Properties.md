@@ -1,9 +1,9 @@
-BodyFrameSource Properties  
+BodyFrameSource プロパティ  
 ==========================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>

@@ -1,9 +1,10 @@
-DepthFrameSource.IsActive Property  
+DepthFrameSource.IsActive プロパティ
 ==================================  
 
-Gets whether the depth frame source is active. <span id="syntaxSection"></span>
+Depthフレームソースの動作状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

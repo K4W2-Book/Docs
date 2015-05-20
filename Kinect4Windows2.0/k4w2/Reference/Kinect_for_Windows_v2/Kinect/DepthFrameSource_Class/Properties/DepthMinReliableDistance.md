@@ -1,9 +1,10 @@
-DepthFrameSource.DepthMinReliableDistance Property  
+DepthFrameSource.DepthMinReliableDistance プロパティ  
 ==================================================  
 
-Gets the minimum reliable depth of the depth frames, in millimeters. <span id="syntaxSection"></span>
+ミリメートル単位での最小Depth認識距離を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
