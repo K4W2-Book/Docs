@@ -88,31 +88,31 @@ Represents a body. <span id="syntaxSection"></span>
 </tr>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Properties/ClippedEdges_Property.md">ClippedEdges</a></td>
-<td align="left">Gets the edges of the field of view that clip the body.</td>
+<td align="left">カメラの視野から外れている端を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="Body_Class/Properties/Engaged_Property.md">Engaged</a></td>
-<td align="left">[Deprecated] Gets the status of the body’s engagement. This API is not implemented in the Kinect for Windows v2 SDK. It is included to support cross-compilation with the Xbox SDK.</td>
+<td align="left">[使用しないでください]このプロパティはXbox SDKとのクロスコンパイルのために含まれています。Kinect for Windows v2では実装おらずnullが返ります。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Properties/Expressions_Property.md">Expressions</a></td>
-<td align="left">Gets the status of the body's possible expressions. This API is not implemented in the Kinect for Windows v2 SDK and will always return null. It is included to support cross-compilation with the Xbox SDK.</td>
+<td align="left">[使用しないでください]このプロパティはXbox SDKとのクロスコンパイルのために含まれています。Kinect for Windows v2では実装おらずnullが返ります。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="Body_Class/Properties/HandLeftConfidence_Property.md">HandLeftConfidence</a></td>
-<td align="left">Gets the confidence of the body’s left hand state.</td>
+<td align="left">左手の状態の信頼性を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Properties/HandLeftState_Property.md">HandLeftState</a></td>
-<td align="left">Gets the status of the body's left hand state.</td>
+<td align="left">左手の状態を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="Body_Class/Properties/HandRightConfidence_Property.md">HandRightConfidence</a></td>
-<td align="left">Gets the confidence of the body's right hand state.</td>
+<td align="left">右手の状態の信頼性を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Properties/HandRightState_Property.md">HandRightState</a></td>
-<td align="left">Gets the status of the body's right hand state.</td>
+<td align="left">右手の状態を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="Body_Class/Properties/IsRestricted_Property.md">IsRestricted</a></td>
@@ -120,19 +120,19 @@ Represents a body. <span id="syntaxSection"></span>
 </tr>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Properties/IsTracked_Property.md">IsTracked</a></td>
-<td align="left">Gets whether or not the body is tracked.</td>
+<td align="left">ボディの追跡状態を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="Body_Class/Properties/JointCount_Property.md">JointCount</a></td>
-<td align="left">Gets the number of joints in a body.</td>
+<td align="left">関節の数を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Properties/JointOrientations_Property.md">JointOrientations</a></td>
-<td align="left">Gets the joint orientations of the body.</td>
+<td align="left">関節の回転を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="Body_Class/Properties/Joints_Property.md">Joints</a></td>
-<td align="left">Gets the joint positions of the body.</td>
+<td align="left">関節の情報を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Properties/Lean_Property.md">Lean</a></td>
@@ -144,7 +144,7 @@ Represents a body. <span id="syntaxSection"></span>
 </tr>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Properties/TrackingId_Property.md">TrackingId</a></td>
-<td align="left">Gets the tracking ID for the body.</td>
+<td align="left">ボディの追跡IDを取得する。</td>
 </tr>
 </tbody>
 </table>

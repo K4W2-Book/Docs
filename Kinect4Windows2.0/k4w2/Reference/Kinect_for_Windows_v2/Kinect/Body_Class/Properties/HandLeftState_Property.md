@@ -1,9 +1,10 @@
-Body.HandLeftState Property  
+Body.HandLeftState プロパティ  
 ===========================  
 
-Gets the status of the body's left hand state. <span id="syntaxSection"></span>
+左手の状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

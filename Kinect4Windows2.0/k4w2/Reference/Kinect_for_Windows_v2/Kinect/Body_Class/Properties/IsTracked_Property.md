@@ -1,9 +1,10 @@
-Body.IsTracked Property  
+Body.IsTracked プロパティ  
 =======================  
 
-Gets whether or not the body is tracked. <span id="syntaxSection"></span>
+ボディの追跡状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

@@ -1,9 +1,10 @@
-Body.HandLeftConfidence Property  
+Body.HandLeftConfidence プロパティ  
 ================================  
 
-Gets the confidence of the body’s left hand state. <span id="syntaxSection"></span>
+左手の状態の信頼性を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文  
 ======  
 
 <table>

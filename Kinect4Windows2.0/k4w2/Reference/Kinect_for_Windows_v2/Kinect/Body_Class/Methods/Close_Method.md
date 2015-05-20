@@ -1,9 +1,10 @@
-Body.Close Method  
+Body.Close メソッド  
 =================  
 
-Releases system resources associated with the body. <span id="syntaxSection"></span>
+システムリソースを解放する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

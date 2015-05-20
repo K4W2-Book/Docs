@@ -1,9 +1,10 @@
-Body.TrackingId Property  
+Body.TrackingId プロパティ  
 ========================  
 
-Gets the tracking ID for the body. <span id="syntaxSection"></span>
+ボディの追跡IDを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

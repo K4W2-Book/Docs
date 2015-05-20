@@ -1,9 +1,10 @@
-Body.Joints Property  
+Body.Joints プロパティ  
 ====================  
 
-Gets the joint positions of the body. <span id="syntaxSection"></span>
+関節の情報を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

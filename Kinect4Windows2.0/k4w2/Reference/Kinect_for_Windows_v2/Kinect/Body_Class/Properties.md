@@ -13,78 +13,78 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/Activities_Property.md">Activities</a></td>
-<td align="left">[Deprecated] Gets the status of the body’s possible activities. This API is not implemented in the Kinect for Windows v2 SDK and will always return null. It is included to support cross-compilation with the Xbox SDK.</td>
+<td align="left"><a href="Body_Class/Properties/Activities_Property.md">Activities</a></td>
+<td align="left">[使用しないでください]このプロパティはXbox SDKとのクロスコンパイルのために含まれています。Kinect for Windows v2では実装おらずnullが返ります。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/Appearance_Property.md">Appearance</a></td>
-<td align="left">[Deprecated] Gets the status of the body’s possible appearance characteristics. This API is not implemented in the Kinect for Windows v2 SDK and will always return null. It is included to support cross-compilation with the Xbox SDK.</td>
+<td align="left"><a href="Body_Class/Properties/Appearance_Property.md">Appearance</a></td>
+<td align="left">[使用しないでください]このプロパティはXbox SDKとのクロスコンパイルのために含まれています。Kinect for Windows v2では実装おらずnullが返ります。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/ClippedEdges_Property.md">ClippedEdges</a></td>
-<td align="left">Gets the edges of the field of view that clip the body.</td>
+<td align="left"><a href="Body_Class/Properties/ClippedEdges_Property.md">ClippedEdges</a></td>
+<td align="left">カメラの視野から外れている端を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/Engaged_Property.md">Engaged</a></td>
-<td align="left">[Deprecated] Gets the status of the body’s engagement. This API is not implemented in the Kinect for Windows v2 SDK. It is included to support cross-compilation with the Xbox SDK.</td>
+<td align="left"><a href="Body_Class/Properties/Engaged_Property.md">Engaged</a></td>
+<td align="left">[使用しないでください]このプロパティはXbox SDKとのクロスコンパイルのために含まれています。Kinect for Windows v2では実装おらずnullが返ります。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/Expressions_Property.md">Expressions</a></td>
-<td align="left">Gets the status of the body's possible expressions. This API is not implemented in the Kinect for Windows v2 SDK and will always return null. It is included to support cross-compilation with the Xbox SDK.</td>
+<td align="left"><a href="Body_Class/Properties/Expressions_Property.md">Expressions</a></td>
+<td align="left">[使用しないでください]このプロパティはXbox SDKとのクロスコンパイルのために含まれています。Kinect for Windows v2では実装おらずnullが返ります。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/HandLeftConfidence_Property.md">HandLeftConfidence</a></td>
-<td align="left">Gets the confidence of the body’s left hand state.</td>
+<td align="left"><a href="Body_Class/Properties/HandLeftConfidence_Property.md">HandLeftConfidence</a></td>
+<td align="left">左手の状態の信頼性を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/HandLeftState_Property.md">HandLeftState</a></td>
-<td align="left">Gets the status of the body's left hand state.</td>
+<td align="left"><a href="Body_Class/Properties/HandLeftState_Property.md">HandLeftState</a></td>
+<td align="left">左手の状態を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/HandRightConfidence_Property.md">HandRightConfidence</a></td>
-<td align="left">Gets the confidence of the body's right hand state.</td>
+<td align="left"><a href="Body_Class/Properties/HandRightConfidence_Property.md">HandRightConfidence</a></td>
+<td align="left">右手の状態の信頼性を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/HandRightState_Property.md">HandRightState</a></td>
-<td align="left">Gets the status of the body's right hand state.</td>
+<td align="left"><a href="Body_Class/Properties/HandRightState_Property.md">HandRightState</a></td>
+<td align="left">右手の状態を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsRestricted_Property.md">IsRestricted</a></td>
+<td align="left"><a href="Body_Class/Properties/IsRestricted_Property.md">IsRestricted</a></td>
 <td align="left">Gets whether or not the body is restricted.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/IsTracked_Property.md">IsTracked</a></td>
-<td align="left">Gets whether or not the body is tracked.</td>
+<td align="left"><a href="Body_Class/Properties/IsTracked_Property.md">IsTracked</a></td>
+<td align="left">ボディの追跡状態を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/JointCount_Property.md">JointCount</a></td>
-<td align="left">Gets the number of joints in a body.</td>
+<td align="left"><a href="Body_Class/Properties/JointCount_Property.md">JointCount</a></td>
+<td align="left">関節の数を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/JointOrientations_Property.md">JointOrientations</a></td>
-<td align="left">Gets the joint orientations of the body.</td>
+<td align="left"><a href="Body_Class/Properties/JointOrientations_Property.md">JointOrientations</a></td>
+<td align="left">関節の回転を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/Joints_Property.md">Joints</a></td>
-<td align="left">Gets the joint positions of the body.</td>
+<td align="left"><a href="Body_Class/Properties/Joints_Property.md">Joints</a></td>
+<td align="left">関節の情報を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/Lean_Property.md">Lean</a></td>
+<td align="left"><a href="Body_Class/Properties/Lean_Property.md">Lean</a></td>
 <td align="left">Gets the lean vector of the body.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/LeanTrackingState_Property.md">LeanTrackingState</a></td>
+<td align="left"><a href="Body_Class/Properties/LeanTrackingState_Property.md">LeanTrackingState</a></td>
 <td align="left">Gets the tracking state for the body lean.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/TrackingId_Property.md">TrackingId</a></td>
-<td align="left">Gets the tracking ID for the body.</td>
+<td align="left"><a href="Body_Class/Properties/TrackingId_Property.md">TrackingId</a></td>
+<td align="left">ボディの追跡IDを取得する。</td>
 </tr>
 </tbody>
 </table>

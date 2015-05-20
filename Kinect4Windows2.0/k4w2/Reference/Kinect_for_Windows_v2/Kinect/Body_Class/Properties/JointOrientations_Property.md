@@ -1,9 +1,10 @@
-Body.JointOrientations Property  
+Body.JointOrientations プロパティ  
 ===============================  
 
-Gets the joint orientations of the body. <span id="syntaxSection"></span>
+関節の回転を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文  
 ======  
 
 <table>

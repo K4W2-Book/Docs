@@ -1,9 +1,10 @@
-Body.JointCount Property  
+Body.JointCount プロパティ  
 ========================  
 
-Gets the number of joints in a body. <span id="syntaxSection"></span>
+関節の数を取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
