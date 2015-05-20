@@ -1,9 +1,10 @@
-InfraredFrameReader.Close Method  
+InfraredFrameReader.Close メソッド  
 ================================  
 
-Closes and releases system resources associated with the infrared frame reader. <span id="syntaxSection"></span>
+システムリソースを解放する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

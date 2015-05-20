@@ -1,9 +1,10 @@
-InfraredFrameReader Class  
+InfraredFrameReader クラス  
 =========================  
 
-Represents a reader for infrared frames. <span id="syntaxSection"></span>
+赤外線フレームリーダーを表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **InfraredFrameReader** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ  
 ==========  
 
 <table>
@@ -73,25 +74,25 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="InfraredFrameReader_Class/Properties/InfraredFrameSource_Property.md">InfraredFrameSource</a></td>
-<td align="left">Gets the source of the infrared frames.</td>
+<td align="left">赤外線フレームソースを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="InfraredFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets whether the infrared frame reader is paused.</td>
+<td align="left">赤外線フレームリーダーの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -101,25 +102,25 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="InfraredFrameReader_Class/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent infrared frame.</td>
+<td align="left">最新の赤外線フレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="InfraredFrameReader_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes and releases system resources associated with the infrared frame reader.</td>
+<td align="left">システムリソースを解放する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -129,18 +130,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="InfraredFrameReader_Class/Events/FrameArrived_Event.md">FrameArrived</a></td>
-<td align="left">Event that fires whenever a frame is captured.</td>
+<td align="left">フレームが更新されたことを通知するイベント。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="InfraredFrameReader_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="">InfraredFrameReader</a> class changes.</td>
+<td align="left"><a href="">InfraredFrameReader</a> クラスのプロパティが変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>

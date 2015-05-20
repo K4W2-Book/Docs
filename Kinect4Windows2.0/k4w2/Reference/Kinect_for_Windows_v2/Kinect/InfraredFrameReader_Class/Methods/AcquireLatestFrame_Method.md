@@ -1,9 +1,10 @@
-InfraredFrameReader.AcquireLatestFrame Method  
+InfraredFrameReader.AcquireLatestFrame メソッド  
 =============================================  
 
-Gets the most recent infrared frame. <span id="syntaxSection"></span>
+最新の赤外線フレームを取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

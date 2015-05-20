@@ -1,9 +1,9 @@
-InfraredFrameReader Properties  
+InfraredFrameReader プロパティ  
 ==============================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,18 +13,18 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/InfraredFrameSource_Property.md">InfraredFrameSource</a></td>
-<td align="left">Gets the source of the infrared frames.</td>
+<td align="left"><a href="InfraredFrameReader_Class/Properties/InfraredFrameSource_Property.md">InfraredFrameSource</a></td>
+<td align="left">赤外線フレームソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets whether the infrared frame reader is paused.</td>
+<td align="left"><a href="InfraredFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
+<td align="left">赤外線フレームリーダーの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>

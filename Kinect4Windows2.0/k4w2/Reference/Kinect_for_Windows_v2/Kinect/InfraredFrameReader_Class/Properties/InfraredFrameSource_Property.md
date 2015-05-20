@@ -1,9 +1,10 @@
-InfraredFrameReader.InfraredFrameSource Property  
+InfraredFrameReader.InfraredFrameSource プロパティ  
 ================================================  
 
-Gets the source of the infrared frames. <span id="syntaxSection"></span>
+赤外線フレームソースを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

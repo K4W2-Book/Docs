@@ -1,9 +1,10 @@
-InfraredFrameReader.IsPaused Property  
+InfraredFrameReader.IsPaused プロパティ  
 =====================================  
 
-Gets or sets whether the infrared frame reader is paused. <span id="syntaxSection"></span>
+赤外線フレームリーダーの動作状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
