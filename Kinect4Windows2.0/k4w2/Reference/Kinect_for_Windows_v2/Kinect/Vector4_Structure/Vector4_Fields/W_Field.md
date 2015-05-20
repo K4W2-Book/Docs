@@ -1,9 +1,10 @@
-Vector4.W Field  
+Vector4.W フィールド  
 ===============  
 
-The W coordinate of the vector. <span id="syntaxSection"></span>
+ベクトルのW座標。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

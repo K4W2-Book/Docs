@@ -1,9 +1,10 @@
-Vector4.Y Field  
+Vector4.Y フィールド  
 ===============  
 
-The Y coordinate of the vector. <span id="syntaxSection"></span>
+ベクトルのY座標。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

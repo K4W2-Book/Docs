@@ -1,9 +1,10 @@
-Vector4.Z Field  
+Vector4.Z フィールド  
 ===============  
 
-The Z coordinate of the vector. <span id="syntaxSection"></span>
+ベクトルのZ座標。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

@@ -1,9 +1,9 @@
-Vector4 Fields  
+Vector4 フィールド  
 ==============  
 
 <span id="publicfieldsSection"></span>
 
-Fields  
+フィールド
 ======  
 
 <table>
@@ -13,29 +13,30 @@ Fields
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Vector4_Fields/W_Field.md">W</a></td>
-<td align="left">The W coordinate of the vector.</td>
+<td align="left"><a href="Vector4_Structure/Vector4_Fields/W_Field.md">W</a></td>
+<td align="left">W座標</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Vector4_Fields/X_Field.md">X</a></td>
-<td align="left">The X coordinate of the vector.</td>
+<td align="left"><a href="Vector4_Structure/Vector4_Fields/X_Field.md">X</a></td>
+<td align="left">X座標</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Vector4_Fields/Y_Field.md">Y</a></td>
-<td align="left">The Y coordinate of the vector.</td>
+<td align="left"><a href="Vector4_Structure/Vector4_Fields/Y_Field.md">Y</a></td>
+<td align="left">Y座標</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Vector4_Fields/Z_Field.md">Z</a></td>
-<td align="left">The Z coordinate of the vector.</td>
+<td align="left"><a href="Vector4_Structure/Vector4_Fields/Z_Field.md">Z</a></td>
+<td align="left">Z座標</td>
 </tr>
 </tbody>
 </table>
+
 
 <span id="ID4EI"></span>
 

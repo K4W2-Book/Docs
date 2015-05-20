@@ -1,9 +1,10 @@
-Vector4.X Field  
+Vector4.X フィールド  
 ===============  
 
-The X coordinate of the vector. <span id="syntaxSection"></span>
+ベクトルのX座標。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
