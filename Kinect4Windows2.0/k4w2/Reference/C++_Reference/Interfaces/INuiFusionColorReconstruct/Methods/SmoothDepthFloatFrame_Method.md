@@ -51,7 +51,7 @@ Type: UINT
 
 *distanceThreshold*    
 Type: FLOAT  
-平滑化の閾値。[0.01f-0.1f]  
+平滑化の閾値。[0.01f,0.1f]  
 
 <span id="ID4EP"></span>
 #### Return value  

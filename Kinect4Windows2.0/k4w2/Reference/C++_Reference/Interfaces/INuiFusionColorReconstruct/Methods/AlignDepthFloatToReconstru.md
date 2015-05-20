@@ -38,7 +38,7 @@ Dpeht画像フレーム
 
 *maxAlignIterationCount*    
 Type: USHORT  
-位置合わせのための反復アルゴリズムの最大反復回数。[1-]  
+位置合わせのための反復アルゴリズムの最大反復回数。[1,  
 反復回数が少ない場合、高速に動作するが正しい位置に収束しない可能性があります。  
 
 *pDeltaFromReferenceFrame*    
@@ -48,7 +48,7 @@ Type: NUI\_FUSION\_IMAGE\_FRAME
 
 *pAlignmentEnergy*    
 Type: FLOAT  
-位置合わせのためのアルゴリズムで用いられる閾値。[0.0f-1.0f]  
+位置合わせのためのアルゴリズムで用いられる閾値。[0.0f,1.0f]  
 
 *pWorldToCameraTransform*    
 Type: Matrix4  

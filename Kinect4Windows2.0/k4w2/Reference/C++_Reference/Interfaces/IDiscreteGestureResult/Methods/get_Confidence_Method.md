@@ -30,7 +30,7 @@ HRESULT get_Confidence(
 
 *confidence*    
 Type: float  
-[out] 検出の信頼値。[0.0f-1.0f]  
+[out] 検出の信頼値。[0.0f,1.0f]  
 
 <span id="ID4EP"></span>
 #### Return value  
