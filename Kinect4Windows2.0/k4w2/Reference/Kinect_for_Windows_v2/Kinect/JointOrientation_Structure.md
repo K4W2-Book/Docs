@@ -1,9 +1,10 @@
-JointOrientation Structure  
+JointOrientation 構造体  
 ==========================  
 
-Represents the orientation of a joint of a body. <span id="syntaxSection"></span>
+関節の回転を表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -59,14 +60,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **JointOrientation** has the following members.  
 
 <span id="publicfieldsSection"></span>
 
-Fields  
+フィールド
 ======  
 
 <table>
@@ -76,18 +77,18 @@ Fields
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="JointOrientation_Structure/JointOrientation_Fields/JointType_Field.md">JointType</a></td>
-<td align="left">The type of joint.</td>
+<td align="left">関節の種別。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="JointOrientation_Structure/JointOrientation_Fields/Orientation_Field.md">Orientation</a></td>
-<td align="left">The orientation of the joint.</td>
+<td align="left">関節の回転</td>
 </tr>
 </tbody>
 </table>

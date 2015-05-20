@@ -1,9 +1,10 @@
-JointOrientation.Orientation Field  
+JointOrientation.Orientation フィールド  
 ==================================  
 
-The orientation of the joint. <span id="syntaxSection"></span>
+関節の回転を表す。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

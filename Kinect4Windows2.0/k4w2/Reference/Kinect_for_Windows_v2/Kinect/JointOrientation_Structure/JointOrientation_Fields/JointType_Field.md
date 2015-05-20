@@ -1,9 +1,10 @@
-JointOrientation.JointType Field  
+JointOrientation.JointType フィールド  
 ================================  
 
-The type of joint. <span id="syntaxSection"></span>
+関節の種別を表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
