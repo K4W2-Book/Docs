@@ -1,9 +1,10 @@
-AudioBeamFrameReader.AcquireLatestBeamFrames Method  
+AudioBeamFrameReader.AcquireLatestBeamFrames メソッド  
 ===================================================  
 
-Gets the latest audio beam frames. <span id="syntaxSection"></span>
+最新のオーディオビームフレームを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

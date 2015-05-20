@@ -1,9 +1,10 @@
-AudioBeamFrameReader.IsPaused Property  
+AudioBeamFrameReader.IsPaused プロパティ  
 ======================================  
 
-Gets or sets a boolean that indicates if this reader is paused. <span id="syntaxSection"></span>
+オーディオリーダーの動作状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

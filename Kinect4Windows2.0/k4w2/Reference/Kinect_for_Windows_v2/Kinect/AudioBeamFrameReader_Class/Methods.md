@@ -1,9 +1,9 @@
-AudioBeamFrameReader Methods  
+AudioBeamFrameReader メソッド  
 ============================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,18 +13,18 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/AcquireLatestBeamFrames.md">AcquireLatestBeamFrames</a></td>
-<td align="left">Gets the latest audio beam frames.</td>
+<td align="left"><a href="AudioBeamFrameReader_Class/Methods/AcquireLatestBeamFrames.md">AcquireLatestBeamFrames</a></td>
+<td align="left">最新のオーディオビームフレームを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes and releases system resources associated with the audio beam frame reader.</td>
+<td align="left"><a href="AudioBeamFrameReader_Class/Methods/Close_Method.md">Close</a></td>
+<td align="left">システムリソースを解放する。</td>
 </tr>
 </tbody>
 </table>

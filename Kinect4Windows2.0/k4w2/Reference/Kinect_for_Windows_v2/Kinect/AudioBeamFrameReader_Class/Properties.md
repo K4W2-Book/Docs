@@ -1,9 +1,9 @@
-AudioBeamFrameReader Properties  
+AudioBeamFrameReader プロパティ  
 ===============================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ  
 ==========  
 
 <table>
@@ -13,18 +13,18 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/AudioSource_Property.md">AudioSource</a></td>
-<td align="left">Gets the audio source of the frame reader.</td>
+<td align="left"><a href="AudioBeamFrameReader_Class/Properties/AudioSource_Property.md">AudioSource</a></td>
+<td align="left">オーディオフレームソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets a boolean that indicates if this reader is paused.</td>
+<td align="left"><a href="AudioBeamFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
+<td align="left">オーディオリーダーの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>

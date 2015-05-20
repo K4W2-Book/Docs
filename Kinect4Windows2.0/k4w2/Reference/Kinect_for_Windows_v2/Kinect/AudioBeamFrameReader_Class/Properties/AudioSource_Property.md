@@ -1,9 +1,10 @@
-AudioBeamFrameReader.AudioSource Property  
+AudioBeamFrameReader.AudioSource プロパティ  
 =========================================  
 
-Gets the audio source of the frame reader. <span id="syntaxSection"></span>
+オーディオフレームソースを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

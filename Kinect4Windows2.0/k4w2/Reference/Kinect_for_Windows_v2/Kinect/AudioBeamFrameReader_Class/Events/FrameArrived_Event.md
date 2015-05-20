@@ -1,9 +1,10 @@
-AudioBeamFrameReader.FrameArrived Event  
+AudioBeamFrameReader.FrameArrived イベント  
 =======================================  
 
-Event that fires whenever a frame is captured.<span id="syntaxSection"></span>
+フレームが更新されたことを通知するイベント。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
