@@ -1,4 +1,4 @@
-Joint Fields  
+Joint フィールド  
 ============  
 
 <span id="publicfieldsSection"></span>
@@ -13,22 +13,22 @@ Fields
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Joint_Fields/JointType_Field.md">JointType</a></td>
-<td align="left">The type of joint.</td>
+<td align="left"><a href="Joint_Structure/Joint_Fields/JointType_Field.md">JointType</a></td>
+<td align="left">関節の種別。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Joint_Fields/Position_Field.md">Position</a></td>
-<td align="left">The position of the joint in camera space.</td>
+<td align="left"><a href="Joint_Structure/Joint_Fields/Position_Field.md">Position</a></td>
+<td align="left">カメラ座標系での関節の位置</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Joint_Fields/TrackingState_Field.md">TrackingState</a></td>
-<td align="left">The tracking state of the joint.</td>
+<td align="left"><a href="Joint_Structure/Joint_Fields/TrackingState_Field.md">TrackingState</a></td>
+<td align="left">関節の追跡状態</td>
 </tr>
 </tbody>
 </table>

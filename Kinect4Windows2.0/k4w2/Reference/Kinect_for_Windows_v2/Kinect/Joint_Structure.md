@@ -1,9 +1,10 @@
-Joint Structure  
+Joint 構造体  
 ===============  
 
-Represents the position of a joint of a body. <span id="syntaxSection"></span>
+関節のデータを表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,14 +61,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **Joint** has the following members.  
 
 <span id="publicfieldsSection"></span>
 
-Fields  
+フィールド
 ======  
 
 <table>
@@ -77,22 +78,22 @@ Fields
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="Joint_Structure/Joint_Fields/JointType_Field.md">JointType</a></td>
-<td align="left">The type of joint.</td>
+<td align="left">関節の種別。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="Joint_Structure/Joint_Fields/Position_Field.md">Position</a></td>
-<td align="left">The position of the joint in camera space.</td>
+<td align="left">カメラ座標系での関節の位置</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="Joint_Structure/Joint_Fields/TrackingState_Field.md">TrackingState</a></td>
-<td align="left">The tracking state of the joint.</td>
+<td align="left">関節の追跡状態</td>
 </tr>
 </tbody>
 </table>

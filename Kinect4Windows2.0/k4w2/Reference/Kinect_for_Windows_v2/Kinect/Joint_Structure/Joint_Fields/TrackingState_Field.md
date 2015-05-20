@@ -1,9 +1,10 @@
-Joint.TrackingState Field  
+Joint.TrackingState フィールド  
 =========================  
 
-The tracking state of the joint. <span id="syntaxSection"></span>
+関節の追跡状態。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

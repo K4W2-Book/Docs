@@ -1,9 +1,10 @@
-Joint.Position Field  
+Joint.Position フィールド  
 ====================  
 
-The position of the joint in camera space. <span id="syntaxSection"></span>
+カメラ座標系での関節の位置
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
