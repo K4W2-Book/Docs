@@ -1,9 +1,10 @@
-DepthFrame Class  
+DepthFrame クラス  
 ================  
 
-Represents a frame where each pixel represents the distance (in millimeters) of the closest object seen by that pixel. <span id="syntaxSection"></span>
+Depthフレームを表す。Depthフレームからはミリメートル単位でピクセルごとの距離データが取得できる。 
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **DepthFrame** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,37 +74,37 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="DepthFrame_Class/Properties/DepthFrameSource_Property.md">DepthFrameSource</a></td>
-<td align="left">Gets the source of the depth frame.</td>
+<td align="left">このフレームのDepthフレームソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="DepthFrame_Class/Properties/DepthMaxReliableDistance.md">DepthMaxReliableDistance</a></td>
-<td align="left">Gets the maximum reliable depth of the depth frame, in millimeters.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/DepthMaxReliableDistance.md">DepthMaxReliableDistance</a></td>
+<td align="left">ミリメートル単位での最大Depth認識距離を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="DepthFrame_Class/Properties/DepthMinReliableDistance.md">DepthMinReliableDistance</a></td>
-<td align="left">Gets the minimum reliable depth of the depth frame, in millimeters.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/DepthMinReliableDistance.md">DepthMinReliableDistance</a></td>
+<td align="left">ミリメートル単位での最小Depth認識距離を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="DepthFrame_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the description of the depth frame.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
+<td align="left">フレーム情報を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="DepthFrame_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the timestamp of the depth frame.</td>
+<td align="left">フレームの相対時間を取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -113,26 +114,26 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="DepthFrame_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Releases system resources associated with the depth frame.</td>
+<td align="left">Depthフレームのリソースを解放する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="DepthFrame_Class/Methods/CopyFrameDataToArray_Method.md">CopyFrameDataToArray</a></td>
-<td align="left">Copies the depth frame data into the array provided.</td>
+<td align="left">Depthフレームのデータを配列にコピーする。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="DepthFrame_Class/Methods/CopyFrameDataToBuffer_Method.md">CopyFrameDataToBuffer</a></td>
-<td align="left">Copies the depth frame data into the memory location provided.</td>
+<td align="left">Depthフレームのデータのメモリ位置をバッファにコピーする。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="DepthFrame_Class/Methods/LockImageBuffer_Method.md">LockImageBuffer</a></td>
-<td align="left">Gives an app access to the underlying buffer used by the system to store this frame's data.</td>
+<td align="left">システムで管理しているDepthフレームデータバッファをロックする。</td>
 </tr>
 </tbody>
 </table>

@@ -1,9 +1,10 @@
-DepthFrame.RelativeTime Property  
+DepthFrame.RelativeTime プロパティ  
 ================================  
 
-Gets the timestamp of the depth frame. <span id="syntaxSection"></span>
+フレームの相対時間を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

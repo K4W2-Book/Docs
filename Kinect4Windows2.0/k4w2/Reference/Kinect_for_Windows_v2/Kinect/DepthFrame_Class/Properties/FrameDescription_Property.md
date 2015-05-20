@@ -1,9 +1,10 @@
-DepthFrame.FrameDescription Property  
+DepthFrame.FrameDescription プロパティ  
 ====================================  
 
-Gets the description of the depth frame. <span id="syntaxSection"></span>
+フレーム情報を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

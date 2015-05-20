@@ -1,9 +1,9 @@
-DepthFrame Properties  
+DepthFrame プロパティ  
 =====================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,30 +13,30 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/DepthFrameSource_Property.md">DepthFrameSource</a></td>
-<td align="left">Gets the source of the depth frame.</td>
+<td align="left"><a href="DepthFrame_Class/Properties/DepthFrameSource_Property.md">DepthFrameSource</a></td>
+<td align="left">このフレームのDepthフレームソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/DepthMaxReliableDistance.md">DepthMaxReliableDistance</a></td>
-<td align="left">Gets the maximum reliable depth of the depth frame, in millimeters.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/DepthMaxReliableDistance.md">DepthMaxReliableDistance</a></td>
+<td align="left">ミリメートル単位での最大Depth認識距離を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/DepthMinReliableDistance.md">DepthMinReliableDistance</a></td>
-<td align="left">Gets the minimum reliable depth of the depth frame, in millimeters.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/DepthMinReliableDistance.md">DepthMinReliableDistance</a></td>
+<td align="left">ミリメートル単位での最小Depth認識距離を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/FrameDescription_Property.md">FrameDescription</a></td>
-<td align="left">Gets the description of the depth frame.</td>
+<td align="left"><a href="DepthFrameSource_Class/Properties/FrameDescription_Property.md">FrameDescription</a></td>
+<td align="left">フレーム情報を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the timestamp of the depth frame.</td>
+<td align="left"><a href="DepthFrame_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
+<td align="left">フレームの相対時間を取得する。</td>
 </tr>
 </tbody>
 </table>

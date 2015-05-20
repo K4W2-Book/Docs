@@ -1,9 +1,10 @@
-DepthFrame.CopyFrameDataToBuffer Method  
+DepthFrame.CopyFrameDataToBuffer メソッド  
 =======================================  
 
-Copies the depth frame data into the memory location provided. <span id="syntaxSection"></span>
+Depthフレームのデータのメモリ位置をバッファにコピーする。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,11 +61,11 @@ void CopyFrameDataToBuffer(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *buffer*    
 Type: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
-The buffer to fill.  
+Depthデータを受け取るバッファ
 
 <span id="requirements"></span>
 

@@ -1,9 +1,10 @@
-DepthFrame.LockImageBuffer Method  
+DepthFrame.LockImageBuffer メソッド  
 =================================  
 
-Gives an app access to the underlying buffer used by the system to store this frame's data. <span id="syntaxSection"></span>
+システムで管理しているDepthフレームデータバッファをロックする。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,10 +57,10 @@ IBuffer^ LockImageBuffer()</code></pre></td>
 </table>
 
 <span id="ID4EP"></span>
-#### Return value  
+#### 戻り値  
 
 Type: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
-The underlying buffer used by the system to store this frame's data.  
+システムデータのバッファ
 
 <span id="requirements"></span>
 

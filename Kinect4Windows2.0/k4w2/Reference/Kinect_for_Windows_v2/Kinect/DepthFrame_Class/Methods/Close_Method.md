@@ -1,9 +1,10 @@
-DepthFrame.Close Method  
+DepthFrame.Close メソッド  
 =======================  
 
-Releases system resources associated with the depth frame. <span id="syntaxSection"></span>
+Depthフレームのリソースを解放する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

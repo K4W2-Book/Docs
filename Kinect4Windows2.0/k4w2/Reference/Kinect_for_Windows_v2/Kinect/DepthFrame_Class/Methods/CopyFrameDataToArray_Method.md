@@ -1,9 +1,10 @@
-DepthFrame.CopyFrameDataToArray Method  
+DepthFrame.CopyFrameDataToArray メソッド  
 ======================================  
 
-Copies the depth frame data into the array provided. <span id="syntaxSection"></span>
+Depthフレームのデータを配列にコピーする。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,7 +61,7 @@ void CopyFrameDataToArray(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *frameData*    
 [C++] Type: uint16  
@@ -68,7 +69,7 @@ void CopyFrameDataToArray(
   [JavaScript] Type: Number  
    
 
-The array to fill.  
+Depthデータを入れる配列
 
 <span id="requirements"></span>
 

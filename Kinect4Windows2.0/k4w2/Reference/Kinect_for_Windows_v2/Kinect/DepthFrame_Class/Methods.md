@@ -1,9 +1,9 @@
-DepthFrame Methods  
+DepthFrame メソッド  
 ==================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,29 +13,30 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Releases system resources associated with the depth frame.</td>
+<td align="left"><a href="DepthFrame_Class/Methods/Close_Method.md">Close</a></td>
+<td align="left">Depthフレームのリソースを解放する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/CopyFrameDataToArray_Method.md">CopyFrameDataToArray</a></td>
-<td align="left">Copies the depth frame data into the array provided.</td>
+<td align="left"><a href="DepthFrame_Class/Methods/CopyFrameDataToArray_Method.md">CopyFrameDataToArray</a></td>
+<td align="left">Depthフレームのデータを配列にコピーする。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Methods/CopyFrameDataToBuffer_Method.md">CopyFrameDataToBuffer</a></td>
-<td align="left">Copies the depth frame data into the memory location provided.</td>
+<td align="left"><a href="DepthFrame_Class/Methods/CopyFrameDataToBuffer_Method.md">CopyFrameDataToBuffer</a></td>
+<td align="left">Depthフレームのデータのメモリ位置をバッファにコピーする。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/LockImageBuffer_Method.md">LockImageBuffer</a></td>
-<td align="left">Gives an app access to the underlying buffer used by the system to store this frame's data.</td>
+<td align="left"><a href="DepthFrame_Class/Methods/LockImageBuffer_Method.md">LockImageBuffer</a></td>
+<td align="left">システムで管理しているDepthフレームデータバッファをロックする。</td>
 </tr>
 </tbody>
 </table>
+
 
 <span id="ID4EI"></span>
 
