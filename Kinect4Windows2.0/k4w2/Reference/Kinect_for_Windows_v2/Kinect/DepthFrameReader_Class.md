@@ -1,9 +1,10 @@
-DepthFrameReader Class  
+DepthFrameReader クラス  
 ======================  
 
-Represents a reader for depth frames. <span id="syntaxSection"></span>
+Depthフレームリーダーを表す。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **DepthFrameReader** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,25 +74,25 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="DepthFrameReader_Class/Properties/DepthFrameSource_Property.md">DepthFrameSource</a></td>
-<td align="left">Gets the source of the depth frames.</td>
+<td align="left">Depthフレームソースを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="DepthFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets whether the depth frame reader is paused.</td>
+<td align="left">Depthフレームリーダーの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -101,25 +102,25 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="DepthFrameReader_Class/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent depth frame.</td>
+<td align="left">最新のDepthフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="DepthFrameReader_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes and releases system resources associated with the depth frame reader.</td>
+<td align="left">Depthフレームリーダーのリソースを解放する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -129,18 +130,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="DepthFrameReader_Class/Events/FrameArrived_Event.md">FrameArrived</a></td>
-<td align="left">Event that fires whenever a frame is captured.</td>
+<td align="left">Depthフレームの更新イベント</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="DepthFrameReader_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="">DepthFrameReader</a> class changes.</td>
+<td align="left"><a href="">DepthFrameReader</a>クラスのプロパティが変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>

@@ -1,9 +1,10 @@
-DepthFrameReader.DepthFrameSource Property  
+DepthFrameReader.DepthFrameSource プロパティ  
 ==========================================  
 
-Gets the source of the depth frames. <span id="syntaxSection"></span>
+Depthフレームリーダーの動作状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

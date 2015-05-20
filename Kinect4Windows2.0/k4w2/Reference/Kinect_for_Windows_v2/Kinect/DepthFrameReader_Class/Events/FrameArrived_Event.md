@@ -1,9 +1,10 @@
-DepthFrameReader.FrameArrived Event  
+DepthFrameReader.FrameArrived イベント  
 ===================================  
 
-Event that fires whenever a frame is captured.<span id="syntaxSection"></span>
+Depthフレームの更新イベント
+<span id="syntaxSection"></span>
 
-Syntax  
+構文  
 ======  
 
 <table>

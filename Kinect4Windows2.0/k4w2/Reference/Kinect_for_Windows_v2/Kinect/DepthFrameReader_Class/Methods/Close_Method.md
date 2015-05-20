@@ -1,9 +1,10 @@
-DepthFrameReader.Close Method  
+DepthFrameReader.Close メソッド  
 =============================  
 
-Closes and releases system resources associated with the depth frame reader. <span id="syntaxSection"></span>
+Depthフレームリーダーのリソースを解放する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

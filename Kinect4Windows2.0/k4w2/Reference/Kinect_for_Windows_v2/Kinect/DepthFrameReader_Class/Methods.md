@@ -1,9 +1,9 @@
-DepthFrameReader Methods  
+DepthFrameReader メソッド  
 ========================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,18 +13,18 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent depth frame.</td>
+<td align="left"><a href="DepthFrameReader_Class/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
+<td align="left">最新のDepthフレームを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes and releases system resources associated with the depth frame reader.</td>
+<td align="left"><a href="DepthFrameReader_Class/Methods/Close_Method.md">Close</a></td>
+<td align="left">Depthフレームリーダーのリソースを解放する。</td>
 </tr>
 </tbody>
 </table>

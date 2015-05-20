@@ -1,9 +1,10 @@
-DepthFrameReader.IsPaused Property  
+DepthFrameReader.IsPaused プロパティ  
 ==================================  
 
-Gets or sets whether the depth frame reader is paused. <span id="syntaxSection"></span>
+Depthフレームリーダーの動作状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

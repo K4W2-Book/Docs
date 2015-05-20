@@ -1,9 +1,10 @@
-DepthFrameReader.AcquireLatestFrame Method  
+DepthFrameReader.AcquireLatestFrame メソッド  
 ==========================================  
 
-Gets the most recent depth frame. <span id="syntaxSection"></span>
+最新のDepthフレームを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

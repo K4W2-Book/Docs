@@ -1,9 +1,9 @@
-DepthFrameReader Properties  
+DepthFrameReader プロパティ  
 ===========================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,22 +13,21 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/DepthFrameSource_Property.md">DepthFrameSource</a></td>
-<td align="left">Gets the source of the depth frames.</td>
+<td align="left"><a href="DepthFrameReader_Class/Properties/DepthFrameSource_Property.md">DepthFrameSource</a></td>
+<td align="left">Depthフレームソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets whether the depth frame reader is paused.</td>
+<td align="left"><a href="DepthFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
+<td align="left">Depthフレームリーダーの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>
-
 <span id="ID4EI"></span>
 
 See also  
