@@ -1,9 +1,10 @@
-DepthSpacePoint Structure  
+DepthSpacePoint 構造体  
 =========================  
 
-Represents pixel coordinates within a depth image. <span id="syntaxSection"></span>
+ピクセル単位での2次元のDepth座標系。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -59,14 +60,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **DepthSpacePoint** has the following members.  
 
 <span id="publicfieldsSection"></span>
 
-Fields  
+フィールド
 ======  
 
 <table>
@@ -76,18 +77,18 @@ Fields
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="DepthSpacePoint_Structure/DepthSpacePoint_Fields/X_Field.md">X</a></td>
-<td align="left">The X coordinate of the point, in pixels.</td>
+<td align="left">ピクセル単位でのX座標。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="DepthSpacePoint_Structure/DepthSpacePoint_Fields/Y_Field.md">Y</a></td>
-<td align="left">The Y coordinate of the point, in pixels.</td>
+<td align="left">ピクセル単位でのY座標。</td>
 </tr>
 </tbody>
 </table>

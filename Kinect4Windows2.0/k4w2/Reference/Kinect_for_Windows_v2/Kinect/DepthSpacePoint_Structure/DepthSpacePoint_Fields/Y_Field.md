@@ -1,9 +1,10 @@
-DepthSpacePoint.Y Field  
+DepthSpacePoint.Y フィールド  
 =======================  
 
-The Y coordinate of the point, in pixels. <span id="syntaxSection"></span>
+ピクセル単位でのY座標。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
