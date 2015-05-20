@@ -1,9 +1,10 @@
-ColorImageFormat Enumeration  
+ColorImageFormat 列挙体  
 ============================  
 
-The available color image formats. <span id="syntaxSection"></span>
+カラー画像のフォーマットを表します。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,17 +57,17 @@ Syntax
 
 <span id="ID4E4B"></span>
 
-Members  
+メンバ
 =======  
 
-| Member    | Value | Description           |
+| メンバ      | 値    | 説明                   |
 |-----------|-------|-----------------------|
-| **Bayer** | 4     | Bayer format          |
-| **Bgra**  | 3     | Bgra format           |
-| **None**  | 0     | An unspecified format |
-| **Rgba**  | 1     | Rgba format           |
-| **Yuv**   | 2     | Yuv format            |
-| **Yuy2**  | 5     | Yuy2 format           |
+| **Bayer** | 4     | Bayer フォーマット         |
+| **Bgra**  | 3     | Bgra フォーマット          |
+| **None**  | 0     | 指定なし                |
+| **Rgba**  | 1     | Rgba フォーマット          |
+| **Yuv**   | 2     | Yuv フォーマット           |
+| **Yuy2**  | 5     | Yuy2 フォーマット          |
 
 <span id="requirements"></span>
 

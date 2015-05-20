@@ -1,7 +1,8 @@
-TrackingState Enumeration  
+TrackingState 列挙体  
 =========================  
 
-The state of tracking a body or body's attribute. <span id="syntaxSection"></span>
+関節などBodyに関連するものの追跡状態
+<span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -56,14 +57,14 @@ Syntax
 
 <span id="ID4EIB"></span>
 
-Members  
+メンバ
 =======  
 
-| Member         | Value | Description                                                                                      |
+| メンバ         | 値 | 説明                                                                                      |
 |----------------|-------|--------------------------------------------------------------------------------------------------|
-| **Inferred**   | 1     | The joint data is inferred and confidence in the position data is lower than if it were Tracked. |
-| **NotTracked** | 0     | The joint data is not tracked and no data is known about this joint.                             |
-| **Tracked**    | 2     | The joint data is being tracked and the data can be trusted.                                     |
+| **Inferred**   | 1     | 関節データは推測状態。追跡精度は低い。 |
+| **NotTracked** | 0     | 追跡していない状態。データはない。                             |
+| **Tracked**    | 2     | 追跡している状態。データ精度は高い                                     |
 
 <span id="remarks"></span>
 

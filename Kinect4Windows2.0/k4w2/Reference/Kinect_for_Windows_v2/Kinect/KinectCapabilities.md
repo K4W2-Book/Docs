@@ -1,9 +1,10 @@
-KinectCapabilities Enumeration  
+KinectCapabilities 列挙体  
 ==============================  
 
-Capabilities of the Kinect sensor. <span id="syntaxSection"></span>
+Kinectセンサーが提供する機能。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -58,17 +59,17 @@ public enum KinectCapabilities</code></pre></td>
 
 <span id="ID4EDC"></span>
 
-Members  
+メンバ
 =======  
 
-| Member          | Value | Description                      |
+| メンバ          | 値 | 説明                      |
 |-----------------|-------|----------------------------------|
-| **Audio**       | 2     | Audio is supported.              |
-| **Expressions** | 8     | Expressions are supported.       |
-| **Face**        | 4     | Facial recognition is supported. |
-| **Gamechat**    | 16    | Game chat is supported.          |
-| **None**        | 0     | No capabilities are supported.   |
-| **Vision**      | 1     | Vision is supported.             |
+| **Audio**       | 2     | オーディオをサポートしている。              |
+| **Expressions** | 8     | 表情推定をサポートしている。       |
+| **Face**        | 4     | 顔検出をサポートしてる。 |
+| **Gamechat**    | 16    | ゲームチャットをサポートしている。          |
+| **None**        | 0     | どの機能もさぽーとしていない。   |
+| **Vision**      | 1     | ビジョン(画像系)をサポートしている。            |
 
 <span id="remarks"></span>
 

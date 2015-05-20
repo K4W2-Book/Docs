@@ -1,9 +1,10 @@
-HandState Enumeration  
+HandState 列挙体  
 =====================  
 
-Possible hand states. <span id="syntaxSection"></span>
+手の状態を表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,16 +57,16 @@ Syntax
 
 <span id="ID4EWB"></span>
 
-Members  
+メンバ
 =======  
 
-| Member         | Value | Description                       |
+| メンバ         | 値 | 説明                       |
 |----------------|-------|-----------------------------------|
-| **Closed**     | 3     | The hand is closed.               |
-| **Lasso**      | 4     | The hand is in the lasso state.   |
-| **NotTracked** | 1     | Hand state is not tracked.        |
-| **Open**       | 2     | The hand is open.                 |
-| **Unknown**    | 0     | The state of the hand is unknown. |
+| **Closed**     | 3     | 閉じている(グーの状態)               |
+| **Lasso**      | 4     | 投げなわのポーズ(チョキの状態)   |
+| **NotTracked** | 1     | 手を追跡していない。        |
+| **Open**       | 2     | 開いている(パーの状態)                 |
+| **Unknown**    | 0     | 不明 |
 
 <span id="requirements"></span>
 

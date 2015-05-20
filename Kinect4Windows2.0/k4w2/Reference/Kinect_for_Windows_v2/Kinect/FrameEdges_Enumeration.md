@@ -1,9 +1,10 @@
-FrameEdges Enumeration  
+FrameEdges 列挙体  
 ======================  
 
-Identifies if the user's body is visible by indicating any portion of the user that is not in the camera's field of view. <span id="syntaxSection"></span>
+ユーザーの体がカメラの画角から外れた位置を表す。 
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -58,16 +59,16 @@ public enum FrameEdges</code></pre></td>
 
 <span id="ID4E3B"></span>
 
-Members  
+メンバ
 =======  
 
-| Member     | Value | Description                                                                              |
+| メンバ     | 値 | 説明                                                                              |
 |------------|-------|------------------------------------------------------------------------------------------|
-| **Bottom** | 8     | The user's body extends below the camera's field of view.                                |
-| **Left**   | 2     | The user's body extends to the left of the camera's field of view.                       |
-| **None**   | 0     | None of the user's body is out of the camera's field of view, the user is fully visible. |
-| **Right**  | 1     | The user's body extends to the right of the camera's field of view.                      |
-| **Top**    | 4     | The user's body extends above the camera's field of view.                                |
+| **Bottom** | 8     | ユーザーの下側がカメラの画角から外れている。                                |
+| **Left**   | 2     | ユーザーの左側がカメラの画角から外れている。                       |
+| **None**   | 0     | ユーザー全体がカメラの画角からhずれている。|
+| **Right**  | 1     | ユーザーの右側がカメラの画角から外れている。                      |
+| **Top**    | 4     | ユーザーの上側がカメラの画角から外れている。                               |
 
 <span id="requirements"></span>
 

@@ -1,9 +1,10 @@
-FrameSourceTypes Enumeration  
+FrameSourceTypes 列挙体  
 ============================  
 
-The types frame sources for a MultiSourceReader. <span id="syntaxSection"></span>
+MultiSourceReaderで取得するフレームを表す。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -58,19 +59,19 @@ public enum FrameSourceTypes</code></pre></td>
 
 <span id="ID4ERC"></span>
 
-Members  
+メンバ
 =======  
 
-| Member                   | Value | Description                           |
+| メンバ                   | 値 | 説明                           |
 |--------------------------|-------|---------------------------------------|
-| **Audio**                | 64    | Audio stream source.                  |
-| **Body**                 | 32    | Body stream source.                   |
-| **BodyIndex**            | 16    | Body index stream source.             |
-| **Color**                | 1     | Color stream source.                  |
-| **Depth**                | 8     | Depth stream source.                  |
-| **Infrared**             | 2     | Infrared stream source.               |
-| **LongExposureInfrared** | 4     | Long exposure infrared stream source. |
-| **None**                 | 0     | No source.                            |
+| **Audio**                | 64    | オーディオストリーム                 |
+| **Body**                 | 32    | ボディストリーム                   |
+| **BodyIndex**            | 16    | ボディインデックスストリーム             |
+| **Color**                | 1     | カラーストリーム                  |
+| **Depth**                | 8     | Depthストリーム                  |
+| **Infrared**             | 2     | 赤外線ストリーム               |
+| **LongExposureInfrared** | 4     | 長時間露光赤外線ストリーム |
+| **None**                 | 0     | なし                            |
 
 <span id="requirements"></span>
 

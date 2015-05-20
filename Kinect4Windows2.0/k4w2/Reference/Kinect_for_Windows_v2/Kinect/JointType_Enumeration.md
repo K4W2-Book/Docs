@@ -1,9 +1,10 @@
-JointType Enumeration  
+JointType 列挙体  
 =====================  
 
-Joint types in a skeleton. <span id="syntaxSection"></span>
+関節の種別を表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,36 +57,36 @@ Syntax
 
 <span id="ID4ECG"></span>
 
-Members  
+メンバ
 =======  
 
-| Member            | Value | Description           |
+| メンバ           | 値 | 説明           |
 |-------------------|-------|-----------------------|
-| **AnkleLeft**     | 14    | Left ankle            |
-| **AnkleRight**    | 18    | Right ankle           |
-| **ElbowLeft**     | 5     | Left elbow            |
-| **ElbowRight**    | 9     | Right elbow           |
-| **FootLeft**      | 15    | Left foot             |
-| **FootRight**     | 19    | Right foot            |
-| **HandLeft**      | 7     | Left hand             |
-| **HandRight**     | 11    | Right hand            |
-| **HandTipLeft**   | 21    | Tip of the left hand  |
-| **HandTipRight**  | 23    | Tip of the right hand |
-| **Head**          | 3     | Head                  |
+| **AnkleLeft**     | 14    | 左足首            |
+| **AnkleRight**    | 18    | 右足首           |
+| **ElbowLeft**     | 5     | 左ひじ            |
+| **ElbowRight**    | 9     | 右ひじ           |
+| **FootLeft**      | 15    | 左足             |
+| **FootRight**     | 19    | 右足            |
+| **HandLeft**      | 7     | 左手             |
+| **HandRight**     | 11    | 右手            |
+| **HandTipLeft**   | 21    | 左指先  |
+| **HandTipRight**  | 23    | 右指先 |
+| **Head**          | 3     | 頭                  |
 | **HipLeft**       | 12    | Left hip              |
 | **HipRight**      | 16    | Right hip             |
-| **KneeLeft**      | 13    | Left knee             |
-| **KneeRight**     | 17    | Right knee            |
-| **Neck**          | 2     | Neck                  |
-| **ShoulderLeft**  | 4     | Left shoulder         |
-| **ShoulderRight** | 8     | Right shoulder        |
+| **KneeLeft**      | 13    | 左ひざ             |
+| **KneeRight**     | 17    | 右ひざ            |
+| **Neck**          | 2     | 首                  |
+| **ShoulderLeft**  | 4     | 左肩         |
+| **ShoulderRight** | 8     | 右肩       |
 | **SpineBase**     | 0     | Base of the spine     |
 | **SpineMid**      | 1     | Middle of the spine   |
 | **SpineShoulder** | 20    | Spine                 |
-| **ThumbLeft**     | 22    | Left thumb            |
-| **ThumbRight**    | 24    | Right thumb           |
-| **WristLeft**     | 6     | Left wrist            |
-| **WristRight**    | 10    | Right wrist           |
+| **ThumbLeft**     | 22    | 左親指            |
+| **ThumbRight**    | 24    | 右親指           |
+| **WristLeft**     | 6     | 左手首            |
+| **WristRight**    | 10    | 右手首           |
 
 <span id="remarks"></span>
 

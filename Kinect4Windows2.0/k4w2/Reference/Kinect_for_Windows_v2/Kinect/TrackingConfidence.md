@@ -1,9 +1,10 @@
-TrackingConfidence Enumeration  
+TrackingConfidence 列挙体  
 ==============================  
 
-Specifies the confidence level of a body's tracked attribute. <span id="syntaxSection"></span>
+Bodyの追跡状態の信頼性。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,13 +57,13 @@ Syntax
 
 <span id="ID4EBB"></span>
 
-Members  
+メンバ
 =======  
 
-| Member   | Value | Description    |
+| メンバ   | 値 | 説明    |
 |----------|-------|----------------|
-| **High** | 1     | Fully tracked. |
-| **Low**  | 0     | Not tracked.   |
+| **High** | 1     | 追跡している。 |
+| **Low**  | 0     | 追跡していない。   |
 
 <span id="requirements"></span>
 
