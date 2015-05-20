@@ -1,9 +1,10 @@
-AudioBeamFrame Class  
+AudioBeamFrame クラス  
 ====================  
 
-Represents an audio beam frame. <span id="syntaxSection"></span>
+オーディオビームフレームを表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **AudioBeamFrame** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ  
 ==========  
 
 <table>
@@ -73,37 +74,37 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="AudioBeamFrame_Class/Properties/AudioBeam_Property.md">AudioBeam</a></td>
-<td align="left">Gets the audio beam.</td>
+<td align="left">オーディオビーム取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="AudioBeamFrame_Class/Properties/AudioSource_Property.md">AudioSource</a></td>
-<td align="left">Gets the audio source for this frame.</td>
+<td align="left">オーディオフレームソースを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="AudioBeamFrame_Class/Properties/Duration_Property.md">Duration</a></td>
-<td align="left">Gets the duration of the audio beam frame.</td>
+<td align="left">オーディオフレームの持続時間を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="AudioBeamFrame_Class/Properties/RelativeTimeStart_Property.md">RelativeTimeStart</a></td>
-<td align="left">Gets the time the audio beam frame started.</td>
+<td align="left">オーディオフレームの相対的な開始時間を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="AudioBeamFrame_Class/Properties/SubFrames_Property.md">SubFrames</a></td>
-<td align="left">Gets the audio beam sub frames.</td>
+<td align="left">サブフレームを取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド  
 =======  
 
 <table>
@@ -113,14 +114,14 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="AudioBeamFrame_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Releases system resources associated with the audio beam frame.</td>
+<td align="left">システムリソースを解放する。</td>
 </tr>
 </tbody>
 </table>

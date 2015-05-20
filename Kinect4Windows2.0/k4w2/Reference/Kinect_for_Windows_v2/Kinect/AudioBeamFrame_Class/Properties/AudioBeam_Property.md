@@ -1,9 +1,10 @@
-AudioBeamFrame.AudioBeam Property  
+AudioBeamFrame.AudioBeam プロパティ  
 =================================  
 
-Gets the audio beam. <span id="syntaxSection"></span>
+オーディオビーム取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

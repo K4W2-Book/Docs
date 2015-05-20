@@ -1,9 +1,10 @@
-AudioBeamFrame.SubFrames Property  
+AudioBeamFrame.SubFrames プロパティ  
 =================================  
 
-Gets the audio beam sub frames. <span id="syntaxSection"></span>
+サブフレームを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

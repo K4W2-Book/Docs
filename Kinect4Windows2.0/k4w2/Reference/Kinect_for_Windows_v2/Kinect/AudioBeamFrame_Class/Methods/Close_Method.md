@@ -1,9 +1,10 @@
-AudioBeamFrame.Close Method  
+AudioBeamFrame.Close メソッド    
 ===========================  
 
-Releases system resources associated with the audio beam frame. <span id="syntaxSection"></span>
+システムリソースを解放する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

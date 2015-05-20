@@ -1,9 +1,10 @@
-AudioBeamFrame.RelativeTimeStart Property  
+AudioBeamFrame.RelativeTimeStart プロパティ  
 =========================================  
 
-Gets the time the audio beam frame started. <span id="syntaxSection"></span>
+オーディオフレームの相対的な開始時間を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

@@ -1,9 +1,10 @@
-AudioBeamFrame.Duration Property  
+AudioBeamFrame.Duration プロパティ  
 ================================  
 
-Gets the duration of the audio beam frame. <span id="syntaxSection"></span>
+オーディオフレームの持続時間を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
