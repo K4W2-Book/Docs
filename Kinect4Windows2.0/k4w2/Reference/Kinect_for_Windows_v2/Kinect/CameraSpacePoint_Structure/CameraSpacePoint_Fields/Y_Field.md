@@ -1,9 +1,10 @@
-CameraSpacePoint.Y Field  
+CameraSpacePoint.Y フィールド  
 ========================  
 
-The Y coordinate of the point, in meters. <span id="syntaxSection"></span>
+メートル単位でのY座標。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

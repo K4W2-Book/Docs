@@ -1,9 +1,10 @@
-CameraSpacePoint.Z Field  
+CameraSpacePoint.Z フィールド  
 ========================  
 
-The Z coordinate of the point, in meters. <span id="syntaxSection"></span>
+メートル単位でのZ座標。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

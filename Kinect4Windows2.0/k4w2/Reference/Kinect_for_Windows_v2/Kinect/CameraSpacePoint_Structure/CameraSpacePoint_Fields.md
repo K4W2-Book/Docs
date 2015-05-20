@@ -1,9 +1,9 @@
-CameraSpacePoint Fields  
+CameraSpacePoint フィールド  
 =======================  
 
 <span id="publicfieldsSection"></span>
 
-Fields  
+フィールド
 ======  
 
 <table>
@@ -13,22 +13,22 @@ Fields
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="CameraSpacePoint_Fields/X_Field.md">X</a></td>
-<td align="left">The X coordinate of the point, in meters.</td>
+<td align="left"><a href="CameraSpacePoint_Structure/CameraSpacePoint_Fields/X_Field.md">X</a></td>
+<td align="left">メートル単位でのX座標。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="CameraSpacePoint_Fields/Y_Field.md">Y</a></td>
-<td align="left">The Y coordinate of the point, in meters.</td>
+<td align="left"><a href="CameraSpacePoint_Structure/CameraSpacePoint_Fields/Y_Field.md">Y</a></td>
+<td align="left">メートル単位でのY座標。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="CameraSpacePoint_Fields/Z_Field.md">Z</a></td>
-<td align="left">The Z coordinate of the point, in meters.</td>
+<td align="left"><a href="CameraSpacePoint_Structure/CameraSpacePoint_Fields/Z_Field.md">Z</a></td>
+<td align="left">メートル単位でのZ座標。</td>
 </tr>
 </tbody>
 </table>
