@@ -7,37 +7,37 @@ Kinect Structures
 =================  
 
 [CameraIntrinsics](Structures/CameraIntrinsics_Structure.md)    
-Represents the calibration data for the depth camera.  
+Depthセンサーのキャリブレーションデータ。  
 
 [CameraSpacePoint](Structures/CameraSpacePoint_Structure.md)    
-A 3D location in camera space.  
+Camera座標系の3次元位置。  
 
 [ColorSpacePoint](Structures/ColorSpacePoint_Structure.md)    
-A 2D location in color space.  
+Color座標系の2次元位置。  
 
 [DepthSpacePoint](Structures/DepthSpacePoint_Structure.md)    
-A 2D location in depth space.  
+Depth座標系の2次元位置。  
 
 [Joint](Structures/Joint_Structure.md)    
-Connects two bones of a skeleton.  
+Joint(関節)。  
 
 [JointOrientation](Structures/JointOrientation_Structure.md)    
-Orients a joint relative to the parent joint in the skeleton.  
+Joint(関節)の回転方向。  
 
 [KinectManipulationDelta](Structures/KinectManipulationDelta.md)    
-Represents the accumulated transformations for the current manipulation.  
+現在の操作の累積変化量。  
 
 [KinectManipulationVelocities](Structures/KinectManipulationVelocities.md)    
-Represents the velocities of the accumulated transformations for the current interaction.  
+現在の操作の累積速度変化量。  
 
 [PointF](Structures/PointF_Structure.md)    
-Represents a 2D point.  
+点(浮動小数点数)。  
 
 [RectF](Structures/RectF_Structure.md)    
-Represents a rectangle  
+矩形(浮動小数点数)。  
 
 [Vector4](Structures/Vector4_Structure.md)    
-A four component vector (x,y,z,w).  
+4次元ベクトル。  
 
 <span id="ID4ESB"></span>
 
