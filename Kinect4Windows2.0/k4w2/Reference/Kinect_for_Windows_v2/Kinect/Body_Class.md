@@ -1,9 +1,9 @@
-Body Class  
+Body クラス  
 ==========  
 
 Represents a body. <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +56,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **Body** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,18 +73,18 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Properties/Activities_Property.md">Activities</a></td>
-<td align="left">[Deprecated] Gets the status of the body’s possible activities. This API is not implemented in the Kinect for Windows v2 SDK and will always return null. It is included to support cross-compilation with the Xbox SDK.</td>
+<td align="left">[使用しないでください]このプロパティはXbox SDKとのクロスコンパイルのために含まれています。Kinect for Windows v2では実装おらずnullが返ります。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="Body_Class/Properties/Appearance_Property.md">Appearance</a></td>
-<td align="left">[Deprecated] Gets the status of the body’s possible appearance characteristics. This API is not implemented in the Kinect for Windows v2 SDK and will always return null. It is included to support cross-compilation with the Xbox SDK.</td>
+<td align="left">[使用しないでください]このプロパティはXbox SDKとのクロスコンパイルのために含まれています。Kinect for Windows v2では実装おらずnullが返ります。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Properties/ClippedEdges_Property.md">ClippedEdges</a></td>
@@ -151,7 +151,7 @@ Properties
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -161,14 +161,14 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="Body_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Releases system resources associated with the body.</td>
+<td align="left">システムリソースを解放する。</td>
 </tr>
 </tbody>
 </table>
