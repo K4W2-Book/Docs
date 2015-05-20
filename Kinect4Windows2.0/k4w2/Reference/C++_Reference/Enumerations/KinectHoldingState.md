@@ -1,7 +1,7 @@
 KinectHoldingState Enumeration  
 ==============================  
 
-Specifies the state of the Holding event. <span id="syntaxSection"></span>
+ホールディングイベントステータス。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,9 +34,9 @@ Constants
 
 | Constant                      | Description                                                                                                                                                |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| KinectHoldingState\_Started   | A single contact has been detected and a time threshold is crossed without the contact being lifted, another contact detected, or another gesture started. |
-| KinectHoldingState\_Completed | The single contact is lifted.                                                                                                                              |
-| KinectHoldingState\_Canceled  | An additional contact is detected, a subsequent gesture (such as a slide) is detected, or the CompleteGesture method is called.                            |
+| KinectHoldingState\_Started   | ホールディングが検出された。<br/>ホールディングの時間閾値を超えた。<br/>別のホールディングまたはジェスチャーが検出された。 |
+| KinectHoldingState\_Completed | ホールディングが解除された。                                                                                                                              |
+| KinectHoldingState\_Canceled  | 追加のホールディングが検出され、その後に続くジェスチャーが検出された(スライドなど)。または、CompleteGestureが呼び出された。                            |
 
 <span id="requirements"></span>
 

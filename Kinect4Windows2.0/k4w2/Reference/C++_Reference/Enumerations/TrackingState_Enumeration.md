@@ -1,7 +1,7 @@
 TrackingState Enumeration  
 =========================  
 
-Specifies the Kinect sensor joint tracking states. <span id="syntaxSection"></span>
+Joint(関節)のトラッキングステータス。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,9 +34,9 @@ Constants
 
 | Constant                  | Description                                                              |
 |---------------------------|--------------------------------------------------------------------------|
-| TrackingState\_NotTracked | The joint data is not tracked and no data is known about this joint.     |
-| TrackingState\_Inferred   | The joint data is inferred. Confidence in the position data is very low. |
-| TrackingState\_Tracked    | The joint data is being tracked and the data can be trusted.             |
+| TrackingState\_NotTracked | トラッキングされていない。                                                        |
+| TrackingState\_Inferred   | 推測されたデータであり、位置の信頼度はとても低い。                                    |
+| TrackingState\_Tracked    | トラッキングされている。             |
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 TrackingConfidence Enumeration  
 ==============================  
 
-Specifies the confidence level of a body's tracked attribute. <span id="syntaxSection"></span>
+Joint(関節)のトラッキングの信頼度。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -33,8 +33,8 @@ Constants
 
 | Constant                 | Description   |
 |--------------------------|---------------|
-| TrackingConfidence\_Low  | Not tracked   |
-| TrackingConfidence\_High | Fully tracked |
+| TrackingConfidence\_Low  | 信頼できない。    |
+| TrackingConfidence\_High | 信頼できる。     |
 
 <span id="requirements"></span>
 

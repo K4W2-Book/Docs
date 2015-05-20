@@ -1,7 +1,7 @@
 KinectGestureSettings Enumeration  
 =================================  
 
-Specifies the interactions that are supported by an Kinect for Windows application. <span id="syntaxSection"></span>
+ジェスチャーインタラクションの種類。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -40,15 +40,15 @@ Constants
 
 | Constant                                            | Description                                                                                                                                                                                                                                                                                     |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| KinectGestureSettings\_None                         | Disable support for gestures and manipulations.                                                                                                                                                                                                                                                 |
-| KinectGestureSettings\_Tap                          | Enable support for the tap gesture.                                                                                                                                                                                                                                                             |
-| KinectGestureSettings\_ManipulationTranslateX       | Enable support for the slide gesture through pointer input, on the horizontal axis. The ManipulationStarted, ManipulationUpdated, and ManipulationCompleted events are all raised during the course of this interaction. This gesture can be used for rearranging objects.                      |
-| KinectGestureSettings\_ManipulationTranslateY       | Enable support for the slide gesture through pointer input, on the vertical axis. The ManipulationStarted, ManipulationUpdated, and ManipulationCompleted events are all raised during the course of this interaction. This gesture can be used for rearranging objects.                        |
-| KinectGestureSettings\_ManipulationTranslateRailsX  | Enable support for the slide gesture through pointer input, on the horizontal axis using rails (guides). The ManipulationStarted, ManipulationUpdated, and ManipulationCompleted events are all raised during the course of this interaction. This gesture can be used for rearranging objects. |
-| KinectGestureSettings\_ManipulationTranslateRailsY  | Enable support for the slide gesture through pointer input, on the vertical axis using rails (guides). The ManipulationStarted, ManipulationUpdated, and ManipulationCompleted events are all raised during the course of this interaction. This gesture can be used for rearranging objects.   |
-| KinectGestureSettings\_ManipulationScale            | Enable support for the pinch or stretch gesture through pointer input. These gestures can be used for optical or semantic zoom and resizing an object. The ManipulationStarted, ManipulationUpdated, and ManipulationCompleted events are all raised during the course of this interaction.     |
-| KinectGestureSettings\_ManipulationTranslateInertia | Enable support for scaling inertia after the pinch or stretch gesture (through pointer input) is complete. The ManipulationInertiaStarting event is raised if inertia is enabled.                                                                                                               |
-| KinectGestureSettings\_KinectHold                   | Enable support for the press and hold gesture through Kinect gestures. The Holding event is raised if a time threshold is crossed before the user moves the hand cursor away from the UI element. This gesture can be used to display a context menu.                                           |
+| KinectGestureSettings\_None                         | 無効。                                                                                                                                                                                                                                                 |
+| KinectGestureSettings\_Tap                          | タップ。                                                                                                                                                                                                                                                             |
+| KinectGestureSettings\_ManipulationTranslateX       | 水平方向(X軸方向)のスライド。<br/>ManipulationStarted、ManipulationUpdated、ManipulationCompletedのイベントが発生します。                      |
+| KinectGestureSettings\_ManipulationTranslateY       | 垂直方向(Y軸方向)のスライド。<br/>ManipulationStarted、ManipulationUpdated、ManipulationCompletedのイベントが発生します。                        |
+| KinectGestureSettings\_ManipulationTranslateRailsX  | 水平方向(X軸方向)に沿ったスライド。<br/>ManipulationStarted、ManipulationUpdated、ManipulationCompletedのイベントが発生します。 |
+| KinectGestureSettings\_ManipulationTranslateRailsY  | 垂直方向(Y軸方向)に沿ったスライド。<br/>ManipulationStarted、ManipulationUpdated、ManipulationCompletedのイベントが発生します。   |
+| KinectGestureSettings\_ManipulationScale            | ピンチイン・ピンチアウト。<br/>ManipulationStarted、ManipulationUpdated、ManipulationCompletedのイベントが発生します。     |
+| KinectGestureSettings\_ManipulationTranslateInertia | ピンチイン・ピンチアウトの慣性スケーリング。<br/>ManipulationStarted、ManipulationUpdated、ManipulationCompletedのイベントが発生します。                                                                                                               |
+| KinectGestureSettings\_KinectHold                   | プレス。<br/>プレスしたまま時間閾値を超えたときにはホールディングのイベントが発生します。                                           |
 
 <span id="requirements"></span>
 

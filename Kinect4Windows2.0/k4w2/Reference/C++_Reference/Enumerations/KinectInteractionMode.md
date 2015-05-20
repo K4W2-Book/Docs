@@ -1,7 +1,7 @@
 KinectInteractionMode Enumeration  
 =================================  
 
-Gesture interaction modes, which determine how gestures are handled. <span id="syntaxSection"></span>
+ジェスチャーインタラクションモード。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,9 +34,9 @@ Constants
 
 | Constant                      | Description                                                 |
 |-------------------------------|-------------------------------------------------------------|
-| KinectInteractionMode\_Normal | Enables default engagement criteria.                        |
-| KinectInteractionMode\_Off    | Disables processing of engagement.                          |
-| KinectInteractionMode\_Media  | Kinect interaction is tailored to media playback scenarios. |
+| KinectInteractionMode\_Normal | 標準。                                                     |
+| KinectInteractionMode\_Off    | 無効。                                                        |
+| KinectInteractionMode\_Media  | メディア再生用途。                                               |
 
 <span id="requirements"></span>
 

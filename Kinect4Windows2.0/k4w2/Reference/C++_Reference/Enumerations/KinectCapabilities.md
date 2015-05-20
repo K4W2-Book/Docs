@@ -1,7 +1,7 @@
 KinectCapabilities Enumeration  
 ==============================  
 
-Specifies the capabilities of the kinect sensor. <span id="syntaxSection"></span>
+センサーがサポートする機能。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -37,12 +37,12 @@ Constants
 
 | Constant                        | Description                          |
 |---------------------------------|--------------------------------------|
-| KinectCapabilities\_None        | No kinect capabilites are supported. |
-| KinectCapabilities\_Vision      | Vision is supported.                 |
-| KinectCapabilities\_Audio       | Audio is supported.                  |
-| KinectCapabilities\_Face        | Facial recognition is supported.     |
-| KinectCapabilities\_Expressions | Expressions are supported.           |
-| KinectCapabilities\_Gamechat    | Game chat is supported.              |
+| KinectCapabilities\_None        | 全ての機能はサポートされていない。 |
+| KinectCapabilities\_Vision      | Visionがサポートされている。                 |
+| KinectCapabilities\_Audio       | Audioがサポートされている。                  |
+| KinectCapabilities\_Face        | Faceがサポートされている。     |
+| KinectCapabilities\_Expressions | 表情がサポートされている。           |
+| KinectCapabilities\_Gamechat    | ゲームチャットがサポートされている。              |
 
 <span id="requirements"></span>
 

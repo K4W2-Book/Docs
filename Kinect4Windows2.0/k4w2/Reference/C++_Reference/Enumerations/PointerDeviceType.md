@@ -1,7 +1,7 @@
 PointerDeviceType Enumeration  
 =============================  
 
-Specifies the pointer device type. <span id="syntaxSection"></span>
+ポインターの種類。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -35,10 +35,10 @@ Constants
 
 | Constant                  | Description                |
 |---------------------------|----------------------------|
-| PointerDeviceType\_Touch  | A touch-enabled device     |
-| PointerDeviceType\_Pen    | Pen                        |
-| PointerDeviceType\_Mouse  | Mouse                      |
-| PointerDeviceType\_Kinect | Kinect for Windows Sensor. |
+| PointerDeviceType\_Touch  | タッチ対応デバイス。             |
+| PointerDeviceType\_Pen    | ペン。                       |
+| PointerDeviceType\_Mouse  | マウス。                      |
+| PointerDeviceType\_Kinect | Kinect。　　　　　　　　　　　　　　　　　 |
 
 <span id="requirements"></span>
 
