@@ -1,9 +1,10 @@
-BodyIndexFrameReader.BodyIndexFrameSource Property  
+BodyIndexFrameReader.BodyIndexFrameSource プロパティ  
 ==================================================  
 
-Gets the source of the body index frames. <span id="syntaxSection"></span>
+ボディインデックスフレームソースを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

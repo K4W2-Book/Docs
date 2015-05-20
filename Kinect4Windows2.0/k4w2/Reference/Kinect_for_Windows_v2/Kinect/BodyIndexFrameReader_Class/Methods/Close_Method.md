@@ -1,9 +1,10 @@
-BodyIndexFrameReader.Close Method  
+BodyIndexFrameReader.Close メソッド  
 =================================  
 
-Closes and releases system resources associated with the body index frame reader. <span id="syntaxSection"></span>
+ボディインデックスフレームリーダーのリソースを解放する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

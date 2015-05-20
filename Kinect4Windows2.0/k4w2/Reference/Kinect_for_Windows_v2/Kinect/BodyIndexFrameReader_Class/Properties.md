@@ -1,9 +1,9 @@
-BodyIndexFrameReader Properties  
+BodyIndexFrameReader プロパティ  
 ===============================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,18 +13,18 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/BodyIndexFrameSource.md">BodyIndexFrameSource</a></td>
-<td align="left">Gets the source of the body index frames.</td>
+<td align="left"><a href="BodyIndexFrameReader_Class/Properties/BodyIndexFrameSource.md">BodyIndexFrameSource</a></td>
+<td align="left">ボディインデックスフレームソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets whether the body index frame reader is paused.</td>
+<td align="left"><a href="BodyIndexFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
+<td align="left">ボディインデックスフレームリーダーの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>

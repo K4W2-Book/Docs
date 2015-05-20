@@ -1,9 +1,10 @@
-BodyIndexFrameReader.AcquireLatestFrame Method  
+BodyIndexFrameReader.AcquireLatestFrame メソッド  
 ==============================================  
 
-Gets the most recent body index frame. <span id="syntaxSection"></span>
+最新のフレームを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,10 +57,10 @@ Syntax
 </table>
 
 <span id="ID4ES"></span>
-#### Return value  
+#### 戻り値
 
 Type: [BodyIndexFrame](../../BodyIndexFrame_Class.md)  
- The most recent body index frame.  
+ 最新のボディインデックスフレーム  
 
 <span id="requirements"></span>
 

@@ -1,9 +1,10 @@
-BodyIndexFrameReader Class  
+BodyIndexFrameReader クラス  
 ==========================  
 
-Represents a reader for body index frames. <span id="syntaxSection"></span>
+ボディインデックスフレームリーダーを表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **BodyIndexFrameReader** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,25 +74,25 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrameReader_Class/Properties/BodyIndexFrameSource.md">BodyIndexFrameSource</a></td>
-<td align="left">Gets the source of the body index frames.</td>
+<td align="left">ボディインデックスフレームソースを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyIndexFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets whether the body index frame reader is paused.</td>
+<td align="left">ボディインデックスフレームリーダーの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -101,25 +102,25 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrameReader_Class/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent body index frame.</td>
+<td align="left">最新のフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyIndexFrameReader_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes and releases system resources associated with the body index frame reader.</td>
+<td align="left">ボディインデックスフレームリーダーのリソースを解放する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -129,18 +130,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyIndexFrameReader_Class/Events/FrameArrived_Event.md">FrameArrived</a></td>
-<td align="left">Event that fires when a new frame is ready.</td>
+<td align="left">新しいフレームが更新されたことを通知するイベント。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyIndexFrameReader_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="">BodyIndexFrameReader</a> class changes.</td>
+<td align="left"><a href="">BodyIndexFrameReader</a> クラスのプロパティが変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>

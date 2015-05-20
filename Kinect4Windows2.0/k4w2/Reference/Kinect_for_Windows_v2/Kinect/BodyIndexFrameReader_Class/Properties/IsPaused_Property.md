@@ -1,9 +1,10 @@
-BodyIndexFrameReader.IsPaused Property  
+BodyIndexFrameReader.IsPaused プロパティ  
 ======================================  
 
-Gets or sets whether the body index frame reader is paused. <span id="syntaxSection"></span>
+ボディインデックスフレームリーダーの動作状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+プロパティ
 ======  
 
 <table>

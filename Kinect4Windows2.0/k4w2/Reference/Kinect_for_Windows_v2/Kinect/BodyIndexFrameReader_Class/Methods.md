@@ -1,9 +1,9 @@
-BodyIndexFrameReader Methods  
+BodyIndexFrameReader メソッド  
 ============================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,21 +13,22 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent body index frame.</td>
+<td align="left"><a href="BodyIndexFrameReader_Class/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
+<td align="left">最新のフレームを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes and releases system resources associated with the body index frame reader.</td>
+<td align="left"><a href="BodyIndexFrameReader_Class/Methods/Close_Method.md">Close</a></td>
+<td align="left">ボディインデックスフレームリーダーのリソースを解放する。</td>
 </tr>
 </tbody>
 </table>
+
 
 <span id="ID4EI"></span>
 

@@ -1,9 +1,10 @@
-BodyIndexFrameReader.FrameArrived Event  
+BodyIndexFrameReader.FrameArrived イベント  
 =======================================  
 
-Event that fires when a new frame is ready. <span id="syntaxSection"></span>
+新しいフレームが更新されたことを通知するイベント。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

@@ -1,9 +1,9 @@
-BodyIndexFrameReader Events  
+BodyIndexFrameReader イベント  
 ===========================  
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -13,18 +13,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Events/FrameArrived_Event.md">FrameArrived</a></td>
-<td align="left">Event that fires when a new frame is ready.</td>
+<td align="left"><a href="BodyIndexFrameReader_Class/Events/FrameArrived_Event.md">FrameArrived</a></td>
+<td align="left">新しいフレームが更新されたことを通知するイベント。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="../BodyIndexFrameReader_Class.md">BodyIndexFrameReader</a> class changes.</td>
+<td align="left"><a href="BodyIndexFrameReader_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
+<td align="left"><a href="">BodyIndexFrameReader</a> クラスのプロパティが変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>
