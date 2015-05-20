@@ -1,9 +1,10 @@
-BodyFrameReader.IsPaused Property  
+BodyFrameReader.IsPaused プロパティ  
 =================================  
 
-Gets or sets whether the body frame reader is paused. <span id="syntaxSection"></span>
+ボディフレームリーダーの動作状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

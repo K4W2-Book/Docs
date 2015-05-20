@@ -1,9 +1,9 @@
-BodyFrameReader Properties  
+BodyFrameReader プロパティ  
 ==========================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,18 +13,18 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/BodyFrameSource_Property.md">BodyFrameSource</a></td>
-<td align="left">Gets the source of the body frames.</td>
+<td align="left"><a href="BodyFrameReader_Class/Properties/BodyFrameSource_Property.md">BodyFrameSource</a></td>
+<td align="left">ボディフレームのソースを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets whether the body frame reader is paused.</td>
+<td align="left"><a href="BodyFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
+<td align="left">ボディフレームリーダーの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>

@@ -1,9 +1,10 @@
-BodyFrameReader.BodyFrameSource Property  
+BodyFrameReader.BodyFrameSource プロパティ  
 ========================================  
 
-Gets the source of the body frames. <span id="syntaxSection"></span>
+ボディフレームのソースを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

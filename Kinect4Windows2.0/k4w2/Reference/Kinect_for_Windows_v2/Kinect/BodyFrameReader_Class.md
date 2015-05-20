@@ -1,9 +1,10 @@
-BodyFrameReader Class  
+BodyFrameReader クラス  
 =====================  
 
-Represents a reader for body frames. <span id="syntaxSection"></span>
+ボディフレームリーダーを表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **BodyFrameReader** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,25 +74,25 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyFrameReader_Class/Properties/BodyFrameSource_Property.md">BodyFrameSource</a></td>
-<td align="left">Gets the source of the body frames.</td>
+<td align="left">ボディフレームのソースを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets whether the body frame reader is paused.</td>
+<td align="left">ボディフレームリーダーの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -101,25 +102,25 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyFrameReader_Class/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent body frame.</td>
+<td align="left">最新のボディフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyFrameReader_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes and releases system resources associated with the body frame reader.</td>
+<td align="left">システムリソースを解放する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -129,18 +130,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="BodyFrameReader_Class/Events/FrameArrived_Event.md">FrameArrived</a></td>
-<td align="left">Event that fires whenever a frame is captured.</td>
+<td align="left">フレームが更新されたことを通知するイベント。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="BodyFrameReader_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="">BodyFrameReader</a> class changes.</td>
+<td align="left"><a href="">BodyFrameReader</a> クラスのプロパティが変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>
