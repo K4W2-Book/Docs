@@ -47,16 +47,14 @@ Remarks
 
 以下のように色の値(0~255)を取り出すことができる。
 
-<table>
-<td align="left"><pre><code>UINT32 hairColor;  
-HRESULT hr = faceModel->get_HairColor( &hairColor ) );  
-if( SUCCEEDED( hr ) ){  
-    UCHAR blue  = ( hairColor & 0x00ff0000 ) >> 16;  
-    UCHAR green = ( hairColor & 0x0000ff00 ) >>  8;  
-    UCHAR red   = ( hairColor & 0x000000ff ) >>  0;  
-}  
-</code></pre>
-</table>
+    UINT32 hairColor;  
+    HRESULT hr = faceModel->get_HairColor( &hairColor ) );  
+    if( SUCCEEDED( hr ) ){  
+        UCHAR blue  = ( hairColor & 0x00ff0000 ) >> 16;  
+        UCHAR green = ( hairColor & 0x0000ff00 ) >>  8;  
+        UCHAR red   = ( hairColor & 0x000000ff ) >>  0;  
+    }  
+
 
 <span id="requirements"></span>
 

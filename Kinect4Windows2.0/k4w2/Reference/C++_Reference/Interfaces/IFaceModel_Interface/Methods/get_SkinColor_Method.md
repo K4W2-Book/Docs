@@ -47,16 +47,13 @@ Remarks
 
 以下のように色の値(0~255)を取り出すことができる。
 
-<table>
-<td align="left"><pre><code>UINT32 skinColor;  
-HRESULT hr = faceModel->get_SkinColor( &skinColor ) );  
-if( SUCCEEDED( hr ) ){  
-    UCHAR blue  = ( skinColor & 0x00ff0000 ) >> 16;  
-    UCHAR green = ( skinColor & 0x0000ff00 ) >>  8;  
-    UCHAR red   = ( skinColor & 0x000000ff ) >>  0;  
-}  
-</code></pre>
-</table>
+    UINT32 skinColor;  
+    HRESULT hr = faceModel->get_SkinColor( &skinColor ) );  
+    if( SUCCEEDED( hr ) ){  
+        UCHAR blue  = ( skinColor & 0x00ff0000 ) >> 16;  
+        UCHAR green = ( skinColor & 0x0000ff00 ) >>  8;  
+        UCHAR red   = ( skinColor & 0x000000ff ) >>  0;  
+    }  
 
 <span id="requirements"></span>
 
