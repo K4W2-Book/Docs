@@ -1,9 +1,10 @@
-InfraredFrame.Close Method  
+InfraredFrame.Close メソッド  
 ==========================  
 
-Releases system resources associated with the infrared frame. <span id="syntaxSection"></span>
+システムリソースを解放する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

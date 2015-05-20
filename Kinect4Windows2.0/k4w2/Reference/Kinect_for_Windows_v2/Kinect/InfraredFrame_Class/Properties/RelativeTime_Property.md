@@ -1,9 +1,10 @@
-InfraredFrame.RelativeTime Property  
+InfraredFrame.RelativeTime プロパティ  
 ===================================  
 
-Gets the timestamp of the infrared frame. <span id="syntaxSection"></span>
+フレームの相対時間を取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

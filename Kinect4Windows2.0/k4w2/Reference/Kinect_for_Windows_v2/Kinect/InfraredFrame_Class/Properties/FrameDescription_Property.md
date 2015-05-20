@@ -1,9 +1,10 @@
-InfraredFrame.FrameDescription Property  
+InfraredFrame.FrameDescription プロパティ  
 =======================================  
 
-Gets the description of the infrared frame. <span id="syntaxSection"></span>
+フレームの情報を取得する
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

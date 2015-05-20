@@ -1,9 +1,10 @@
-InfraredFrame.CopyFrameDataToArray Method  
+InfraredFrame.CopyFrameDataToArray メソッド  
 =========================================  
 
-Copies the infrared frame data into the array provided. <span id="syntaxSection"></span>
+赤外線フレームデータを配列にコピーする。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,7 +61,7 @@ void CopyFrameDataToArray(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *frameData*    
 [C++] Type: uint16  
@@ -68,7 +69,9 @@ void CopyFrameDataToArray(
   [JavaScript] Type: Number  
    
 
-The array to fill.  
+赤外線フレームデータをコピーする配列。
+
+>   
 
 <span id="requirements"></span>
 

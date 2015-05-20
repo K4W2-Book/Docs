@@ -1,9 +1,10 @@
-InfraredFrame.CopyFrameDataToBuffer Method  
+InfraredFrame.CopyFrameDataToBuffer メソッド  
 ==========================================  
 
-Copies the infrared frame data into the memory location provided. <span id="syntaxSection"></span>
+赤外線フレームデータのメモリ位置をコピーする。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,11 +61,11 @@ void CopyFrameDataToBuffer(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *buffer*    
 Type: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
-The buffer to fill.  
+赤外線フレームデータのメモリ位置をコピーするバッファ  
 
 <span id="requirements"></span>
 
