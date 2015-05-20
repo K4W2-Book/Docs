@@ -1,9 +1,10 @@
-AudioBeam Class  
+AudioBeam クラス  
 ===============  
 
-Represents an audio beam. <span id="syntaxSection"></span>
+オーディオビームを表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文  
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **AudioBeam** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ  
 ==========  
 
 <table>
@@ -73,37 +74,37 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="AudioBeam_Class/Properties/AudioBeamMode_Property.md">AudioBeamMode</a></td>
-<td align="left">Gets or sets the audio beam mode, which determines the type of beam angle.</td>
+<td align="left">オーディオビームのモードを取得/設定する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="AudioBeam_Class/Properties/AudioSource_Property.md">AudioSource</a></td>
-<td align="left">Gets the audio source.</td>
+<td align="left">オーディオソースを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="AudioBeam_Class/Properties/BeamAngle_Property.md">BeamAngle</a></td>
-<td align="left">Gets or sets the beam angle, which is the direction that the sensor is actively listening.</td>
+<td align="left">センサーが注視している音声方向を設定/取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="AudioBeam_Class/Properties/BeamAngleConfidence_Property.md">BeamAngleConfidence</a></td>
-<td align="left">Gets the confidence in the beam angle; the range is [0.0, 1.0], where 1 is the highest possible confidence.</td>
+<td align="left">0から1の範囲でビーム角度の信頼性を表す。値が1に近づくほど、信頼性が高いことを示す。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="AudioBeam_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the relative time of this frame.</td>
+<td align="left">フレームの相対時間。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド  
 =======  
 
 <table>
@@ -113,21 +114,24 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="AudioBeam_Class/Methods/OpenInputStream_Method.md">OpenInputStream</a></td>
-<td align="left">Opens the input stream. The input stream is a mono 32-bit IEEE floating point PCM stream sampled at 16 kHz. Typical PCM values will be between -1 and +1.</td>
+<td align="left">
+<!--Opens the input stream. The input stream is a mono 32-bit IEEE floating point PCM stream sampled at 16 kHz. Typical PCM values will be between -1 and +1.-->
+入力ストリームを開く。入力ストリームはモノラル 32bit IEEEフォーマット(float)で16kHzのPCMデータです。値は-1 から +1の範囲です。
+</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント  
 ======  
 
 <table>
@@ -137,14 +141,14 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="AudioBeam_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="">AudioBeam</a> class changes.</td>
+<td align="left"><a href="">AudioBeam</a> クラスのプロパティが変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>

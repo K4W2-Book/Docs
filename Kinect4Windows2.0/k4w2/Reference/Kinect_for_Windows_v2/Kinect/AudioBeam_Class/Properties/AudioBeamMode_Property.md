@@ -1,9 +1,9 @@
-AudioBeam.AudioBeamMode Property  
+AudioBeam.AudioBeamMode プロパティ  
 ================================  
 
-Gets or sets the audio beam mode, which determines the type of beam angle. <span id="syntaxSection"></span>
+オーディオビームのモードを取得/設定する。<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

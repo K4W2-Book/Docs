@@ -1,9 +1,10 @@
-AudioBeam.BeamAngleConfidence Property  
+AudioBeam.BeamAngleConfidence プロパティ  
 ======================================  
 
-Gets the confidence in the beam angle; the range is [0.0, 1.0], where 1 is the highest possible confidence. <span id="syntaxSection"></span>
+0から1の範囲でビーム角度の信頼性を表す。値が1に近づくほど、信頼性が高いことを示す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

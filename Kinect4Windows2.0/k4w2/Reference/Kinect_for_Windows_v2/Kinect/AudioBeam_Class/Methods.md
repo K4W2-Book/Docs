@@ -1,9 +1,9 @@
-AudioBeam Methods  
+AudioBeam メソッド    
 =================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド  
 =======  
 
 <table>
@@ -13,14 +13,17 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/OpenInputStream_Method.md">OpenInputStream</a></td>
-<td align="left">Opens the input stream. The input stream is a mono 32-bit IEEE floating point PCM stream sampled at 16 kHz. Typical PCM values will be between -1 and +1.</td>
+<td align="left"><a href="AudioBeam_Class/Methods/OpenInputStream_Method.md">OpenInputStream</a></td>
+<td align="left">
+<!--Opens the input stream. The input stream is a mono 32-bit IEEE floating point PCM stream sampled at 16 kHz. Typical PCM values will be between -1 and +1.-->
+入力ストリームを開く。入力ストリームはモノラル 32bit IEEEフォーマット(float)で16kHzのPCMデータです。値は-1 から +1の範囲です。
+</td>
 </tr>
 </tbody>
 </table>

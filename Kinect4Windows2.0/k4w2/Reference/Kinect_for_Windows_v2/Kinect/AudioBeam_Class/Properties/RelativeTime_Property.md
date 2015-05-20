@@ -1,9 +1,10 @@
-AudioBeam.RelativeTime Property  
+AudioBeam.RelativeTime プロパティ  
 ===============================  
 
-Gets the relative time of this frame. <span id="syntaxSection"></span>
+フレームの相対時間。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

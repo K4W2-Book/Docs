@@ -1,9 +1,9 @@
-AudioBeam Properties  
+AudioBeam プロパティ    
 ====================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ  
 ==========  
 
 <table>
@@ -13,33 +13,34 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/AudioBeamMode_Property.md">AudioBeamMode</a></td>
-<td align="left">Gets or sets the audio beam mode, which determines the type of beam angle.</td>
+<td align="left"><a href="AudioBeam_Class/Properties/AudioBeamMode_Property.md">AudioBeamMode</a></td>
+<td align="left">オーディオビームのモードを取得/設定する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/AudioSource_Property.md">AudioSource</a></td>
-<td align="left">Gets the audio source.</td>
+<td align="left"><a href="AudioBeam_Class/Properties/AudioSource_Property.md">AudioSource</a></td>
+<td align="left">オーディオソースを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/BeamAngle_Property.md">BeamAngle</a></td>
-<td align="left">Gets or sets the beam angle, which is the direction that the sensor is actively listening.</td>
+<td align="left"><a href="AudioBeam_Class/Properties/BeamAngle_Property.md">BeamAngle</a></td>
+<td align="left">センサーが注視している音声方向を設定/取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/BeamAngleConfidence_Property.md">BeamAngleConfidence</a></td>
-<td align="left">Gets the confidence in the beam angle; the range is [0.0, 1.0], where 1 is the highest possible confidence.</td>
+<td align="left"><a href="AudioBeam_Class/Properties/BeamAngleConfidence_Property.md">BeamAngleConfidence</a></td>
+<td align="left">0から1の範囲でビーム角度の信頼性を表す。値が1に近づくほど、信頼性が高いことを示す。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the relative time of this frame.</td>
+<td align="left"><a href="AudioBeam_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
+<td align="left">フレームの相対時間。</td>
 </tr>
 </tbody>
 </table>
+
 
 <span id="ID4EI"></span>
 

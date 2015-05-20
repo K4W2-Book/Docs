@@ -1,9 +1,10 @@
-AudioBeam.BeamAngle Property  
+AudioBeam.BeamAngle プロパティ  
 ============================  
 
-Gets or sets the beam angle, which is the direction that the sensor is actively listening. <span id="syntaxSection"></span>
+センサーが注視している音声方向を設定/取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

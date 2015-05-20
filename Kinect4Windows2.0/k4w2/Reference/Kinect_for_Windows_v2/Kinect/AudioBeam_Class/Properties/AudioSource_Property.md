@@ -1,9 +1,10 @@
-AudioBeam.AudioSource Property  
+AudioBeam.AudioSource プロパティ  
 ==============================  
 
-Gets the audio source. <span id="syntaxSection"></span>
+オーディオソースを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

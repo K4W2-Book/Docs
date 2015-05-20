@@ -1,9 +1,10 @@
-AudioBeam.OpenInputStream Method  
+AudioBeam.OpenInputStream メソッド    
 ================================  
 
-Opens the input stream. The input stream is a mono 32-bit IEEE floating point PCM stream sampled at 16 kHz. Typical PCM values will be between -1 and +1. <span id="syntaxSection"></span>
+入力ストリームを開く。入力ストリームはモノラル 32bit IEEEフォーマット(float)で16kHzのPCMデータです。値は-1 から +1の範囲です。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
