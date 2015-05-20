@@ -1,9 +1,10 @@
-AudioSource.OpenReader Method  
+AudioSource.OpenReader メソッド  
 =============================  
 
-Opens a new stream reader. This reader must be disposed. <span id="syntaxSection"></span>
+オーディオリーダーを開く。リーダーは終了時に必ずDisposeすること。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

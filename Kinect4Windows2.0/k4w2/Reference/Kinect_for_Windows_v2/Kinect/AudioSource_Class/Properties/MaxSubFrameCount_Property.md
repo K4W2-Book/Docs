@@ -1,9 +1,10 @@
-AudioSource.MaxSubFrameCount Property  
+AudioSource.MaxSubFrameCount プロパティ  
 =====================================  
 
-Gets the maximum number of sub frames. <span id="syntaxSection"></span>
+サブフレームの最大数を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

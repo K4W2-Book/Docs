@@ -1,9 +1,10 @@
-AudioSource.KinectSensor Property  
+AudioSource.KinectSensor プロパティ  
 =================================  
 
-Gets the parent sensor. <span id="syntaxSection"></span>
+このオーディオソースのKinectセンサーを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

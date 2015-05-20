@@ -1,9 +1,9 @@
-AudioSource Properties  
+AudioSource プロパティ    
 ======================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ  
 ==========  
 
 <table>
@@ -13,38 +13,40 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/AudioBeams_Property.md">AudioBeams</a></td>
-<td align="left">Gets the audio beams.</td>
+<td align="left"><a href="AudioSource_Class/Properties/AudioBeams_Property.md">AudioBeams</a></td>
+<td align="left">オーディオビーム(複数)を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/AudioCalibrationState.md">AudioCalibrationState</a></td>
-<td align="left">Gets a value that indicates whether or not the Kinect Sensor is properly calibrated to listen for audio. This API is not implemented in the Kinect for Windows v2 SDK and will always return Calibrated. It is included to support cross-compilation with the Xbox SDK.</td>
+<td align="left"><a href="AudioSource_Class/Properties/AudioCalibrationState.md">AudioCalibrationState</a></td>
+<td align="left"><!--Gets a value that indicates whether or not the Kinect Sensor is properly calibrated to listen for audio. This API is not implemented in the Kinect for Windows v2 SDK and will always return Calibrated. It is included to support cross-compilation with the Xbox SDK.-->
+このプロパティはXbox SDKとのクロスコンパイルのために含まれています。Kinect for Windows v2では実装おらず、常にCalibratedが返ります。
+</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/IsActive_Property.md">IsActive</a></td>
-<td align="left">Gets the current activity status of this source.</td>
+<td align="left"><a href="AudioSource_Class/Properties/IsActive_Property.md">IsActive</a></td>
+<td align="left">オーディオソースの動作状態を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/KinectSensor_Property.md">KinectSensor</a></td>
-<td align="left">Gets the parent sensor.</td>
+<td align="left"><a href="AudioSource_Class/Properties/KinectSensor_Property.md">KinectSensor</a></td>
+<td align="left">このオーディオソースのKinectセンサーを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/MaxSubFrameCount_Property.md">MaxSubFrameCount</a></td>
-<td align="left">Gets the maximum number of sub frames.</td>
+<td align="left"><a href="AudioSource_Class/Properties/MaxSubFrameCount_Property.md">MaxSubFrameCount</a></td>
+<td align="left">サブフレームの最大数を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/SubFrameDuration_Property.md">SubFrameDuration</a></td>
-<td align="left">Gets the sub frame duration.</td>
+<td align="left"><a href="AudioSource_Class/Properties/SubFrameDuration_Property.md">SubFrameDuration</a></td>
+<td align="left">サブフレームの時間を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/SubFrameLengthInBytes.md">SubFrameLengthInBytes</a></td>
-<td align="left">Gets the sub frame length (in bytes).</td>
+<td align="left"><a href="AudioSource_Class/Properties/SubFrameLengthInBytes.md">SubFrameLengthInBytes</a></td>
+<td align="left">バイト単位でのサブフレームのデータ長を取得する。</td>
 </tr>
 </tbody>
 </table>

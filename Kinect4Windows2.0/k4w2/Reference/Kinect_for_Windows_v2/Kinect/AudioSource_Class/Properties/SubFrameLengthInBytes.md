@@ -1,9 +1,10 @@
-AudioSource.SubFrameLengthInBytes Property  
+AudioSource.SubFrameLengthInBytes プロパティ  
 ==========================================  
 
-Gets the sub frame length (in bytes). <span id="syntaxSection"></span>
+バイト単位でのサブフレームのデータ長を取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

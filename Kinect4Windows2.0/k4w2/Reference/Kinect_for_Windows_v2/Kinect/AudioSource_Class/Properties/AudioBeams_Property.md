@@ -1,9 +1,10 @@
 AudioSource.AudioBeams Property  
 ===============================  
 
-Gets the audio beams. <span id="syntaxSection"></span>
+オーディオビーム(複数)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

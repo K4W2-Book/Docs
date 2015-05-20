@@ -60,7 +60,7 @@ IBuffer^ LockImageBuffer()</code></pre></td>
 #### 戻り値  
 
 Type: [IBuffer](http://msdn.microsoft.com/en-us/library/windows.storage.streams.ibuffer.aspx)  
-システムで管理しているバッファ。  
+システムで管理しているバッフ  
 
 <span id="remarks"></span>
 

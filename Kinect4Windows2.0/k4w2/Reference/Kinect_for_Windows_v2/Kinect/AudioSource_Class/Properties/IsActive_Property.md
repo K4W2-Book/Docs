@@ -1,9 +1,10 @@
-AudioSource.IsActive Property  
+AudioSource.IsActive プロパティ  
 =============================  
 
-Gets the current activity status of this source. <span id="syntaxSection"></span>
+オーディオソースの動作状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

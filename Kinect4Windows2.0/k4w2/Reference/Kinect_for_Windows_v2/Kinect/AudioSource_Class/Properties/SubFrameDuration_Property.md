@@ -1,9 +1,10 @@
-AudioSource.SubFrameDuration Property  
+AudioSource.SubFrameDuration プロパティ  
 =====================================  
 
-Gets the sub frame duration. <span id="syntaxSection"></span>
+サブフレームの時間を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
