@@ -1,7 +1,7 @@
 JointOrientation Structure  
 ==========================  
 
-Orients a joint relative to the parent joint in the skeleton. <span id="syntaxSection"></span>
+Joint(関節)の回転方向。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,10 +29,10 @@ Syntax
 #### Members  
 
 **JointType**    
-The joint type.  
+Jointの種類。  
 
 **Orientation**    
-The direction of the joint relative to the parent joint in the skeleton.  
+1つ上の親Jointへの相対的な方向。(クォータニオン)  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 KinectManipulationVelocities Structure  
 ======================================  
 
-Represents the velocities of the accumulated transformations for the current interaction. <span id="syntaxSection"></span>
+現在の操作の累積速度変化量。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,14 @@ Syntax
 #### Members  
 
 **Linear**    
-The linear component of the velocity in device-independent units (1/96th inch per unit) per millisecond.  
+ミリ秒毎の速度の線形成分。(1/96inch単位)  
+
 
 **Angular**    
-The angular component of the velocity in degrees per millisecond.  
+ミリ秒毎の速度の角度成分。  
 
 **Expansion**    
-The rate at which the manipulation is resized in device-independent units (1/96th inch per unit) per millisecond.  
+ミリ秒毎のリサイズの割合。(1/96inch単位)  
 
 <span id="requirements"></span>
 

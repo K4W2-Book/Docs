@@ -1,7 +1,7 @@
 KinectManipulationDelta Structure  
 =================================  
 
-Represents the accumulated transformations for the current manipulation. <span id="syntaxSection"></span>
+現在の操作の累積変化量。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,16 +31,18 @@ Syntax
 #### Members  
 
 **Translation**    
-The change in x and y screen coordinates, in the core window coordinate space (normalized [0,1]).  
+対象のウィンドウの座標系([0,1]に正規化)におけるX軸、Y軸の画面座標の変化量。  
 
 **Scale**    
-The multiplicative change in zoom factor.  
+拡大倍率の変化量。(乗法)  
 
 **Rotation**    
-The change in angle of rotation, in degrees. This will always be 0.  
+回転角度の変化量。(度数法)  
+常に0.0f。
 
 **Expansion**    
-Manipulation expansion delta. This will always be 0.  
+拡張パラメータ。  
+常に0.0f。
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 CameraIntrinsics Structure  
 ==========================  
 
-Represents the calibration data for the depth camera. <span id="syntaxSection"></span>
+Depthセンサーのキャリブレーションデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -34,25 +34,25 @@ Syntax
 #### Members  
 
 **FocalLengthX**    
-The X focal length of the camera, in pixels.  
+X軸の焦点距離。(pixel)  
 
 **FocalLengthY**    
-The Y focal length of the camera, in pixels.  
+Y軸の焦点距離。(pixel)  
 
 **PrincipalPointX**    
-The principal point of the camera in the X dimension, in pixels.  
+X軸の主点。(pixel)  
 
 **PrincipalPointY**    
-The principal point of the camera in the Y dimension, in pixels.  
+Y軸の主点。(pixel)  
 
 **RadialDistortionSecondOrder**    
-The second order radial distortion parameter of the camera.  
+半径方向の歪み係数。(2次)  
 
 **RadialDistortionFourthOrder**    
-The fourth order radial distortion parameter of the camera.  
+半径方向の歪み係数。(4次)  
 
 **RadialDistortionSixthOrder**    
-The sixth order radial distortion parameter of the camera.  
+半径方向の歪み係数。(6次)  
 
 <span id="requirements"></span>
 

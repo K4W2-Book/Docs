@@ -1,7 +1,7 @@
 PointF Structure  
 ================  
 
-Represents a 2D point. <span id="syntaxSection"></span>
+点(浮動小数点数)。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,10 +29,10 @@ Syntax
 #### Members  
 
 **X**    
-The X coordinate of the point.  
+X座標。  
 
 **Y**    
-The Y coordinate of the point.  
+Y座標。  
 
 <span id="requirements"></span>
 

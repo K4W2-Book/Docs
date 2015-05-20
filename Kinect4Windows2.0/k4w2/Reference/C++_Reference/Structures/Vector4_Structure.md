@@ -1,7 +1,7 @@
 Vector4 Structure  
 =================  
 
-A four component vector (x,y,z,w). <span id="syntaxSection"></span>
+4次元ベクトル。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,16 +31,16 @@ Syntax
 #### Members  
 
 **x**    
-The X component.  
+ベクトルのX成分。  
 
 **y**    
-The Y component.  
+ベクトルのY成分。  
 
 **z**    
-The Z component.  
+ベクトルのZ成分。  
 
 **w**    
-The W component.  
+ベクトルのW成分。  
 
 <span id="requirements"></span>
 
