@@ -1,9 +1,10 @@
-RectI Structure  
+RectI 構造体  
 ===============  
 
-Represents a rectangle with integer coordinates. <span id="syntaxSection"></span>
+矩形(整数)。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -61,14 +62,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ  
 =======  
 
 **RectI** has the following members.  
 
 <span id="publicfieldsSection"></span>
 
-Fields  
+フィールド  
 ======  
 
 <table>
@@ -78,26 +79,26 @@ Fields
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="RectI_Structure/RectI_Fields/Bottom_Field.md">Bottom</a></td>
-<td align="left">Gets or sets the bottom.</td>
+<td align="left">矩形の下端。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="RectI_Structure/RectI_Fields/Left_Field.md">Left</a></td>
-<td align="left">Gets or sets the left side.</td>
+<td align="left">矩形の左端。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="RectI_Structure/RectI_Fields/Right_Field.md">Right</a></td>
-<td align="left">Gets or sets the right side.</td>
+<td align="left">矩形の右端。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="RectI_Structure/RectI_Fields/Top_Field.md">Top</a></td>
-<td align="left">Gets or sets the top.</td>
+<td align="left">矩形の上端。</td>
 </tr>
 </tbody>
 </table>

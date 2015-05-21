@@ -1,9 +1,10 @@
-HighDetailFacePoints Enumeration  
+HighDetailFacePoints 列挙体  
 ================================  
 
-High-detail face points. <span id="syntaxSection"></span>
+HDFaceの頂点リスト。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文  
 ======  
 
 <table>

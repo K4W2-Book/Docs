@@ -1,9 +1,10 @@
-FacePointType Enumeration  
+FacePointType 構造体
 =========================  
 
-Face point types. <span id="syntaxSection"></span>
+顔パーツの種類。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,17 +57,17 @@ Syntax
 
 <span id="ID4EIB"></span>
 
-Members  
+メンバ  
 =======  
 
-| Member               | Value | Description                |
+| メンバ               | 値 | 説明                |
 |----------------------|-------|----------------------------|
-| **EyeLeft**          | 0     | Left eye.                  |
-| **EyeRight**         | 1     | Right eye.                 |
-| **MouthCornerLeft**  | 3     | Left corner of the mouth.  |
-| **MouthCornerRight** | 4     | Right corner of the mouth. |
-| **None**             | -1    | None                       |
-| **Nose**             | 2     | Nose                       |
+| **EyeLeft**          | 0     | 左目。                  |
+| **EyeRight**         | 1     | 右目。                 |
+| **MouthCornerLeft**  | 3     | 左口角。  |
+| **MouthCornerRight** | 4     | 右口角。 |
+| **None**             | -1    | なし。                       |
+| **Nose**             | 2     | 鼻。                       |
 
 <span id="requirements"></span>
 

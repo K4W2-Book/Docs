@@ -1,9 +1,10 @@
-FaceShapeDeformations Enumeration  
+FaceShapeDeformations 列挙体  
 =================================  
 
-Face shape deformations. <span id="syntaxSection"></span>
+シェイプユニット。  
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

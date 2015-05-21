@@ -1,9 +1,10 @@
-FaceAlignmentQuality Enumeration  
+FaceAlignmentQuality 列挙体  
 ================================  
 
-Face alignment quality levels. <span id="syntaxSection"></span>
+顔の位置合わせの品質レベル。  
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -59,10 +60,10 @@ Syntax
 Members  
 =======  
 
-| Member   | Value | Description                          |
+| メンバ   | 値 | 説明                          |
 |----------|-------|--------------------------------------|
-| **High** | 0     | Higher quality and higher CPU usage. |
-| **Low**  | 1     | Lower quality and lower CPU usage.   |
+| **High** | 0     | 高い品質、CPU負荷が高い。 |
+| **Low**  | 1     | 低い品質、CPU負荷が低い。   |
 
 <span id="requirements"></span>
 

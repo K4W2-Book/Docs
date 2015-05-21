@@ -1,9 +1,10 @@
-RectI.Top Field  
+RectI.Top フィールド  
 ===============  
 
-Gets or sets the top. <span id="syntaxSection"></span>
+矩形の上端。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文  
 ======  
 
 <table>

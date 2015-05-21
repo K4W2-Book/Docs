@@ -1,9 +1,10 @@
-FaceShapeAnimations Enumeration  
+FaceShapeAnimations 列挙体  
 ===============================  
 
-Face shape animations. <span id="syntaxSection"></span>
+アニメーションユニット。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

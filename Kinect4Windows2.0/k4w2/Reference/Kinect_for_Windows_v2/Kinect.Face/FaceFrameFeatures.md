@@ -1,9 +1,10 @@
-FaceFrameFeatures Enumeration  
+FaceFrameFeatures 列挙体  
 =============================  
 
-Flags that indicate the face frame features that are present. <span id="syntaxSection"></span>
+Faceフレームの機能を示すフラグ。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文  
 ======  
 
 <table>
@@ -63,20 +64,20 @@ Members
 
 | Member                         | Value | Description                                  |
 |--------------------------------|-------|----------------------------------------------|
-| **None**                       | 0     | No data is present.                          |
-| **BoundingBoxInInfraredSpace** | 1     | Infrared space bounding box data is present. |
-| **PointsInInfraredSpace**      | 2     | Infrared space data is present.              |
-| **BoundingBoxInColorSpace**    | 4     | Color space bounding box data is present.    |
-| **PointsInColorSpace**         | 8     | Color space point data is present.           |
-| **RotationOrientation**        | 16    | Rotation orientation data is present.        |
-| **Happy**                      | 32    | Happiness data is present.                   |
-| **RightEyeClosed**             | 64    | Right eye data is present.                   |
-| **LeftEyeClosed**              | 128   | Left eye data is present.                    |
-| **MouthOpen**                  | 256   | Mouth open data is present.                  |
-| **MouthMoved**                 | 512   | Mouth movement data is present.              |
-| **LookingAway**                | 1024  | Looking away data is present.                |
-| **Glasses**                    | 2048  | Glasses data is present.                     |
-| **FaceEngagement**             | 4096  | Face engagement data is present.             |
+| **None**                       | 0     | 無効。                        |
+| **BoundingBoxInInfraredSpace** | 1     | 顔を囲むバウンディングボックス(Depth座標系)。 |
+| **PointsInInfraredSpace**      | 2     | 顔パーツ(左右目、鼻、左右口角)の位置(Depth座標系)。        |
+| **BoundingBoxInColorSpace**    | 4     | 顔を囲むバウンディングボックス(Color座標系)。    |
+| **PointsInColorSpace**         | 8     | 顔パーツ(左右目、鼻、左右口角)の位置(Color座標系)。          |
+| **RotationOrientation**        | 16    | 顔の回転方向(クォータニオン)。        |
+| **Happy**                      | 32    | 笑顔の状態。                  |
+| **RightEyeClosed**             | 64    | 右目が閉じている状態。                 |
+| **LeftEyeClosed**              | 128   | 左目が閉じている状態。              |
+| **MouthOpen**                  | 256   | 口が開いている状態。                |
+| **MouthMoved**                 | 512   | 口が動いている状態。              |
+| **LookingAway**                | 1024  | 顔がセンサーの方向を向いていない状態。              |
+| **Glasses**                    | 2048  | 眼鏡を掛けている状態。                  |
+| **FaceEngagement**             | 4096  | 顔の付随情報を取得できている状態。             |
 
 <span id="requirements"></span>
 

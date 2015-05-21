@@ -1,9 +1,10 @@
-RectI.Bottom Field  
+RectI.Bottom フィールド
 ==================  
 
-Gets or sets the bottom. <span id="syntaxSection"></span>
+矩形の下端。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

@@ -1,9 +1,10 @@
-FaceProperty Enumeration  
+FaceProperty 列挙体  
 ========================  
 
-Values that describe the state of a face. <span id="syntaxSection"></span>
+顔の付随情報の種類。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,19 +57,19 @@ Syntax
 
 <span id="ID4EQB"></span>
 
-Members  
+メンバ  
 =======  
 
-| Member             | Value | Description                                      |
+| メンバ             | 値 | 説明                                      |
 |--------------------|-------|--------------------------------------------------|
-| **Happy**          | 0     | The user appears happy.                          |
-| **Engaged**        | 1     | The user appears engaged with the Kinect Sensor. |
-| **WearingGlasses** | 2     | The user is wearing glasses.                     |
-| **LeftEyeClosed**  | 3     | The user's left eye is closed.                   |
-| **RightEyeClosed** | 4     | The user's right eye is closed.                  |
-| **MouthOpen**      | 5     | The user's mouth is open.                        |
-| **MouthMoved**     | 6     | The user's mouth moved.                          |
-| **LookingAway**    | 7     | The user is looking away.                        |
+| **Happy**          | 0     | 笑顔の状態。                         |
+| **Engaged**        | 1     | 付随情報が取得できている状態。 |
+| **WearingGlasses** | 2     | 眼鏡を掛けている状態。                    |
+| **LeftEyeClosed**  | 3     | 左目を閉じている状態。                   |
+| **RightEyeClosed** | 4     | 右目を閉じている状態。                 |
+| **MouthOpen**      | 5     | 口が開いている状態。                        |
+| **MouthMoved**     | 6     | 口が動いている状態。                          |
+| **LookingAway**    | 7     | 顔がセンサーの方向を向いていない状態。                       |
 
 <span id="requirements"></span>
 

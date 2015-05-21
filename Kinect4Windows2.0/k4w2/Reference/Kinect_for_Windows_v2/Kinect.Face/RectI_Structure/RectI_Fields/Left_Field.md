@@ -1,9 +1,10 @@
-RectI.Left Field  
+RectI.Left フィールド  
 ================  
 
-Gets or sets the left side. <span id="syntaxSection"></span>
+矩形の左端。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

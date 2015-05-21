@@ -1,9 +1,10 @@
-FaceModelBuilderAttributes Enumeration  
+FaceModelBuilderAttributes 列挙体  
 ======================================  
 
-Flags that indicate the attributes of a face model builder. <span id="syntaxSection"></span>
+FaceModelBuilderの属性を示すフラグ。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文  
 ======  
 
 <table>
@@ -63,9 +64,9 @@ Members
 
 | Member        | Value | Description |
 |---------------|-------|-------------|
-| **HairColor** | 2     | Hair color  |
-| **None**      | 0     | None        |
-| **SkinColor** | 1     | Skin color  |
+| **HairColor** | 2     | 髪の色。  |
+| **None**      | 0     | なし。        |
+| **SkinColor** | 1     | 肌の色。  |
 
 <span id="requirements"></span>
 
