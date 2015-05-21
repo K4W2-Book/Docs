@@ -7,43 +7,43 @@ Kinect Functions
 ================  
 
 [CreateBodyHandPair](Functions/CreateBodyHandPair.md)    
-Creates a new [IBodyHandPair](Interfaces/IBodyHandPair_Interface.md) object representing a body/hand pair.  
+人物と手を関係付ける[IBodyHandPair](Interfaces/IBodyHandPair_Interface.md)を作成する。  
 
 [CreateKinectGestureRecognizer](Functions/CreateKinectGestureRecogni.md)    
-Creates a new [IKinectGestureRecognizer](Interfaces/IKinectGestureRecognizer.md).  
+[IKinectGestureRecognizer](Interfaces/IKinectGestureRecognizer.md)を作成する。  
 
 [GetDefaultKinectSensor](Functions/GetDefaultKinectSensor.md)    
-Gets the default Kinect sensor  
+デフォルトの[IKinectSensor](Interfaces/IKinectSensor_Interface.md)を作成する。  
 
 [GetKinectCoreWindowForCurrentThread](Functions/GetKinectCoreWindowForCurr.md)    
-Gets the [IKinectCoreWindow](Interfaces/IKinectCoreWindow_Interface.md) for the current thread.  
+現在のスレッドの[IKinectCoreWindow](Interfaces/IKinectCoreWindow_Interface.md)を作成する。  
 
 [GetKinectEngagementMode](Functions/GetKinectEngagementMode.md)    
-Gets the current engagement mode.  
+現在の人物と手を関係付けてトラッキングするモードを取得する。  
 
 [GetKinectManualEngagedHand](Functions/GetKinectManualEngagedHand.md)    
-Gets a [IBodyHandPair](Interfaces/IBodyHandPair_Interface.md) representing a currently engaged body/hand pair.  
+手動で人物と手を関係付けた[IBodyHandPair](Interfaces/IBodyHandPair_Interface.md)を取得する。  
 
 [GetKinectManualEngagedHandCount](Functions/GetKinectManualEngagedHandCount.md)    
-Gets the number of manually engaged hands.  
+手動で人物と手を関係付けている[IBodyHandPair](Interfaces/IBodyHandPair_Interface.md)の数を取得する。  
 
 [GetMaximumKinectEngagedPersonCount](Functions/GetMaximumKinectEngagedPer.md)    
-Gets the maximum number of manually engaged people.  
+[IBodyHandPair](Interfaces/IBodyHandPair_Interface.md)の最大人数。  
 
 [OverrideKinectInteractionMode](Functions/OverrideKinectInteractionM.md)    
-Overrides the current interaction mode.  
+インタラクションモードを上書き設定する。  
 
 [SetKinectOnePersonManualEngagement](Functions/SetKinectOnePersonManualEn.md)    
-Sets the engagement mode to one person manual engagement.  
+手動で指定してトラッキングする1人の[IBodyHandPair](Interfaces/IBodyHandPair_Interface.md)を設定する。  
 
 [SetKinectOnePersonSystemEngagement](Functions/SetKinectOnePersonSystemEn.md)    
-Sets the engagement mode to one person system engagement.  
+システムが動的に任意の1人を検出してトラッキングするモードに設定する。  
 
 [SetKinectTwoPersonManualEngagement](Functions/SetKinectTwoPersonManualEn.md)    
-Sets the engagement mode to two person manual engagement.  
+手動で指定してトラッキングする2人の[IBodyHandPair](Interfaces/IBodyHandPair_Interface.md)を設定する。  
 
 [SetKinectTwoPersonSystemEngagement](Functions/SetKinectTwoPersonSystemEn.md)    
-Sets the engagement mode to two person system engagement.  
+システムが動的に任意の2人を検出してトラッキングするモードに設定する。  
 
 <span id="ID4EYB"></span>
 
