@@ -1,7 +1,7 @@
 SetKinectTwoPersonManualEngagement  
 ==================================  
 
-手動で2人を指定してトラッキングする[IKinectSensor](../Interfaces/IKinectSensor_Interface.md)を設定する。 <span id="syntaxSection"></span>
+手動で指定してトラッキングする2人の[IBodyHandPair](../Interfaces/IBodyHandPair_Interface.md)を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
