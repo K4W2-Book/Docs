@@ -1,7 +1,7 @@
 SetKinectOnePersonSystemEngagement  
 ==================================  
 
-Sets the engagement mode to one person system engagement. <span id="syntaxSection"></span>
+システムが動的に任意の1人を検出してトラッキングするモードに設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -26,14 +26,14 @@ Syntax
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-In this mode, the system dynamically track one engaged user.  
+このモードでは、システムが動的に任意の1人を検出してトラッキングする。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 GetMaximumKinectEngagedPersonCount  
 ==================================  
 
-Gets the maximum number of manually engaged people. <span id="syntaxSection"></span>
+[IBodyHandPair](../Interfaces/IBodyHandPair_Interface.md)の最大人数。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *pMaximumKinectEngagedPersonCount*    
 Type: UINT32  
-[out] The maximum number of manually engaged people.  
+[out] 最大人数。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

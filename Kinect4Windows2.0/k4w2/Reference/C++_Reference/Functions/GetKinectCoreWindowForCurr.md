@@ -1,7 +1,7 @@
 GetKinectCoreWindowForCurrentThread  
 ===================================  
 
-Gets the [IKinectCoreWindow](../Interfaces/IKinectCoreWindow_Interface.md) for the current thread. <span id="syntaxSection"></span>
+現在のスレッドの[IKinectCoreWindow](../Interfaces/IKinectCoreWindow_Interface.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *ppKinectCoreWindow*    
 Type: IKinectCoreWindow  
-[out] The [IKinectCoreWindow](../Interfaces/IKinectCoreWindow_Interface.md) for the current thread.  
+[out] [IKinectCoreWindow](../Interfaces/IKinectCoreWindow_Interface.md)のポインタのアドレス。  
 
 <span id="ID4ER"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -24,7 +24,7 @@ Gets the current engagement mode.
 [GetKinectManualEngagedHand](Functions/GetKinectManualEngagedHand.md)    
 Gets a [IBodyHandPair](Interfaces/IBodyHandPair_Interface.md) representing a currently engaged body/hand pair.  
 
-[GetKinectManualEngagedHandCount](Functions/GetKinectManualEngagedHand.md)    
+[GetKinectManualEngagedHandCount](Functions/GetKinectManualEngagedHandCount.md)    
 Gets the number of manually engaged hands.  
 
 [GetMaximumKinectEngagedPersonCount](Functions/GetMaximumKinectEngagedPer.md)    

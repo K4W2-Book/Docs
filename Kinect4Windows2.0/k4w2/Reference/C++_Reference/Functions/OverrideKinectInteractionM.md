@@ -1,7 +1,7 @@
 OverrideKinectInteractionMode  
 =============================  
 
-Overrides the current interaction mode. <span id="syntaxSection"></span>
+インタラクションモードを上書き設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *mode*    
 Type: KinectInteractionMode  
-The interaction mode to override the current mode.  
+上書き設定するインタラクションモード。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

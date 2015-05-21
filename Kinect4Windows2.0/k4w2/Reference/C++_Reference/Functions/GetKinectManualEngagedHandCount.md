@@ -1,7 +1,7 @@
-GetKinectManualEngagedHand  
-==========================  
+GetKinectManualEngagedHandCount  
+===============================  
 
-手動で人物と手を関係付けた[IBodyHandPair](../Interfaces/IBodyHandPair_Interface.md)を取得する。 <span id="syntaxSection"></span>
+手動で人物と手を関係付けている[IBodyHandPair](../Interfaces/IBodyHandPair_Interface.md)の数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -17,9 +17,8 @@ Syntax
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><pre><code>HRESULT GetKinectManualEngagedHand(  
-         UINT32 manualEngagedHandIndex  
-         IBodyHandPair** ppManualEngagedHand
+<td align="left"><pre><code>HRESULT GetKinectManualEngagedHandCount(  
+         UINT32 *pManualEngagedHandCount  
 )</code></pre></td>
 </tr>
 </tbody>
@@ -28,13 +27,9 @@ Syntax
 <span id="ID4EG"></span>
 #### Parameters  
 
-*manualEngagedHandIndex*    
+*pManualEngagedHandCount*    
 Type: UINT32  
-取得する[IBodyHandPair](../Interfaces/IBodyHandPair_Interface.md)のインデックス。  
-
-*ppManualEngagedHand*    
-Type: IBodyHandPair  
-[out] [IBodyHandPair](../Interfaces/IBodyHandPair_Interface.md)のポインタのアドレス。  
+[out] [IBodyHandPair](../Interfaces/IBodyHandPair_Interface.md)の数。  
 
 <span id="ID4EN"></span>
 #### Return value  

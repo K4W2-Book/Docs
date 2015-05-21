@@ -1,7 +1,7 @@
 SetKinectTwoPersonManualEngagement  
 ==================================  
 
-Sets the engagement mode to two person manual engagement. <span id="syntaxSection"></span>
+手動で2人を指定してトラッキングする[IKinectSensor](../Interfaces/IKinectSensor_Interface.md)を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,17 +30,17 @@ Syntax
 
 *pBodyHandPair1*    
 Type: IBodyHandPair  
-[in] The first body hand pair to be tracked as engaged.  
+[in] トラッキングする[IKinectSensor](../Interfaces/IKinectSensor_Interface.md)。  
 
 *pBodyHandPair2*    
 Type: IBodyHandPair  
-[in] The second body hand pair to be tracked as engaged.  
+[in] トラッキングする[IKinectSensor](../Interfaces/IKinectSensor_Interface.md)。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 CreateBodyHandPair  
 ==================  
 
-Creates a new [IBodyHandPair](../Interfaces/IBodyHandPair_Interface.md) object representing a body/hand pair. <span id="syntaxSection"></span>
+人物と手を関係付ける[IBodyHandPair](../Interfaces/IBodyHandPair_Interface.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,21 +31,21 @@ Syntax
 
 *bodyTrackingId*    
 Type: UINT64  
-The tracking ID of the body.  
+トラッキングID。  
 
 *handType*    
 Type: HandType  
-The hand type.  
+手の種類。  
 
 *ppBodyHandPair*    
 Type: IBodyHandPair  
-[out] The body/hand pair.  
+[out] [IBodyHandPair](../Interfaces/IBodyHandPair_Interface.md)のポインタのアドレス。  
 
 <span id="ID4ER"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

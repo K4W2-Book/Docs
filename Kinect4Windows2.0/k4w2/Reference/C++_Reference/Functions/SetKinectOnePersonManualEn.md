@@ -1,7 +1,7 @@
 SetKinectOnePersonManualEngagement  
 ==================================  
 
-Sets the engagement mode to one person manual engagement. <span id="syntaxSection"></span>
+手動で1人を指定してトラッキングする[IKinectSensor](../Interfaces/IKinectSensor_Interface.md)を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *pBodyHandPair*    
 Type: IBodyHandPair  
-[in] The body hand pair to be tracked as engaged.  
+[in] トラッキングする[IKinectSensor](../Interfaces/IKinectSensor_Interface.md)。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 CreateKinectGestureRecognizer  
 =============================  
 
-Creates a new [IKinectGestureRecognizer](../Interfaces/IKinectGestureRecognizer.md). <span id="syntaxSection"></span>
+[IKinectGestureRecognizer](../Interfaces/IKinectGestureRecognizer.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *ppKinectGestureRecognizer*    
 Type: IKinectGestureRecognizer  
-[out] The new [IKinectGestureRecognizer](../Interfaces/IKinectGestureRecognizer.md).  
+[out] [IKinectGestureRecognizer](../Interfaces/IKinectGestureRecognizer.md)のポインタのアドレス。  
 
 <span id="ID4ER"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

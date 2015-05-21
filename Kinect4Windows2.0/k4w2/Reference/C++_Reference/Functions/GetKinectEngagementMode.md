@@ -1,7 +1,7 @@
 GetKinectEngagementMode  
 =======================  
 
-Gets the current engagement mode. <span id="syntaxSection"></span>
+現在の人物と手を関係付けてトラッキングするモードを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *pMode*    
 Type: KinectEngagementMode  
-[out] The current engagement mode.  
+[out] 人物と手を関係付けてトラッキングするモード。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

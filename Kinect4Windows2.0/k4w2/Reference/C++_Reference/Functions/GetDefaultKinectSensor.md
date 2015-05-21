@@ -1,7 +1,7 @@
 GetDefaultKinectSensor  
 ======================  
 
-Gets the default Kinect sensor <span id="syntaxSection"></span>
+デフォルトの[IKinectSensor](../Interfaces/IKinectSensor_Interface.md)を作成する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,13 +29,13 @@ Syntax
 
 *defaultKinectSensor*    
 Type: IKinectSensor  
-[out] The default Kinect sensor.  
+[out] [IKinectSensor](../Interfaces/IKinectSensor_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EN"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
