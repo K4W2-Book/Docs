@@ -1,9 +1,10 @@
-FaceAlignment.HeadPivotPoint Property  
+FaceAlignment.HeadPivotPoint プロパティ  
 =====================================  
 
-Gets the pivot point of the head. <span id="syntaxSection"></span>
+顔の回転軸の中心座標(Camera座標系)を取得/設定する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

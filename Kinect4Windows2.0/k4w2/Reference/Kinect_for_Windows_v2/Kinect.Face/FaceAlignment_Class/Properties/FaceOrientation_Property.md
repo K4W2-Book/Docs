@@ -1,9 +1,10 @@
-FaceAlignment.FaceOrientation Property  
+FaceAlignment.FaceOrientation プロパティ  
 ======================================  
 
-Gets a vector indicating the orientation of the face. <span id="syntaxSection"></span>
+顔の回転方向(クォータニオン)を取得/設定する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

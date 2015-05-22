@@ -1,9 +1,11 @@
-FaceAlignment.AnimationUnits Property  
+FaceAlignment.AnimationUnits プロパティ  
 =====================================  
 
-Gets the animation units. <span id="syntaxSection"></span>
+顔のアニメーションユニットを取得する。<br/>
+アニメーションユニットは顔アバターのための各顔パーツの動きを表す。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

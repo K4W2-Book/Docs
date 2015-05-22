@@ -1,9 +1,10 @@
-FaceAlignment Class  
+FaceAlignment クラス  
 ===================  
 
-Stores the points of facial features such as eyes, nose, and mouth, from an image in 2D space. <span id="syntaxSection"></span>
+位置合わせされた顔データ。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **FaceAlignment** has the following members.  
 
 <span id="publicconstructorsSection"></span>
 
-Constructors  
+コンストラクタ
 ============  
 
 <table>
@@ -73,21 +74,21 @@ Constructors
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceAlignment_Class/Constructor.md">FaceAlignment</a></td>
-<td align="left">Creates a new instance of the face alignment class.</td>
+<td align="left">FaceAlignmentクラスの新しいインスタンスを生成する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -97,30 +98,30 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceAlignment_Class/Properties/AnimationUnits_Property.md">AnimationUnits</a></td>
-<td align="left">Gets the animation units.</td>
+<td align="left">顔のアニメーションユニットを取得する。<br/>アニメーションユニットは顔アバターのための各顔パーツの動きを表す。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceAlignment_Class/Properties/FaceBoundingBox_Property.md">FaceBoundingBox</a></td>
-<td align="left">Gets the bounding box of the face.</td>
+<td align="left">顔を囲むバウンディングボックス(Color座標系)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="FaceAlignment_Class/Properties/FaceOrientation_Property.md">FaceOrientation</a></td>
-<td align="left">Gets a vector indicating the orientation of the face.</td>
+<td align="left">顔の回転方向(クォータニオン)を取得/設定する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceAlignment_Class/Properties/HeadPivotPoint_Property.md">HeadPivotPoint</a></td>
-<td align="left">Gets the pivot point of the head.</td>
+<td align="left">顔の回転軸の中心座標(Camera座標系)を取得/設定する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="FaceAlignment_Class/Properties/Quality_Property.md">Quality</a></td>
-<td align="left">Gets the quality of the face alignment.</td>
+<td align="left">顔の位置合わせの品質を取得する。</td>
 </tr>
 </tbody>
 </table>

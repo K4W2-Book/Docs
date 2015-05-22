@@ -1,9 +1,10 @@
-FaceAlignment.Quality Property  
+FaceAlignment.Quality プロパティ  
 ==============================  
 
-Gets the quality of the face alignment. <span id="syntaxSection"></span>
+顔の位置合わせの品質を取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

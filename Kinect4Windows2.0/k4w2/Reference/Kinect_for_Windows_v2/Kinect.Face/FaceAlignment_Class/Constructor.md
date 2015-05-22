@@ -1,9 +1,10 @@
-FaceAlignment Constructor  
+FaceAlignment コンストラクタ  
 =========================  
 
-Creates a new instance of the face alignment class. <span id="syntaxSection"></span>
+FaceAlignmentクラスの新しいインスタンスを生成する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
