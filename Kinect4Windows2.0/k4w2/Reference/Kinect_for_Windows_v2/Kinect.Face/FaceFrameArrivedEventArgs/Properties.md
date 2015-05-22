@@ -1,9 +1,9 @@
-FaceFrameArrivedEventArgs Properties  
+FaceFrameArrivedEventArgs プロパティ  
 ====================================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,14 +13,14 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/FrameReference_Property.md">FrameReference</a></td>
-<td align="left">Gets the frame reference.</td>
+<td align="left"><a href="FaceFrameArrivedEventArgs/Properties/FrameReference_Property.md">FrameReference</a></td>
+<td align="left">FaceフレームのReferenceを取得する。</td>
 </tr>
 </tbody>
 </table>

@@ -1,9 +1,10 @@
-FaceFrameArrivedEventArgs.FrameReference Property  
+FaceFrameArrivedEventArgs.FrameReference プロパティ  
 =================================================  
 
-Gets the frame reference. <span id="syntaxSection"></span>
+FaceフレームのReferenceを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
