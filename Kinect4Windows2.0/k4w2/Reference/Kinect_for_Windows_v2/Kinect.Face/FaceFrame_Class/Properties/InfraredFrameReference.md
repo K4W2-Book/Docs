@@ -1,9 +1,10 @@
-FaceFrame.InfraredFrameReference Property  
+FaceFrame.InfraredFrameReference プロパティ  
 =========================================  
 
-Gets a reference to the infrared frame associated with the face frame. <span id="syntaxSection"></span>
+InfraredフレームのReferenceを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

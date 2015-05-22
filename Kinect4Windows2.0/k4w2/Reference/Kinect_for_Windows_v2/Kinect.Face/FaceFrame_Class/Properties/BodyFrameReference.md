@@ -1,9 +1,10 @@
-FaceFrame.BodyFrameReference Property  
+FaceFrame.BodyFrameReference プロパティ  
 =====================================  
 
-Gets a reference to the body frame associated with the face frame. <span id="syntaxSection"></span>
+BodyフレームのReferenceを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

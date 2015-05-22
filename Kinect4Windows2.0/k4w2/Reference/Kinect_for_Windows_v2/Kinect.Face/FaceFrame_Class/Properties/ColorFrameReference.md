@@ -1,9 +1,10 @@
-FaceFrame.ColorFrameReference Property  
+FaceFrame.ColorFrameReference プロパティ  
 ======================================  
 
-Gets a reference to the color frame associated with the face frame. <span id="syntaxSection"></span>
+ColorフレームのReferenceを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

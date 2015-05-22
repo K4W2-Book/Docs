@@ -1,11 +1,11 @@
-FaceFrame Members  
+FaceFrame メンバ  
 =================  
 
 **FaceFrame** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -15,53 +15,54 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/BodyFrameReference_Property.md">BodyFrameReference</a></td>
-<td align="left">Gets a reference to the body frame associated with the face frame.</td>
+<td align="left"><a href="FaceFrame_Class/Properties/BodyFrameReference_Property.md">BodyFrameReference</a></td>
+<td align="left">BodyフレームのReferenceを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/ColorFrameReference_Property.md">ColorFrameReference</a></td>
-<td align="left">Gets a reference to the color frame associated with the face frame.</td>
+<td align="left"><a href="FaceFrame_Class/Properties/ColorFrameReference_Property.md">ColorFrameReference</a></td>
+<td align="left">ColorフレームのReferenceを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/DepthFrameReference_Property.md">DepthFrameReference</a></td>
-<td align="left">Gets a reference to the depth frame associated with the face frame.</td>
+<td align="left"><a href="FaceFrame_Class/Properties/DepthFrameReference_Property.md">DepthFrameReference</a></td>
+<td align="left">DepthフレームのReferenceを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/FaceFrameResult_Property.md">FaceFrameResult</a></td>
-<td align="left">Gets the face frame result.</td>
+<td align="left"><a href="FaceFrame_Class/Properties/FaceFrameResult_Property.md">FaceFrameResult</a></td>
+<td align="left">Faceフレームの結果を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/FaceFrameSource_Property.md">FaceFrameSource</a></td>
-<td align="left">Gets the face frame source.</td>
+<td align="left"><a href="FaceFrame_Class/Properties/FaceFrameSource_Property.md">FaceFrameSource</a></td>
+<td align="left">FaceフレームのSourceを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/InfraredFrameReference.md">InfraredFrameReference</a></td>
-<td align="left">Gets a reference to the infrared frame associated with the face frame.</td>
+<td align="left"><a href="FaceFrame_Class/Properties/InfraredFrameReference.md">InfraredFrameReference</a></td>
+<td align="left">InfraredフレームのReferenceを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/IsTrackingIdValid_Property.md">IsTrackingIdValid</a></td>
-<td align="left">Gets a boolean value indicating if the tracking ID is valid.</td>
+<td align="left"><a href="FaceFrame_Class/Properties/IsTrackingIdValid_Property.md">IsTrackingIdValid</a></td>
+<td align="left">トラッキングIDが有効であるかを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/RelativeTime_Property.md">RelativeTime</a></td>
-<td align="left">Gets the relative time of this frame.</td>
+<td align="left"><a href="FaceFrame_Class/Properties/RelativeTime_Property.md">RelativeTime</a></td>
+<td align="left">Faceフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/TrackingId_Property.md">TrackingId</a></td>
-<td align="left">Gets or sets the tracking ID.</td>
+<td align="left"><a href="FaceFrame_Class/Properties/TrackingId_Property.md">TrackingId</a></td>
+<td align="left">トラッキングIDを取得する。</td>
 </tr>
 </tbody>
 </table>
 
+
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -71,14 +72,14 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes the FaceFrame and disposes of associated system resources.</td>
+<td align="left">システムリソースを解放する。</td>
 </tr>
 </tbody>
 </table>

@@ -1,9 +1,10 @@
-FaceFrame.Close Method  
+FaceFrame.Close メソッド  
 ======================  
 
-Closes the FaceFrame and disposes of associated system resources. <span id="syntaxSection"></span>
+システムリソースを解放する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

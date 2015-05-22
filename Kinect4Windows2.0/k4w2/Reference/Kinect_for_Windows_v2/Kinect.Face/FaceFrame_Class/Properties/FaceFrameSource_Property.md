@@ -1,9 +1,11 @@
-FaceFrame.FaceFrameSource Property  
+FaceFrame.FaceFrameSource プロパティ  
 ==================================  
 
-Gets the face frame source. <span id="syntaxSection"></span>
+FaceフレームのSourceを取得する。
 
-Syntax  
+<span id="syntaxSection"></span>
+
+構文
 ======  
 
 <table>

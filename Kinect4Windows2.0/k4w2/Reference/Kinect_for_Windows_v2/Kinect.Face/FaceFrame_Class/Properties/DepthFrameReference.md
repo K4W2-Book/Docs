@@ -1,9 +1,10 @@
-FaceFrame.DepthFrameReference Property  
+FaceFrame.DepthFrameReference プロパティ  
 ======================================  
 
-Gets a reference to the depth frame associated with the face frame. <span id="syntaxSection"></span>
+DepthフレームのReferenceを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

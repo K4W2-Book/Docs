@@ -1,9 +1,10 @@
-FaceFrame.IsTrackingIdValid Property  
+FaceFrame.IsTrackingIdValid プロパティ  
 ====================================  
 
-Gets a boolean value indicating if the tracking ID is valid. <span id="syntaxSection"></span>
+トラッキングIDが有効であるかを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

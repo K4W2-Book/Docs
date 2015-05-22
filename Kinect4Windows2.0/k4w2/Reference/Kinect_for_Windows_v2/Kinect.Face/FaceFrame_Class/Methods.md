@@ -1,9 +1,9 @@
-FaceFrame Methods  
+FaceFrame メソッド  
 =================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,17 +13,18 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes the FaceFrame and disposes of associated system resources.</td>
+<td align="left"><a href="FaceFrame_Class/Methods/Close_Method.md">Close</a></td>
+<td align="left">システムリソースを解放する。</td>
 </tr>
 </tbody>
 </table>
+
 
 <span id="ID4EI"></span>
 

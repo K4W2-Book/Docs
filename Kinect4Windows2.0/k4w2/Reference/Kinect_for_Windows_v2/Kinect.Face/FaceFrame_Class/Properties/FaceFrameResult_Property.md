@@ -1,9 +1,10 @@
-FaceFrame.FaceFrameResult Property  
+FaceFrame.FaceFrameResult プロパティ  
 ==================================  
 
-Gets the face frame result. <span id="syntaxSection"></span>
+Faceフレームの結果を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
