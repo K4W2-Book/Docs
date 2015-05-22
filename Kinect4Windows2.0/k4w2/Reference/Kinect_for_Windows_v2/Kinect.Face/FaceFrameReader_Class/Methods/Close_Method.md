@@ -1,9 +1,10 @@
-FaceFrameReader.Close Method  
+FaceFrameReader.Close メソッド  
 ============================  
 
-Closes the FaceFrameReader. <span id="syntaxSection"></span>
+FaceFrameReaderを閉じる。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

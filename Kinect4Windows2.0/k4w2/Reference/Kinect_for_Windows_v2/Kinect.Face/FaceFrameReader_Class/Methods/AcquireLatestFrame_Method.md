@@ -1,9 +1,10 @@
-FaceFrameReader.AcquireLatestFrame Method  
+FaceFrameReader.AcquireLatestFrame メソッド  
 =========================================  
 
-\>Gets the most recent frame. It may return null if no frame is available. <span id="syntaxSection"></span>
+最新のFaceフレームを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

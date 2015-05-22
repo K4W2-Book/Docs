@@ -1,9 +1,10 @@
-FaceFrameReader Class  
+FaceFrameReader クラス  
 =====================  
 
-Represents a face frame reader. <span id="syntaxSection"></span>
+FaceフレームのReader。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **FaceFrameReader** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -73,25 +74,25 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceFrameReader_Class/Properties/FaceFrameSource_Property.md">FaceFrameSource</a></td>
-<td align="left">Gets the face frame source.</td>
+<td align="left">FaceフレームのSourceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets a boolean that indicates if the reader is paused.</td>
+<td align="left">FaceフレームのReaderの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -101,25 +102,25 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceFrameReader_Class/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">&gt;Gets the most recent frame. It may return null if no frame is available.</td>
+<td align="left">最新のFaceフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceFrameReader_Class/Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes the FaceFrameReader.</td>
+<td align="left">FaceFrameReaderを閉じる。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -129,18 +130,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceFrameReader_Class/Events/FrameArrived_Event.md">FrameArrived</a></td>
-<td align="left">Occurs when a new frame is ready.</td>
+<td align="left">Faceフレームの更新イベント</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceFrameReader_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="">FaceFrameReader</a> changes.</td>
+<td align="left"><a href="">FaceFrameReader</a>クラスのプロパティが変更されたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>

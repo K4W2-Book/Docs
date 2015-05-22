@@ -1,9 +1,9 @@
-FaceFrameReader Methods  
+FaceFrameReader メソッド  
 =======================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,18 +13,18 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">&gt;Gets the most recent frame. It may return null if no frame is available.</td>
+<td align="left"><a href="FaceFrameReader_Class/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
+<td align="left">最新のFaceフレームを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Methods/Close_Method.md">Close</a></td>
-<td align="left">Closes the FaceFrameReader.</td>
+<td align="left"><a href="FaceFrameReader_Class/Methods/Close_Method.md">Close</a></td>
+<td align="left">FaceFrameReaderを閉じる。</td>
 </tr>
 </tbody>
 </table>

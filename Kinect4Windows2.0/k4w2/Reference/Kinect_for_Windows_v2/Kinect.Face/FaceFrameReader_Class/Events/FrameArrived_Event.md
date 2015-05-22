@@ -1,9 +1,10 @@
-FaceFrameReader.FrameArrived Event  
+FaceFrameReader.FrameArrived イベント  
 ==================================  
 
-Occurs when a new frame is ready.<span id="syntaxSection"></span>
+Faceフレームの更新イベント。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

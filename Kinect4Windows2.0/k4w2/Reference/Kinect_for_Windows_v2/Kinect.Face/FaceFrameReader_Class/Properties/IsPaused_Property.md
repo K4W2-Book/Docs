@@ -1,9 +1,10 @@
-FaceFrameReader.IsPaused Property  
+FaceFrameReader.IsPaused プロパティ  
 =================================  
 
-Gets or sets a boolean that indicates if the reader is paused. <span id="syntaxSection"></span>
+FaceフレームのReaderの動作状態を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

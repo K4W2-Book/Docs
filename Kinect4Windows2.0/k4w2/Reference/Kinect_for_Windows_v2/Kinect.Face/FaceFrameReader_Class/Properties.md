@@ -1,9 +1,9 @@
-FaceFrameReader Properties  
+FaceFrameReader プロパティ  
 ==========================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,18 +13,18 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/FaceFrameSource_Property.md">FaceFrameSource</a></td>
-<td align="left">Gets the face frame source.</td>
+<td align="left"><a href="FaceFrameReader_Class/Properties/FaceFrameSource_Property.md">FaceFrameSource</a></td>
+<td align="left">FaceフレームのSourceを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsPaused_Property.md">IsPaused</a></td>
-<td align="left">Gets or sets a boolean that indicates if the reader is paused.</td>
+<td align="left"><a href="FaceFrameReader_Class/Properties/IsPaused_Property.md">IsPaused</a></td>
+<td align="left">FaceフレームのReaderの動作状態を取得する。</td>
 </tr>
 </tbody>
 </table>
