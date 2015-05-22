@@ -1,9 +1,10 @@
-CaptureStatusChangedEventArgs Class  
+CaptureStatusChangedEventArgs クラス  
 ===================================  
 
-Provides data for the [CaptureStatusChanged](FaceModelBuilder_Class/Events/CaptureStatusChanged_Event.md) event. <span id="syntaxSection"></span>
+[CaptureStatusChanged](FaceModelBuilder_Class/Events/CaptureStatusChanged_Event.md)イベントデータ。 <span id="syntaxSection"></span>
 
-Syntax  
+
+構文
 ======  
 
 <table>
@@ -44,14 +45,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **CaptureStatusChangedEventArgs** has the following members.  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -61,14 +62,14 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="CaptureStatusChangedEven/Properties/PreviousCaptureStatus.md">PreviousCaptureStatus</a></td>
-<td align="left">Gets the capture status from before the <a href="FaceModelBuilder_Class/Events/CaptureStatusChanged_Event.md">CaptureStatusChanged</a> event.</td>
+<td align="left"><a href="FaceModelBuilder_Class/Events/CaptureStatusChanged_Event.md">CaptureStatusChanged</a>で更新されたステータスを取得します。</td>
 </tr>
 </tbody>
 </table>

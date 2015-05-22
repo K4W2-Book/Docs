@@ -1,9 +1,10 @@
-CaptureStatusChangedEventArgs.PreviousCaptureStatus Property  
+CaptureStatusChangedEventArgs.PreviousCaptureStatus プロパティ  
 ============================================================  
 
-Gets the capture status from before the [CaptureStatusChanged](../../FaceModelBuilder_Class/Events/CaptureStatusChanged_Event.md) event. <span id="syntaxSection"></span>
+[CaptureStatusChanged](../../FaceModelBuilder_Class/Events/CaptureStatusChanged_Event.md)で更新されたステータスを取得します。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
