@@ -1,9 +1,9 @@
-CollectionStatusChangedEventArgs Properties  
+CollectionStatusChangedEventArgs プロパティ  
 ===========================================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,17 +13,18 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/PreviousCollectionStatus.md">PreviousCollectionStatus</a></td>
-<td align="left">Gets the collection status from before the <a href="../FaceModelBuilder_Class/Events/CollectionStatusChanged.md">CollectionStatusChanged</a></td>
+<td align="left"><a href="CollectionStatusChangedE/Properties/PreviousCollectionStatus.md">PreviousCollectionStatus</a></td>
+<td align="left"><a href="FaceModelBuilder_Class/Events/CollectionStatusChanged.md">CollectionStatusChanged</a>のデータ収集ステータスが更新されたとき、ステータスを取得します。</td>
 </tr>
 </tbody>
 </table>
+
 
 <span id="ID4EI"></span>
 

@@ -1,9 +1,10 @@
-CollectionStatusChangedEventArgs.PreviousCollectionStatus Property  
+CollectionStatusChangedEventArgs.PreviousCollectionStatus プロパティ  
 ==================================================================  
 
-Gets the collection status from before the [CollectionStatusChanged](../../FaceModelBuilder_Class/Events/CollectionStatusChanged.md) <span id="syntaxSection"></span>
+[CollectionStatusChanged](../../FaceModelBuilder_Class/Events/CollectionStatusChanged.md)のデータ収集ステータスが更新されたとき、ステータスを取得します。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
