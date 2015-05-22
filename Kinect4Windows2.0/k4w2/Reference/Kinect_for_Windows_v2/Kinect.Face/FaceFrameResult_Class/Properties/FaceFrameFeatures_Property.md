@@ -1,9 +1,10 @@
-FaceFrameResult.FaceFrameFeatures Property  
+FaceFrameResult.FaceFrameFeatures プロパティ  
 ==========================================  
 
-Gets the face frame features. <span id="syntaxSection"></span>
+Faceフレームの有効な機能を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

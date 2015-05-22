@@ -1,9 +1,10 @@
-FaceFrameResult.FaceBoundingBoxInColorSpace Property  
+FaceFrameResult.FaceBoundingBoxInColorSpace プロパティ  
 ====================================================  
 
-Gets the face bounding box in color space. <span id="syntaxSection"></span>
+顔を囲むバウンディングボックス(Color座標系)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

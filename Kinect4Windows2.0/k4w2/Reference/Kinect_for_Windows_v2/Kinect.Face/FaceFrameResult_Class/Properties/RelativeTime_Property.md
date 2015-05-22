@@ -1,9 +1,10 @@
-FaceFrameResult.RelativeTime Property  
+FaceFrameResult.RelativeTime プロパティ  
 =====================================  
 
-Gets the timestamp of the face frame result. <span id="syntaxSection"></span>
+Faceフレームを取得した時間(相対時間)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

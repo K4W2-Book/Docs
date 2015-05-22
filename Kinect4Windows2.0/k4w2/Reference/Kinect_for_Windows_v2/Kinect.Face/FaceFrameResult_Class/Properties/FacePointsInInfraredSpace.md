@@ -1,9 +1,10 @@
-FaceFrameResult.FacePointsInInfraredSpace Property  
+FaceFrameResult.FacePointsInInfraredSpace プロパティ  
 ==================================================  
 
-Gets the face points in infrared space. <span id="syntaxSection"></span>
+顔パーツ(左右目、鼻、左右口角)の位置(Depth座標系)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

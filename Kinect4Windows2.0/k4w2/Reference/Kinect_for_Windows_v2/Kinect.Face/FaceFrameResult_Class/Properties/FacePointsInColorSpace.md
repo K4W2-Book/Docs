@@ -1,9 +1,10 @@
-FaceFrameResult.FacePointsInColorSpace Property  
+FaceFrameResult.FacePointsInColorSpace プロパティ  
 ===============================================  
 
-Gets the face points in color space. <span id="syntaxSection"></span>
+顔パーツ(左右目、鼻、左右口角)の位置(Color座標系)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

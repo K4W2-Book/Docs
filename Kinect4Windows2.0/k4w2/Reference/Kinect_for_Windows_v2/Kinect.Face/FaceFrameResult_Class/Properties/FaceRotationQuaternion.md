@@ -1,9 +1,10 @@
-FaceFrameResult.FaceRotationQuaternion Property  
+FaceFrameResult.FaceRotationQuaternion プロパティ  
 ===============================================  
 
-Gets the quaternion representing the face rotation. <span id="syntaxSection"></span>
+顔の回転方向(クォータニオン)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

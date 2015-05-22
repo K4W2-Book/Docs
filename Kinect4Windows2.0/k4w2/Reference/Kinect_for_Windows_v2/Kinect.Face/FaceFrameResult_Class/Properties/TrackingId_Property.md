@@ -1,9 +1,10 @@
-FaceFrameResult.TrackingId Property  
+FaceFrameResult.TrackingId プロパティ  
 ===================================  
 
-Gets the tracking ID of the face frame result. <span id="syntaxSection"></span>
+トラッキングIDを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

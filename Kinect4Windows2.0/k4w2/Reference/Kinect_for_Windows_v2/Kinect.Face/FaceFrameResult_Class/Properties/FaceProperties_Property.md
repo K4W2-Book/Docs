@@ -1,9 +1,10 @@
-FaceFrameResult.FaceProperties Property  
+FaceFrameResult.FaceProperties プロパティ  
 =======================================  
 
-Gets the face properties. <span id="syntaxSection"></span>
+顔の付随情報を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

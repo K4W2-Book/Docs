@@ -1,7 +1,8 @@
 IFaceFrameResult Interface  
 ==========================  
 
-Faceフレームの結果。 <span id="syntaxSection"></span>
+Faceフレームの結果。 
+<span id="syntaxSection"></span>
 
 Syntax  
 ======  

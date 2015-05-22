@@ -1,9 +1,10 @@
-FaceFrameResult.FaceBoundingBoxInInfraredSpace Property  
+FaceFrameResult.FaceBoundingBoxInInfraredSpace プロパティ  
 =======================================================  
 
-Gets the face bounding box in infrared space. <span id="syntaxSection"></span>
+顔を囲むバウンディングボックス(Depth座標系)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
