@@ -1,9 +1,10 @@
-FaceFrameSource Constructor  
+FaceFrameSource コンストラクタ  
 ===========================  
 
-Initializes a new instance of the FaceFrameSource class. <span id="syntaxSection"></span>
+FaceFrameSourceクラスの新しいインスタンスを作成する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -64,7 +65,7 @@ FaceFrameSource(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *sensor*    
 Type: [KinectSensor](../../Kinect/KinectSensor_Class.md)  
@@ -76,7 +77,7 @@ The Kinect sensor.
   [JavaScript] Type: Number  
    
 
-The initial tracking ID.  
+顔を追跡するトラッキングID(Bodyから取得する)。  
 
 *initialFaceFrameFeatures*    
 Type: [FaceFrameFeatures](../FaceFrameFeatures.md)  

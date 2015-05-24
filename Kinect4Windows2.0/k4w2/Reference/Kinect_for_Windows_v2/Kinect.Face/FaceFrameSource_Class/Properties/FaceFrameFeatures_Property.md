@@ -1,9 +1,10 @@
-FaceFrameSource.FaceFrameFeatures Property  
+FaceFrameSource.FaceFrameFeatures プロパティ  
 ==========================================  
 
-Gets the flags that indicate which face frame features data are present in this face frame. <span id="syntaxSection"></span>
+Faceフレームの有効な機能を取得/設定する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -63,7 +64,7 @@ faceFrameSource.faceFrameFeatures = faceFrameFeatures;</code></pre></td>
 #### Property value  
 
 Type: [FaceFrameFeatures](../../FaceFrameFeatures.md)  
-The flags that indicate which face frame features data are present in this face frame.  
+Faceフレームの有効な機能。  
 
 <span id="requirements"></span>
 

@@ -1,9 +1,10 @@
-FaceFrameSource.TrackingIdLost Event  
+FaceFrameSource.TrackingIdLost イベント  
 ====================================  
 
-This event occurs when invalid frames arrive for the TrackingId listed in the event args.<span id="syntaxSection"></span>
+トラッキングIDがロストしたことを通知するイベント。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

@@ -1,9 +1,10 @@
-FaceFrameSource.TrackingId Property  
+FaceFrameSource.TrackingId プロパティ  
 ===================================  
 
-Gets or sets the tracking id. <span id="syntaxSection"></span>
+トラッキングIDを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

@@ -1,9 +1,10 @@
-FaceFrameSource.IsTrackingIdValid Property  
+FaceFrameSource.IsTrackingIdValid プロパティ  
 ==========================================  
 
-Gets a boolean that indicates if the tracking id is valid. <span id="syntaxSection"></span>
+トラッキングIDが有効であるかを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -68,8 +69,7 @@ Type: [bool](http://msdn.microsoft.com/en-us/library/hh755815.aspx)
 Type: [bool](http://msdn.microsoft.com/en-us/library/system.boolean.aspx)  
 Type: Boolean  
 
-True if the tracking id is valid; otherwise false.  
-
+トラッキングIDが有効の場合はtrue、無効の場合はfalse。
 <span id="requirements"></span>
 
 Requirements  

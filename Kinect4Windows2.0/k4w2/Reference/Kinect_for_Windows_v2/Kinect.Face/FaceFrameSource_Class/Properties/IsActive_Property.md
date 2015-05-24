@@ -1,9 +1,10 @@
-FaceFrameSource.IsActive Property  
+FaceFrameSource.IsActive プロパティ  
 =================================  
 
-Gets the current activity status of this source. <span id="syntaxSection"></span>
+FaceフレームのSourceの動作状況を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -68,7 +69,7 @@ Type: [bool](http://msdn.microsoft.com/en-us/library/hh755815.aspx)
 Type: [bool](http://msdn.microsoft.com/en-us/library/system.boolean.aspx)  
 Type: Boolean  
 
-True if the source is active; otherwise false.  
+FaceフレームのSourceが動作している場合はtrue、動作していない場合はfalse。
 
 <span id="requirements"></span>
 

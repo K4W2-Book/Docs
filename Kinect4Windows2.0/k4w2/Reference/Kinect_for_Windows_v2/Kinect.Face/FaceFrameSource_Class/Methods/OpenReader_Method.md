@@ -1,9 +1,10 @@
-FaceFrameSource.OpenReader Method  
+FaceFrameSource.OpenReader メソッド  
 =================================  
 
-Opens a new stream reader. This reader must be disposed. <span id="syntaxSection"></span>
+FaceフレームのReaderを開く。このReaderはDisposeする必要があります。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

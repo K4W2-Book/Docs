@@ -1,9 +1,9 @@
-FaceFrameSource Events  
+FaceFrameSource イベント  
 ======================  
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -13,18 +13,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="../FaceFrameSource_Class.md">FaceFrameSource</a> changes.</td>
+<td align="left"><a href="FaceFrameSource_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
+<td align="left"><a href="">FaceFrameSource</a>のプロパティが変更されたことを通知するイベント。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Events/TrackingIdLost_Event.md">TrackingIdLost</a></td>
-<td align="left">This event occurs when invalid frames arrive for the TrackingId listed in the event args.</td>
+<td align="left"><a href="FaceFrameSource_Class/Events/TrackingIdLost_Event.md">TrackingIdLost</a></td>
+<td align="left">トラッキングIDがロストしたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>

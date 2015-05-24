@@ -1,9 +1,9 @@
-FaceFrameSource Properties  
+FaceFrameSource プロパティ  
 ==========================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,33 +13,34 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/FaceFrameFeatures_Property.md">FaceFrameFeatures</a></td>
-<td align="left">Gets the flags that indicate which face frame features data are present in this face frame.</td>
+<td align="left"><a href="FaceFrameSource_Class/Properties/FaceFrameFeatures_Property.md">FaceFrameFeatures</a></td>
+<td align="left">Faceフレームの有効な機能を取得/設定する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/IsActive_Property.md">IsActive</a></td>
-<td align="left">Gets the current activity status of this source.</td>
+<td align="left"><a href="FaceFrameSource_Class/Properties/IsActive_Property.md">IsActive</a></td>
+<td align="left">FaceフレームのSourceの動作状況を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/IsTrackingIdValid_Property.md">IsTrackingIdValid</a></td>
-<td align="left">Gets a boolean that indicates if the tracking id is valid.</td>
+<td align="left"><a href="FaceFrameSource_Class/Properties/IsTrackingIdValid_Property.md">IsTrackingIdValid</a></td>
+<td align="left">トラッキングIDが有効であるかを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/KinectSensor_Property.md">KinectSensor</a></td>
-<td align="left">Gets the Kinect sensor associated with the face frame source.</td>
+<td align="left"><a href="FaceFrameSource_Class/Properties/KinectSensor_Property.md">KinectSensor</a></td>
+<td align="left">FaceフレームのSourceを取得したセンサーを取得/設定する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/TrackingId_Property.md">TrackingId</a></td>
-<td align="left">Gets or sets the tracking id.</td>
+<td align="left"><a href="FaceFrameSource_Class/Properties/TrackingId_Property.md">TrackingId</a></td>
+<td align="left">トラッキングIDを取得する。</td>
 </tr>
 </tbody>
 </table>
+
 
 <span id="ID4EI"></span>
 

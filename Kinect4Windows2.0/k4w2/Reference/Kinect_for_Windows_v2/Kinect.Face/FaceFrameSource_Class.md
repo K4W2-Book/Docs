@@ -1,9 +1,10 @@
-FaceFrameSource Class  
+FaceFrameSource クラス  
 =====================  
 
-Represents a face frame source. <span id="syntaxSection"></span>
+FaceフレームのSource。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **FaceFrameSource** has the following members.  
 
 <span id="publicconstructorsSection"></span>
 
-Constructors  
+コンストラクタ  
 ============  
 
 <table>
@@ -73,21 +74,21 @@ Constructors
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceFrameSource_Class/Constructor.md">FaceFrameSource</a></td>
-<td align="left">Initializes a new instance of the FaceFrameSource class.</td>
+<td align="left">FaceFrameSourceクラスの新しいインスタンスを作成する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -97,37 +98,37 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceFrameSource_Class/Properties/FaceFrameFeatures_Property.md">FaceFrameFeatures</a></td>
-<td align="left">Gets the flags that indicate which face frame features data are present in this face frame.</td>
+<td align="left">Faceフレームの有効な機能を取得/設定する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceFrameSource_Class/Properties/IsActive_Property.md">IsActive</a></td>
-<td align="left">Gets the current activity status of this source.</td>
+<td align="left">FaceフレームのSourceの動作状況を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="FaceFrameSource_Class/Properties/IsTrackingIdValid_Property.md">IsTrackingIdValid</a></td>
-<td align="left">Gets a boolean that indicates if the tracking id is valid.</td>
+<td align="left">トラッキングIDが有効であるかを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceFrameSource_Class/Properties/KinectSensor_Property.md">KinectSensor</a></td>
-<td align="left">Gets the Kinect sensor associated with the face frame source.</td>
+<td align="left">FaceフレームのSourceを取得したセンサーを取得/設定する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="FaceFrameSource_Class/Properties/TrackingId_Property.md">TrackingId</a></td>
-<td align="left">Gets or sets the tracking id.</td>
+<td align="left">トラッキングIDを取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -137,21 +138,21 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceFrameSource_Class/Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Opens a new stream reader. This reader must be disposed.</td>
+<td align="left">FaceフレームのReaderを開く。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publiceventsSection"></span>
 
-Events  
+イベント
 ======  
 
 <table>
@@ -161,18 +162,18 @@ Events
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceFrameSource_Class/Events/PropertyChanged_Event.md">PropertyChanged</a></td>
-<td align="left">Occurs when a property of the <a href="">FaceFrameSource</a> changes.</td>
+<td align="left"><a href="">FaceFrameSource</a>のプロパティが変更されたことを通知するイベント。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceFrameSource_Class/Events/TrackingIdLost_Event.md">TrackingIdLost</a></td>
-<td align="left">This event occurs when invalid frames arrive for the TrackingId listed in the event args.</td>
+<td align="left">トラッキングIDがロストしたことを通知するイベント。</td>
 </tr>
 </tbody>
 </table>
