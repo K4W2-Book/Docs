@@ -1,9 +1,10 @@
-FaceModel.SkinColor Property  
+FaceModel.SkinColor プロパティ  
 ============================  
 
-Gets the skin color of the face model. <span id="syntaxSection"></span>
+肌の色を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

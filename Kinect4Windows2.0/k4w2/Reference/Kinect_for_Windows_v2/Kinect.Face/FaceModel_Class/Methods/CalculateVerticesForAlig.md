@@ -1,9 +1,10 @@
-FaceModel.CalculateVerticesForAlignment Method  
+FaceModel.CalculateVerticesForAlignment メソッド  
 ==============================================  
 
-Calculates vertices for alignment. <span id="syntaxSection"></span>
+位置合わせされた顔モデルから頂点の座標(Camera座標系)を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -60,14 +61,14 @@ IVectorView&lt;<a href="../../../Kinect/CameraSpacePoint_Structure.md">CameraSpa
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *faceAlignment*    
 Type: [FaceAlignment](../../FaceAlignment_Class.md)  
-The face alignment.  
+位置合わせされたFaceAlignmentクラス。
 
 <span id="ID4EP"></span>
-#### Return value  
+#### 戻り値
 
 [C++]   
  [C\#]   
@@ -77,7 +78,7 @@ Type: [IVectorView](http://msdn.microsoft.com/en-us/library/br226058.aspx)\<[Cam
 Type: [IReadOnlyList](http://msdn.microsoft.com/en-us/library/hh192385.aspx)\<[CameraSpacePoint](../../../Kinect/CameraSpacePoint_Structure.md), \>
 Type: [IVectorView](http://msdn.microsoft.com/en-us/library/br226058.aspx)\<[CameraSpacePoint](../../../Kinect/CameraSpacePoint_Structure.md), \>
 
-The calculated vertices.  
+顔モデルの頂点(Camera座標系)の配列。  
 
 <span id="requirements"></span>
 

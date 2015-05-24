@@ -1,9 +1,10 @@
-FaceModel Class  
+FaceModel クラス
 ===============  
 
-Represents a face model. <span id="syntaxSection"></span>
+顔のモデル。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>
@@ -56,14 +57,14 @@ Syntax
 
 <span id="classMembersSection"></span>
 
-Members  
+メンバ
 =======  
 
 **FaceModel** has the following members.  
 
 <span id="publicconstructorsSection"></span>
 
-Constructors  
+コンストラクタ
 ============  
 
 <table>
@@ -73,21 +74,21 @@ Constructors
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceModel_Class/Constructor.md">FaceModel</a></td>
-<td align="left">Overloaded. Initializes a new instance of the FaceModel class.</td>
+<td align="left">新しいFaceModelクラスのインスタンスを生成する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -97,45 +98,45 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceModel_Class/Properties/FaceShapeDeformations.md">FaceShapeDeformations</a></td>
-<td align="left">Gets a collection of face shape deformations.</td>
+<td align="left">シェイプユニットを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceModel_Class/Properties/HairColor_Property.md">HairColor</a></td>
-<td align="left">Gets the hair color of the face model.</td>
+<td align="left">髪の色を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="FaceModel_Class/Properties/Scale_Property.md">Scale</a></td>
-<td align="left">Gets the scaling factor of the face model.</td>
+<td align="left">顔モデルの相対的なスケールを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceModel_Class/Properties/SkinColor_Property.md">SkinColor</a></td>
-<td align="left">Gets the skin color of the face model.</td>
+<td align="left">肌の色を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="FaceModel_Class/Properties/TriangleCount_Property.md">TriangleCount</a></td>
-<td align="left">Gets the number of triangles in the face model.</td>
+<td align="left">顔モデルの三角形の数を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="FaceModel_Class/Properties/TriangleIndices_Property.md">TriangleIndices</a></td>
-<td align="left">Gets the collection of triangle indices for the face model.</td>
+<td align="left">顔モデルの三角形のインデックスを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="FaceModel_Class/Properties/VertexCount_Property.md">VertexCount</a></td>
-<td align="left">Gets the number of vertices in the face model.</td>
+<td align="left">顔モデルの頂点の数を取得する。</td>
 </tr>
 </tbody>
 </table>
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -145,14 +146,14 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left"><a href="FaceModel_Class/Methods/CalculateVerticesForAlignm.md">CalculateVerticesForAlignment</a></td>
-<td align="left">Calculates vertices for alignment.</td>
+<td align="left">位置合わせされた顔モデルから頂点の座標(Camera座標系)を取得する。</td>
 </tr>
 </tbody>
 </table>

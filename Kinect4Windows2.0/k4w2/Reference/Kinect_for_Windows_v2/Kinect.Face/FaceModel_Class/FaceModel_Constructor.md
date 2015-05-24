@@ -1,15 +1,15 @@
-FaceModel Constructor  
+FaceModel コンストラクタ  
 =====================  
 
-Initializes a new instance of the FaceModel class.<span id="overloadsSection"></span>
+新しいFaceModelクラスのインスタンスを生成する。<span id="overloadsSection"></span>
 
-Overload list  
+オーバーロードの種類
 =============  
 
-| Name                                                                                     | Description                                        |
+| 名前                                                                                     | 説明                                        |
 |------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [FaceModel ()](FaceModel_Constructor/FaceModel_Constructor_0.md)                         | Initializes a new instance of the FaceModel class. |
-| [FaceModel (Single, Generic IMapView)](FaceModel_Constructor/FaceModel_Constructor_0.md) | Initializes a new instance of the face model.      |
+| [FaceModel ()](FaceModel_Constructor/FaceModel_Constructor_0.md)                         | 新しいFaceModelクラスのインスタンスを生成する。 |
+| [FaceModel (Single, Generic IMapView)](FaceModel_Constructor/FaceModel_Constructor_0.md) | 新しいFaceModelクラスのインスタンスを生成する。      |
 
 <span id="ID4EK"></span>
 

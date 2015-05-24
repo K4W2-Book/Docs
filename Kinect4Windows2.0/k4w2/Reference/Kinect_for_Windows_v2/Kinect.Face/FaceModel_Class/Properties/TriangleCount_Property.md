@@ -1,9 +1,10 @@
-FaceModel.TriangleCount Property  
+FaceModel.TriangleCount プロパティ  
 ================================  
 
-Gets the number of triangles in the face model. <span id="syntaxSection"></span>
+顔モデルの三角形の数を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

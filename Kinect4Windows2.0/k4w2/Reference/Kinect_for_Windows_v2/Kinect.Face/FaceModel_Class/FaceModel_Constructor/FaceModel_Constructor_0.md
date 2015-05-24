@@ -62,7 +62,7 @@ FaceModel(
 </table>
 
 <span id="ID4EG"></span>
-#### Parameters  
+#### 引数  
 
 *scale*    
 [C++] Type: float32  
@@ -70,7 +70,7 @@ FaceModel(
   [JavaScript] Type: Number  
    
 
-The scale of the model.  
+顔モデルの大きさ。
 
 *faceShapeDeformations*    
 [C++] Type: [IMapView](http://msdn.microsoft.com/en-us/library/br226037.aspx)\<[FaceShapeDeformations](../../FaceShapeDeformations.md), float32, \>
@@ -78,7 +78,7 @@ The scale of the model.
   [JavaScript] Type: [IMapView](http://msdn.microsoft.com/en-us/library/br226037.aspx)\<[FaceShapeDeformations](../../FaceShapeDeformations.md), Number, \>
    
 
-The face shape deformations of the model.  
+シェイプユニットのリスト。  
 
 <span id="requirements"></span>
 

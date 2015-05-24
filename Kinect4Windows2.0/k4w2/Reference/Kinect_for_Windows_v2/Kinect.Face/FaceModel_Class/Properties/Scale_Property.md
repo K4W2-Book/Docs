@@ -1,9 +1,10 @@
-FaceModel.Scale Property  
+FaceModel.Scale プロパティ  
 ========================  
 
-Gets the scaling factor of the face model. <span id="syntaxSection"></span>
+顔モデルの相対的なスケールを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

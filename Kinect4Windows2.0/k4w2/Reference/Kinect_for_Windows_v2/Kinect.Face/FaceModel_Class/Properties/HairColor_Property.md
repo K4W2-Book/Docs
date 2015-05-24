@@ -1,9 +1,10 @@
-FaceModel.HairColor Property  
+FaceModel.HairColor プロパティ  
 ============================  
 
-Gets the hair color of the face model. <span id="syntaxSection"></span>
+髪の色を取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

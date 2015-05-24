@@ -1,9 +1,9 @@
-FaceModel Methods  
+FaceModel メソッド  
 =================  
 
 <span id="publicmethodsSection"></span>
 
-Methods  
+メソッド
 =======  
 
 <table>
@@ -13,14 +13,14 @@ Methods
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Methods/CalculateVerticesForAlignm.md">CalculateVerticesForAlignment</a></td>
-<td align="left">Calculates vertices for alignment.</td>
+<td align="left"><a href="FaceModel_Class/Methods/CalculateVerticesForAlignm.md">CalculateVerticesForAlignment</a></td>
+<td align="left">位置合わせされた顔モデルから頂点の座標(Camera座標系)を取得する。</td>
 </tr>
 </tbody>
 </table>

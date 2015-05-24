@@ -1,9 +1,9 @@
-FaceModel Properties  
+FaceModel プロパティ  
 ====================  
 
 <span id="publicpropertiesSection"></span>
 
-Properties  
+プロパティ
 ==========  
 
 <table>
@@ -13,38 +13,38 @@ Properties
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
+<th align="left">名前</th>
+<th align="left">説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="Properties/FaceShapeDeformations.md">FaceShapeDeformations</a></td>
-<td align="left">Gets a collection of face shape deformations.</td>
+<td align="left"><a href="FaceModel_Class/Properties/FaceShapeDeformations.md">FaceShapeDeformations</a></td>
+<td align="left">シェイプユニットを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/HairColor_Property.md">HairColor</a></td>
-<td align="left">Gets the hair color of the face model.</td>
+<td align="left"><a href="FaceModel_Class/Properties/HairColor_Property.md">HairColor</a></td>
+<td align="left">髪の色を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/Scale_Property.md">Scale</a></td>
-<td align="left">Gets the scaling factor of the face model.</td>
+<td align="left"><a href="FaceModel_Class/Properties/Scale_Property.md">Scale</a></td>
+<td align="left">顔モデルの相対的なスケールを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/SkinColor_Property.md">SkinColor</a></td>
-<td align="left">Gets the skin color of the face model.</td>
+<td align="left"><a href="FaceModel_Class/Properties/SkinColor_Property.md">SkinColor</a></td>
+<td align="left">肌の色を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/TriangleCount_Property.md">TriangleCount</a></td>
-<td align="left">Gets the number of triangles in the face model.</td>
+<td align="left"><a href="FaceModel_Class/Properties/TriangleCount_Property.md">TriangleCount</a></td>
+<td align="left">顔モデルの三角形の数を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="Properties/TriangleIndices_Property.md">TriangleIndices</a></td>
-<td align="left">Gets the collection of triangle indices for the face model.</td>
+<td align="left"><a href="FaceModel_Class/Properties/TriangleIndices_Property.md">TriangleIndices</a></td>
+<td align="left">顔モデルの三角形のインデックスを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="Properties/VertexCount_Property.md">VertexCount</a></td>
-<td align="left">Gets the number of vertices in the face model.</td>
+<td align="left"><a href="FaceModel_Class/Properties/VertexCount_Property.md">VertexCount</a></td>
+<td align="left">顔モデルの頂点の数を取得する。</td>
 </tr>
 </tbody>
 </table>

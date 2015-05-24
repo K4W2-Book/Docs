@@ -1,9 +1,10 @@
-FaceModel.TriangleIndices Property  
+FaceModel.TriangleIndices プロパティ  
 ==================================  
 
-Gets the collection of triangle indices for the face model. <span id="syntaxSection"></span>
+顔モデルの三角形のインデックスを取得する。
+<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

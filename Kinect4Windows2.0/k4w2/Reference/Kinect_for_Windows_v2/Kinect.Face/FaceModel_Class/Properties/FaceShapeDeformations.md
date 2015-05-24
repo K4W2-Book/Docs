@@ -1,9 +1,9 @@
-FaceModel.FaceShapeDeformations Property  
+FaceModel.FaceShapeDeformations プロパティ  
 ========================================  
 
-Gets a collection of face shape deformations. <span id="syntaxSection"></span>
+シェイプユニットを取得する。<span id="syntaxSection"></span>
 
-Syntax  
+構文
 ======  
 
 <table>

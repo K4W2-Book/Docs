@@ -1,9 +1,10 @@
-FaceModel.VertexCount Property  
+FaceModel.VertexCount プロパティ  
 ==============================  
 
-Gets the number of vertices in the face model. <span id="syntaxSection"></span>
+顔モデルの頂点の数を取得する。
+ <span id="syntaxSection"></span>
 
-Syntax  
+構文  
 ======  
 
 <table>
