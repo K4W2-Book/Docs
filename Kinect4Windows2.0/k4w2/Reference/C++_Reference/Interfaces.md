@@ -49,10 +49,10 @@ Bodyフレームのイベントデータ。
 BodyフレームのReader。  
 
 [IBodyFrameReference](Interfaces/IBodyFrameReference.md)    
-Represents an interface to a reference to an actual body frame.  
+BodyフレームのReference。  
 
 [IBodyFrameSource](Interfaces/IBodyFrameSource_Interface.md)    
-Represents an interface to a body frame source.  
+BodyフレームのSource。  
 
 [IBodyHandPair](Interfaces/IBodyHandPair_Interface.md)    
 Represents a pairing of a tracked body and an indicator of whether the associated hand is the right or left hand of the tracked body.  
