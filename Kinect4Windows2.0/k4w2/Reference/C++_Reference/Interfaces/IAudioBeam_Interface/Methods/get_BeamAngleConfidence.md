@@ -1,7 +1,7 @@
 IAudioBeam::get\_BeamAngleConfidence Method  
 ===========================================  
 
-Beamformingの角度の信頼値を取得する。<br/>信頼値は[0.0f,1.0f]の範囲で、値が大きいほど角度は信頼できます。 <span id="syntaxSection"></span>
+AudioBeamの角度の信頼値を取得する。<br/>信頼値は[0.0f,1.0f]の範囲で、値が大きいほど角度は信頼できます。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,7 +30,7 @@ HRESULT get_BeamAngleConfidence(
 
 *beamAngleConfidence*    
 Type: float  
-[out] Beamformingの角度の信頼値。  
+[out] AudioBeamの角度の信頼値。  
 
 <span id="ID4EP"></span>
 #### Return value  

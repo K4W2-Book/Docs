@@ -1,7 +1,7 @@
 IAudioBeam::get\_BeamAngle Method  
 =================================  
 
-Beamformingの角度を取得する。 <span id="syntaxSection"></span>
+AudioBeamの角度を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,7 +30,7 @@ HRESULT get_BeamAngle(
 
 *beamAngle*    
 Type: float  
-[out] Beamformingの角度(ラジアン)。  
+[out] AudioBeamの角度(ラジアン)。  
 
 <span id="ID4EP"></span>
 #### Return value  
@@ -43,7 +43,7 @@ Type: HRESULT
 Remarks  
 =======  
 
-Beamformingは[-0.872665f, 0.872665f]\(度数法では[-50.0, 50.0])の範囲で取得できる。  
+AudioBeamは[-0.872665f, 0.872665f]\(度数法では[-50.0, 50.0])の範囲で取得できる。  
 弧度法から度数法へは、  
 
     degree = ( radian * 180.0f ) / π  

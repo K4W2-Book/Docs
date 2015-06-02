@@ -1,7 +1,7 @@
 IAudioBeam::get\_AudioSource Method  
 ===================================  
 
-[IAudioSource](../../IAudioSource_Interface.md)を取得する。 <span id="syntaxSection"></span>
+AudioBeamフレームのSourceを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  

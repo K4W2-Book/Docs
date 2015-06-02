@@ -1,7 +1,7 @@
 IAudioBeam::put\_AudioBeamMode Method  
 =====================================  
 
-Beamformingの角度を測定するモードを設定する。 <span id="syntaxSection"></span>
+AudioBeamの角度を測定するモードを設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,7 +30,7 @@ HRESULT put_AudioBeamMode(
 
 *audioBeamMode*    
 Type: [AudioBeamMode](../../../Enumerations/AudioBeamMode_Enumeration.md)  
-Beamformingの角度を測定するモード  
+AudioBeamの角度を測定するモード  
 
 <span id="ID4EP"></span>
 #### Return value  
@@ -43,8 +43,8 @@ Type: HRESULT
 Remarks  
 =======  
 
-AudioBeamMode\_Automaticに設定されている場合、Beamformingは音源方向を向きます。  
-AudioBeamMode\_Manualに設定されている場合、Beamformingは[put\_BeamAngle](put_BeamAngle_Method.md)で設定された値に固定されます。  
+AudioBeamMode\_Automaticに設定されている場合、AudioBeamは音源方向を向きます。  
+AudioBeamMode\_Manualに設定されている場合、AudioBeamは[put\_BeamAngle](put_BeamAngle_Method.md)で設定された値に固定されます。  
 
 <span id="requirements"></span>
 

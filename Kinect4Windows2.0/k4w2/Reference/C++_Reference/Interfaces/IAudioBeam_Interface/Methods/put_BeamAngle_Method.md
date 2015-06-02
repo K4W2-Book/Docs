@@ -1,7 +1,7 @@
 IAudioBeam::put\_BeamAngle Method  
 =================================  
 
-Beamformingの角度を設定する。 <span id="syntaxSection"></span>
+AudioBeamの角度を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,7 +30,7 @@ HRESULT put_BeamAngle(
 
 *beamAngle*    
 Type: float  
-Beamformingの角度(ラジアン)。  
+AudioBeamの角度(ラジアン)。  
 
 <span id="ID4EP"></span>
 #### Return value  
@@ -43,7 +43,7 @@ Type: HRESULT
 Remarks  
 =======  
 
-Beamformingは[-0.872665f, 0.872665f]\(度数法では[-50.0, 50.0])の範囲で設定できる。  
+AudioBeamは[-0.872665f, 0.872665f]\(度数法では[-50.0, 50.0])の範囲で設定できる。  
 度数法から弧度法へは、  
 
     radian = degree * ( π / 180.0f )  

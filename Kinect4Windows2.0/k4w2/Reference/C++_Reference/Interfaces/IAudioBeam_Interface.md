@@ -1,7 +1,7 @@
 IAudioBeam Interface  
 ====================  
 
-Audioビーム。 <span id="syntaxSection"></span>
+AudioBeam。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -48,23 +48,23 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IAudioBeam_Interface/Methods/get_AudioBeamMode_Method.md">get_AudioBeamMode</a></td>
-<td align="left">Beamformingの角度を測定するモードを取得する。</td>
+<td align="left">AudioBeamの角度を測定するモードを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeam_Interface/Methods/get_AudioSource_Method.md">get_AudioSource</a></td>
-<td align="left">[IAudioSource](IAudioSource_Interface.md)を取得する。</td>
+<td align="left">AudioBeamフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeam_Interface/Methods/get_BeamAngle_Method.md">get_BeamAngle</a></td>
-<td align="left">Beamformingの角度を取得する。</td>
+<td align="left">AudioBeamの角度を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeam_Interface/Methods/get_BeamAngleConfidence.md">get_BeamAngleConfidence</a></td>
-<td align="left">Beamformingの角度の信頼値を取得する。<br/>信頼値は[0.0f,1.0f]の範囲で、値が大きいほど角度は信頼できます。</td>
+<td align="left">AudioBeamの角度の信頼値を取得する。<br/>信頼値は[0.0f,1.0f]の範囲で、値が大きいほど角度は信頼できます。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeam_Interface/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Beamformingを取得した時間(相対時間)を取得する。</td>
+<td align="left">AudioBeamを取得した時間(相対時間)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeam_Interface/Methods/OpenInputStream_Method.md">OpenInputStream</a></td>
@@ -72,11 +72,11 @@ Methods
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeam_Interface/Methods/put_AudioBeamMode_Method.md">put_AudioBeamMode</a></td>
-<td align="left">Beamformingの角度を測定するモードを設定する。</td>
+<td align="left">AudioBeamの角度を測定するモードを設定する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeam_Interface/Methods/put_BeamAngle_Method.md">put_BeamAngle</a></td>
-<td align="left">Beamformingの角度を設定する。</td>
+<td align="left">AudioBeamの角度を設定する。</td>
 </tr>
 </tbody>
 </table>

@@ -1,7 +1,7 @@
 IAudioBeam::get\_RelativeTime Method  
 ====================================  
 
-Beamformingを取得した時間(相対時間)を取得する。 <span id="syntaxSection"></span>
+AudioBeamを取得した時間(相対時間)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,7 +30,7 @@ HRESULT get_RelativeTime(
 
 *relativeTime*    
 Type: TIMESPAN  
-[out] Beamformingを取得した時間(相対時間)。  
+[out] AudioBeamを取得した時間(相対時間)。  
 
 <span id="ID4EP"></span>
 #### Return value  
