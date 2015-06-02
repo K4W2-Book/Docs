@@ -1,7 +1,7 @@
 IAudioBeamSubFrame::CopyFrameDataToArray Method  
 ===============================================  
 
-Copies the infrared frame data to an unsigned short array. <span id="syntaxSection"></span>
+AudioBeamサブフレームのデータを取得する。(コピー) <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,24 +31,24 @@ HRESULT CopyFrameDataToArray(
 
 *capacity*    
 Type: \_Pre\_equal\_to\_(1024)UINT  
-Size of the buffer provided.  
+バッファのサイズ。(1024)  
 
 *frameData*    
 Type: BYTE  
-[out] The array to which to copy the sub frame data.  
+[out] データをコピーする配列の先頭アドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-The byte array is a mono 32-bit IEEE floating point PCM stream sampled at 16 kHz. Typical PCM values will be between -1 and +1.  
+データは、16kHz/32bit(float)でサンプリングされたモノラルPCMデータ[-1.0f, 1.0f]です。  
 
 <span id="requirements"></span>
 

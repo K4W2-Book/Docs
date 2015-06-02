@@ -1,7 +1,7 @@
 IAudioBeamSubFrame::get\_AudioBeamMode Method  
 =============================================  
 
-Gets the audio beam mode, which detemines the type of beam angle. <span id="syntaxSection"></span>
+AudioBeamの角度を測定するモードを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_AudioBeamMode(
 
 *audioBeamMode*    
 Type: AudioBeamMode  
-[out] The audio beam mode.  
+[out] AudioBeamの角度を測定するモード。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

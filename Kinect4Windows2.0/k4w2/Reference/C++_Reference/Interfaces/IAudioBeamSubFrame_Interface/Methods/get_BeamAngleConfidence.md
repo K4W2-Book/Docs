@@ -1,7 +1,7 @@
 IAudioBeamSubFrame::get\_BeamAngleConfidence Method  
 ===================================================  
 
-Gets the confidence in the beam angle; the range is [0.0, 1.0], where 1 is the highest possible confidence. <span id="syntaxSection"></span>
+AudioBeamの角度の信頼値を取得する。<br/>信頼値は[0.0f,1.0f]の範囲で、値が大きいほど角度は信頼できます。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_BeamAngleConfidence(
 
 *beamAngleConfidence*    
 Type: float  
-[out] The confidence in the beam angle.  
+[out] AudioBeamの角度の信頼値。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

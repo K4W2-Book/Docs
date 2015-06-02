@@ -1,7 +1,7 @@
 IAudioBeamSubFrame Interface  
 ============================  
 
-Represents and audio beam sub frame. <span id="syntaxSection"></span>
+AudioBeamサブフレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IAudioBeamSubFrame** has the following members.  
+**IAudioBeamSubFrame**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,43 +48,43 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamSubFrame_Interface/Methods/AccessUnderlyingBuffer.md">AccessUnderlyingBuffer</a></td>
-<td align="left">Returns a pointer to audio beam sub frame data.</td>
+<td align="left">AudioBeamサブフレームのデータを取得する。(ポインタ参照)</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamSubFrame_Interface/Methods/CopyFrameDataToArray_Method.md">CopyFrameDataToArray</a></td>
-<td align="left">Copies the infrared frame data to an unsigned short array.</td>
+<td align="left">AudioBeamサブフレームのデータを取得する。(コピー)</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamSubFrame_Interface/Methods/get_AudioBeamMode_Method.md">get_AudioBeamMode</a></td>
-<td align="left">Gets the audio beam mode, which detemines the type of beam angle.</td>
+<td align="left">AudioBeamの角度を測定するモードを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamSubFrame_Interface/Methods/get.md">get_AudioBodyCorrelationCount</a></td>
-<td align="left">Gets a collection of audio body correlations.</td>
+<td align="left">AudioBeamサブフレームに関連するBodyの数を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamSubFrame_Interface/Methods/get_BeamAngle_Method.md">get_BeamAngle</a></td>
-<td align="left">Gets the beam angle, which is the direction that the sensor is actively listening.</td>
+<td align="left">AudioBeamの角度を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamSubFrame_Interface/Methods/get_BeamAngleConfidence.md">get_BeamAngleConfidence</a></td>
-<td align="left">Gets the confidence in the beam angle; the range is [0.0, 1.0], where 1 is the highest possible confidence.</td>
+<td align="left">AudioBeamの角度の信頼値を取得する。<br/>信頼値は[0.0f,1.0f]の範囲で、値が大きいほど角度は信頼できます。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamSubFrame_Interface/Methods/get_Duration_Method.md">get_Duration</a></td>
-<td align="left">Gets the duration of the audio beam sub frame.</td>
+<td align="left">AudioBeamサブフレームのサンプリング時間を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamSubFrame_Interface/Methods/get_FrameLengthInBytes.md">get_FrameLengthInBytes</a></td>
-<td align="left">Gets the length of a frame in bytes.</td>
+<td align="left">AudioBeamサブフレームのサイズ(Byte)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamSubFrame_Interface/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the relative time of this sub frame.</td>
+<td align="left">AudioBeamサブフレームの取得時間(相対時間)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamSubFrame_Interface/Methods/GetAudioBodyCorrelation.md">GetAudioBodyCorrelation</a></td>
-<td align="left">Returns the AudioBodyCorrelation associated with the sub frame which contains a body tracking id.</td>
+<td align="left">AudioBeamサブフレームに関連するBodyを取得する。</td>
 </tr>
 </tbody>
 </table>

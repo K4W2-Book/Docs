@@ -1,7 +1,7 @@
 IAudioBeamSubFrame::GetAudioBodyCorrelation Method  
 ==================================================  
 
-Returns the AudioBodyCorrelation associated with the sub frame which contains a body tracking id. <span id="syntaxSection"></span>
+AudioBeamサブフレームに関連するBodyを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetAudioBodyCorrelation(
 
 *index*    
 Type: UINT  
-[in] the index of the sub frame that contains the AudioBodyCorrelation.  
+[in] AudioBeamサブフレームに関連するBodyのインデックス。  
 
 *ppAudioBodyCorrelation*    
 Type: IAudioBodyCorrelation  
-[out] Pointer to the AudioBodyCorrelation associated with the sub frame.  
+[out] [IAudioBodyCorrelation](../../IAudioBodyCorrelation.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

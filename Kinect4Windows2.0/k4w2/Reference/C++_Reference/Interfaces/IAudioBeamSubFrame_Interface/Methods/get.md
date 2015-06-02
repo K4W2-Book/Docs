@@ -1,7 +1,7 @@
 IAudioBeamSubFrame::get\_AudioBodyCorrelationCount Method  
 =========================================================  
 
-Gets a collection of audio body correlations. <span id="syntaxSection"></span>
+AudioBeamサブフレームに関連するBodyの数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_AudioBodyCorrelationCount(
 
 *pCount*    
 Type: UINT32  
-[out] A collection of audio body correlations.  
+[out] AudioBeamサブフレームに関連するBodyの数。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

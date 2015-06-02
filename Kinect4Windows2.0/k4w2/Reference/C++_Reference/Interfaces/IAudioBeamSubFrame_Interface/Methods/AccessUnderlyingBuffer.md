@@ -1,7 +1,7 @@
 IAudioBeamSubFrame::AccessUnderlyingBuffer Method  
 =================================================  
 
-Returns a pointer to audio beam sub frame data. <span id="syntaxSection"></span>
+AudioBeamサブフレームのデータを取得する。(ポインタ参照) <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,24 +31,24 @@ HRESULT AccessUnderlyingBuffer(
 
 *capacity*    
 Type: UINT  
-[out] When this method returns, contains the size of the frame data buffer in bytes.  
+[out] データのサイズ。(Byte)  
 
 *buffer*    
 Type: BYTE  
-[out] When this method returns, contains the pointer to the frame data.  
+[out] データへのポインタ。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-The byte array is a mono 32-bit IEEE floating point PCM stream sampled at 16 kHz. Typical PCM values will be between -1 and +1.  
+データは、16kHz/32bit(float)でサンプリングされたモノラルPCMデータ[-1.0f, 1.0f]です。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 IAudioBeamSubFrame::get\_Duration Method  
 ========================================  
 
-Gets the duration of the audio beam sub frame. <span id="syntaxSection"></span>
+AudioBeamサブフレームのサンプリング時間を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_Duration(
 
 *duration*    
 Type: TIMESPAN  
-[out] The timestamp of the audio beam sub frame.  
+[out] AudioBeamサブフレームのサンプリング時間。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
