@@ -7,34 +7,34 @@ Kinect Interfaces
 =================  
 
 [IAudioBeam](Interfaces/IAudioBeam_Interface.md)    
-Represents an audio beam.  
+AudioBeam。  
 
 [IAudioBeamFrame](Interfaces/IAudioBeamFrame_Interface.md)    
-Represents an audio beam frame.  
+AudioBeamフレーム。  
 
 [IAudioBeamFrameArrivedEventArgs](Interfaces/IAudioBeamFrameArrivedEven.md)    
-Arguments for the IAudioBeamFrame FrameReady events.  
+AudioBeamフレームのイベントデータ。  
 
 [IAudioBeamFrameList](Interfaces/IAudioBeamFrameList.md)    
-Represents a list of audio beam frames.  
+AudioBeamフレームのリスト。  
 
 [IAudioBeamFrameReader](Interfaces/IAudioBeamFrameReader.md)    
-Represents an audio frame reader.  
+AudioBeamフレームのReader。  
 
 [IAudioBeamFrameReference](Interfaces/IAudioBeamFrameReference.md)    
-Represents an audio frame reference.  
+AudioBeamフレームのReference。  
 
 [IAudioBeamList](Interfaces/IAudioBeamList_Interface.md)    
-Represents a collection of audio beams.  
+AudioBeamのリスト。  
 
 [IAudioBeamSubFrame](Interfaces/IAudioBeamSubFrame_Interface.md)    
-Represents and audio beam sub frame.  
+AudioBeamサブフレーム。  
 
 [IAudioBodyCorrelation](Interfaces/IAudioBodyCorrelation.md)    
-Represents an AudioBodyCorrelation class which contains a body tracking id.  
+AudioBeamサブフレームに関連するBody。  
 
 [IAudioSource](Interfaces/IAudioSource_Interface.md)    
-Represents an audio frame source.  
+AudioフレームのSource。  
 
 [IBody](Interfaces/IBody_Interface.md)    
 Represents a body.  
