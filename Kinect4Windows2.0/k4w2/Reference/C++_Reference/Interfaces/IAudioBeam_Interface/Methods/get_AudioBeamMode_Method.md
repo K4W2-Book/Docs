@@ -1,7 +1,7 @@
 IAudioBeam::get\_AudioBeamMode Method  
 =====================================  
 
-Gets the audio beam mode, which detemines the type of beam angle. <span id="syntaxSection"></span>
+Beamformingの角度を測定するモードを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,20 +30,21 @@ HRESULT get_AudioBeamMode(
 
 *audioBeamMode*    
 Type: AudioBeamMode  
-[out] Pointer to the audio beam mode  
+[out] Beamformingの角度を測定するモード  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-If the mode is set to AudioBeamMode\_Automatic, the beam angle actively follows the direction of sound source. If the mode is set to AudioBeamMode\_Manual, the beam angle is fixed at the value set by calling [put\_BeamAngle](put_BeamAngle_Method.md).  
+AudioBeamMode\_Automaticに設定されている場合、Beamformingは音源方向を向きます。  
+AudioBeamMode\_Manualに設定されている場合、Beamformingは[put\_BeamAngle](put_BeamAngle_Method.md)で設定された値に固定されます。  
 
 <span id="requirements"></span>
 

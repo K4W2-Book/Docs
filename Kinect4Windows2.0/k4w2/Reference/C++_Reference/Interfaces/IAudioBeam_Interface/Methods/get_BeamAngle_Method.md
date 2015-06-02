@@ -1,7 +1,7 @@
 IAudioBeam::get\_BeamAngle Method  
 =================================  
 
-Gets the beam angle, which is the direction that the sensor is actively listening. <span id="syntaxSection"></span>
+Beamformingの角度を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,20 +30,25 @@ HRESULT get_BeamAngle(
 
 *beamAngle*    
 Type: float  
-[out] The beam angle.  
+[out] Beamformingの角度(ラジアン)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-This is a value in radians between -0.872665 and +0.872665 radians (-50 and +50 in degrees) in .087 radian (5 degree) increments.  
+Beamformingは[-0.872665f, 0.872665f]\(度数法では[-50.0, 50.0])の範囲で取得できる。  
+弧度法から度数法へは、  
+
+    degree = ( radian * 180.0f ) / π  
+
+で変換できる。
 
 <span id="requirements"></span>
 

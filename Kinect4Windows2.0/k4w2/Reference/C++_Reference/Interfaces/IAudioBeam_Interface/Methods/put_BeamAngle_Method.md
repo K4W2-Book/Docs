@@ -1,7 +1,7 @@
 IAudioBeam::put\_BeamAngle Method  
 =================================  
 
-Sets the beam angle, which is the direction that the sensor is actively listening. <span id="syntaxSection"></span>
+Beamformingの角度を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,20 +30,25 @@ HRESULT put_BeamAngle(
 
 *beamAngle*    
 Type: float  
-The beam angle.  
+Beamformingの角度(ラジアン)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-This value must be in the range of -0.872665 to +0.872665, inclusive. This is a value in radians that translates to between -50 and +50 in degrees.  
+Beamformingは[-0.872665f, 0.872665f]\(度数法では[-50.0, 50.0])の範囲で設定できる。  
+度数法から弧度法へは、  
+
+    radian = degree * ( π / 180.0f )  
+
+で変換できる。  
 
 <span id="requirements"></span>
 

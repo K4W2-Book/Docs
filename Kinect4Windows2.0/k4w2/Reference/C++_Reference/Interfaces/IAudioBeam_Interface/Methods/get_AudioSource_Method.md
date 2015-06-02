@@ -1,7 +1,7 @@
 IAudioBeam::get\_AudioSource Method  
 ===================================  
 
-Gets the audio source. <span id="syntaxSection"></span>
+[IAudioSource](../../IAudioSource_Interface.md)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_AudioSource(
 
 *audioSource*    
 Type: IAudioSource  
-[out] Pointer to the audio source.  
+[out] [IAudioSource](../../IAudioSource_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

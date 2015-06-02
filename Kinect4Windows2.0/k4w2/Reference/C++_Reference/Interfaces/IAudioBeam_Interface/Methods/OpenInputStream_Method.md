@@ -1,7 +1,7 @@
 IAudioBeam::OpenInputStream Method  
 ==================================  
 
-Gets the input stream. <span id="syntaxSection"></span>
+音声データの入力ストリームを開く。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,20 +30,20 @@ HRESULT OpenInputStream(
 
 *stream*    
 Type: IStream  
-[out] The input stream.  
+[out] IStreamのポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-The input stream is a mono 32-bit IEEE floating point PCM stream sampled at 16 kHz. Typical PCM values will be between -1 and +1.  
+入力ストリームは、16kHz/32bit(float)でサンプリングされたモノラルPCMデータ[-1.0f, 1.0f]です。  
 
 <span id="requirements"></span>
 
