@@ -1,7 +1,7 @@
 IAudioBeamFrameReader::GetFrameArrivedEventData Method  
 ======================================================  
 
-Gets the Frame Arrived data when a new frame is ready. <span id="syntaxSection"></span>
+新しいAudioBeamフレームが準備できたとき、イベントデータを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetFrameArrivedEventData(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] The handle to the event.  
+[in] AudioBeamフレームの更新を待つイベントハンドル。  
 
 *eventData*    
 Type: IAudioBeamFrameArrivedEventArgs  
-[out] The event data.  
+[out] AudioBeamフレームのイベントデータ。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 IAudioBeamFrameReader::AcquireLatestBeamFrames Method  
 =====================================================  
 
-Gets the latest audio beam frames. <span id="syntaxSection"></span>
+最新のAudioBeamフレームのリストを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,15 @@ HRESULT AcquireLatestBeamFrames(
 
 *audioBeamFrameList*    
 Type: IAudioBeamFrameList  
-[out] The latest audio beam frames.  
+[out] [IAudioBeamFrameList](../../IAudioBeamFrameList.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code. Returns E\_PENDING when there is no new frame ready yet. This can occur when polling too frequently.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
+新しいフレームが準備できていない場合、E\_PENDINGを返します。  
+これはポーリング間隔が早過ぎるときに発生する可能性があります。  
 
 <span id="requirements"></span>
 

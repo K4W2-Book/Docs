@@ -1,7 +1,7 @@
 IAudioBeamFrameReader::UnsubscribeFrameArrived Method  
 =====================================================  
 
-Unsubscribes an event handler to the audio beam frame reader based on the event handler's handle. <span id="syntaxSection"></span>
+AudioBeamフレームの更新を待つイベントハンドルを解除する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT UnsubscribeFrameArrived(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] Handle of the event handler.  
+[in] AudioBeamフレームの更新を待つイベントハンドル。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

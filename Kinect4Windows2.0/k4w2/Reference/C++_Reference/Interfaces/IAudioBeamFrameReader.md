@@ -1,7 +1,7 @@
 IAudioBeamFrameReader Interface  
 ===============================  
 
-Represents an audio frame reader. <span id="syntaxSection"></span>
+AudioBeamフレームのReader。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IAudioBeamFrameReader** has the following members.  
+**IAudioBeamFrameReader**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,31 +48,31 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamFrameReader/Methods/AcquireLatestBeamFrames.md">AcquireLatestBeamFrames</a></td>
-<td align="left">Gets the latest audio beam frames.</td>
+<td align="left">最新のAudioBeamフレームのリストを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamFrameReader/Methods/get_AudioSource_Method.md">get_AudioSource</a></td>
-<td align="left">Gets the audio source.</td>
+<td align="left">AudioBeamフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamFrameReader/Methods/get_IsPaused_Method.md">get_IsPaused</a></td>
-<td align="left">Gets a boolean that indicates if this reader is paused.</td>
+<td align="left">AudioBeamフレームのReaderの動作状態を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamFrameReader/Methods/GetFrameArrivedEventData.md">GetFrameArrivedEventData</a></td>
-<td align="left">Gets the Frame Arrived data when a new frame is ready.</td>
+<td align="left">新しいAudioBeamフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamFrameReader/Methods/put_IsPaused_Method.md">put_IsPaused</a></td>
-<td align="left">Sets a boolean that pauses or resumes the reader.</td>
+<td align="left">AudioBeamフレームのReaderの動作状態を設定する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamFrameReader/Methods/SubscribeFrameArrived_Method.md">SubscribeFrameArrived</a></td>
-<td align="left">Event handler to subscribe when a new frame is ready.</td>
+<td align="left">AudioBeamフレームの更新を待つイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamFrameReader/Methods/UnsubscribeFrameArrived.md">UnsubscribeFrameArrived</a></td>
-<td align="left">Unsubscribes an event handler to the audio beam frame reader based on the event handler's handle.</td>
+<td align="left">AudioBeamフレームの更新を待つイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

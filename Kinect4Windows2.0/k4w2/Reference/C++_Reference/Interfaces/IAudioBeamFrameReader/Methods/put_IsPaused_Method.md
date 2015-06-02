@@ -1,7 +1,7 @@
 IAudioBeamFrameReader::put\_IsPaused Method  
 ===========================================  
 
-Sets a boolean that pauses or resumes the reader. <span id="syntaxSection"></span>
+AudioBeamフレームのReaderの動作状態を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT put_IsPaused(
 
 *isPaused*    
 Type: BOOLEAN  
- **True**, to pause the reader; **false** to resume the reader.  
+停止させる場合は**true**、動作させる場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
