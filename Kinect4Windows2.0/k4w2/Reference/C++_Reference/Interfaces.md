@@ -37,16 +37,16 @@ AudioBeamサブフレームに関連するBody。
 AudioフレームのSource。  
 
 [IBody](Interfaces/IBody_Interface.md)    
-Represents a body.  
+Body。  
 
 [IBodyFrame](Interfaces/IBodyFrame_Interface.md)    
-Represents a frame that contains all the computed real-time tracking information about people that are in view of the sensor.  
+Bodyフレーム。  
 
 [IBodyFrameArrivedEventArgs](Interfaces/IBodyFrameArrivedEventArgs.md)    
-Arguments for the body FrameReady events.  
+Bodyフレームのイベントデータ。  
 
 [IBodyFrameReader](Interfaces/IBodyFrameReader_Interface.md)    
-Represents an interface to a body frame source reader.  
+BodyフレームのReader。  
 
 [IBodyFrameReference](Interfaces/IBodyFrameReference.md)    
 Represents an interface to a reference to an actual body frame.  
