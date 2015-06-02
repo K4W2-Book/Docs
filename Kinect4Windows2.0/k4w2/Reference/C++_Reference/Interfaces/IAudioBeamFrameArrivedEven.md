@@ -1,7 +1,7 @@
 IAudioBeamFrameArrivedEventArgs Interface  
 =========================================  
 
-Arguments for the IAudioBeamFrame FrameReady events. <span id="syntaxSection"></span>
+AudioBeamフレームのイベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IAudioBeamFrameArrivedEventArgs** has the following members.  
+**IAudioBeamFrameArrivedEventArgs**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamFrameArrivedEven/Methods/get_FrameReference_Method.md">get_FrameReference</a></td>
-<td align="left">Gets the frame reference for the IAudioBeamFrame.</td>
+<td align="left">AudioBeamフレームのReferenceを取得する。</td>
 </tr>
 </tbody>
 </table>

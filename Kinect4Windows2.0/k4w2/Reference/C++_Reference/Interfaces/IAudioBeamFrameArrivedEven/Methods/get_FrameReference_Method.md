@@ -1,7 +1,7 @@
 IAudioBeamFrameArrivedEventArgs::get\_FrameReference Method  
 ===========================================================  
 
-Gets the frame reference for the IAudioBeamFrame. <span id="syntaxSection"></span>
+AudioBeamフレームのReferenceを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FrameReference(
 
 *audioBeamFrameReference*    
 Type: IAudioBeamFrameReference  
-[out] The frame reference.  
+[out] [IAudioBeamFrameReference](../../IAudioBeamFrameReference.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
