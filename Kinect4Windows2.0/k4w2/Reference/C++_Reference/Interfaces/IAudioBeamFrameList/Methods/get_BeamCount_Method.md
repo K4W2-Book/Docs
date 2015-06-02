@@ -1,7 +1,7 @@
 IAudioBeamFrameList::get\_BeamCount Method  
 ==========================================  
 
-Gets the number of audio beams for the frame list. <span id="syntaxSection"></span>
+AudioBeamフレームの数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_BeamCount(
 
 *count*    
 Type: UINT  
-[out] The number of audio beams for the frame list.  
+[out] AudioBeamフレームの数。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

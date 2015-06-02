@@ -1,7 +1,7 @@
 IAudioBeamFrameList Interface  
 =============================  
 
-Represents a list of audio beam frames. <span id="syntaxSection"></span>
+AudioBeamフレームのリスト。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IAudioBeamFrameList** has the following members.  
+**IAudioBeamFrameList**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,11 +48,11 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamFrameList/Methods/get_BeamCount_Method.md">get_BeamCount</a></td>
-<td align="left">Gets the number of audio beams for the frame list.</td>
+<td align="left">AudioBeamフレームの数を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamFrameList/Methods/OpenAudioBeamFrame_Method.md">OpenAudioBeamFrame</a></td>
-<td align="left">Gets the audio beam frame from a list by index.</td>
+<td align="left">指定したインデックスのAudioBeamフレームを取得する。</td>
 </tr>
 </tbody>
 </table>

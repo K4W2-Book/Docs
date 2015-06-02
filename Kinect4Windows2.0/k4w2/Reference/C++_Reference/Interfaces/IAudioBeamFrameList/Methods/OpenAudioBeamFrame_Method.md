@@ -1,7 +1,7 @@
 IAudioBeamFrameList::OpenAudioBeamFrame Method  
 ==============================================  
 
-Gets the audio beam frame from a list by index. <span id="syntaxSection"></span>
+指定したインデックスのAudioBeamフレームを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT OpenAudioBeamFrame(
 
 *index*    
 Type: UINT32  
-The index into the audio beam frame list.  
+Audioビームフレームのインデックス。  
 
 *audioBeamFrame*    
 Type: IAudioBeamFrame  
-[out] The audio frame.  
+[out] [IAudioBeamFrame](../../IAudioBeamFrame_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
