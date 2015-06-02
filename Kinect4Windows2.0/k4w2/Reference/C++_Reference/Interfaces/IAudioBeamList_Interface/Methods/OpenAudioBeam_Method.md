@@ -1,7 +1,7 @@
 IAudioBeamList::OpenAudioBeam Method  
 ====================================  
 
-Returns the audio beam by index in the collection. <span id="syntaxSection"></span>
+指定したインデックスのAudioBeamを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT OpenAudioBeam(
 
 *index*    
 Type: UINT32  
-The index of the desired audio beam  
+AudioBeamのインデックス。  
 
 *audioBeam*    
 Type: IAudioBeam  
-[out] The audio beam.  
+[out] [IAudioBeam](../../IAudioBeam_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

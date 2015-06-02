@@ -1,7 +1,7 @@
 IAudioBeamList Interface  
 ========================  
 
-Represents a collection of audio beams. <span id="syntaxSection"></span>
+AudioBeamのリスト。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IAudioBeamList** has the following members.  
+**IAudioBeamList**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,11 +48,11 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamList_Interface/Methods/get_BeamCount_Method.md">get_BeamCount</a></td>
-<td align="left">Returns the number of audio beams in the collection.</td>
+<td align="left">AudioBeamの数を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamList_Interface/Methods/OpenAudioBeam_Method.md">OpenAudioBeam</a></td>
-<td align="left">Returns the audio beam by index in the collection.</td>
+<td align="left">指定したインデックスのAudioBeamを取得する。</td>
 </tr>
 </tbody>
 </table>
