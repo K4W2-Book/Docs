@@ -1,7 +1,7 @@
 IAudioBeamFrameReference Interface  
 ==================================  
 
-Represents an audio frame reference. <span id="syntaxSection"></span>
+AudioBeamフレームのReference。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IAudioBeamFrameReference** has the following members.  
+**IAudioBeamFrameReference**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,11 +48,11 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamFrameReference/Methods/AcquireBeamFrames_Method.md">AcquireBeamFrames</a></td>
-<td align="left">Gets the container for one frame's worth of audio beam image data.</td>
+<td align="left">AudioBeamフレームのリストを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamFrameReference/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the relative time of this frame.</td>
+<td align="left">AudioBeamフレームのリストを取得した時間(相対時間)を取得する。</td>
 </tr>
 </tbody>
 </table>
