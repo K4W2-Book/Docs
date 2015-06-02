@@ -1,7 +1,7 @@
 IBody::get\_HandRightConfidence Method  
 ======================================  
 
-Gets the tracking confidence for the right hand. <span id="syntaxSection"></span>
+右手のトラッキングの信頼度を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,14 +29,14 @@ HRESULT get_HandRightConfidence(
 #### Parameters  
 
 *confidence*    
-Type: TrackingConfidence  
-[out] The tracking confidence for the right hand.  
+Type: [TrackingConfidence](../../../Enumerations/TrackingConfidence.md)  
+[out] トラッキングの信頼度。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

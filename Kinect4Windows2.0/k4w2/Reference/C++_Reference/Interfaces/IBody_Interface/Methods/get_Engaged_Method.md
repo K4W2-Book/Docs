@@ -1,7 +1,9 @@
 IBody::get\_Engaged Method  
 ==========================  
 
-Gets the level of user engagement. <span id="syntaxSection"></span>
+付随情報の検出結果を取得する。
+この機能はKinect for Windowsアプリケーションではサポートされません。
+このメンバ関数はXbox One SDKとのクロスコンパイルをサポートするために含まれています。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,21 +31,21 @@ HRESULT get_Engaged(
 #### Parameters  
 
 *detectionResult*    
-Type: DetectionResult  
-[out] The detection result that contains the level of user engagement.  
+Type: [DetectionResult](../../../Enumerations/DetectionResult_Enumeration.md)  
+[out] 付随情報の検出結果。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-In the current release, the returned detection result is always DetectionResult\_Unknown.  
+常にDetectionResult\_Unknownを示す。  
 
 <span id="requirements"></span>
 

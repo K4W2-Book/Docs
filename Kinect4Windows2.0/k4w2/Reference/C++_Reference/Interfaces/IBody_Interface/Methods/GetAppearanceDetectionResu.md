@@ -1,7 +1,9 @@
 IBody::GetAppearanceDetectionResults Method  
 ===========================================  
 
-Gets the appearance. <span id="syntaxSection"></span>
+Appearanceの検出結果を取得する。
+この機能はKinect for Windowsアプリケーションではサポートされません。
+このメンバ関数はXbox One SDKとのクロスコンパイルをサポートするために含まれています。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,24 +33,24 @@ HRESULT GetAppearanceDetectionResults(
 
 *capacity*    
 Type: \_Pre\_equal\_to\_(Appearance\_Count)UINT  
-The number of appearances.  
+Appearanceの配列のサイズ。(1)  
 
 *detectionResults*    
 Type: DetectionResult  
-[out] Gesture detection results.  
+[out] Appearanceの配列の先頭アドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-In the current release, the returned detection result is always DetectionResult\_Unknown.  
+常にDetectionResult\_Unknownを示す。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 IBody::get\_HandRightState Method  
 =================================  
 
-Retrieves the right hand state. <span id="syntaxSection"></span>
+右手のハンドステータスを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,14 +29,14 @@ HRESULT get_HandRightState(
 #### Parameters  
 
 *handState*    
-Type: HandState  
-[out] The right hand state.  
+Type: [HandState](../../../Enumerations/HandState_Enumeration.md)  
+[out] 右手のハンドステータス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

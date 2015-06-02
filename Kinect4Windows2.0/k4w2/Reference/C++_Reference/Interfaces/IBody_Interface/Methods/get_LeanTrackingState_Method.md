@@ -1,7 +1,7 @@
 IBody::get\_LeanTrackingState Method  
 ====================================  
 
-Gets the lean tracking state, which indicates if the body is tracked. <span id="syntaxSection"></span>
+身体の傾きのトラッキングステータスを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,14 +29,14 @@ HRESULT get_LeanTrackingState(
 #### Parameters  
 
 *trackingState*    
-Type: TrackingState  
-[out] The lean tracking state.  
+Type: [TrackingState](../../../Enumerations/TrackingState_Enumeration.md)  
+[out] 身体の傾きのトラッキングステータス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,9 @@
 IBody::GetExpressionDetectionResults Method  
 ===========================================  
 
-Gets the dictionary of expressions. This API is not implemented in the Kinect for Windows v2 SDK and will always return null. It is included to support cross-compilation with the Xbox SDK. <span id="syntaxSection"></span>
+Expressionの検出結果を取得する。
+この機能はKinect for Windowsアプリケーションではサポートされません。
+このメンバ関数はXbox One SDKとのクロスコンパイルをサポートするために含まれています。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,24 +33,24 @@ HRESULT GetExpressionDetectionResults(
 
 *capacity*    
 Type: \_Pre\_equal\_to\_(Expression\_Count)UINT  
-The number of expressions.  
+Expressionの配列のサイズ。(2)  
 
 *detectionResults*    
 Type: DetectionResult  
-[out] Gesture detection results.  
+[out] Expressionの配列の先頭アドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-In the current release, the returned detection result is always DetectionResult\_Unknown.  
+常にDetectionResult\_Unknownを示す。  
 
 <span id="requirements"></span>
 

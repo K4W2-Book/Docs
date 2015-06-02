@@ -1,7 +1,7 @@
 IBody::get\_IsTracked Method  
 ============================  
 
-Retrieves a boolean value that indicates if the body is tracked. <span id="syntaxSection"></span>
+身体のトラッキングステータスを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_IsTracked(
 
 *tracked*    
 Type: BOOLEAN  
-[out] When this methods returns, **true** if the body is restricted; **false** otherwise.  
+[out] トラッキングされている場合は**true**、トラッキングされていない場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 IBody::GetJoints Method  
 =======================  
 
-Gets the dictionary of joints. <span id="syntaxSection"></span>
+Jointを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetJoints(
 
 *capacity*    
 Type: \_Pre\_equal\_to\_(JointType\_Count)UINT  
-The number of joints in the dictionary.  
+Jointの配列のサイズ。(25)  
 
 *joints*    
 Type: Joint  
-[out] The dictionary of joints.  
+[out] Jointの配列の先頭アドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

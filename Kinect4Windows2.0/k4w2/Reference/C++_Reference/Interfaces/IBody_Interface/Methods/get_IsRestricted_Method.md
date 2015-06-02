@@ -1,7 +1,7 @@
 IBody::get\_IsRestricted Method  
 ===============================  
 
-Retrieves a boolean value that indicates if the body is restricted from a full range of motion. <span id="syntaxSection"></span>
+身体の動きが制限されているかを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_IsRestricted(
 
 *isRestricted*    
 Type: BOOLEAN  
-[out] When this methods returns, **true** if the body is restricted; **false** otherwise.  
+[out] 制限されている場合は**true**、制限されていない場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

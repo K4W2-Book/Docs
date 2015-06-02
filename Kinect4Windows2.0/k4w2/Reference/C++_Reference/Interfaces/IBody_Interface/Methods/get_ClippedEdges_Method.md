@@ -1,7 +1,7 @@
 IBody::get\_ClippedEdges Method  
 ===============================  
 
-Gets the clipped edges. <span id="syntaxSection"></span>
+人物がカメラの視野に収まっていない端を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_ClippedEdges(
 
 *clippedEdges*    
 Type: DWORD  
-[out] The clipped edges.  
+[out] 人物がカメラの視野に収まっていない端。([FrameEdges](../../../Enumerations/FrameEdges_Enumeration.md))  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

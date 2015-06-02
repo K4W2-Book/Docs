@@ -1,7 +1,7 @@
 IBody::GetJointOrientations Method  
 ==================================  
 
-Gets the dictionary of joint orientations. <span id="syntaxSection"></span>
+Jointの向きを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetJointOrientations(
 
 *capacity*    
 Type: \_Pre\_equal\_to\_(JointType\_Count)UINT  
-The number of joints orientations in the dictionary.  
+Jointの向きの配列のサイズ。(25)  
 
 *jointOrientations*    
 Type: JointOrientation  
-[out] When this method returns, the dictionary of joint orientations.  
+[out] Jointの向きの配列の先頭アドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

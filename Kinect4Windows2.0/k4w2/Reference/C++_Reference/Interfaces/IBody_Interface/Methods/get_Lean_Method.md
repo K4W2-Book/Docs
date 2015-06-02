@@ -1,7 +1,7 @@
 IBody::get\_Lean Method  
 =======================  
 
-Gets the amount a body is leaning, which is a number between -1 (leaning left or back) and 1 (leaning right or front). <span id="syntaxSection"></span>
+身体の傾きを取得する。<br/>左右方向、前後方向の傾きを取得できる。<br/>左側または後方に傾いている場合は-1.0f、右側または前方に傾いている場合は1.0fを示す。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,20 +30,20 @@ HRESULT get_Lean(
 
 *amount*    
 Type: PointF  
-[out] The body lean.  
+[out] 身体の傾き。[-1.0f, 1.0f]  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-Leaning left and right corresponds to X movement and leaning forward and back corresponds to Y movement.  
+X成分は左右方向の傾き、Y成分は前後方向の傾きを示す。  
 
 <span id="requirements"></span>
 
