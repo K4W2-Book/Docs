@@ -1,7 +1,9 @@
 IAudioSource::get\_AudioCalibrationState Method  
 ===============================================  
 
-Gets a value indicating whether the audio source needs to be calibrated. This API is not implemented in the Kinect for Windows v2 SDK and will always return Calibrated. It is included to support cross-compilation with the Xbox SDK. <span id="syntaxSection"></span>
+Audioセンサーのキャリブレーションステータスを取得する。
+この機能はKinect for Windowsアプリケーションではサポートされません。
+この列挙体はXbox One SDKとのクロスコンパイルをサポートするために含まれています。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +32,20 @@ HRESULT get_AudioCalibrationState(
 
 *audioCalibrationState*    
 Type: KinectAudioCalibrationState  
-[out] A value indicating whether the audio source needs to be calibrated.  
+[out] Audioセンサーのキャリブレーションステータス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
+
+<span id="remarks"></span>
+
+Remarks  
+=======  
+
+Kinect for Windowsアプリケーションでは常にKinectAudioCalibrationState\_Calibratedです。 
 
 <span id="requirements"></span>
 

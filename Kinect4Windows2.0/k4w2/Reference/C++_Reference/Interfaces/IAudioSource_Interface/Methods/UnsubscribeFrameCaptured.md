@@ -1,7 +1,7 @@
 IAudioSource::UnsubscribeFrameCaptured Method  
 =============================================  
 
-Unsubscribes a subscribed event handler when a frame has been captured. <span id="syntaxSection"></span>
+最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを解除する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT UnsubscribeFrameCaptured(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] The handle of the subscribed event handler.  
+[in] 解除するイベントハンドル。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

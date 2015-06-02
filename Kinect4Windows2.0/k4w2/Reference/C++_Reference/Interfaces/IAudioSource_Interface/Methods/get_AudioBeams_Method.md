@@ -1,7 +1,7 @@
 IAudioSource::get\_AudioBeams Method  
 ====================================  
 
-Gets the audio beams. <span id="syntaxSection"></span>
+AudioBeamのリストを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_AudioBeams(
 
 *audioBeamList*    
 Type: IAudioBeamList  
-[out] When this method returns, the audio beams.  
+[out] [IAudioBeamList](../../IAudioBeamList_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

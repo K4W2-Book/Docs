@@ -1,7 +1,7 @@
 IAudioSource::GetFrameCapturedEventData Method  
 ==============================================  
 
-Retrieves the event data when a frame is captured. <span id="syntaxSection"></span>
+最新のフレームが準備できたとき、イベントデータを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetFrameCapturedEventData(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] The handle to the event handler.  
+[in] 最新のフレームの更新を待つイベントハンドル。  
 
 *eventData*    
 Type: IFrameCapturedEventArgs  
-[out] The event data.  
+[out] [IFrameCapturedEventArgs](../../IFrameCapturedEventArgs.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

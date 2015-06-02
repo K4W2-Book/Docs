@@ -1,7 +1,7 @@
 IAudioSource Interface  
 ======================  
 
-Represents an audio frame source. <span id="syntaxSection"></span>
+AudioフレームのSource。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IAudioSource** has the following members.  
+**IAudioSource**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,47 +48,47 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IAudioSource_Interface/Methods/get_AudioBeams_Method.md">get_AudioBeams</a></td>
-<td align="left">Gets the audio beams.</td>
+<td align="left">AudioBeamのリストを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioSource_Interface/Methods/get_AudioCalibrationState.md">get_AudioCalibrationState</a></td>
-<td align="left">Gets a value indicating whether the audio source needs to be calibrated. This API is not implemented in the Kinect for Windows v2 SDK and will always return Calibrated. It is included to support cross-compilation with the Xbox SDK.</td>
+<td align="left">Audioセンサーのキャリブレーションステータスを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioSource_Interface/Methods/get_IsActive_Method.md">get_IsActive</a></td>
-<td align="left">Gets the current activity status of this source.</td>
+<td align="left">AudioフレームのSourceの動作状況を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioSource_Interface/Methods/get_KinectSensor_Method.md">get_KinectSensor</a></td>
-<td align="left">Gets the parent sensor.</td>
+<td align="left">AudioフレームのSourceを取得したセンサーを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioSource_Interface/Methods/get_MaxSubFrameCount_Method.md">get_MaxSubFrameCount</a></td>
-<td align="left">Gets the maximum number of sub frames.</td>
+<td align="left">AudioBeamサブフレームの最大数を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioSource_Interface/Methods/get_SubFrameDuration_Method.md">get_SubFrameDuration</a></td>
-<td align="left">Returns the sub frame duration.</td>
+<td align="left">AudioBeamサブフレームのサンプリング時間を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioSource_Interface/Methods/get_SubFrameLengthInBytes.md">get_SubFrameLengthInBytes</a></td>
-<td align="left">Returns the sub frame length (in bytes).</td>
+<td align="left">AudioBeamサブフレームのサイズ(Byte)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioSource_Interface/Methods/GetFrameCapturedEventData.md">GetFrameCapturedEventData</a></td>
-<td align="left">Retrieves the event data when a frame is captured.</td>
+<td align="left">最新のフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioSource_Interface/Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Opens a new stream reader. This reader must be disposed.</td>
+<td align="left">AudioBeamフレームのReaderを開く。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioSource_Interface/Methods/SubscribeFrameCaptured.md">SubscribeFrameCaptured</a></td>
-<td align="left">Event that is used to notify the application that the next frame is ready to be delivered to subscribed readers or if a frame has been dropped.</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioSource_Interface/Methods/UnsubscribeFrameCaptured.md">UnsubscribeFrameCaptured</a></td>
-<td align="left">Unsubscribes a subscribed event handler when a frame has been captured.</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

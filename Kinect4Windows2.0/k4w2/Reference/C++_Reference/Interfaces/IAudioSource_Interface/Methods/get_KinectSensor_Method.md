@@ -1,7 +1,7 @@
 IAudioSource::get\_KinectSensor Method  
 ======================================  
 
-Gets the parent sensor. <span id="syntaxSection"></span>
+AudioフレームのSourceを取得したセンサーを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_KinectSensor(
 
 *sensor*    
 Type: IKinectSensor  
-[out] When this method returns successfully, the parent sensor.  
+[out] [IKinectSensor](../../IKinectSensor_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

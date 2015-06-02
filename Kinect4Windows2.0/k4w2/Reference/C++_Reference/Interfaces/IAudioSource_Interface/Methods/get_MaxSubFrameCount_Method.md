@@ -1,7 +1,7 @@
 IAudioSource::get\_MaxSubFrameCount Method  
 ==========================================  
 
-Gets the maximum number of sub frames. <span id="syntaxSection"></span>
+AudioBeamサブフレームの最大数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_MaxSubFrameCount(
 
 *count*    
 Type: UINT  
-[out] When this method returns, the maximum number of sub frames.  
+[out] AudioBeamサブフレームの最大数。(8)  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
