@@ -1,7 +1,7 @@
 IBodyFrameReader::SubscribeFrameArrived Method  
 ==============================================  
 
-Faceフレームの更新を待つイベントハンドルを登録する。 <span id="syntaxSection"></span>
+Bodyフレームの更新を待つイベントハンドルを登録する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,7 +30,7 @@ HRESULT SubscribeFrameArrived(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[out] Faceフレームの更新を待つイベントハンドル。  
+[out] Bodyフレームの更新を待つイベントハンドル。  
 
 <span id="ID4EP"></span>
 #### Return value  

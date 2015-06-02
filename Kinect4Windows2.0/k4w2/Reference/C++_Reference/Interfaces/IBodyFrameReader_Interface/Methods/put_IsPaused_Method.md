@@ -1,7 +1,7 @@
 IBodyFrameReader::put\_IsPaused Method  
 ======================================  
 
-FaceフレームのReaderの動作状態を設定する。 <span id="syntaxSection"></span>
+BodyフレームのReaderの動作状態を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,7 +30,7 @@ HRESULT put_IsPaused(
 
 *isPaused*    
 Type: BOOLEAN  
- 停止する場合は**true**、動作する場合は**false**。  
+停止する場合は**true**、動作する場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  

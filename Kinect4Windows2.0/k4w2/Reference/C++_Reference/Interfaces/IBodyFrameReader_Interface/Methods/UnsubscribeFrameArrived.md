@@ -1,7 +1,7 @@
 IBodyFrameReader::UnsubscribeFrameArrived Method  
 ================================================  
 
-Faceフレームの更新を待つイベントハンドルを解除する。 <span id="syntaxSection"></span>
+Bodyフレームの更新を待つイベントハンドルを解除する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,7 +30,7 @@ HRESULT UnsubscribeFrameArrived(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] Faceフレームの更新を待つイベントハンドル。  
+[in] Bodyフレームの更新を待つイベントハンドル。  
 
 <span id="ID4EP"></span>
 #### Return value  
