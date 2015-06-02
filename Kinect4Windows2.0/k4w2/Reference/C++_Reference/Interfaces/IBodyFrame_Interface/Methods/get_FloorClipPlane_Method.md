@@ -1,7 +1,7 @@
 IBodyFrame::get\_FloorClipPlane Method  
 ======================================  
 
-Gets the floor clip plane. <span id="syntaxSection"></span>
+床面を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FloorClipPlane(
 
 *floorClipPlane*    
 Type: Vector4  
-[out] The floor clip plane.  
+[out] 床面。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

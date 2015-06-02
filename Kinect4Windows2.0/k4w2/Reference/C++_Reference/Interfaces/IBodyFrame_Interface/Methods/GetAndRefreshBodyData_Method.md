@@ -1,7 +1,7 @@
 IBodyFrame::GetAndRefreshBodyData Method  
 ========================================  
 
-Gets refreshed body data. <span id="syntaxSection"></span>
+最新のBodyデータを更新、取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetAndRefreshBodyData(
 
 *capacity*    
 Type: UINT  
-The size of the body data.  
+Bodyの配列のサイズ。(6)  
 
 *bodies*    
 Type: IBody  
-[in, out] Refreshed body data.  
+[in, out] [IBody](../../IBody_Interface.md)の配列の先頭アドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

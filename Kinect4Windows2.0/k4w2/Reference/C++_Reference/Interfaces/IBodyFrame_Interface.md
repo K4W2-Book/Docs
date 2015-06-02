@@ -1,7 +1,7 @@
 IBodyFrame Interface  
 ====================  
 
-Represents a frame that contains all the computed real-time tracking information about people that are in view of the sensor. <span id="syntaxSection"></span>
+Bodyフレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IBodyFrame** has the following members.  
+**IBodyFrame**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,29 +48,22 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IBodyFrame_Interface/Methods/get_BodyFrameSource_Method.md">get_BodyFrameSource</a></td>
-<td align="left">Gets the body frame source.</td>
+<td align="left">BodyフレームのSourceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyFrame_Interface/Methods/get_FloorClipPlane_Method.md">get_FloorClipPlane</a></td>
-<td align="left">Gets the floor clip plane.</td>
+<td align="left">床面を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyFrame_Interface/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the timestamp of the body frame.</td>
+<td align="left">Bodyフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyFrame_Interface/Methods/GetAndRefreshBodyData_Method.md">GetAndRefreshBodyData</a></td>
-<td align="left">Gets refreshed body data.</td>
+<td align="left">最新のBodyデータを更新、取得する。</td>
 </tr>
 </tbody>
 </table>
-
-<span id="remarks"></span>
-
-Remarks  
-=======  
-
-The computed data provided by this frame type includes skeletal joints and orientations, hand states, facial expressions, and more for up to 6 people at a time. These tracking features provide a great baseline for getting started with human interaction in your app.  
 
 <span id="requirements"></span>
 
