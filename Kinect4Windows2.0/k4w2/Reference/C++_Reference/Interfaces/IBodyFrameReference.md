@@ -1,7 +1,7 @@
 IBodyFrameReference Interface  
 =============================  
 
-Represents an interface to a reference to an actual body frame. <span id="syntaxSection"></span>
+BodyフレームのReference。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IBodyFrameReference** has the following members.  
+**IBodyFrameReference**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,11 +48,11 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IBodyFrameReference/Methods/AcquireFrame_Method.md">AcquireFrame</a></td>
-<td align="left">Gets the actual body frame from the reference.</td>
+<td align="left">Bodyフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyFrameReference/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the timestamp of the referenced body frame.</td>
+<td align="left">Bodyフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 </tbody>
 </table>
