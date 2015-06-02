@@ -1,7 +1,7 @@
 IAudioBeamFrame::get\_SubFrameCount Method  
 ==========================================  
 
-Gets the number of audio beam sub frames. <span id="syntaxSection"></span>
+AudioBeamサブフレームの数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,20 +30,23 @@ HRESULT get_SubFrameCount(
 
 *pSubFrameCount*    
 Type: UINT32  
-[out] The number of audio beam sub frames.  
+[out] AudioBeamサブフレームの数。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-This number will be between 1 and 8, where 8 is the value you get from [get\_MaxSubFrameCount](../../IAudioSource_Interface/Methods/get_MaxSubFrameCount_Method.md). Typically an audio frame will have between 1 to 3 subframes. This number may vary from one frame to another. Only when computational resources are extremely limited Kinect Service will produce frames with a lager number of subframes (higher latency).  
+この値は[1, 8]の範囲です。(最大値8は[get\_MaxSubFrameCount](../../IAudioSource_Interface/Methods/get_MaxSubFrameCount_Method.md)で取得した値です。)  
+通常フレームは1~3のサブフレームを持ちます。  
+この数はフレームによって異なります。  
+計算リソースが限られている場合、Kinect Serviceはより多くのサブフレームを生成します。(遅延が発生します。)  
 
 <span id="requirements"></span>
 

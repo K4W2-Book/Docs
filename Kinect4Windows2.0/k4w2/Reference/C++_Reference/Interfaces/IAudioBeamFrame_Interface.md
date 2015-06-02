@@ -1,7 +1,7 @@
 IAudioBeamFrame Interface  
 =========================  
 
-Represents an audio beam frame. <span id="syntaxSection"></span>
+AudioBeamフレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IAudioBeamFrame** has the following members.  
+**IAudioBeamFrame**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,27 +48,27 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamFrame_Interface/Methods/get_AudioBeam_Method.md">get_AudioBeam</a></td>
-<td align="left">Gets the audio beam.</td>
+<td align="left">AudioBeamを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamFrame_Interface/Methods/get_AudioSource_Method.md">get_AudioSource</a></td>
-<td align="left">Gets the audio source.</td>
+<td align="left">AudioBeamフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamFrame_Interface/Methods/get_Duration_Method.md">get_Duration</a></td>
-<td align="left">Gets the duration of the audio beam frame.</td>
+<td align="left">AudioBeamフレームのサンプリング時間を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamFrame_Interface/Methods/get_RelativeTimeStart_Method.md">get_RelativeTimeStart</a></td>
-<td align="left">Gets the time stamp of the first audio beam subframe in the frame.</td>
+<td align="left">AudioBeamフレームの最初のAudioBeamサブフレームの取得時間(相対時間)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IAudioBeamFrame_Interface/Methods/get_SubFrameCount_Method.md">get_SubFrameCount</a></td>
-<td align="left">Gets the number of audio beam sub frames.</td>
+<td align="left">AudioBeamサブフレームの数を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IAudioBeamFrame_Interface/Methods/GetSubFrame_Method.md">GetSubFrame</a></td>
-<td align="left">Gets the subframe of an AudioBeamFrame by index.</td>
+<td align="left">指定したインデックスのAudioBeamサブフレームを取得する。</td>
 </tr>
 </tbody>
 </table>

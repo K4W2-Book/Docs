@@ -1,7 +1,7 @@
 IAudioBeamFrame::get\_RelativeTimeStart Method  
 ==============================================  
 
-Gets the time stamp of the first audio beam subframe in the frame. <span id="syntaxSection"></span>
+AudioBeamフレームの最初のAudioBeamサブフレームの取得時間(相対時間)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_RelativeTimeStart(
 
 *relativeTime*    
 Type: TIMESPAN  
-[out] The time stamp of the first audio beam subframe in the frame.  
+[out] AudioBeamフレームの最初のAudioBeamサブフレームの取得時間(相対時間)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
