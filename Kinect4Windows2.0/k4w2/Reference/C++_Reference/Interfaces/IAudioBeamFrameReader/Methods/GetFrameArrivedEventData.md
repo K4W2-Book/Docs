@@ -35,7 +35,7 @@ Type: WAITABLE\_HANDLE
 
 *eventData*    
 Type: IAudioBeamFrameArrivedEventArgs  
-[out] AudioBeamフレームのイベントデータ。  
+[out] [IAudioBeamFrameArrivedEventArgs](../../IAudioBeamFrameArrivedEven.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
