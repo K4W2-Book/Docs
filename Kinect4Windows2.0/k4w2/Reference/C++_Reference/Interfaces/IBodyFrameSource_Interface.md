@@ -1,7 +1,7 @@
 IBodyFrameSource Interface  
 ==========================  
 
-Represents an interface to a body frame source. <span id="syntaxSection"></span>
+BodyフレームのSource。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IBodyFrameSource** has the following members.  
+**IBodyFrameSource**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,39 +48,39 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IBodyFrameSource_Interface/Methods/get_BodyCount_Method.md">get_BodyCount</a></td>
-<td align="left">Gets the body count.</td>
+<td align="left">Bodyの数を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyFrameSource_Interface/Methods/get_IsActive_Method.md">get_IsActive</a></td>
-<td align="left">Gets the current activity status of this source.</td>
+<td align="left">BodyフレームのSourceの動作状況を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyFrameSource_Interface/Methods/get_KinectSensor_Method.md">get_KinectSensor</a></td>
-<td align="left">Gets the parent sensor.</td>
+<td align="left">BodyフレームのSourceを取得したセンサーを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyFrameSource_Interface/Methods/GetFrameCapturedEventData.md">GetFrameCapturedEventData</a></td>
-<td align="left">Retrieves the event data when a frame is captured.</td>
+<td align="left">最新のフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyFrameSource_Interface/Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the body index frame source.</td>
+<td align="left">BodyフレームのReaderを開く。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyFrameSource_Interface/Methods/OverrideAndReplaceHandTrac.md">OverrideAndReplaceHandTracking</a></td>
-<td align="left">Override hand tracking the old tracking id and replace it with the new tracking id.</td>
+<td align="left">トラッキングする手を変更する。(トラッキングをやめる古いトラッキングIDを指定する。)</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyFrameSource_Interface/Methods/OverrideHandTracking_Method.md">OverrideHandTracking</a></td>
-<td align="left">Override hand tracking using the tracking id.</td>
+<td align="left">トラッキングする手を変更する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyFrameSource_Interface/Methods/SubscribeFrameCaptured.md">SubscribeFrameCaptured</a></td>
-<td align="left">Event that is used to notify the application that the next frame is ready to be delivered to subscribed readers or if a frame has been dropped.</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyFrameSource_Interface/Methods/UnsubscribeFrameCaptured.md">UnsubscribeFrameCaptured</a></td>
-<td align="left">Unsubscribes a subscribed event handler when a frame has been captured.</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

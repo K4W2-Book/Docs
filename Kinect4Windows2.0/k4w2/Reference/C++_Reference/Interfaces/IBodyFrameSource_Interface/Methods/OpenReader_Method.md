@@ -1,7 +1,7 @@
 IBodyFrameSource::OpenReader Method  
 ===================================  
 
-Creates a frame reader for the body index frame source. <span id="syntaxSection"></span>
+BodyフレームのReaderを開く。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT OpenReader(
 
 *reader*    
 Type: IBodyFrameReader  
-[out] A new reader for the body index frame source.  
+[out] [IBodyFrameReader](../../IBodyFrameReader_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

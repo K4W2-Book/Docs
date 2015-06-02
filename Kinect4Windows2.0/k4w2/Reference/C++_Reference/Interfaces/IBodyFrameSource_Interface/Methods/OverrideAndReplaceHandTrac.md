@@ -1,7 +1,7 @@
 IBodyFrameSource::OverrideAndReplaceHandTracking Method  
 =======================================================  
 
-Override hand tracking the old tracking id and replace it with the new tracking id. <span id="syntaxSection"></span>
+トラッキングする手を変更する。(トラッキングをやめる古いトラッキングIDを指定する。) <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT OverrideAndReplaceHandTracking(
 
 *oldTrackingId*    
 Type: UINT64  
-The old tracking id.  
+手のトラッキングをやめる古いトラッキングID。  
 
 *newTrackingId*    
 Type: UINT64  
-The new tracking id.  
+手をトラッキングする新しいトラッキングID。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

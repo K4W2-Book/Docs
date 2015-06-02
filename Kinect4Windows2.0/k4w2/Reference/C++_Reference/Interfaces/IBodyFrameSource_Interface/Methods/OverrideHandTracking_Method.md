@@ -1,7 +1,7 @@
 IBodyFrameSource::OverrideHandTracking Method  
 =============================================  
 
-Override hand tracking using the tracking id. <span id="syntaxSection"></span>
+トラッキングする手を変更する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT OverrideHandTracking(
 
 *trackingId*    
 Type: UINT64  
-The tracking id.  
+手をトラッキングするトラッキングID。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

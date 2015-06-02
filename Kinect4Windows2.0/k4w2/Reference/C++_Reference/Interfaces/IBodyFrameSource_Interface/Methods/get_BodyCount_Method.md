@@ -1,7 +1,7 @@
 IBodyFrameSource::get\_BodyCount Method  
 =======================================  
 
-Gets the body count. <span id="syntaxSection"></span>
+Bodyの数を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,20 +30,20 @@ HRESULT get_BodyCount(
 
 *bodyCount*    
 Type: INT32  
-[out] The body count.  
+[out] Bodyの数。(6)  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-The body count represents the number of bodies the system can track and thus the size of the collection that must be used to store these bodies.  
+Bodyの数は、システムがトラッキングすることのできる身体の数と身体のデータを受け取る配列のサイズを示す。  
 
 <span id="requirements"></span>
 
