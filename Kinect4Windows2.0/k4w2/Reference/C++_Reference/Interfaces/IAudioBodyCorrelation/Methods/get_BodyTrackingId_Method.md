@@ -1,7 +1,7 @@
 IAudioBodyCorrelation::get\_BodyTrackingId Method  
 =================================================  
 
-Gets the body tracking id. <span id="syntaxSection"></span>
+トラッキングIDを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_BodyTrackingId(
 
 *trackingId*    
 Type: UINT64  
-[out] When this method returns, the body tracking id.  
+[out] トラッキングID。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

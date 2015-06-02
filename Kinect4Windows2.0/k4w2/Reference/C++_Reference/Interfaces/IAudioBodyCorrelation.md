@@ -1,7 +1,7 @@
 IAudioBodyCorrelation Interface  
 ===============================  
 
-Represents an AudioBodyCorrelation class which contains a body tracking id. <span id="syntaxSection"></span>
+AudioBeamサブフレームに関連するBody。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IAudioBodyCorrelation** has the following members.  
+**IAudioBodyCorrelation**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IAudioBodyCorrelation/Methods/get_BodyTrackingId_Method.md">get_BodyTrackingId</a></td>
-<td align="left">Gets the body tracking id.</td>
+<td align="left">トラッキングIDを取得する。</td>
 </tr>
 </tbody>
 </table>
