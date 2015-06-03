@@ -1,7 +1,7 @@
 IInfraredFrameArrivedEventArgs Interface  
 ========================================  
 
-Arguments for an infrared frame reader's FrameArrived event. <span id="syntaxSection"></span>
+Infraredフレームのイベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IInfraredFrameArrivedEventArgs** has the following members.  
+**IInfraredFrameArrivedEventArgs**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IInfraredFrameArrivedEvent/Methods/get_FrameReference_Method.md">get_FrameReference</a></td>
-<td align="left">Gets the reference to the infrared frame for the FrameArrived event.</td>
+<td align="left">InfraredフレームのReferenceを取得する。</td>
 </tr>
 </tbody>
 </table>
