@@ -1,7 +1,7 @@
 IBodyIndexFrameSource Interface  
 ===============================  
 
-Represents a source of body index frames from a KinectSensor. <span id="syntaxSection"></span>
+BodyindexフレームのSource。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IBodyIndexFrameSource** has the following members.  
+**IBodyIndexFrameSource**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,31 +48,31 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrameSource/Methods/get_FrameDescription_Method.md">get_FrameDescription</a></td>
-<td align="left">Gets the description of the body index frames.</td>
+<td align="left">BodyIndexフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyIndexFrameSource/Methods/get_IsActive_Method.md">get_IsActive</a></td>
-<td align="left">Gets whether the body index frame source is active.</td>
+<td align="left">BodyIndexフレームのSourceの動作状況を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrameSource/Methods/get_KinectSensor_Method.md">get_KinectSensor</a></td>
-<td align="left">Gets the KinectSensor of the body index frame source.</td>
+<td align="left">BodyIndexフレームのSourceを取得したセンサーを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyIndexFrameSource/Methods/GetFrameCapturedEventData.md">GetFrameCapturedEventData</a></td>
-<td align="left">Retrieves the body index frame source event data when a frame is captured.</td>
+<td align="left">最新のフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrameSource/Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the body index frame source.</td>
+<td align="left">BodyIndexフレームのReaderを開く。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyIndexFrameSource/Methods/SubscribeFrameCaptured.md">SubscribeFrameCaptured</a></td>
-<td align="left">Event that is used to notify the application that the next frame is ready to be delivered to subscribed readers or if a frame has been dropped.</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrameSource/Methods/UnsubscribeFrameCaptured.md">UnsubscribeFrameCaptured</a></td>
-<td align="left">Unsubscribes a subscribed event handler when a frame has been captured.</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

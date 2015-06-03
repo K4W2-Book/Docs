@@ -1,7 +1,7 @@
 IBodyIndexFrameSource::SubscribeFrameCaptured Method  
 ====================================================  
 
-Event that is used to notify the application that the next frame is ready to be delivered to subscribed readers or if a frame has been dropped. <span id="syntaxSection"></span>
+最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを登録する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,22 +30,25 @@ HRESULT SubscribeFrameCaptured(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[out] Event handler to subscribe to.  
+[out] 登録するイベントハンドル。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-Applications are only allowed to hold one frame locked at any given time. This event can be used to release the currently locked frame to allow the new one to be delivered to all subscribed readers. If the application does not free the old frame before a new frame arrives, the event will be raised again to notify that the frame has been dropped.  
+アプリケーションは、任意の時点で1つのフレームのみ保持することができます。  
+このイベントは、最新のフレームがすべてのReaderで取得できるように、現在保持されているフレームを解放するために使用することができます。  
+アプリケーションが古いフレームを解放しない場合、このイベントは最新のフレームを破棄したことを通知するために発効されます。  
 
-The application should call the [GetFrameCapturedEventData](GetFrameCapturedEventData.md) method to retrieve the IFrameCapturedEventArgs. It should then look at the FrameStatus property to determine if a new frame has been queued, or if a frame has been dropped.  
+このイベントが発効したとき、アプリケーションは[IFrameCapturedEventArgs](../../IFrameCapturedEventArgs.md)を取得するために[GetFrameCapturedEventData](GetFrameCapturedEventData.md)を呼ぶ必要があります。  
+最新のフレームが準備できたのか破棄されたのかを知るためには[IFrameCapturedEventArgs::get_FrameStatus](../../IFrameCapturedEventArgs/Methods/get_FrameStatus_Method.md)でステータスを取得してください。  
 
 <span id="requirements"></span>
 

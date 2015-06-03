@@ -1,7 +1,7 @@
 IBodyIndexFrameSource::get\_FrameDescription Method  
 ===================================================  
 
-Gets the description of the body index frames. <span id="syntaxSection"></span>
+BodyIndexフレームの情報を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FrameDescription(
 
 *frameDescription*    
 Type: IFrameDescription  
-[out] The description of the body index frames.  
+[out] [IFrameDescription](../../IFrameDescription_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
