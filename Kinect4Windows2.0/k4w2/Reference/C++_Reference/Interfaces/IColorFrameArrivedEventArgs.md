@@ -1,7 +1,7 @@
 IColorFrameArrivedEventArgs Interface  
 =====================================  
 
-Arguments for a color frame reader's FrameArrived event. <span id="syntaxSection"></span>
+Colorフレームのイベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IColorFrameArrivedEventArgs** has the following members.  
+**IColorFrameArrivedEventArgs**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IColorFrameArrivedEventArgs/Methods/get_FrameReference_Method.md">get_FrameReference</a></td>
-<td align="left">Gets the reference to the color frame for the FrameArrived event.</td>
+<td align="left">ColorフレームのReferenceを取得する。</td>
 </tr>
 </tbody>
 </table>
