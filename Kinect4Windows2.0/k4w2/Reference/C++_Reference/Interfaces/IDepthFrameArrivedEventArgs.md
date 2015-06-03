@@ -1,7 +1,7 @@
 IDepthFrameArrivedEventArgs Interface  
 =====================================  
 
-Arguments for a depth frame reader's FrameArrived event. <span id="syntaxSection"></span>
+Depthフレームのイベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IDepthFrameArrivedEventArgs** has the following members.  
+**IDepthFrameArrivedEventArgs**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IDepthFrameArrivedEventArgs/Methods/get_FrameReference_Method.md">get_FrameReference</a></td>
-<td align="left">Gets the reference to the depth frame for the FrameArrived event.</td>
+<td align="left">DepthフレームのReferenceを取得する。</td>
 </tr>
 </tbody>
 </table>
