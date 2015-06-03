@@ -1,7 +1,7 @@
 IFrameCapturedEventArgs::get\_FrameType Method  
 ==============================================  
 
-Gets the type of the captured frame. <span id="syntaxSection"></span>
+フレームの種類を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,14 +29,14 @@ HRESULT get_FrameType(
 #### Parameters  
 
 *frameType*    
-Type: FrameSourceTypes  
-[out] The type of the captured frame.  
+Type: [FrameSourceTypes](../../../Enumerations/FrameSourceTypes_Enumeration.md)  
+[out] フレームの種類。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

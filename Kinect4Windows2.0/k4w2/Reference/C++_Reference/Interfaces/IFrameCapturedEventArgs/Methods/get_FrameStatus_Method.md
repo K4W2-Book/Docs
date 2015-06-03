@@ -1,7 +1,7 @@
 IFrameCapturedEventArgs::get\_FrameStatus Method  
 ================================================  
 
-Gets the status of the captured frame. <span id="syntaxSection"></span>
+フレームのキャプチャーステータスを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,14 +29,14 @@ HRESULT get_FrameStatus(
 #### Parameters  
 
 *frameStatus*    
-Type: FrameCapturedStatus  
-[out] The status of the captured frame.  
+Type: [FrameCapturedStatus](../../../Enumerations/FrameCapturedStatus.md)  
+[out] フレームのキャプチャステータス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

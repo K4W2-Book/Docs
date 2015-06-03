@@ -1,7 +1,7 @@
 IFrameCapturedEventArgs Interface  
 =================================  
 
-Arguments for a frame source's FrameCaptured event. <span id="syntaxSection"></span>
+フレーム更新のイベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IFrameCapturedEventArgs** has the following members.  
+**IFrameCapturedEventArgs**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,15 +48,15 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IFrameCapturedEventArgs/Methods/get_FrameStatus_Method.md">get_FrameStatus</a></td>
-<td align="left">Gets the status of the captured frame.</td>
+<td align="left">フレームのキャプチャーステータスを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFrameCapturedEventArgs/Methods/get_FrameType_Method.md">get_FrameType</a></td>
-<td align="left">Gets the type of the captured frame.</td>
+<td align="left">フレームの種類を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFrameCapturedEventArgs/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the timestamp of the captured frame.</td>
+<td align="left">フレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 </tbody>
 </table>
