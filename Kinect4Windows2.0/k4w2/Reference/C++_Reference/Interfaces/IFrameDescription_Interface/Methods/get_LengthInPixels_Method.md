@@ -1,7 +1,7 @@
 IFrameDescription::get\_LengthInPixels Method  
 =============================================  
 
-Gets the length in pixels of the data for an image frame. <span id="syntaxSection"></span>
+フレームの画素数(pixel)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_LengthInPixels(
 
 *lengthInPixels*    
 Type: unsigned int  
-The length in pixels of the data for an image frame.  
+フレームの画素数(pixel)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

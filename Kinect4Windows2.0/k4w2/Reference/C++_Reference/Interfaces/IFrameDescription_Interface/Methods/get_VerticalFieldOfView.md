@@ -1,7 +1,7 @@
 IFrameDescription::get\_VerticalFieldOfView Method  
 ==================================================  
 
-Gets the vertical field of view for an image frame. <span id="syntaxSection"></span>
+フレームの垂直画角を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_VerticalFieldOfView(
 
 *verticalFieldOfView*    
 Type: float  
-[out] The vertical field of view for an image frame.  
+[out] フレームの垂直画角。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

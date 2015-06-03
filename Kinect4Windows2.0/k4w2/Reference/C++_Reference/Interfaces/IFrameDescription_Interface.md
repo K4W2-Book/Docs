@@ -1,7 +1,7 @@
 IFrameDescription Interface  
 ===========================  
 
-Represents the properties of an image frame from the KinectSensor. <span id="syntaxSection"></span>
+フレームの情報。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IFrameDescription** has the following members.  
+**IFrameDescription**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,31 +48,31 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IFrameDescription_Interface/Methods/get_BytesPerPixel_Method.md">get_BytesPerPixel</a></td>
-<td align="left">Gets the bytes per pixel of the data for an image frame.</td>
+<td align="left">画素のサイズ(Byte)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFrameDescription_Interface/Methods/get_DiagonalFieldOfView.md">get_DiagonalFieldOfView</a></td>
-<td align="left">Gets the diagonal field of view for an image frame.</td>
+<td align="left">フレームの対角画角を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFrameDescription_Interface/Methods/get_Height_Method.md">get_Height</a></td>
-<td align="left">Gets the height of an image frame.</td>
+<td align="left">フレームの高さ(pixel)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFrameDescription_Interface/Methods/get_HorizontalFieldOfView.md">get_HorizontalFieldOfView</a></td>
-<td align="left">Gets the horizontal field of view for an image frame.</td>
+<td align="left">フレームの水平画角を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFrameDescription_Interface/Methods/get_LengthInPixels_Method.md">get_LengthInPixels</a></td>
-<td align="left">Gets the length in pixels of the data for an image frame.</td>
+<td align="left">フレームの画素数(pixel)を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IFrameDescription_Interface/Methods/get_VerticalFieldOfView.md">get_VerticalFieldOfView</a></td>
-<td align="left">Gets the vertical field of view for an image frame.</td>
+<td align="left">フレームの垂直画角を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IFrameDescription_Interface/Methods/get_Width_Method.md">get_Width</a></td>
-<td align="left">Gets the width of an image frame.</td>
+<td align="left">フレームの幅(pixel)を取得する。</td>
 </tr>
 </tbody>
 </table>

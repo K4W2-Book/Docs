@@ -1,7 +1,7 @@
 IFrameDescription::get\_BytesPerPixel Method  
 ============================================  
 
-Gets the bytes per pixel of the data for an image frame. <span id="syntaxSection"></span>
+画素のサイズ(Byte)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_BytesPerPixel(
 
 *bytesPerPixel*    
 Type: unsigned int  
-The bytes per pixel of the data for an image frame.  
+画素のサイズ(Byte)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
