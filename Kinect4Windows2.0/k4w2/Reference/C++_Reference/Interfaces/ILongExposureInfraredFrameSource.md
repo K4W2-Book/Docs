@@ -1,7 +1,7 @@
 ILongExposureInfraredFrameSource Interface  
 ==========================================  
 
-Represents a source of long exposure infrared frames from a KinectSensor. <span id="syntaxSection"></span>
+長時間露光InfraredフレームのSource。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**ILongExposureInfraredFrameSource** has the following members.  
+**ILongExposureInfraredFrameSource**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -47,32 +47,31 @@ Methods
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="ILongExposureInfraredFrame/Methods/get_FrameDescription_Method.md">get_FrameDescription</a></td>
-<td align="left">Gets the description of the long exposure infrared frames.</td>
+<td align="left"><a href="ILongExposureInfraredFrameSource/Methods/get_FrameDescription_Method.md">get_FrameDescription</a></td>
+<td align="left">長時間露光Infraredフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="ILongExposureInfraredFrame/Methods/get_IsActive_Method.md">get_IsActive</a></td>
-<td align="left">Gets whether the long exposure infrared frame source is active.</td>
+<td align="left"><a href="ILongExposureInfraredFrameSource/Methods/get_IsActive_Method.md">get_IsActive</a></td>
+<td align="left">長時間露光InfraredフレームのSourceの動作状況を取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="ILongExposureInfraredFrame/Methods/get_KinectSensor_Method.md">get_KinectSensor</a></td>
-<td align="left">Gets the KinectSensor of the long exposure infrared frame source.</td>
+<td align="left"><a href="ILongExposureInfraredFrameSource/Methods/get_KinectSensor_Method.md">get_KinectSensor</a></td>
+<td align="left">長時間露光InfraredフレームのSourceを取得したセンサーを取得する。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="ILongExposureInfraredFrame/Methods/GetFrameCapturedEventData.md">GetFrameCapturedEventData</a></td>
-<td align="left">Gets the event data from the specified event handler when a new frame is captured.</td>
+<td align="left"><a href="ILongExposureInfraredFrameSource/Methods/GetFrameCapturedEventData.md">GetFrameCapturedEventData</a></td>
+<td align="left">最新のフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="ILongExposureInfraredFrame/Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the long exposure infrared frame source.</td>
+<td align="left"><a href="ILongExposureInfraredFrameSource/Methods/OpenReader_Method.md">OpenReader</a></td>
+<td align="left">長時間露光InfraredフレームのReaderを開く。</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="ILongExposureInfraredFrame/Methods/SubscribeFrameCaptured.md">SubscribeFrameCaptured</a></td>
-<td align="left">Event that is used to notify the application that the next frame is ready to be delivered to subscribed readers or if a frame has been dropped.</td>
+<td align="left"><a href="ILongExposureInfraredFrameSource/Methods/SubscribeFrameCaptured.md">SubscribeFrameCaptured</a></td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="ILongExposureInfraredFrame/Methods/UnsubscribeFrameCaptured.md">UnsubscribeFrameCaptured</a></td>
-<td align="left">Unsubscribes the specified event handler that processes new infrared frames.</td>
+<td align="left"><a href="ILongExposureInfraredFrameSource/Methods/UnsubscribeFrameCaptured.md">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

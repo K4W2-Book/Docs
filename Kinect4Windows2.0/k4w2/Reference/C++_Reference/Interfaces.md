@@ -192,20 +192,20 @@ Provides data for the Tapped event.
 [IKinectSensor](Interfaces/IKinectSensor_Interface.md)    
 Represents a Kinect sensor device.  
 
-[ILongExposureInfraredFrame](Interfaces/ILongExposureInfraredFrame.md)    
-Represents a long exposure infrared frame.  
+[ILongExposureInfraredFrame](Interfaces/ILongExposureInfraredFrame_Interface.md)    
+長時間露光Infraredフレーム。  
 
-[ILongExposureInfraredFrameArrivedEventArgs](Interfaces/ILongExposureInfraredFrame.md)    
-Arguments for an infrared frame reader's FrameArrived event.  
+[ILongExposureInfraredFrameArrivedEventArgs](Interfaces/ILongExposureInfraredFrameArrivedEvent.md)    
+長時間露光Infraredフレームのイベントデータ。  
 
-[ILongExposureInfraredFrameReader](Interfaces/ILongExposureInfraredFrame.md)    
-Represents a reader for long exposure infrared frames.  
+[ILongExposureInfraredFrameReader](Interfaces/ILongExposureInfraredFrameReader.md)    
+長時間露光InfraredフレームのReader。  
 
-[ILongExposureInfraredFrameReference](Interfaces/ILongExposureInfraredFrame.md)    
-Represents a reference to an actual long exposure infrared frame.  
+[ILongExposureInfraredFrameReference](Interfaces/ILongExposureInfraredFrameReference.md)    
+長時間露光InfraredフレームのReference。  
 
-[ILongExposureInfraredFrameSource](Interfaces/ILongExposureInfraredFrame.md)    
-Represents a source of long exposure infrared frames from a KinectSensor.  
+[ILongExposureInfraredFrameSource](Interfaces/ILongExposureInfraredFrameSource.md)    
+長時間露光InfraredフレームのSource。  
 
 [IMultiSourceFrame](Interfaces/IMultiSourceFrame_Interface.md)    
 Represents a multi source frame from the KinectSensor.  
