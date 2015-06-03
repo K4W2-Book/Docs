@@ -115,28 +115,28 @@ DepthフレームのSource。
 Represents an interface to an enumeration of Kinect sensors.  
 
 [IFrameCapturedEventArgs](Interfaces/IFrameCapturedEventArgs.md)    
-Arguments for a frame source's FrameCaptured event.  
+フレーム更新のイベントデータ。  
 
 [IFrameDescription](Interfaces/IFrameDescription_Interface.md)    
-Represents the properties of an image frame from the KinectSensor.  
+フレームの情報。  
 
 [IGesture Interface](Interfaces/IGesture_Interface.md)    
 Represents a gesture.  
 
 [IInfraredFrame](Interfaces/IInfraredFrame_Interface.md)    
-Represents a frame that provides view of the scene that looks just like a black and white photograph, but is actively lit, so brightness is consistent regardless of location and room brightness.  
+Infraredフレーム。  
 
 [IInfraredFrameArrivedEventArgs](Interfaces/IInfraredFrameArrivedEvent.md)    
-Arguments for an infrared frame reader's FrameArrived event.  
+Infraredフレームのイベントデータ。  
 
 [IInfraredFrameReader](Interfaces/IInfraredFrameReader.md)    
-Represents a reader for infrared frames.  
+InfraredフレームのReader。  
 
 [IInfraredFrameReference](Interfaces/IInfraredFrameReference.md)    
-Represents a reference to an actual infrared frame.  
+InfraredフレームのReference。  
 
 [IInfraredFrameSource](Interfaces/IInfraredFrameSource.md)    
-Represents a source of infrared frames from a KinectSensor.  
+InfraredフレームのSource。  
 
 [IIsAvailableChangedEventArgs](Interfaces/IIsAvailableChangedEventArgs.md)    
 Represents the arguments for a KinectSensor's IsAvailableChanged event.  
