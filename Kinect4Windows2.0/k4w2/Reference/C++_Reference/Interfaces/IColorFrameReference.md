@@ -1,7 +1,7 @@
 IColorFrameReference Interface  
 ==============================  
 
-Represents a reference to an actual color frame. <span id="syntaxSection"></span>
+ColorフレームのReference。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IColorFrameReference** has the following members.  
+**IColorFrameReference**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,11 +48,11 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IColorFrameReference/Methods/AcquireFrame_Method.md">AcquireFrame</a></td>
-<td align="left">Gets the actual color frame from the reference.</td>
+<td align="left">Colorフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorFrameReference/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the timestamp of the referenced color frame.</td>
+<td align="left">Colorフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 </tbody>
 </table>
