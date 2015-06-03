@@ -1,7 +1,7 @@
 IInfraredFrameSource::OpenReader Method  
 =======================================  
 
-Creates a frame reader for the infrared frame source. <span id="syntaxSection"></span>
+InfraredフレームのReaderを開く。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT OpenReader(
 
 *reader*    
 Type: IInfraredFrameReader  
-[out] A new frame reader for the infrared frame source.  
+[out] [IInfraredFrameReader](../../IInfraredFrameReader.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
