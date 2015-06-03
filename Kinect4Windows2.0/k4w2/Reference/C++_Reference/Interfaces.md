@@ -55,22 +55,22 @@ BodyフレームのReference。
 BodyフレームのSource。  
 
 [IBodyHandPair](Interfaces/IBodyHandPair_Interface.md)    
-Represents a pairing of a tracked body and an indicator of whether the associated hand is the right or left hand of the tracked body.  
+人物と関係付いた手のペア。  
 
 [IBodyIndexFrame](Interfaces/IBodyIndexFrame_Interface.md)    
-Represents a frame that is computed based on the depth image. This image tells you which depth or infrared pixels belong to tracked people and which belong to the background.  
+BodyIndexフレーム。  
 
 [IBodyIndexFrameArrivedEventArgs](Interfaces/IBodyIndexFrameArrivedEven.md)    
-Arguments for the body FrameReady events.  
+BodyIndexフレームのイベントデータ。  
 
 [IBodyIndexFrameReader](Interfaces/IBodyIndexFrameReader.md)    
-Represents an interface to a reader for body index frames.  
+BodyIndexフレームのReader。  
 
 [IBodyIndexFrameReference](Interfaces/IBodyIndexFrameReference.md)    
-An interface to a reference to an actual body frame.  
+BodyIndexフレームのReference。  
 
 [IBodyIndexFrameSource](Interfaces/IBodyIndexFrameSource.md)    
-Represents a source of body index frames from a KinectSensor.  
+BodyindexフレームのSource。  
 
 [IColorCameraSettings](Interfaces/IColorCameraSettings.md)    
 Represents the settings of the color camera.  
