@@ -1,7 +1,7 @@
 IBodyHandPair::get\_HandType Method  
 ===================================  
 
-Gets the hand type of a body/hand pair. <span id="syntaxSection"></span>
+手の種類(右手・左手)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_HandType(
 
 *value*    
 Type: HandType  
-[out] The hand type of a body/hand pair.  
+[out] 手の種類(右手・左手)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

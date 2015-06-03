@@ -1,7 +1,7 @@
 IBodyHandPair Interface  
 =======================  
 
-Represents a pairing of a tracked body and an indicator of whether the associated hand is the right or left hand of the tracked body. <span id="syntaxSection"></span>
+人物と関係付いた手のペア。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IBodyHandPair** has the following members.  
+**IBodyHandPair**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,19 +48,19 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IBodyHandPair_Interface/Methods/get_BodyTrackingId_Method.md">get_BodyTrackingId</a></td>
-<td align="left">Gets the unique body tracking ID.</td>
+<td align="left">トラッキングIDを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyHandPair_Interface/Methods/get_HandType_Method.md">get_HandType</a></td>
-<td align="left">Gets the hand type of a body/hand pair.</td>
+<td align="left">手の種類(右手・左手)を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyHandPair_Interface/Methods/put_BodyTrackingId_Method.md">put_BodyTrackingId</a></td>
-<td align="left">Sets the unique body tracking ID.</td>
+<td align="left">トラッキングIDを設定する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyHandPair_Interface/Methods/put_HandType_Method.md">put_HandType</a></td>
-<td align="left">Sets the hand type of a body/hand pair.</td>
+<td align="left">手の種類(右手・左手)を設定する。</td>
 </tr>
 </tbody>
 </table>
