@@ -1,7 +1,7 @@
 IDepthFrame::get\_DepthMinReliableDistance Method  
 =================================================  
 
-Gets the minimum reliable depth of the depth frame. <span id="syntaxSection"></span>
+Depthフレームの精度が確保できる最小距離を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_DepthMinReliableDistance(
 
 *depthMinReliableDistance*    
 Type: USHORT  
-[out] The minimum reliable depth of the depth frame.  
+[out] Depthフレームの精度が確保できる最小距離。(500)  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

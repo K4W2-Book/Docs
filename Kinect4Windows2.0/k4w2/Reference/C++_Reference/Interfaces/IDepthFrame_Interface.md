@@ -1,7 +1,7 @@
 IDepthFrame Interface  
 =====================  
 
-Represents a frame where each pixel represents the distance of the closest object seen by that pixel. <span id="syntaxSection"></span>
+Depthフレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IDepthFrame** has the following members.  
+**IDepthFrame**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,31 +48,31 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IDepthFrame_Interface/Methods/AccessUnderlyingBuffer.md">AccessUnderlyingBuffer</a></td>
-<td align="left">Gets a pointer to the depth frame data.</td>
+<td align="left">Depthフレームのデータを取得する。(ポインタ参照)</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDepthFrame_Interface/Methods/CopyFrameDataToArray_Method.md">CopyFrameDataToArray</a></td>
-<td align="left">Copies the depth frame data to an unsigned array.</td>
+<td align="left">Depthフレームのデータを取得する。(コピー)</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDepthFrame_Interface/Methods/get_DepthFrameSource_Method.md">get_DepthFrameSource</a></td>
-<td align="left">Gets the source of the depth frame.</td>
+<td align="left">DepthフレームのSourceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDepthFrame_Interface/Methods/get_DepthMaxReliableDistance.md">get_DepthMaxReliableDistance</a></td>
-<td align="left">Gets the maximum reliable depth of the depth frame.</td>
+<td align="left">Depthフレームの精度が確保できる最大距離を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDepthFrame_Interface/Methods/get_DepthMinReliableDistance.md">get_DepthMinReliableDistance</a></td>
-<td align="left">Gets the minimum reliable depth of the depth frame.</td>
+<td align="left">Depthフレームの精度が確保できる最小距離を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDepthFrame_Interface/Methods/get_FrameDescription_Method.md">get_FrameDescription</a></td>
-<td align="left">Gets the description of the depth frame.</td>
+<td align="left">Depthフレームの情報を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDepthFrame_Interface/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the timestamp of the depth frame.</td>
+<td align="left">Depthフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 </tbody>
 </table>
@@ -82,7 +82,8 @@ Methods
 Remarks  
 =======  
 
-The data for this frame is stored as 16-bit unsigned integers, where each value represents the distance in millimeters. The maximum depth distance is 8 meters, although reliability starts to degrade at around 4.5 meters. Developers can use the depth frame to build custom tracking algorithms in cases where the [IBodyFrame](IBodyFrame_Interface.md) isn’t enough.  
+このフレームの画素値は16bitの符号なし整数(unsigned short)でミリメートル単位の距離を示す。
+精度が確保できる最大距離は4.5[m]だが、取得できる最大距離は8.0[m]です。  
 
 <span id="requirements"></span>
 

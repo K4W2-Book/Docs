@@ -1,7 +1,7 @@
 IDepthFrame::CopyFrameDataToArray Method  
 ========================================  
 
-Copies the depth frame data to an unsigned array. <span id="syntaxSection"></span>
+Depthフレームのデータを取得する。(コピー) <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT CopyFrameDataToArray(
 
 *capacity*    
 Type: UINT  
-The size of the array.  
+データのサイズ。(Byte)  
 
 *frameData*    
 Type: UINT16  
-[out] The array to which to copy the depth frame data.  
+[out] データをコピーする配列の先頭アドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
