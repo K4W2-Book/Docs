@@ -1,7 +1,7 @@
 IDepthFrameReader::AcquireLatestFrame Method  
 ============================================  
 
-Gets the most recent depth frame. <span id="syntaxSection"></span>
+最新のDepthフレームを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT AcquireLatestFrame(
 
 *depthFrame*    
 Type: IDepthFrame  
-[out] The most recent depth frame.  
+[out] [IDepthFrame](../../IDepthFrame_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

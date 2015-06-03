@@ -1,7 +1,7 @@
 IDepthFrameReader Interface  
 ===========================  
 
-Represents a reader for depth frames. <span id="syntaxSection"></span>
+DepthフレームのReader。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IDepthFrameReader** has the following members.  
+**IDepthFrameReader**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,31 +48,31 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IDepthFrameReader_Interface/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent depth frame.</td>
+<td align="left">最新のDepthフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDepthFrameReader_Interface/Methods/get_DepthFrameSource_Method.md">get_DepthFrameSource</a></td>
-<td align="left">Gets the source of the depth frames.</td>
+<td align="left">DepthフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDepthFrameReader_Interface/Methods/get_IsPaused_Method.md">get_IsPaused</a></td>
-<td align="left">Gets a boolean value that indicates if this reader is paused.</td>
+<td align="left">DepthフレームのReaderの動作状態を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDepthFrameReader_Interface/Methods/GetFrameArrivedEventData.md">GetFrameArrivedEventData</a></td>
-<td align="left">Gets the event data when a new depth frame arrives.</td>
+<td align="left">新しいDepthフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDepthFrameReader_Interface/Methods/put_IsPaused_Method.md">put_IsPaused</a></td>
-<td align="left">Sets a boolean value that either pauses the depth frame reader or resumes it.</td>
+<td align="left">DepthフレームのReaderの動作状態を設定する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDepthFrameReader_Interface/Methods/SubscribeFrameArrived_Method.md">SubscribeFrameArrived</a></td>
-<td align="left">Subscribes to the specified event handler to process new depth frames.</td>
+<td align="left">Depthフレームの更新を待つイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDepthFrameReader_Interface/Methods/UnsubscribeFrameArrived.md">UnsubscribeFrameArrived</a></td>
-<td align="left">Unsubscribes the specified event handler that processes new depth frames.</td>
+<td align="left">Depthフレームの更新を待つイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

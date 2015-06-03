@@ -1,7 +1,7 @@
 IDepthFrameReader::SubscribeFrameArrived Method  
 ===============================================  
 
-Subscribes to the specified event handler to process new depth frames. <span id="syntaxSection"></span>
+Depthフレームの更新を待つイベントハンドルを登録する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT SubscribeFrameArrived(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[out] The handle to the subscribed event handler.  
+[out] Depthフレームの更新を待つイベントハンドル。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

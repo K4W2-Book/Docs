@@ -1,7 +1,7 @@
 IDepthFrameReader::put\_IsPaused Method  
 =======================================  
 
-Sets a boolean value that either pauses the depth frame reader or resumes it. <span id="syntaxSection"></span>
+DepthフレームのReaderの動作状態を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT put_IsPaused(
 
 *isPaused*    
 Type: BOOLEAN  
- Set **true** to pause the reader; **false** to resume it.  
+停止する場合は**true**、動作する場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
