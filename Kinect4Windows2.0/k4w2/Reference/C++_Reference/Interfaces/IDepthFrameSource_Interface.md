@@ -1,7 +1,7 @@
 IDepthFrameSource Interface  
 ===========================  
 
-Represents a source of depth frames from a KinectSensor. <span id="syntaxSection"></span>
+DepthフレームのSource。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IDepthFrameSource** has the following members.  
+**IDepthFrameSource**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,39 +48,39 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IDepthFrameSource_Interface/Methods/get_DepthMaxReliableDistance.md">get_DepthMaxReliableDistance</a></td>
-<td align="left">Gets the maximum reliable depth of the depth frames.</td>
+<td align="left">Depthフレームの精度が確保できる最大距離を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDepthFrameSource_Interface/Methods/get_DepthMinReliableDistance.md">get_DepthMinReliableDistance</a></td>
-<td align="left">Gets the minimum reliable depth of the depth frames.</td>
+<td align="left">Depthフレームの精度が確保できる最小距離を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDepthFrameSource_Interface/Methods/get_FrameDescription_Method.md">get_FrameDescription</a></td>
-<td align="left">Gets the description of the depth frames.</td>
+<td align="left">Depthフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDepthFrameSource_Interface/Methods/get_IsActive_Method.md">get_IsActive</a></td>
-<td align="left">Gets the current activity status of this depth frame source.</td>
+<td align="left">DepthフレームのSourceの動作状況を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDepthFrameSource_Interface/Methods/get_KinectSensor_Method.md">get_KinectSensor</a></td>
-<td align="left">Gets the Kinect sensor object of the depth frame source.</td>
+<td align="left">DepthフレームのSourceを取得したセンサーを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDepthFrameSource_Interface/Methods/GetFrameCapturedEventData.md">GetFrameCapturedEventData</a></td>
-<td align="left">Gets the event data from a captured frame event.</td>
+<td align="left">最新のフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDepthFrameSource_Interface/Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the depth frame source.</td>
+<td align="left">DepthフレームのReaderを開く。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IDepthFrameSource_Interface/Methods/SubscribeFrameCaptured.md">SubscribeFrameCaptured</a></td>
-<td align="left">Event that is used to notify the application that the next frame is ready to be delivered to subscribed readers or if a frame has been dropped.</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IDepthFrameSource_Interface/Methods/UnsubscribeFrameCaptured.md">UnsubscribeFrameCaptured</a></td>
-<td align="left">Unsubscribes the specified event handler that processes new depth frames.</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

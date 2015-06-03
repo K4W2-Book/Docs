@@ -1,7 +1,7 @@
 IDepthFrameSource::OpenReader Method  
 ====================================  
 
-Creates a frame reader for the depth frame source. <span id="syntaxSection"></span>
+DepthフレームのReaderを開く。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT OpenReader(
 
 *reader*    
 Type: IDepthFrameReader  
-[out] A new frame reader for the depth frame source.  
+[out] [IDepthFrameReader](../../IDepthFrameReader_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
