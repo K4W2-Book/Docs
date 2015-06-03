@@ -1,7 +1,7 @@
 IColorFrameSource::OpenReader Method  
 ====================================  
 
-Creates a frame reader for the color frame source. <span id="syntaxSection"></span>
+ColorフレームのReaderを開く。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT OpenReader(
 
 *reader*    
 Type: IColorFrameReader  
-[out] A new frame reader for the color frame source.  
+[out] [IColorFrameReader](../../IColorFrameReader_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

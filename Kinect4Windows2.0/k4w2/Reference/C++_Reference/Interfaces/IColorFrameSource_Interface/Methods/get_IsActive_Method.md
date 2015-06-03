@@ -1,7 +1,7 @@
 IColorFrameSource::get\_IsActive Method  
 =======================================  
 
-Gets the current activity status of this color frame source. <span id="syntaxSection"></span>
+ColorフレームのSourceの動作状況を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_IsActive(
 
 *isActive*    
 Type: BOOLEAN  
-[out] Returns **true** if the color frame source is active, **false** otherwise.  
+[out] ColorフレームのSourceが動作している場合はtrue、動作していない場合はfalse。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

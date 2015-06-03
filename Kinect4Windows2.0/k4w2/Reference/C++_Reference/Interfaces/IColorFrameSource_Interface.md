@@ -1,7 +1,7 @@
 IColorFrameSource Interface  
 ===========================  
 
-Represents a source of color frames from a Kinect sensor. <span id="syntaxSection"></span>
+ColorフレームのSource。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IColorFrameSource** has the following members.  
+**IColorFrameSource**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,35 +48,35 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IColorFrameSource_Interface/Methods/CreateFrameDescription.md">CreateFrameDescription</a></td>
-<td align="left">Creates a FrameDescription object for the ColorFrame of the requested format.</td>
+<td align="left">フォーマットを指定してColorフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorFrameSource_Interface/Methods/get_FrameDescription_Method.md">get_FrameDescription</a></td>
-<td align="left">Gets the description of the color frames.</td>
+<td align="left">フレームの情報を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IColorFrameSource_Interface/Methods/get_IsActive_Method.md">get_IsActive</a></td>
-<td align="left">Gets the current activity status of this color frame source.</td>
+<td align="left">ColorフレームのSourceの動作状況を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorFrameSource_Interface/Methods/get_KinectSensor_Method.md">get_KinectSensor</a></td>
-<td align="left">Gets the KinectSensor of the color frame source.</td>
+<td align="left">ColorフレームのSourceを取得したセンサーを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IColorFrameSource_Interface/Methods/GetFrameCapturedEventData.md">GetFrameCapturedEventData</a></td>
-<td align="left">Gets the event data from a captured frame event.</td>
+<td align="left">最新のフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorFrameSource_Interface/Methods/OpenReader_Method.md">OpenReader</a></td>
-<td align="left">Creates a frame reader for the color frame source.</td>
+<td align="left">ColorフレームのReaderを開く。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IColorFrameSource_Interface/Methods/SubscribeFrameCaptured.md">SubscribeFrameCaptured</a></td>
-<td align="left">Event that is used to notify the application that the next frame is ready to be delivered to subscribed readers or if a frame has been dropped.</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorFrameSource_Interface/Methods/UnsubscribeFrameCaptured.md">UnsubscribeFrameCaptured</a></td>
-<td align="left">Unsubscribes the specified event handler that processes new frames.</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>
