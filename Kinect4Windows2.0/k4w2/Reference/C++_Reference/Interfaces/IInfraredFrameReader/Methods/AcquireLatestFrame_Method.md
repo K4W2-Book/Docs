@@ -1,7 +1,7 @@
 IInfraredFrameReader::AcquireLatestFrame Method  
 ===============================================  
 
-Gets the most recent infrared frame. <span id="syntaxSection"></span>
+最新のInfraredフレームを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT AcquireLatestFrame(
 
 *infraredFrame*    
 Type: IInfraredFrame  
-[out] The most recent infrared frame.  
+[out] [IInfraredFrame](../../IInfraredFrame_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

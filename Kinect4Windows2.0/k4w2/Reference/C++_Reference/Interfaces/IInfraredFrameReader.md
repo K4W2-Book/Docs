@@ -1,7 +1,7 @@
 IInfraredFrameReader Interface  
 ==============================  
 
-Represents a reader for infrared frames. <span id="syntaxSection"></span>
+InfraredフレームのReader。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IInfraredFrameReader** has the following members.  
+**IInfraredFrameReader**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,31 +48,31 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IInfraredFrameReader/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent infrared frame.</td>
+<td align="left">最新のInfraredフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IInfraredFrameReader/Methods/get_InfraredFrameSource.md">get_InfraredFrameSource</a></td>
-<td align="left">Gets the source of the infrared frames.</td>
+<td align="left">InfraredフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IInfraredFrameReader/Methods/get_IsPaused_Method.md">get_IsPaused</a></td>
-<td align="left">Gets a boolean value that indicates if this infrared reader is paused.</td>
+<td align="left">InfraredフレームのReaderの動作状態を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IInfraredFrameReader/Methods/GetFrameArrivedEventData.md">GetFrameArrivedEventData</a></td>
-<td align="left">Gets the event data when an new infrared frame arrives.</td>
+<td align="left">新しいInfraredフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IInfraredFrameReader/Methods/put_IsPaused_Method.md">put_IsPaused</a></td>
-<td align="left">Sets a boolean that pauses or resumes the infrared frame reader.</td>
+<td align="left">InfraredフレームのReaderの動作状態を設定する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IInfraredFrameReader/Methods/SubscribeFrameArrived_Method.md">SubscribeFrameArrived</a></td>
-<td align="left">Subscribes to the specified event handler to process new infrared frames.</td>
+<td align="left">Infraredフレームの更新を待つイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IInfraredFrameReader/Methods/UnsubscribeFrameArrived.md">UnsubscribeFrameArrived</a></td>
-<td align="left">Unsubscribes the specified event handler that processes new infrared frames.</td>
+<td align="left">Infraredフレームの更新を待つイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

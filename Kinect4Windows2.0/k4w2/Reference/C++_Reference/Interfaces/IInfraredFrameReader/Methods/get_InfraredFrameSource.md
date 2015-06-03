@@ -1,7 +1,7 @@
 IInfraredFrameReader::get\_InfraredFrameSource Method  
 =====================================================  
 
-Gets the source of the infrared frames. <span id="syntaxSection"></span>
+InfraredフレームのSourceを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_InfraredFrameSource(
 
 *infraredFrameSource*    
 Type: IInfraredFrameSource  
-[out] The source of the infrared frames.  
+[out] [IInfraredFrameSource](../../IInfraredFrameSource.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
