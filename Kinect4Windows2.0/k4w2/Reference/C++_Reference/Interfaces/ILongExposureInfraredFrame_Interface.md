@@ -69,6 +69,14 @@ Methods
 </tbody>
 </table>
 
+<span id="remarks"></span>
+
+Remarks  
+=======  
+
+このフレームの画素値は16bitの符号なし整数(unsigned short)で赤外線エミッターから照射した赤外線の反射強度を示す。  
+InfraredデータはDepthデータと同じ座標系をとる。  
+
 <span id="requirements"></span>
 
 Requirements  
