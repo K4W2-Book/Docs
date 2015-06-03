@@ -71,7 +71,8 @@ Methods
 <td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="ILongExposureInfraredFrameSource/Methods/UnsubscribeFrameCaptured.md">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを解除する。</td>
+<td align="left"><a href="ILongExposureInfraredFrameSource/Methods/UnsubscribeFrameCaptured.md">UnsubscribeFrameCaptured</td>
+<td align="left">最新のフレームが準備できたとき、またはフレームを破棄したときに発効するイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>
