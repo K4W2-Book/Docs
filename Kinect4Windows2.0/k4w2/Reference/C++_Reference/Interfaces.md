@@ -73,22 +73,22 @@ BodyIndexフレームのReference。
 BodyindexフレームのSource。  
 
 [IColorCameraSettings](Interfaces/IColorCameraSettings.md)    
-Represents the settings of the color camera.  
+Colorカメラの設定。  
 
 [IColorFrame](Interfaces/IColorFrame_Interface.md)    
-Represents a color frame for color images.  
+Colorフレーム。  
 
 [IColorFrameArrivedEventArgs](Interfaces/IColorFrameArrivedEventArgs.md)    
-Arguments for a color frame reader's FrameArrived event.  
+Colorフレームのイベントデータ。  
 
 [IColorFrameReader](Interfaces/IColorFrameReader_Interface.md)    
-Represents a reader for color frames.  
+ColorフレームのReader。  
 
 [IColorFrameReference](Interfaces/IColorFrameReference.md)    
-Represents a reference to an actual color frame.  
+ColorフレームのReference。  
 
 [IColorFrameSource](Interfaces/IColorFrameSource_Interface.md)    
-Represents a source of color frames from a Kinect sensor.  
+ColorフレームのSource。  
 
 [ICoordinateMapper](Interfaces/ICoordinateMapper_Interface.md)    
 Represents the mapper that provides translation services from one point type to another.  
