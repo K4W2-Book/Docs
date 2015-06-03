@@ -1,4 +1,4 @@
-ILongExposureInfraredFrameSource::get\_FrameDescription Method  
+ILongExposureInfraredFrame::get\_FrameDescription Method  
 ==============================================================  
 
 長時間露光Infraredフレームの情報を取得する。 <span id="syntaxSection"></span>
