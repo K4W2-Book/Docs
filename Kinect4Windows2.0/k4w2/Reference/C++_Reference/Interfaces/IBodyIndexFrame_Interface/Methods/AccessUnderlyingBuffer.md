@@ -1,7 +1,7 @@
 IBodyIndexFrame::AccessUnderlyingBuffer Method  
 ==============================================  
 
-Gets a pointer to the body index frame data. <span id="syntaxSection"></span>
+BodyIndexフレームのデータを取得する。(ポインタ参照)< <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT AccessUnderlyingBuffer(
 
 *capacity*    
 Type: UINT  
-[out] Gets a pointer to the body index frame data.  
+[out] データのサイズ。(Byte)  
 
 *buffer*    
 Type: BYTE  
-[out] The buffer to fil.  
+[out] データへのポインタ。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

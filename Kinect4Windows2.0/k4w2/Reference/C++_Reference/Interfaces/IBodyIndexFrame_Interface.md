@@ -1,7 +1,7 @@
 IBodyIndexFrame Interface  
 =========================  
 
-Represents a frame that is computed based on the depth image. This image tells you which depth or infrared pixels belong to tracked people and which belong to the background. <span id="syntaxSection"></span>
+BodyIndexフレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IBodyIndexFrame** has the following members.  
+**IBodyIndexFrame**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,23 +48,23 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrame_Interface/Methods/AccessUnderlyingBuffer.md">AccessUnderlyingBuffer</a></td>
-<td align="left">Gets a pointer to the body index frame data.</td>
+<td align="left">BodyIndexフレームのデータを取得する。(ポインタ参照)</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyIndexFrame_Interface/Methods/CopyFrameDataToArray_Method.md">CopyFrameDataToArray</a></td>
-<td align="left">Copies the frame data into the array provided.</td>
+<td align="left">BodyIndexフレームのデータを取得する。(コピー)</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrame_Interface/Methods/get_BodyIndexFrameSource.md">get_BodyIndexFrameSource</a></td>
-<td align="left">Gets the source of the body index frame.</td>
+<td align="left">BodyIndexフレームのSourceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyIndexFrame_Interface/Methods/get_FrameDescription_Method.md">get_FrameDescription</a></td>
-<td align="left">Gets the description of the body index frame.</td>
+<td align="left">BodyIndexフレームの情報を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrame_Interface/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the timestamp of the body index frame.</td>
+<td align="left">BodyIndexフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,8 @@ Methods
 Remarks  
 =======  
 
-The pixel values in this frame are 8-bit unsigned integers, where 0-5 map directly to the BodyData index in the [IBodyFrame](IBodyFrame_Interface.md). Values greater than the value obtained from [get\_BodyCount](IBodyFrameSource_Interface/Methods/get_BodyCount_Method.md) indicate the pixel is part of the background, not associated with a tracked body. This frame is useful for green screening applications, or any scenario where you want to display the silhouette of the user. It also provides a good starting bounds for custom depth algorithms.  
+このフレームの画素値は8bitの符号なし整数(unsigned char)で0~5のBodyのインデックスを示す。
+また、[IBodyFrameSource::get\_BodyCount](IBodyFrameSource_Interface/Methods/get_BodyCount_Method.md)で取得したトラッキングできる最大人数よりも多い画素値は背景を示す。  
 
 <span id="requirements"></span>
 
