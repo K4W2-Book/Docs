@@ -97,19 +97,19 @@ Represents the mapper that provides translation services from one point type to 
 Arguments for a coordinate mapping's ICoordinateMappingChanged event.  
 
 [IDepthFrame](Interfaces/IDepthFrame_Interface.md)    
-Represents a frame where each pixel represents the distance of the closest object seen by that pixel.  
+Depthフレーム。  
 
 [IDepthFrameArrivedEventArgs](Interfaces/IDepthFrameArrivedEventArgs.md)    
-Arguments for a depth frame reader's FrameArrived event.  
+Depthフレームのイベントデータ。  
 
 [IDepthFrameReader](Interfaces/IDepthFrameReader_Interface.md)    
-Represents a reader for depth frames.  
+DepthフレームのReader。  
 
 [IDepthFrameReference](Interfaces/IDepthFrameReference.md)    
-Represents a reference to an actual depth frame.  
+DepthフレームのReference。  
 
 [IDepthFrameSource](Interfaces/IDepthFrameSource_Interface.md)    
-Represents a source of depth frames from a KinectSensor.  
+DepthフレームのSource。  
 
 [IEnumKinectSensor](Interfaces/IEnumKinectSensor_Interface.md)    
 Represents an interface to an enumeration of Kinect sensors.  
