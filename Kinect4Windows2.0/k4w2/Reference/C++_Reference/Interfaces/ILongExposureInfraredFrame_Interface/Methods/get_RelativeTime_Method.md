@@ -1,7 +1,7 @@
-ILongExposureInfraredFrameReference::get\_RelativeTime Method  
+ILongExposureInfraredFrame::get\_RelativeTime Method  
 =============================================================  
 
-Gets the timestamp of the referenced long exposure infrared frame. <span id="syntaxSection"></span>
+長時間露光Infraredフレームを取得した時間(相対時間)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,7 +30,7 @@ HRESULT get_RelativeTime(
 
 *relativeTime*    
 Type: TIMESPAN  
-[out] The timestamp of the referenced long exposure infrared frame.  
+[out] 長時間露光Infraredフレームを取得した時間(相対時間)。  
 
 <span id="ID4EP"></span>
 #### Return value  
