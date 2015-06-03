@@ -1,7 +1,7 @@
 IInfraredFrame::CopyFrameDataToArray Method  
 ===========================================  
 
-Copies the infrared frame data to an unsigned short array. <span id="syntaxSection"></span>
+Infraredフレームのデータを取得する。(コピー) <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,24 +31,24 @@ HRESULT CopyFrameDataToArray(
 
 *capacity*    
 Type: UINT  
-The size of the frame data buffer.  
+データのサイズ。(Byte)  
 
 *frameData*    
 Type: UINT16  
-[out] The array to which to copy the infrared frame data.  
+[out] データをコピーする配列の先頭アドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-The array must be of sufficient size to copy the full frame data.  
+配列はフレームデータを格納するのに十分な大きさを持っている必要があります。  
 
 <span id="requirements"></span>
 

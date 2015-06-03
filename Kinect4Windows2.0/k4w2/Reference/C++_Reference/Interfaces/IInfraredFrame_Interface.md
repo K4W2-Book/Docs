@@ -1,7 +1,7 @@
 IInfraredFrame Interface  
 ========================  
 
-Represents a frame that provides view of the scene that looks just like a black and white photograph, but is actively lit, so brightness is consistent regardless of location and room brightness. <span id="syntaxSection"></span>
+Infraredフレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IInfraredFrame** has the following members.  
+**IInfraredFrame**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,23 +48,23 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IInfraredFrame_Interface/Methods/AccessUnderlyingBuffer.md">AccessUnderlyingBuffer</a></td>
-<td align="left">Gets a pointer to the infrared frame data.</td>
+<td align="left">Infraredフレームのデータを取得する。(ポインタ参照)</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IInfraredFrame_Interface/Methods/CopyFrameDataToArray_Method.md">CopyFrameDataToArray</a></td>
-<td align="left">Copies the infrared frame data to an unsigned short array.</td>
+<td align="left">Infraredフレームのデータを取得する。(コピー)</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IInfraredFrame_Interface/Methods/get_FrameDescription_Method.md">get_FrameDescription</a></td>
-<td align="left">Gets the description of the infrared frame.</td>
+<td align="left">Infraredフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IInfraredFrame_Interface/Methods/get_InfraredFrameSource.md">get_InfraredFrameSource</a></td>
-<td align="left">Gets the source of the infrared frame.</td>
+<td align="left">InfraredフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IInfraredFrame_Interface/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the source of the infrared frame.</td>
+<td align="left">Infraredフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,8 @@ Methods
 Remarks  
 =======  
 
-The infrared frame is great for computer vision algorithms where texture is important, such as facial recognition. Data is stored as 16-bit unsigned integers. The infrared frame is also great for green screening, tracking reflective markers, and filtering out low-return (and therefore jittery) depth pixels. Note that the infrared frame is derived from the same sensor as depth, so the images are perfectly aligned. For example, the infrared pixel at row 5 col 9 goes with the depth pixel at row 5 col 9.  
+このフレームの画素値は16bitの符号なし整数(unsigned short)で赤外線エミッターから照射した赤外線の反射強度を示す。  
+InfraredデータはDepthデータと同じ座標系をとる。  
 
 <span id="requirements"></span>
 

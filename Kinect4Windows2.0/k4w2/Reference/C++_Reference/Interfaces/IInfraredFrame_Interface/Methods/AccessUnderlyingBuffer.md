@@ -1,7 +1,7 @@
 IInfraredFrame::AccessUnderlyingBuffer Method  
 =============================================  
 
-Gets a pointer to the infrared frame data. <span id="syntaxSection"></span>
+Infraredフレームのデータを取得する。(ポインタ参照) <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,24 +31,24 @@ HRESULT AccessUnderlyingBuffer(
 
 *capacity*    
 Type: UINT  
-[out] When this method returns, contains the size of the frame data buffer in bytes.  
+[out] データのサイズ。(Byte)  
 
 *buffer*    
 Type: UINT16  
-[out] When this method returns, contains the pointer to the frame data.  
+[out] データへのポインタ。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 
 Remarks  
 =======  
 
-The pointer returned is only valid as long as the InfraredFrame has not been disposed.  
+このポインタはIInfraredFrameが解放されるまで有効です。  
 
 <span id="requirements"></span>
 
