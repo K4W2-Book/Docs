@@ -74,7 +74,7 @@ Methods
 Remarks  
 =======  
 
-このフレームの画素値は8bitの符号なし整数(unsigned char)で0~5のBodyのインデックスを示す。
+このフレームの画素値は8bitの符号なし整数(unsigned char)で0~5のBodyのインデックスを示す。  
 また、[IBodyFrameSource::get\_BodyCount](IBodyFrameSource_Interface/Methods/get_BodyCount_Method.md)で取得したトラッキングできる最大人数よりも多い画素値は背景を示す。  
 
 <span id="requirements"></span>

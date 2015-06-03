@@ -82,7 +82,7 @@ Methods
 Remarks  
 =======  
 
-このフレームの画素値は16bitの符号なし整数(unsigned short)でミリメートル単位の距離を示す。
+このフレームの画素値は16bitの符号なし整数(unsigned short)でミリメートル単位の距離を示す。  
 精度が確保できる最大距離は4.5[m]だが、取得できる最大距離は8.0[m]です。  
 
 <span id="requirements"></span>
