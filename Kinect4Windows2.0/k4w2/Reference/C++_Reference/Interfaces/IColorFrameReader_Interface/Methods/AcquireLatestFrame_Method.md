@@ -1,7 +1,7 @@
 IColorFrameReader::AcquireLatestFrame Method  
 ============================================  
 
-Gets the most recent color frame. <span id="syntaxSection"></span>
+最新のColorフレームを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT AcquireLatestFrame(
 
 *colorFrame*    
 Type: IColorFrame  
-[out] The most recent color frame.  
+[out] [IColorFrame](../../IColorFrame_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

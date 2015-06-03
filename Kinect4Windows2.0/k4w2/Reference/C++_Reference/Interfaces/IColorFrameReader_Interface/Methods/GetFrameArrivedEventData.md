@@ -1,7 +1,7 @@
 IColorFrameReader::GetFrameArrivedEventData Method  
 ==================================================  
 
-Gets the event data when a new frame arrives. <span id="syntaxSection"></span>
+新しいColorフレームが準備できたとき、イベントデータを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetFrameArrivedEventData(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] The handle to event handler that will process the event data.  
+[in] Colorフレームの更新を待つイベントハンドル。  
 
 *eventData*    
 Type: IColorFrameArrivedEventArgs  
-[out] The event data.  
+[out] [IColorFrameArrivedEventArgs](../../IColorFrameArrivedEventArgs.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

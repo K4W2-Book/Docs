@@ -1,7 +1,7 @@
 IColorFrameReader::get\_ColorFrameSource Method  
 ===============================================  
 
-Gets the source of the color frames. <span id="syntaxSection"></span>
+ColorフレームのSourceを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_ColorFrameSource(
 
 *colorFrameSource*    
 Type: IColorFrameSource  
-[out] The source of the color frames.  
+[out] [IColorFrameSource](../../IColorFrameSource_Interface.md)  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
