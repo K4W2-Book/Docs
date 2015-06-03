@@ -1,7 +1,7 @@
 IColorFrame::AccessRawUnderlyingBuffer Method  
 =============================================  
 
-Gets a pointer to the color frame data. <span id="syntaxSection"></span>
+Colorフレームのデータを取得する。(ポインタ参照) <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT AccessRawUnderlyingBuffer(
 
 *capacity*    
 Type: UINT  
-[out] When this method returns, contains the size of the color frame data buffer in bytes.  
+[out] データのサイズ。(Byte)  
 
 *buffer*    
 Type: BYTE  
-[out] When this method returns, contains the pointer to the color frame data.  
+[out] データへのポインタ。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

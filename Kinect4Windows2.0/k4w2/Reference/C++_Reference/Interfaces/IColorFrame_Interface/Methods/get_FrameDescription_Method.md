@@ -1,7 +1,7 @@
 IColorFrame::get\_FrameDescription Method  
 =========================================  
 
-Gets the description of the color frame. <span id="syntaxSection"></span>
+Colorフレームの情報を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FrameDescription(
 
 *rawFrameDescription*    
 Type: IFrameDescription  
-[out] The description of the color frame.  
+[out] [IFrameDescription](../../IFrameDescription_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

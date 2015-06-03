@@ -1,7 +1,7 @@
 IColorFrame::CreateFrameDescription Method  
 ==========================================  
 
-Creates a FrameDescription object for the ColorFrame of the requested format. <span id="syntaxSection"></span>
+フォーマットを指定してColorフレームの情報を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,18 +30,18 @@ HRESULT CreateFrameDescription(
 #### Parameters  
 
 *format*    
-Type: ColorImageFormat  
-The image format for which to create the FrameDescription object.  
+Type: [ColorImageFormat](../../../Enumerations/ColorImageFormat_Enumeration.md)  
+Color画像のフォーマット。  
 
 *frameDescription*    
 Type: IFrameDescription  
-[out] The frame description.  
+[out] [IFrameDescription](../../IFrameDescription_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

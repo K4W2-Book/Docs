@@ -1,7 +1,7 @@
 IColorFrame::get\_ColorCameraSettings Method  
 ============================================  
 
-Gets the color camera settings. <span id="syntaxSection"></span>
+Colorカメラの設定を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_ColorCameraSettings(
 
 *colorCameraSettings*    
 Type: IColorCameraSettings  
-[out] The color camera settings.  
+[out] [IColorCameraSettings](../../IColorCameraSettings.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

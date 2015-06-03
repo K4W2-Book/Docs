@@ -1,7 +1,7 @@
 IColorFrame::get\_RawColorImageFormat Method  
 ============================================  
 
-Gets the format of the color frame data. <span id="syntaxSection"></span>
+ColorフレームのRAWデータのフォーマットを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -29,14 +29,14 @@ HRESULT get_RawColorImageFormat(
 #### Parameters  
 
 *rawColorImageFormat*    
-Type: ColorImageFormat  
-[out] The format of the color frame data.  
+Type: [ColorImageFormat](../../../Enumerations/ColorImageFormat_Enumeration.md)  
+[out] ColorフレームのRAWデータのフォーマット。(ColorImageFormat\_Yuy2)  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

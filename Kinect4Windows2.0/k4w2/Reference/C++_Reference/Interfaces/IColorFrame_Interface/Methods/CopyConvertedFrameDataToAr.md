@@ -1,7 +1,7 @@
 IColorFrame::CopyConvertedFrameDataToArray Method  
 =================================================  
 
-Copies the color frame data converted into the requested format to a byte array. <span id="syntaxSection"></span>
+フォーマット指定してColorフレームのデータを取得する。(コピー) <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -32,21 +32,21 @@ HRESULT CopyConvertedFrameDataToArray(
 
 *capacity*    
 Type: UINT  
-When this method returns, contains the size of the frame data buffer in bytes.  
+データのサイズ。(Byte)  
 
 *frameData*    
 Type: BYTE  
-[out] The array to which to copy the converted color frame data.  
+[out] データをコピーする配列の先頭アドレス。  
 
 *colorFormat*    
-Type: ColorImageFormat  
-The image format to which to convert the color frame data.  
+Type: [ColorImageFormat](../../../Enumerations/ColorImageFormat_Enumeration.md)  
+取得するColor画像のフォーマット。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 IColorFrame Interface  
 =====================  
 
-Represents a color frame for color images. <span id="syntaxSection"></span>
+Colorフレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IColorFrame** has the following members.  
+**IColorFrame**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,39 +48,39 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IColorFrame_Interface/Methods/AccessRawUnderlyingBuffer.md">AccessRawUnderlyingBuffer</a></td>
-<td align="left">Gets a pointer to the color frame data.</td>
+<td align="left">Colorフレームのデータを取得する。(ポインタ参照)</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorFrame_Interface/Methods/CopyConvertedFrameDataToAr.md">CopyConvertedFrameDataToArray</a></td>
-<td align="left">Copies the color frame data converted into the requested format to a byte array.</td>
+<td align="left">フォーマット指定してColorフレームのデータを取得する。(コピー)</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IColorFrame_Interface/Methods/CopyRawFrameDataToArray.md">CopyRawFrameDataToArray</a></td>
-<td align="left">Copies the raw frame data into the array provided.</td>
+<td align="left">ColorフレームのRAWデータを取得する。(コピー)</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorFrame_Interface/Methods/CreateFrameDescription.md">CreateFrameDescription</a></td>
-<td align="left">Creates a FrameDescription object for the ColorFrame of the requested format.</td>
+<td align="left">フォーマットを指定してColorフレームの情報を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IColorFrame_Interface/Methods/get_ColorCameraSettings.md">get_ColorCameraSettings</a></td>
-<td align="left">Gets the color camera settings.</td>
+<td align="left">Colorカメラの設定を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorFrame_Interface/Methods/get_ColorFrameSource_Method.md">get_ColorFrameSource</a></td>
-<td align="left">Gets the source of the color frame.</td>
+<td align="left">ColorフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IColorFrame_Interface/Methods/get_FrameDescription_Method.md">get_FrameDescription</a></td>
-<td align="left">Gets the description of the color frame.</td>
+<td align="left">Colorフレームの情報を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorFrame_Interface/Methods/get_RawColorImageFormat.md">get_RawColorImageFormat</a></td>
-<td align="left">Gets the format of the color frame data.</td>
+<td align="left">ColorフレームのRAWデータのフォーマットを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IColorFrame_Interface/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Gets the timestamp of the color frame.</td>
+<td align="left">Colorフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 </tbody>
 </table>
