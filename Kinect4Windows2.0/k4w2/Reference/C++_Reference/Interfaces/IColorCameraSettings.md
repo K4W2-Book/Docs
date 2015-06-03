@@ -1,7 +1,7 @@
 IColorCameraSettings Interface  
 ==============================  
 
-Represents the settings of the color camera. <span id="syntaxSection"></span>
+Colorカメラの設定。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IColorCameraSettings** has the following members.  
+**IColorCameraSettings**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,19 +48,19 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IColorCameraSettings/Methods/get_ExposureTime_Method.md">get_ExposureTime</a></td>
-<td align="left">Gets the exposure time of the color camera.</td>
+<td align="left">Colorカメラの露光時間を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorCameraSettings/Methods/get_FrameInterval_Method.md">get_FrameInterval</a></td>
-<td align="left">Gets the frame interval time of the color camera.</td>
+<td align="left">Colorカメラのフレーム間隔時間を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IColorCameraSettings/Methods/get_Gain_Method.md">get_Gain</a></td>
-<td align="left">Gets the gain of the color camera.</td>
+<td align="left">Colorカメラのゲインを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IColorCameraSettings/Methods/get_Gamma_Method.md">get_Gamma</a></td>
-<td align="left">Gets the gamma level of the color camera.</td>
+<td align="left">Colorカメラのガンマ値を取得する。</td>
 </tr>
 </tbody>
 </table>

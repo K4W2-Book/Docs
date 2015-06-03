@@ -1,7 +1,7 @@
 IColorCameraSettings::get\_FrameInterval Method  
 ===============================================  
 
-Gets the frame interval time of the color camera. <span id="syntaxSection"></span>
+Colorカメラのフレーム間隔時間を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FrameInterval(
 
 *frameInterval*    
 Type: TIMESPAN  
-[out] The frame interval time of the color camera.  
+[out] Colorカメラのフレーム間隔時間。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

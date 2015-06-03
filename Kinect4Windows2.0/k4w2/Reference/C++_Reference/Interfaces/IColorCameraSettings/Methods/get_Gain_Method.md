@@ -1,7 +1,7 @@
 IColorCameraSettings::get\_Gain Method  
 ======================================  
 
-Gets the gain of the color camera. <span id="syntaxSection"></span>
+Colorカメラのゲインを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_Gain(
 
 *gain*    
 Type: float  
-[out] The gain of the color camera.  
+[out] Colorカメラのゲイン。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
