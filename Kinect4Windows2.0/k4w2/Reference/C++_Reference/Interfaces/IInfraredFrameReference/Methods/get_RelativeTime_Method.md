@@ -1,7 +1,7 @@
 IInfraredFrameReference::get\_RelativeTime Method  
 =================================================  
 
-Retrieves the timestamp of the referenced infrared frame. <span id="syntaxSection"></span>
+Infraredフレームを取得した時間(相対時間)を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_RelativeTime(
 
 *relativeTime*    
 Type: TIMESPAN  
-[out] The timestamp of the referenced infrared frame.  
+[out] Infraredフレームを取得した時間(相対時間)。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

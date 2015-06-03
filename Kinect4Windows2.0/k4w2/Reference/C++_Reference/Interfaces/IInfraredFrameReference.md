@@ -1,7 +1,7 @@
 IInfraredFrameReference Interface  
 =================================  
 
-Represents a reference to an actual infrared frame. <span id="syntaxSection"></span>
+InfraredフレームのReference。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IInfraredFrameReference** has the following members.  
+**IInfraredFrameReference**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,11 +48,11 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IInfraredFrameReference/Methods/AcquireFrame_Method.md">AcquireFrame</a></td>
-<td align="left">Gets the actual infrared frame from the reference.</td>
+<td align="left">Infraredフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IInfraredFrameReference/Methods/get_RelativeTime_Method.md">get_RelativeTime</a></td>
-<td align="left">Retrieves the timestamp of the referenced infrared frame.</td>
+<td align="left">Infraredフレームを取得した時間(相対時間)を取得する。</td>
 </tr>
 </tbody>
 </table>
