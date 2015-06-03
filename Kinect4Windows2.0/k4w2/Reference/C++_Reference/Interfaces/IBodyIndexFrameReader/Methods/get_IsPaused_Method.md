@@ -1,7 +1,7 @@
 IBodyIndexFrameReader::get\_IsPaused Method  
 ===========================================  
 
-Gets whether the body index frame reader is paused. <span id="syntaxSection"></span>
+BodyIndexフレームのReaderの動作状態を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_IsPaused(
 
 *isPaused*    
 Type: BOOLEAN  
-[out] Returns **true** if the body index frame reader is paused; **false** otherwise.  
+[out] BodyIndexフレームのReaderが停止している場合は**true**、動作している場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 IBodyIndexFrameReader Interface  
 ===============================  
 
-Represents an interface to a reader for body index frames. <span id="syntaxSection"></span>
+BodyIndexフレームのReader。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IBodyIndexFrameReader** has the following members.  
+**IBodyIndexFrameReader**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,31 +48,31 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrameReader/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent body index frame.</td>
+<td align="left">最新のBodyIndexフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyIndexFrameReader/Methods/get_BodyIndexFrameSource.md">get_BodyIndexFrameSource</a></td>
-<td align="left">Gets the source of the body index frames.</td>
+<td align="left">BodyIndexフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrameReader/Methods/get_IsPaused_Method.md">get_IsPaused</a></td>
-<td align="left">Gets whether the body index frame reader is paused.</td>
+<td align="left">BodyIndexフレームのReaderの動作状態を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyIndexFrameReader/Methods/GetFrameArrivedEventData.md">GetFrameArrivedEventData</a></td>
-<td align="left">Gets the event data when a new frame arrives.</td>
+<td align="left">新しいBodyIndexフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrameReader/Methods/put_IsPaused_Method.md">put_IsPaused</a></td>
-<td align="left">Sets a boolean value that either pauses the body index frame reader or resumes it.</td>
+<td align="left">BodyIndexフレームのReaderの動作状態を設定する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IBodyIndexFrameReader/Methods/SubscribeFrameArrived_Method.md">SubscribeFrameArrived</a></td>
-<td align="left">Subscribes to the specified event handler to process new frames.</td>
+<td align="left">BodyIndexフレームの更新を待つイベントハンドルを登録する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IBodyIndexFrameReader/Methods/UnsubscribeFrameArrived.md">UnsubscribeFrameArrived</a></td>
-<td align="left">Unsubscribes the specified event handler that processes new frames.</td>
+<td align="left">BodyIndexフレームの更新を待つイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>
