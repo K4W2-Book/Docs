@@ -1,7 +1,7 @@
 IIsAvailableChangedEventArgs::get\_IsAvailable Method  
 =====================================================  
 
-Gets whether or not the KinectSensor is available. <span id="syntaxSection"></span>
+Kinectセンサーが利用可能であるかを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_IsAvailable(
 
 *isAvailable*    
 Type: BOOLEAN  
-[out] Returns **true** if the Kinect sensor is available; **false** otherwise.  
+[out] Kinectセンサーが利用可能な場合は**true**、そうでない場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

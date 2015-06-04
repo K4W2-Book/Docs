@@ -1,7 +1,7 @@
 IIsAvailableChangedEventArgs Interface  
 ======================================  
 
-Represents the arguments for a KinectSensor's IsAvailableChanged event. <span id="syntaxSection"></span>
+Kinectセンサーが変更されたときのイベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IIsAvailableChangedEventArgs** has the following members.  
+**IIsAvailableChangedEventArgs**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IIsAvailableChangedEventArgs/Methods/get_IsAvailable_Method.md">get_IsAvailable</a></td>
-<td align="left">Gets whether or not the KinectSensor is available.</td>
+<td align="left">Kinectセンサーが利用可能であるかを取得する。</td>
 </tr>
 </tbody>
 </table>
