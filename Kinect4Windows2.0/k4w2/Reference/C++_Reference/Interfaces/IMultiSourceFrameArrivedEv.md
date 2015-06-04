@@ -1,7 +1,7 @@
 IMultiSourceFrameArrivedEventArgs Interface  
 ===========================================  
 
-Arguments for a multi source frame reader's FrameArrived event. <span id="syntaxSection"></span>
+MultiSourceフレームのイベントデータ。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IMultiSourceFrameArrivedEventArgs** has the following members.  
+**IMultiSourceFrameArrivedEventArgs**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IMultiSourceFrameArrivedEv/Methods/get_FrameReference_Method.md">get_FrameReference</a></td>
-<td align="left">Gets the reference to the multi source frame for the FrameArrived event.</td>
+<td align="left">MultiSourceフレームのReferenceを取得する。</td>
 </tr>
 </tbody>
 </table>
