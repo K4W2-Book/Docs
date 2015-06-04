@@ -1,7 +1,7 @@
 IKinectSensor::OpenMultiSourceFrameReader Method  
 ================================================  
 
-Opens a new stream reader. <span id="syntaxSection"></span>
+MultiSourceフレームのReaderを開く。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT OpenMultiSourceFrameReader(
 
 *enabledFrameSourceTypes*    
 Type: DWORD  
-The frame source types.  
+有効にするストリームの種類。([FrameSourceTypes](../../../Enumerations/FrameSourceTypes_Enumeration.md)を列挙する。)  
 
 *multiSourceFrameReader*    
 Type: IMultiSourceFrameReader  
-[out] When this method returns, the new stream reader.  
+[out] [IMultiSourceFrameReader](../../IMultiSourceFrameReader.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="remarks"></span>
 

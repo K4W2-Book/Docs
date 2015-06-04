@@ -1,7 +1,7 @@
 IKinectSensor::SubscribeIsAvailableChanged Method  
 =================================================  
 
-Subscribes an event handler that is raised when the availability of the Kinect Sensor changes. <span id="syntaxSection"></span>
+Kinectセンサーが変更されたときに発効するイベントハンドルを登録する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT SubscribeIsAvailableChanged(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[out] The handle to the event handler.  
+[out] 登録するイベントハンドル。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

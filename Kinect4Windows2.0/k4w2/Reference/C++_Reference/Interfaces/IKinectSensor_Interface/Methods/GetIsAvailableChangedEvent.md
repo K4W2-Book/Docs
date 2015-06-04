@@ -1,7 +1,7 @@
 IKinectSensor::GetIsAvailableChangedEventData Method  
 ====================================================  
 
-Gets the event data when when the availability of the Kinect sensor changes. <span id="syntaxSection"></span>
+Kinectセンサーが変更されたとき、イベントデータを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetIsAvailableChangedEventData(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] The handle to the event handler.  
+[in] Kinectセンサーが変更されたとき発効するイベントハンドル。  
 
 *eventData*    
 Type: IIsAvailableChangedEventArgs  
-[out] The event data.  
+[out] [IIsAvailableChangedEventArgs](../../IIsAvailableChangedEventArgs.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

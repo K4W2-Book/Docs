@@ -1,7 +1,7 @@
 IKinectSensor::Open Method  
 ==========================  
 
-Starts streaming data from the Kinect using a specified access mode. <span id="syntaxSection"></span>
+Kinectセンサーのストリームを開く。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT Open(
 
 **    
 Type: void  
-Does not return a value.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

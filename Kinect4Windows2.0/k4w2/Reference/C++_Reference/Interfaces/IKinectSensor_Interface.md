@@ -1,7 +1,7 @@
 IKinectSensor Interface  
 =======================  
 
-Represents a Kinect sensor device. <span id="syntaxSection"></span>
+Kinectセンサー。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IKinectSensor** has the following members.  
+**IKinectSensor**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,75 +48,75 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IKinectSensor_Interface/Methods/Close_Method.md">Close</a></td>
-<td align="left">Gracefully cleans up running streams.</td>
+<td align="left">Kinectセンサーのストリームを閉じる。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_AudioSource_Method.md">get_AudioSource</a></td>
-<td align="left">Gets the audio source.</td>
+<td align="left">AudioのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_BodyFrameSource_Method.md">get_BodyFrameSource</a></td>
-<td align="left">Gets the body source.</td>
+<td align="left">BodyフレームのSourceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_BodyIndexFrameSource.md">get_BodyIndexFrameSource</a></td>
-<td align="left">Gets the body index source.</td>
+<td align="left">BodyIndexフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_ColorFrameSource_Method.md">get_ColorFrameSource</a></td>
-<td align="left">Gets the color source.</td>
+<td align="left">ColorフレームのSourceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_CoordinateMapper_Method.md">get_CoordinateMapper</a></td>
-<td align="left">Gets the coordinate mapper.</td>
+<td align="left">Coordinate Mapperを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_DepthFrameSource_Method.md">get_DepthFrameSource</a></td>
-<td align="left">Gets the depth source.</td>
+<td align="left">DepthフレームのSourceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_InfraredFrameSource.md">get_InfraredFrameSource</a></td>
-<td align="left">Gets the infrared source.</td>
+<td align="left">InfraredフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_IsAvailable_Method.md">get_IsAvailable</a></td>
-<td align="left">Gets a boolean value that indicates whether the Kinect sensor is available.</td>
+<td align="left">Kinectセンサーが利用可能であるかを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_IsOpen_Method.md">get_IsOpen</a></td>
-<td align="left">Gets a boolean value that indicates whether the Kinect sensor has any open streams.</td>
+<td align="left">Kinectセンサーがストリームを開いているかを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_KinectCapabilities.md">get_KinectCapabilities</a></td>
-<td align="left">Gets the capabilities of the Kinect sensor.</td>
+<td align="left">Kinectセンサーがサポートする機能を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get.md">get_LongExposureInfraredFrameSource</a></td>
-<td align="left">Gets the long exposure infrared frame source.</td>
+<td align="left">長時間露光InfraredフレームのSourceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IKinectSensor_Interface/Methods/get_UniqueKinectId_Method.md">get_UniqueKinectId</a></td>
-<td align="left">Gets the unique ID of the Kinect sensor.</td>
+<td align="left">KinectセンサーのユニークIDを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IKinectSensor_Interface/Methods/GetIsAvailableChangedEvent.md">GetIsAvailableChangedEventData</a></td>
-<td align="left">Gets the event data when when the availability of the Kinect sensor changes.</td>
+<td align="left">Kinectセンサーが変更されたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IKinectSensor_Interface/Methods/Open_Method.md">Open</a></td>
-<td align="left">Starts streaming data from the Kinect using a specified access mode.</td>
+<td align="left">Kinectセンサーのストリームを開く。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IKinectSensor_Interface/Methods/OpenMultiSourceFrameReader.md">OpenMultiSourceFrameReader</a></td>
-<td align="left">Opens a new stream reader.</td>
+<td align="left">MultiSourceフレームのReaderを開く。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IKinectSensor_Interface/Methods/SubscribeIsAvailableChanged.md">SubscribeIsAvailableChanged</a></td>
-<td align="left">Subscribes an event handler that is raised when the availability of the Kinect Sensor changes.</td>
+<td align="left">Kinectセンサーが変更されたときに発効するイベントハンドルを登録する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IKinectSensor_Interface/Methods/UnsubscribeIsAvailableChan.md">UnsubscribeIsAvailableChanged</a></td>
-<td align="left">Unsubscribes an event handler that is raised when the availability of the Kinect Sensor changes.</td>
+<td align="left">Kinectセンサーが変更されたときに発効するイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>

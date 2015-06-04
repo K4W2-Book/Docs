@@ -1,7 +1,7 @@
 IKinectSensor::get\_IsOpen Method  
 =================================  
 
-Gets a boolean value that indicates whether the Kinect sensor has any open streams. <span id="syntaxSection"></span>
+Kinectセンサーがストリームを開いているかを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_IsOpen(
 
 *isOpen*    
 Type: BOOLEAN  
-[out] Returns **true** if the kinect sensor has any open streams; **false** otherwise.  
+[out] Kinectセンサーがストリームを開いている場合は**true**、そうでない場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

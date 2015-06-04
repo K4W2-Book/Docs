@@ -1,7 +1,7 @@
 IKinectSensor::get\_UniqueKinectId Method  
 =========================================  
 
-Gets the unique ID of the Kinect sensor. <span id="syntaxSection"></span>
+KinectセンサーのユニークIDを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT get_UniqueKinectId(
 
 *bufferSize*    
 Type: UINT  
-The size of the string buffer that will contain the ID.  
+ユニークIDを取得する文字列バッファのサイズ。  
 
 *uniqueKinectId*    
 Type: WCHAR  
-[out] Unique ID of the Kinect sensor.  
+[out] ユニークID。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

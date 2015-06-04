@@ -1,7 +1,7 @@
 IKinectSensor::get\_CoordinateMapper Method  
 ===========================================  
 
-Gets the coordinate mapper. <span id="syntaxSection"></span>
+Coordinate Mapperを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_CoordinateMapper(
 
 *coordinateMapper*    
 Type: ICoordinateMapper  
-[out] The coordinate mapper.  
+[out] [ICoordinateMapper](../../ICoordinateMapper_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

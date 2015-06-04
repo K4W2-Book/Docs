@@ -1,7 +1,7 @@
 IKinectSensor::Close Method  
 ===========================  
 
-Gracefully cleans up running streams. <span id="syntaxSection"></span>
+Kinectセンサーのストリームを閉じる。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT Close(
 
 **    
 Type: void  
-Does not return a value.  
+  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
