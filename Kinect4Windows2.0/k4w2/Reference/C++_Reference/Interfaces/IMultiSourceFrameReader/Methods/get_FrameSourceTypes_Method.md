@@ -1,7 +1,7 @@
 IMultiSourceFrameReader::get\_FrameSourceTypes Method  
 =====================================================  
 
-Gets the types of frames being read by the multi source frame reader. <span id="syntaxSection"></span>
+フレームの種類を取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_FrameSourceTypes(
 
 *enabledFrameSourceTypes*    
 Type: DWORD  
-[out] The types of frames being read by the multi source frame reader.  
+[out] フレームの種類。([FrameSourceTypes](../../../Enumerations/FrameSourceTypes_Enumeration.md))  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

@@ -1,7 +1,7 @@
 IMultiSourceFrameReader::GetMultiSourceFrameArrivedEventData Method  
 ===================================================================  
 
-Gets the event data when an new multisource frame arrives. <span id="syntaxSection"></span>
+新しい長時間露光MultiSourceフレームが準備できたとき、イベントデータを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -31,17 +31,17 @@ HRESULT GetMultiSourceFrameArrivedEventData(
 
 *waitableHandle*    
 Type: WAITABLE\_HANDLE  
-[in] The handle to event handler that will process the event data.  
+[in] MultiSourceフレームの更新を待つイベントハンドル。  
 
 *eventData*    
 Type: IMultiSourceFrameArrivedEventArgs  
-[out] The event data.  
+[out] [IMultiSourceFrameArrivedEventArgs](../../IMultiSourceFrameArrivedEv.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

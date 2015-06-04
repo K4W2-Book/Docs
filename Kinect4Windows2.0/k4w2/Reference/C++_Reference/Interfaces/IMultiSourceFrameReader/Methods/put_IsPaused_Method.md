@@ -1,7 +1,7 @@
 IMultiSourceFrameReader::put\_IsPaused Method  
 =============================================  
 
-Sets a boolean that pauses or resumes the infrared frame reader. <span id="syntaxSection"></span>
+MultiSourceフレームのReaderの動作状態を設定する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT put_IsPaused(
 
 *isPaused*    
 Type: BOOLEAN  
-Set to **true** to pause the reader; **false** to resume the reader.  
+停止する場合は**true**、動作する場合は**false**。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

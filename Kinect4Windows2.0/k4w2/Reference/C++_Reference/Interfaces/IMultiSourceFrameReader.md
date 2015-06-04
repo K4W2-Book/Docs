@@ -1,7 +1,7 @@
 IMultiSourceFrameReader Interface  
 =================================  
 
-Represents a reader for multi source frames. <span id="syntaxSection"></span>
+MultiSourceフレームのReader。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IMultiSourceFrameReader** has the following members.  
+**IMultiSourceFrameReader**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,35 +48,35 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IMultiSourceFrameReader/Methods/AcquireLatestFrame_Method.md">AcquireLatestFrame</a></td>
-<td align="left">Gets the most recent multi source frame.</td>
+<td align="left">最新の長時間露光MultiSourceフレームを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IMultiSourceFrameReader/Methods/get_FrameSourceTypes_Method.md">get_FrameSourceTypes</a></td>
-<td align="left">Gets the types of frames being read by the multi source frame reader.</td>
+<td align="left">フレームの種類を取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IMultiSourceFrameReader/Methods/get_IsPaused_Method.md">get_IsPaused</a></td>
-<td align="left">Gets whether the multisource frame reader is paused.</td>
+<td align="left">MultiSourceフレームのReaderの動作状態を取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IMultiSourceFrameReader/Methods/get_KinectSensor_Method.md">get_KinectSensor</a></td>
-<td align="left">Gets the KinectSensor of the multi source frame source.</td>
+<td align="left">MultiSourceフレームのReaderを取得したセンサーを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IMultiSourceFrameReader/Methods/GetMultiSourceFrameArrived.md">GetMultiSourceFrameArrivedEventData</a></td>
-<td align="left">Gets the event data when an new multisource frame arrives.</td>
+<td align="left">新しい長時間露光MultiSourceフレームが準備できたとき、イベントデータを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IMultiSourceFrameReader/Methods/put_IsPaused_Method.md">put_IsPaused</a></td>
-<td align="left">Sets a boolean that pauses or resumes the infrared frame reader.</td>
+<td align="left">MultiSourceフレームのReaderの動作状態を設定する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IMultiSourceFrameReader/Methods/SubscribeMultiSourceFrameA.md">SubscribeMultiSourceFrameArrived</a></td>
-<td align="left">Subscribes to the specified event handler to process new infrared frames.</td>
+<td align="left">MultiSourceフレームの更新を待つイベントハンドルを登録する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IMultiSourceFrameReader/Methods/UnsubscribeMultiSourceFram.md">UnsubscribeMultiSourceFrameArrived</a></td>
-<td align="left">Unsubscribes the specified event handler that processes new multisource frames.</td>
+<td align="left">MultiSourceフレームの更新を待つイベントハンドルを解除する。</td>
 </tr>
 </tbody>
 </table>
