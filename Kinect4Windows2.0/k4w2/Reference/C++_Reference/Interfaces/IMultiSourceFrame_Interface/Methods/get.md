@@ -1,7 +1,7 @@
 IMultiSourceFrame::get\_LongExposureInfraredFrameReference Method  
 =================================================================  
 
-Gets the long exposure infrared frame reference of the multi source frame. <span id="syntaxSection"></span>
+長時間露光InfraredフレームのReferenceを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_LongExposureInfraredFrameReference(
 
 *longExposureInfraredFrameReference*    
 Type: ILongExposureInfraredFrameReference  
-[out] The long exposure infrared frame reference of the multi source frame.  
+[out] [ILongExposureInfraredFrameReference](../../ILongExposureInfraredFrameReference.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

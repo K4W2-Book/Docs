@@ -1,7 +1,7 @@
 IMultiSourceFrame::get\_InfraredFrameReference Method  
 =====================================================  
 
-Gets the infrared frame reference of the multi source frame. <span id="syntaxSection"></span>
+InfraredフレームのReferenceを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_InfraredFrameReference(
 
 *infraredFrameReference*    
 Type: IInfraredFrameReference  
-[out] The infrared frame reference of the multi source frame.  
+[out] [IInfraredFrameReference](../../IInfraredFrameReference.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

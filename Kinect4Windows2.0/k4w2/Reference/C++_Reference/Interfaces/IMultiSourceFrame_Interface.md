@@ -1,7 +1,7 @@
 IMultiSourceFrame Interface  
 ===========================  
 
-Represents a multi source frame from the KinectSensor. <span id="syntaxSection"></span>
+MultiSourceフレーム。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IMultiSourceFrame** has the following members.  
+**IMultiSourceFrame**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,27 +48,27 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IMultiSourceFrame_Interface/Methods/get_BodyFrameReference.md">get_BodyFrameReference</a></td>
-<td align="left">Gets the body frame reference of the multi source frame.</td>
+<td align="left">BodyフレームのReferenceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IMultiSourceFrame_Interface/Methods/get_BodyIndexFrameReference.md">get_BodyIndexFrameReference</a></td>
-<td align="left">Gets the body index frame reference of the multi source frame.</td>
+<td align="left">BodyIndexフレームのReferenceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IMultiSourceFrame_Interface/Methods/get_ColorFrameReference.md">get_ColorFrameReference</a></td>
-<td align="left">Gets the color frame reference of the multi source frame.</td>
+<td align="left">ColorフレームのReferenceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IMultiSourceFrame_Interface/Methods/get_DepthFrameReference.md">get_DepthFrameReference</a></td>
-<td align="left">Gets the color frame reference of the multi source frame.</td>
+<td align="left">DepthフレームのReferenceを取得する。</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="IMultiSourceFrame_Interface/Methods/get_InfraredFrameReference.md">get_InfraredFrameReference</a></td>
-<td align="left">Gets the infrared frame reference of the multi source frame.</td>
+<td align="left">InfraredフレームのReferenceを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IMultiSourceFrame_Interface/Methods/get.md">get_LongExposureInfraredFrameReference</a></td>
-<td align="left">Gets the long exposure infrared frame reference of the multi source frame.</td>
+<td align="left">長時間露光InfraredフレームのReferenceを取得する。</td>
 </tr>
 </tbody>
 </table>

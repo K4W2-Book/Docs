@@ -1,7 +1,7 @@
 IMultiSourceFrame::get\_BodyFrameReference Method  
 =================================================  
 
-Gets the body frame reference of the multi source frame. <span id="syntaxSection"></span>
+BodyフレームのReferenceを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT get_BodyFrameReference(
 
 *bodyFrameReference*    
 Type: IBodyFrameReference  
-[out] The body frame reference of the multi source frame.  
+[out] [IBodyFrameReference](../../IBodyFrameReference.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 
