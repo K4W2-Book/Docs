@@ -208,16 +208,16 @@ Kinectセンサー。
 長時間露光InfraredフレームのSource。  
 
 [IMultiSourceFrame](Interfaces/IMultiSourceFrame_Interface.md)    
-Represents a multi source frame from the KinectSensor.  
+MultiSourceフレーム。  
 
 [IMultiSourceFrameArrivedEventArgs](Interfaces/IMultiSourceFrameArrivedEv.md)    
-Arguments for a multi source frame reader's FrameArrived event.  
+MultiSourceフレームのイベントデータ。  
 
 [IMultiSourceFrameReader](Interfaces/IMultiSourceFrameReader.md)    
-Represents a reader for multi source frames.  
+MultiSourceフレームのReader。  
 
 [IMultiSourceFrameReference](Interfaces/IMultiSourceFrameReference.md)    
-Represents a reference to an actual multi source frame.  
+MultiSourceフレームのReference。  
 
 <span id="ID4EIH"></span>
 
