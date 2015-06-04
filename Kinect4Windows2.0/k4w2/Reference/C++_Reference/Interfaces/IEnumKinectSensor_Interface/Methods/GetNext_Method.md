@@ -1,7 +1,7 @@
 IEnumKinectSensor::GetNext Method  
 =================================  
 
-Gets the next attached Kinect sensor in the collection. <span id="syntaxSection"></span>
+次のKinectセンサーを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT GetNext(
 
 *sensor*    
 Type: IKinectSensor  
-[out] The next Kinect sensor.  
+[out] [IKinectSensor](../../IKinectSensor_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

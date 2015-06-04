@@ -1,7 +1,7 @@
 IEnumKinectSensor Interface  
 ===========================  
 
-Represents an interface to an enumeration of Kinect sensors. <span id="syntaxSection"></span>
+接続されているKinectセンサー。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IEnumKinectSensor** has the following members.  
+**IEnumKinectSensor**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,11 +48,11 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IEnumKinectSensor_Interface/Methods/GetNext_Method.md">GetNext</a></td>
-<td align="left">Gets the next attached Kinect sensor in the collection.</td>
+<td align="left">次のKinectセンサーを取得する。</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="IEnumKinectSensor_Interface/Methods/Reset_Method.md">Reset</a></td>
-<td align="left">Resets the collection of Kinect Sensors.</td>
+<td align="left">検出したKinectセンサーをリセットする。</td>
 </tr>
 </tbody>
 </table>
