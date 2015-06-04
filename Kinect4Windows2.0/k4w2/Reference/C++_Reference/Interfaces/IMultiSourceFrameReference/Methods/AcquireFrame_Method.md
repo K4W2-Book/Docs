@@ -1,7 +1,7 @@
 IMultiSourceFrameReference::AcquireFrame Method  
 ===============================================  
 
-Gets the actual multi source frame from the reference. <span id="syntaxSection"></span>
+MultiSourceフレームを取得する。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -30,13 +30,13 @@ HRESULT AcquireFrame(
 
 *frame*    
 Type: IMultiSourceFrame  
-[out] The actual multi source frame from the reference.  
+[out] [IMultiSourceFrame](../../IMultiSourceFrame_Interface.md)のポインタのアドレス。  
 
 <span id="ID4EP"></span>
 #### Return value  
 
 Type: HRESULT  
-Returns S\_OK if successful; otherwise, returns a failure code.  
+成功した場合はS\_OKを返します。それ以外の場合はエラーコードを返します。  
 
 <span id="requirements"></span>
 

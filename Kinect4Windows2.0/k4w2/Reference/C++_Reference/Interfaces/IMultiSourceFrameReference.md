@@ -1,7 +1,7 @@
 IMultiSourceFrameReference Interface  
 ====================================  
 
-Represents a reference to an actual multi source frame. <span id="syntaxSection"></span>
+MultiSourceフレームのReference。 <span id="syntaxSection"></span>
 
 Syntax  
 ======  
@@ -27,7 +27,7 @@ Syntax
 Members  
 =======  
 
-**IMultiSourceFrameReference** has the following members.  
+**IMultiSourceFrameReference**は以下のメンバー関数を持ちます。  
 
 <span id="publicmethodsSection"></span>
 
@@ -48,7 +48,7 @@ Methods
 <tbody>
 <tr class="odd">
 <td align="left"><a href="IMultiSourceFrameReference/Methods/AcquireFrame_Method.md">AcquireFrame</a></td>
-<td align="left">Gets the actual multi source frame from the reference.</td>
+<td align="left">MultiSourceフレームを取得する。</td>
 </tr>
 </tbody>
 </table>
