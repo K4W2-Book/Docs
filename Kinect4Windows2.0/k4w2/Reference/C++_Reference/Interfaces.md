@@ -112,7 +112,7 @@ DepthフレームのReference。
 DepthフレームのSource。  
 
 [IEnumKinectSensor](Interfaces/IEnumKinectSensor_Interface.md)    
-Represents an interface to an enumeration of Kinect sensors.  
+接続されているKinectセンサー。  
 
 [IFrameCapturedEventArgs](Interfaces/IFrameCapturedEventArgs.md)    
 フレーム更新のイベントデータ。  
@@ -139,7 +139,7 @@ InfraredフレームのReference。
 InfraredフレームのSource。  
 
 [IIsAvailableChangedEventArgs](Interfaces/IIsAvailableChangedEventArgs.md)    
-Represents the arguments for a KinectSensor's IsAvailableChanged event.  
+Kinectセンサーが変更されたときのイベントデータ。  
 
 [IKinectCoreWindow](Interfaces/IKinectCoreWindow_Interface.md)    
 Represents a Kinect for Windows app with input events and basic user interface behaviors. Only 1 core window is in “focus” at any one time, and that one gets the pointers and related events. he coordinate space of the window is normalized to the [0,1] range in both dimensions.  
@@ -190,7 +190,7 @@ Provides data for the PressingUpdated event.
 Provides data for the Tapped event.  
 
 [IKinectSensor](Interfaces/IKinectSensor_Interface.md)    
-Represents a Kinect sensor device.  
+Kinectセンサー。  
 
 [ILongExposureInfraredFrame](Interfaces/ILongExposureInfraredFrame_Interface.md)    
 長時間露光Infraredフレーム。  
